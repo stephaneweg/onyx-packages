@@ -1,7 +1,7 @@
 # Onyx package index -- tools/pkg/mkrepo.py (docs/pkg/README.md)
 [repo]
 name = onyx-packages
-date = 2026-10-01 22:21
+date = 2026-10-01 22:22
 kapi = 71
 packages = 55
 
@@ -23,19 +23,19 @@ content = 795f93516694d238ae8b12722233d5d42754cdb4e4b288742c7056bdb92b7e53
 
 [onyx]
 title = Onyx system
-version = 2026.10.5
+version = 2026.10.6
 category = System
 author = Onyx
 summary = The kernel, the commands of /bin, the desktop, the settings, the terminal, the File Viewer, the text editor, the fonts
-size = 17976458
-installed = 47293374
-sha256 = f721f3803e7b029fc3139e52f6d6a4c6797f8469fd126c6aad1ca128cb971959
-file = pkgs/onyx-2026.10.5.opk
+size = 17975695
+installed = 47293918
+sha256 = 0eb947338df780b73a9e04fd177b5cda54d7506917b2e053d7b768238b216670
+file = pkgs/onyx-2026.10.6.opk
 icon = icons/onyx.bmp
 needs = pkgman, kapi >= 71
 required = 1
 restart = 1
-content = 737d00da679a38a68953f95d1d1d905a979aa00ded4ebee0ef358a716ab8f7b9
+content = 34b2b372cfef0380e08976e2155925430834ca1653f85ba4038ceeaa3b4b9aeb
 
 [pi-firmware]
 title = Raspberry Pi firmware
@@ -471,19 +471,19 @@ content = 9d0befab65c71a01b480757ee111f46ed7d63e0af29a94c0f7d7f27613fb6ea0
 
 [jet]
 title = Jet Browser
-version = 1.0.2
+version = 1.0.3
 category = Internet
 author = Onyx
 summary = 
-size = 4106680
-installed = 9999770
-sha256 = 2227ad168b27b0aa7fa3d594de36a7dd7c513b5883e9b881401647b737e3732e
-file = pkgs/jet-1.0.2.opk
+size = 4109282
+installed = 10000618
+sha256 = b91aad29ab0f481a63361312d87fd2bafe5a994ad50241c39a0d773684aae6a5
+file = pkgs/jet-1.0.3.opk
 icon = icons/jet.bmp
 needs = kapi >= 71
 required = 0
 restart = 0
-content = 862d2ff87ae253537a824a0911f9c1a17f253152e15688bc0f4c8cf51760f3b0
+content = 15844af657b80f93af890f50312b4fc7fcf0d403ce704848e5f365c3e78d8a4c
 
 [koton]
 title = Koton

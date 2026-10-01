@@ -1,7 +1,7 @@
 # Onyx package index -- tools/pkg/mkrepo.py (docs/pkg/README.md)
 [repo]
 name = onyx-packages
-date = 2026-10-01 23:04
+date = 2026-10-01 23:07
 kapi = 71
 packages = 56
 
@@ -471,19 +471,19 @@ content = 9d0befab65c71a01b480757ee111f46ed7d63e0af29a94c0f7d7f27613fb6ea0
 
 [jet]
 title = Jet Browser
-version = 1.0.3
+version = 1.0.4
 category = Internet
 author = Onyx
 summary = 
-size = 4109282
-installed = 10000618
-sha256 = b91aad29ab0f481a63361312d87fd2bafe5a994ad50241c39a0d773684aae6a5
-file = pkgs/jet-1.0.3.opk
+size = 4109432
+installed = 10000698
+sha256 = d69b0c703015ac527633892bfb1d38b48ec26e259e10ccd57505370716e3882f
+file = pkgs/jet-1.0.4.opk
 icon = icons/jet.bmp
 needs = kapi >= 71
 required = 0
 restart = 0
-content = 15844af657b80f93af890f50312b4fc7fcf0d403ce704848e5f365c3e78d8a4c
+content = 619cf9531fa7839fbd7e2bd8a51f5c832d94109f8ea72f2b62b71d7256e3f3f7
 
 [koton]
 title = Koton

@@ -1,9 +1,9 @@
 # Onyx package index -- tools/pkg/mkrepo.py (docs/pkg/README.md)
 [repo]
 name = onyx-packages
-date = 2026-10-01 22:58
+date = 2026-10-01 23:04
 kapi = 71
-packages = 55
+packages = 56
 
 [pkgman]
 title = Package Manager
@@ -23,19 +23,19 @@ content = 795f93516694d238ae8b12722233d5d42754cdb4e4b288742c7056bdb92b7e53
 
 [onyx]
 title = Onyx system
-version = 2026.10.9
+version = 2026.10.10
 category = System
 author = Onyx
 summary = The kernel, the commands of /bin, the desktop, the settings, the terminal, the File Viewer, the text editor, the fonts
-size = 17982577
-installed = 47371206
-sha256 = 9edc66ccd6de505a74c011a87b3cd4e404d62858d1cd9a656068ae1a21b11cf2
-file = pkgs/onyx-2026.10.9.opk
+size = 17982701
+installed = 47371445
+sha256 = 69273fbba2e3bc9caea7175d7aa76895d66bfeef8376dd414fae28f7cc3a8944
+file = pkgs/onyx-2026.10.10.opk
 icon = icons/onyx.bmp
 needs = pkgman, kapi >= 71
 required = 1
 restart = 1
-content = fe5ffa10a5d7283cfd268d4e178d4b2efdeda6614fd212ca98a17cb0aa9d85c2
+content = 23f9ac016b687422d3fddf0872a53428f19750243d743dfa4d54a42e255d3c10
 
 [pi-firmware]
 title = Raspberry Pi firmware
@@ -660,6 +660,22 @@ needs = kapi >= 71
 required = 0
 restart = 0
 content = 9b2c9f8d96a202909de5b7a72d602e48d8b2978a8091e155665a2d3abd761a01
+
+[pdf]
+title = PDF Viewer
+version = 1.0.0
+category = Productivity
+author = Onyx
+summary = 
+size = 2951500
+installed = 5504990
+sha256 = 51ff17cc11b86b3d5425fa1d335c7b1d91799f91d5ac24563ed0c5fb0fa40e1a
+file = pkgs/pdf-1.0.0.opk
+icon = icons/pdf.bmp
+needs = kapi >= 71
+required = 0
+restart = 0
+content = ba8b776e80463a7f86d3afbf744ecae4aeb9ec8e028a116490812ae39a1832ec
 
 [pipes]
 title = Pipes

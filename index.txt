@@ -1,25 +1,25 @@
 # Onyx package index -- tools/pkg/mkrepo.py (docs/pkg/README.md)
 [repo]
 name = onyx-packages
-date = 2026-10-01 21:27
+date = 2026-10-01 21:37
 kapi = 71
 packages = 52
 
 [onyx]
 title = Onyx system
-version = 2026.10.1
+version = 2026.10.2
 category = System
 author = Onyx
 summary = The kernel, the commands of /bin, the desktop, the settings, the terminal, the File Viewer, the text editor, the fonts
-size = 20220700
-installed = 52828740
-sha256 = 549081aef8e48f34b21d2507fe98f3dca8b4536bfea108d852a730d1cecff648
-file = pkgs/onyx-2026.10.1.opk
+size = 20230706
+installed = 52828928
+sha256 = 9c05b1e5d28eda1a6e3cd94f992c05f08918e99971e14c8b51c462d7bc45970c
+file = pkgs/onyx-2026.10.2.opk
 icon = icons/onyx.bmp
 needs = kapi >= 71
 required = 1
 restart = 1
-content = 79f28fef4a2fd8c7413cd6ba0683ca34f6b3acde567deaceecde3a497c4da658
+content = 23753106791b4faba4e0f44cf2d9503f15131461ab0fea087e9aa9d176ce55ca
 
 [pi-firmware]
 title = Raspberry Pi firmware
@@ -183,19 +183,19 @@ content = ca209980e6bbe88e5fa0864c01a068521ee5820afcd228fb8920953df001d8e3
 
 [archiver]
 title = Archiver
-version = 1.0.0
+version = 1.0.1
 category = Productivity
 author = Onyx
 summary = 
-size = 392412
-installed = 952292
-sha256 = c033324ffc3f760cb2c6294af5115fae18bc94599a9fd4edb2e4923c33f8cf4f
-file = pkgs/archiver-1.0.0.opk
+size = 393363
+installed = 952396
+sha256 = 7c8af54a09ca1a8c64dc5e60a0e67552eda1316bfb9e9640a67cc612211e7efd
+file = pkgs/archiver-1.0.1.opk
 icon = icons/archiver.bmp
 needs = kapi >= 71
 required = 0
 restart = 0
-content = e4ca515736f846f9b76c32f54a2a3ab69f864ed5ee8839b0f5047245009f0099
+content = f5fb3f655593050618b2411f14f220a5505bf59250880d39dc9145a53e4c1187
 
 [arkanoid]
 title = Arkanoid
@@ -263,19 +263,19 @@ content = b2006f52f8d87beac6e4f71709ca8ba5965a00058567b377d743724b95a3b521
 
 [doom]
 title = Doom
-version = 1.0.0
+version = 1.0.1
 category = Games
 author = Onyx
 summary = 
-size = 10975300
-installed = 30424115
-sha256 = 5b2e0188d3329178a54a6f2b7d0a7b571172d328c7261dac8797009b48c4b458
-file = pkgs/doom-1.0.0.opk
+size = 10975307
+installed = 30424127
+sha256 = 6a4d7f69c7adc678421c0bea53900b307792e9ca46b70c51304219116e2f7d78
+file = pkgs/doom-1.0.1.opk
 icon = icons/doom.bmp
 needs = kapi >= 71
 required = 0
 restart = 0
-content = 9438c175ba0312eba1122311b47f02d6ed6c58a6595792caed19cdb4984aec99
+content = 487111bdf45c46fe7e7d26e1acec5e14f66b64e7473ef20c841475491e15a4ac
 
 [eyes]
 title = Eyes
@@ -327,67 +327,67 @@ content = 7b983c36691dfe5c1d7836cb0b2bb22ee6c2d006628f097b5d6883bf0fc693de
 
 [gamelib]
 title = Game Library
-version = 1.0.0
+version = 1.0.2
 category = Games
 author = Onyx
 summary = 
-size = 379776
-installed = 867441
-sha256 = 2cda57b25948d26ff15307655829abce7ff91819a70da54495708b77927f96fb
-file = pkgs/gamelib-1.0.0.opk
+size = 389375
+installed = 886697
+sha256 = e2ae7bbdf8a27a5662f1093ea311554da9b73e9e9ea838128c60f81dccf6c0aa
+file = pkgs/gamelib-1.0.2.opk
 icon = icons/gamelib.bmp
 needs = kapi >= 71
 required = 0
 restart = 0
-content = 63e6c72febe8d5d512ebca379d3a836540bdf05a91bccd8e9dceb3ec69594336
+content = dcaf2bcc55ca4b9b5baa0b88bdd96976fe5e37bf88f7306ed7ff87c4c9e169a4
 
 [gbaemu]
 title = Game Boy Advance
-version = 1.0.0
+version = 1.0.1
 category = Emulators
 author = Onyx
 summary = 
-size = 93560
-installed = 299209
-sha256 = 8cbf376738cfb3a17b6b057bd90cc8c262260b14d034f660d0784866b74fa9b0
-file = pkgs/gbaemu-1.0.0.opk
+size = 94355
+installed = 299473
+sha256 = b4edf80685595488008ba8d0981d1985d9125cefa14b1da252c4db3a2c3e27b4
+file = pkgs/gbaemu-1.0.1.opk
 icon = icons/gbaemu.bmp
 needs = gamelib, kapi >= 71
 required = 0
 restart = 0
-content = 00bf8c49d50dcfbd38192f8a0a322feb9ce9b4eb87f9a4c26a2d68b6248a7bda
+content = 122be07f1e1a402cc45f219830d74164d1cf1f873f59f1c6d05c2a9b9f112821
 
 [gbemu]
 title = Game Boy
-version = 1.0.0
+version = 1.0.1
 category = Emulators
 author = Onyx
 summary = 
-size = 80662
-installed = 231473
-sha256 = 19321e45b96a398b8bd4440575fd8a5929ab9a4e2c4c95c05c9bec0ab4ae5dc9
-file = pkgs/gbemu-1.0.0.opk
+size = 81589
+installed = 231757
+sha256 = 02a2fb1304bdfba9cf3fecd044c4c9aba71362b0871c97a899fce734280a58f4
+file = pkgs/gbemu-1.0.1.opk
 icon = icons/gbemu.bmp
 needs = gamelib, kapi >= 71
 required = 0
 restart = 0
-content = ccdfea465a02aac8a7abc6ece9cf850bab22967909011bf0a02e6643ec85e637
+content = 524754ffa3c62ce6db3207b4f3fdf931811872e557be901c1f616373616de628
 
 [gcemu]
 title = GameCube
-version = 1.0.0
+version = 1.0.1
 category = Emulators
 author = Onyx
 summary = 
-size = 309206
-installed = 658969
-sha256 = 794086cceeaf9ec02d9db8d1d8ff1619479bf42b9ccdc41ba408ff8beecaf2db
-file = pkgs/gcemu-1.0.0.opk
+size = 309816
+installed = 659241
+sha256 = 5870c815cf7b74a5cc80f2f7ac2abda6c51264944882b8f0a9a331ef90977fd7
+file = pkgs/gcemu-1.0.1.opk
 icon = icons/gcemu.bmp
 needs = gamelib, kapi >= 71
 required = 0
 restart = 0
-content = 38743a999924e1ae45df01a0f42df3df913698a9553e50f8efac696a50a443ba
+content = 6b423575a4ae7dbc7bfade205de2341e33a40d1fd7d7eb8f7eb8d8e587b6adb6
 
 [graphcalc]
 title = Graphing Calculator
@@ -583,35 +583,35 @@ content = 07fd912fb681cc4b55e4b2fd83832bcc843546cc5c168458b7f6521049a9974c
 
 [n64emu]
 title = Nintendo 64
-version = 1.0.0
+version = 1.0.1
 category = Emulators
 author = Onyx
 summary = 
-size = 114447
-installed = 299996
-sha256 = f44cf186cbf5d2856ef96d257fb2049b0e609c9258f64a8aa6f7ea0f8222c669
-file = pkgs/n64emu-1.0.0.opk
+size = 115761
+installed = 300311
+sha256 = 75479eef3bf60a3812f7f0b7b706b994b8d19dd29a0da15443883b932b4132d2
+file = pkgs/n64emu-1.0.1.opk
 icon = icons/n64emu.bmp
 needs = gamelib, kapi >= 71
 required = 0
 restart = 0
-content = 82df3db693fd5117d6927b46c589afd735e4637b6880f7ae82cd594c5c5b1c08
+content = 80e692a3c2698e95b53df4936d2343f1bfbc07ff061eee4d2061cd2f6e0d75d6
 
 [nesemu]
 title = NES
-version = 1.0.0
+version = 1.0.1
 category = Emulators
 author = Onyx
 summary = 
-size = 82055
-installed = 231284
-sha256 = 6dc06d492f7cd03822f97ce37acc991196150976a8c349845636cd786e62275f
-file = pkgs/nesemu-1.0.0.opk
+size = 82776
+installed = 231543
+sha256 = a51d3155849ae0c7c7083b95bfa162bd00e584027667e8a334d7b7c5549e86f1
+file = pkgs/nesemu-1.0.1.opk
 icon = icons/nesemu.bmp
 needs = gamelib, kapi >= 71
 required = 0
 restart = 0
-content = dfdb713519ad07cf2ad8cd2527196253d5c631c916349ba534478e1826770eb8
+content = b2302d943a12e6a3a3fbbc04c35939ac001df8aa95e92b909463a9f975ac2c4d
 
 [paint]
 title = Paint
@@ -743,19 +743,19 @@ content = bacb06c78632e0c266b315ddb84ef4b001eedf29db53b040b9d60740f286cf32
 
 [snesemu]
 title = Super Nintendo
-version = 1.0.0
+version = 1.0.1
 category = Emulators
 author = Onyx
 summary = 
-size = 104233
-installed = 299839
-sha256 = 8049d6001b42ab968360e69a9caba8cc22133a6408c9be3834e3b14fb8dbbb33
-file = pkgs/snesemu-1.0.0.opk
+size = 104858
+installed = 300113
+sha256 = 88abfce6062f842d2a84ab0f7222957baf9606e3aaba4491e1321dac87c41b78
+file = pkgs/snesemu-1.0.1.opk
 icon = icons/snesemu.bmp
 needs = gamelib, kapi >= 71
 required = 0
 restart = 0
-content = 352f47afc482fd6b9c589706c4d7238da7a6190834357fe663dd3494648d7b0a
+content = 433144d37317f17e63176e5f86ff74731ad1dadcac70eb1d2716d6dd0717ebad
 
 [sokoban]
 title = Sokoban

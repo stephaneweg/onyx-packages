@@ -1,9 +1,9 @@
 # Onyx package index -- tools/pkg/mkrepo.py (docs/pkg/README.md)
 [repo]
 name = onyx-packages
-date = 2026-10-01 23:45
+date = 2026-10-01 23:49
 kapi = 71
-packages = 56
+packages = 57
 
 [pkgman]
 title = Package Manager
@@ -180,6 +180,22 @@ needs = fmtracker, kapi >= 71
 required = 0
 restart = 0
 content = 06ba9dd005365f1e8da2f8b6c71593b5ae8dc99dd03fa1b5f31d1c9b5de88c10
+
+[generaluser-gs]
+title = GeneralUser GS (SoundFont)
+version = 1.0.0
+category = Multimedia
+author = Onyx
+summary = The General MIDI SoundFont that plays MIDI files and Koton's instruments (S. Christian Collins, 32 MB)
+size = 29227398
+installed = 32321666
+sha256 = 31eba9f6b660cdc04671a2eeb12d03ad97e2ff53f0f0d7eb5f4c3a31dc04ab82
+file = pkgs/generaluser-gs-1.0.0.opk
+icon = icons/generaluser-gs.bmp
+needs = kapi >= 71
+required = 0
+restart = 0
+content = 1f79607b681f25869cd0cd265b739ec0e18c7a90b77d4003362f7145ed172e2d
 
 [2048]
 title = 2048
@@ -487,19 +503,19 @@ content = 619cf9531fa7839fbd7e2bd8a51f5c832d94109f8ea72f2b62b71d7256e3f3f7
 
 [koton]
 title = Koton
-version = 1.0.0
+version = 1.0.1
 category = Productivity
 author = Onyx
 summary = 
-size = 35258602
-installed = 42981934
-sha256 = d7a3645d279622966d6887b10e41dac679809e1c252c68651b68b0a1d6758249
-file = pkgs/koton-1.0.0.opk
+size = 6089580
+installed = 10766498
+sha256 = 742d7890a3e2cce94e435ec2a151be59bba48b12b66cd6750aecbc139cd869e5
+file = pkgs/koton-1.0.1.opk
 icon = icons/koton.bmp
-needs = kapi >= 71
+needs = generaluser-gs, kapi >= 71
 required = 0
 restart = 0
-content = 4829c21347fdf7f4e9fe155c4022e121e752f566afa461471d97892d9615b992
+content = a0e5d0c2ebcc74e23c0c945788f294ab7cae62d65ca50bef9f26894f925378a8
 
 [ledger]
 title = Ledger
@@ -567,19 +583,19 @@ content = 04a2745336be4fa5acbd955fad20cf3ece41edaba4b2ae4c671f3fe27af8a97b
 
 [media]
 title = Media Player
-version = 1.0.0
+version = 1.0.1
 category = Multimedia
 author = Onyx
 summary = 
-size = 684223
-installed = 1582846
-sha256 = f18626d739ce066fede0351c54762533ea0191fe701a914176a6ca9afc8c5566
-file = pkgs/media-1.0.0.opk
+size = 685729
+installed = 1583110
+sha256 = 9b26c7e8f436fa9c5f232b1a6a88f1ee2fcfdc26caa0df7892f5a8497b373da5
+file = pkgs/media-1.0.1.opk
 icon = icons/media.bmp
-needs = kapi >= 71
+needs = generaluser-gs, kapi >= 71
 required = 0
 restart = 0
-content = 35cf2314a9d34960991181f52561b844ef65a55afd86b72e7b18b717f9e752c0
+content = 4d13531753cdf5f20d6c2f27fb4704c9b689ac654dca239605cc68f2cf5346ad
 
 [memmon]
 title = Memory Monitor

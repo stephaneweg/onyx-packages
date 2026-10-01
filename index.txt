@@ -1,7 +1,7 @@
 # Onyx package index -- tools/pkg/mkrepo.py (docs/pkg/README.md)
 [repo]
 name = onyx-packages
-date = 2026-10-01 23:07
+date = 2026-10-01 23:16
 kapi = 71
 packages = 56
 
@@ -23,19 +23,19 @@ content = 795f93516694d238ae8b12722233d5d42754cdb4e4b288742c7056bdb92b7e53
 
 [onyx]
 title = Onyx system
-version = 2026.10.10
+version = 2026.10.11
 category = System
 author = Onyx
 summary = The kernel, the commands of /bin, the desktop, the settings, the terminal, the File Viewer, the text editor, the fonts
-size = 17982701
+size = 17982850
 installed = 47371445
-sha256 = 69273fbba2e3bc9caea7175d7aa76895d66bfeef8376dd414fae28f7cc3a8944
-file = pkgs/onyx-2026.10.10.opk
+sha256 = a52a4da2217a0ce1d6df3afaed282e689ad2472b4d166556ddda1bdb983f8154
+file = pkgs/onyx-2026.10.11.opk
 icon = icons/onyx.bmp
 needs = pkgman, kapi >= 71
 required = 1
 restart = 1
-content = 23f9ac016b687422d3fddf0872a53428f19750243d743dfa4d54a42e255d3c10
+content = 9c4e4ba944bd6d15001e776f787a67bdfeec0f19d6144245eb5e3be2bce48e1f
 
 [pi-firmware]
 title = Raspberry Pi firmware
@@ -663,19 +663,19 @@ content = 9b2c9f8d96a202909de5b7a72d602e48d8b2978a8091e155665a2d3abd761a01
 
 [pdf]
 title = PDF Viewer
-version = 1.0.0
+version = 1.0.1
 category = Productivity
 author = Onyx
 summary = 
-size = 2951500
+size = 2951514
 installed = 5504990
-sha256 = 51ff17cc11b86b3d5425fa1d335c7b1d91799f91d5ac24563ed0c5fb0fa40e1a
-file = pkgs/pdf-1.0.0.opk
+sha256 = 8a74b48f5402f48a4651e5bfa460b2bef38239269bc464c1c1013f14bcd04a07
+file = pkgs/pdf-1.0.1.opk
 icon = icons/pdf.bmp
 needs = kapi >= 71
 required = 0
 restart = 0
-content = ba8b776e80463a7f86d3afbf744ecae4aeb9ec8e028a116490812ae39a1832ec
+content = ce944101d33164c6ff90d45da6f915385ece0dd6abf3017105a3db059c7a1181
 
 [pipes]
 title = Pipes
@@ -775,19 +775,19 @@ content = 1a9276b50acd89a73aba8408ab757b418b87318a0453730f91ce5087f0146a99
 
 [sheet]
 title = Spreadsheet
-version = 1.0.0
+version = 1.0.1
 category = Productivity
 author = Onyx
 summary = 
-size = 835290
-installed = 1969438
-sha256 = da8b6fb4d11196d09d7dd2a55a4461d703665c65a1e1f299ab927d7dd6a20b4a
-file = pkgs/sheet-1.0.0.opk
+size = 884356
+installed = 2051934
+sha256 = 320b603558a2c8f865471ef2472f8949cdf87ece33194461ea19b2148e5210dd
+file = pkgs/sheet-1.0.1.opk
 icon = icons/sheet.bmp
 needs = cardfile, kapi >= 71
 required = 0
 restart = 0
-content = ab3ed3f3dd6fd01ca1a9d65449c46acac014d8aebb80706f86037c8707838364
+content = 53e3e3207f20c633c7cbeffaa7be0e1b92efe802dad8711628cfb543b7d7ff06
 
 [snake]
 title = Snake
@@ -887,16 +887,16 @@ content = 0f6598d3dff0cc9cc3a2379d175fc458d0f95912410c55be67f26ed6a7b33a57
 
 [writer]
 title = Writer
-version = 1.0.0
+version = 1.0.1
 category = Productivity
 author = Onyx
 summary = 
-size = 544719
-installed = 1261854
-sha256 = 42385687676a5a42f5e5c0c919db403ac765cd7ce769d5fb6ced4edc0ac8490c
-file = pkgs/writer-1.0.0.opk
+size = 691963
+installed = 1574662
+sha256 = e5aac06787480606e83d03243de449d4e98b5ebea7bcf9df290e79cacb1750cb
+file = pkgs/writer-1.0.1.opk
 icon = icons/writer.bmp
 needs = cardfile, kapi >= 71
 required = 0
 restart = 0
-content = 5d727c08ff261b4d8ea48217202413c2ea47df2f995369e696f5887c0b37d754
+content = 7943488b743a8b764a24dee7842a626ab3d4fde9ce0d2bcab27b73454dcb0cc9

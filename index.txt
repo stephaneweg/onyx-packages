@@ -1,25 +1,25 @@
 # Onyx package index -- tools/pkg/mkrepo.py (docs/pkg/README.md)
 [repo]
 name = onyx-packages
-date = 2026-10-01 21:37
+date = 2026-10-01 21:41
 kapi = 71
-packages = 52
+packages = 53
 
 [onyx]
 title = Onyx system
-version = 2026.10.2
+version = 2026.10.3
 category = System
 author = Onyx
 summary = The kernel, the commands of /bin, the desktop, the settings, the terminal, the File Viewer, the text editor, the fonts
-size = 20230706
-installed = 52828928
-sha256 = 9c05b1e5d28eda1a6e3cd94f992c05f08918e99971e14c8b51c462d7bc45970c
-file = pkgs/onyx-2026.10.2.opk
+size = 20231146
+installed = 52831072
+sha256 = 5e9e46bec25868e711673abb5d914ebc23c1b3e0a7eb9e002bf175a1004acd3a
+file = pkgs/onyx-2026.10.3.opk
 icon = icons/onyx.bmp
 needs = kapi >= 71
 required = 1
 restart = 1
-content = 23753106791b4faba4e0f44cf2d9503f15131461ab0fea087e9aa9d176ce55ca
+content = cad5a827babadc279c21897b0e3583cb3b82ce2cd7910dd1d8b6c5bdd1157d71
 
 [pi-firmware]
 title = Raspberry Pi firmware
@@ -455,19 +455,19 @@ content = 9d0befab65c71a01b480757ee111f46ed7d63e0af29a94c0f7d7f27613fb6ea0
 
 [jet]
 title = Jet Browser
-version = 1.0.0
+version = 1.0.1
 category = Internet
 author = Onyx
 summary = 
-size = 4047910
-installed = 9848010
-sha256 = 2d6c0b79625e1cb95ba32617c3aab59a3f7246ce87c05117ef7a74bf0edeb57a
-file = pkgs/jet-1.0.0.opk
+size = 3982087
+installed = 9641426
+sha256 = 7307adc3c97098e9e96108e7751ba3bf525d285ad6b433576967f15784a2a956
+file = pkgs/jet-1.0.1.opk
 icon = icons/jet.bmp
 needs = kapi >= 71
 required = 0
 restart = 0
-content = 2e74d26c74949258e2dda7780f6b87c630ae1a2b2f1d954dacef3edc27e2417e
+content = 03acd93e9c8d0fef2fb002e0ce57244c61e5e8ba056f4555e1234f390e6ce38a
 
 [koton]
 title = Koton
@@ -708,6 +708,22 @@ needs = kapi >= 71
 required = 0
 restart = 0
 content = 717a9b29903f69225a9ca5619c1fe554d4a88d6017e5525576e0c96d6e332b4d
+
+[screenshot]
+title = Screenshot
+version = 1.0.0
+category = Graphics
+author = Onyx
+summary = 
+size = 445929
+installed = 1124138
+sha256 = a7c926a940f648f474864ce4c9f68397dba26cf6b718c0644a99c730e5054e23
+file = pkgs/screenshot-1.0.0.opk
+icon = icons/screenshot.bmp
+needs = kapi >= 71
+required = 0
+restart = 0
+content = 1a9276b50acd89a73aba8408ab757b418b87318a0453730f91ce5087f0146a99
 
 [sheet]
 title = Spreadsheet

@@ -1,25 +1,41 @@
 # Onyx package index -- tools/pkg/mkrepo.py (docs/pkg/README.md)
 [repo]
 name = onyx-packages
-date = 2026-10-01 21:41
+date = 2026-10-01 22:06
 kapi = 71
-packages = 53
+packages = 54
+
+[pkgman]
+title = Package Manager
+version = 1.0.0
+category = System
+author = Onyx
+summary = The packages: the pkg command, the Package Manager (the Control Panel's applet), the update daemon pkgd
+size = 2256204
+installed = 5537833
+sha256 = df3ac15da5b85787dbc04a90f8436ef40ef2acc8f882451eba9e2f2cdf063757
+file = pkgs/pkgman-1.0.0.opk
+icon = icons/pkgman.bmp
+needs = kapi >= 71
+required = 1
+restart = 0
+content = 795f93516694d238ae8b12722233d5d42754cdb4e4b288742c7056bdb92b7e53
 
 [onyx]
 title = Onyx system
-version = 2026.10.3
+version = 2026.10.4
 category = System
 author = Onyx
 summary = The kernel, the commands of /bin, the desktop, the settings, the terminal, the File Viewer, the text editor, the fonts
-size = 20231146
-installed = 52831072
-sha256 = 5e9e46bec25868e711673abb5d914ebc23c1b3e0a7eb9e002bf175a1004acd3a
-file = pkgs/onyx-2026.10.3.opk
+size = 17975638
+installed = 47293753
+sha256 = e8eb2d6ef00e8cf1b25f852aa95c5a55a9129e8b43ec84b4e6c0e3b6b95b64f7
+file = pkgs/onyx-2026.10.4.opk
 icon = icons/onyx.bmp
-needs = kapi >= 71
+needs = pkgman, kapi >= 71
 required = 1
 restart = 1
-content = cad5a827babadc279c21897b0e3583cb3b82ce2cd7910dd1d8b6c5bdd1157d71
+content = b781748e79c8fe1edea148013af8afec0bb559fc55084e8d31248d3b6a1636e8
 
 [pi-firmware]
 title = Raspberry Pi firmware
@@ -455,19 +471,19 @@ content = 9d0befab65c71a01b480757ee111f46ed7d63e0af29a94c0f7d7f27613fb6ea0
 
 [jet]
 title = Jet Browser
-version = 1.0.1
+version = 1.0.2
 category = Internet
 author = Onyx
 summary = 
-size = 3982087
-installed = 9641426
-sha256 = 7307adc3c97098e9e96108e7751ba3bf525d285ad6b433576967f15784a2a956
-file = pkgs/jet-1.0.1.opk
+size = 4106680
+installed = 9999770
+sha256 = 2227ad168b27b0aa7fa3d594de36a7dd7c513b5883e9b881401647b737e3732e
+file = pkgs/jet-1.0.2.opk
 icon = icons/jet.bmp
 needs = kapi >= 71
 required = 0
 restart = 0
-content = 03acd93e9c8d0fef2fb002e0ce57244c61e5e8ba056f4555e1234f390e6ce38a
+content = 862d2ff87ae253537a824a0911f9c1a17f253152e15688bc0f4c8cf51760f3b0
 
 [koton]
 title = Koton
@@ -487,19 +503,19 @@ content = 4829c21347fdf7f4e9fe155c4022e121e752f566afa461471d97892d9615b992
 
 [ledger]
 title = Ledger
-version = 1.0.0
+version = 1.0.1
 category = Productivity
 author = Onyx
 summary = 
-size = 7322894
-installed = 10354636
-sha256 = de064d79c936de033dc48a4de560c51536a027c4c26c2d42d3fa9ff40d6a8163
-file = pkgs/ledger-1.0.0.opk
+size = 7348951
+installed = 10405648
+sha256 = 9f673cf196f944264a5a68c9a21ec9cb4d22c22c975f638b47226f7047c5c606
+file = pkgs/ledger-1.0.1.opk
 icon = icons/ledger.bmp
 needs = cardfile, kapi >= 71
 required = 0
 restart = 0
-content = b702b72dc6f563b7b1c73b6c9c27b911eb4ff768bdc7293bd6498e5426ea015c
+content = 26e7503e9b7b62955f58a2ea0a028c132134a2b077e727ddb48d9553220a2e54
 
 [life]
 title = Game of Life

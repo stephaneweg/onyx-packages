@@ -1,41 +1,41 @@
 # Onyx package index -- tools/pkg/mkrepo.py (docs/pkg/README.md)
 [repo]
 name = onyx-packages
-date = 2026-10-01 23:16
+date = 2026-10-01 23:31
 kapi = 71
 packages = 56
 
 [pkgman]
 title = Package Manager
-version = 1.0.0
+version = 1.0.1
 category = System
 author = Onyx
 summary = The packages: the pkg command, the Package Manager (the Control Panel's applet), the update daemon pkgd
-size = 2256204
-installed = 5537833
-sha256 = df3ac15da5b85787dbc04a90f8436ef40ef2acc8f882451eba9e2f2cdf063757
-file = pkgs/pkgman-1.0.0.opk
+size = 2259538
+installed = 5539169
+sha256 = 3bb0159351107d4acccfdade6a055dfd18d6d8085925e039f744f57ca5a178d9
+file = pkgs/pkgman-1.0.1.opk
 icon = icons/pkgman.bmp
 needs = kapi >= 71
 required = 1
 restart = 0
-content = 795f93516694d238ae8b12722233d5d42754cdb4e4b288742c7056bdb92b7e53
+content = 20bda9c2f3d74e104f86d84920bb646b20c48e179b51ccf6dfa825f8b4fbf581
 
 [onyx]
 title = Onyx system
-version = 2026.10.11
+version = 2026.10.12
 category = System
 author = Onyx
 summary = The kernel, the commands of /bin, the desktop, the settings, the terminal, the File Viewer, the text editor, the fonts
-size = 17982850
-installed = 47371445
-sha256 = a52a4da2217a0ce1d6df3afaed282e689ad2472b4d166556ddda1bdb983f8154
-file = pkgs/onyx-2026.10.11.opk
+size = 17986481
+installed = 47437861
+sha256 = 746d0a67a5e572f92043bf560d0a99ba321fe868879a61873a3006c938fbb433
+file = pkgs/onyx-2026.10.12.opk
 icon = icons/onyx.bmp
 needs = pkgman, kapi >= 71
 required = 1
 restart = 1
-content = 9c4e4ba944bd6d15001e776f787a67bdfeec0f19d6144245eb5e3be2bce48e1f
+content = d23a964bf5a07ac2434f8e6acf3e93d8228e67904b1d9c17cc8680edff8bc443
 
 [pi-firmware]
 title = Raspberry Pi firmware

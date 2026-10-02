@@ -1,9 +1,9 @@
 # Onyx package index -- tools/pkg/mkrepo.py (docs/pkg/README.md)
 [repo]
 name = onyx-packages
-date = 2026-10-02 02:25
+date = 2026-10-02 07:24
 kapi = 72
-packages = 59
+packages = 60
 
 [pkgman]
 title = Package Manager
@@ -583,19 +583,19 @@ content = f82d2589de9f59410587ca9cc7b7c70f14acf80372fd2b882296d9671c3dac5a
 
 [mail]
 title = Mail
-version = 1.0.0
+version = 1.0.1
 category = Internet
 author = Onyx
 summary = 
-size = 1056279
-installed = 2417740
-sha256 = 74dfe312a88947e17c52860d3fcd7f2bd2aadba79e735ea1f61aa5a0b8f6949b
-file = pkgs/mail-1.0.0.opk
+size = 1057871
+installed = 2418348
+sha256 = 443dfe4450146a094cacf5add629118656ecd5c7df54a5f1615e19f86b738438
+file = pkgs/mail-1.0.1.opk
 icon = icons/mail.bmp
 needs = kapi >= 72
 required = 0
 restart = 0
-content = 317584acc6b711f45e50dc18d7bb900e16db3afcee3c1a9b9c246e8e0a8a49f3
+content = cccaef1ffdd7cb4c597b1d4d6bb27fc19136f4df419ee3f0aac2f6f6706367f4
 
 [mandelbrot]
 title = Mandelbrot
@@ -724,6 +724,22 @@ needs = kapi >= 72
 required = 0
 restart = 0
 content = bf88cef21c279616d3426686b6a55dd0fa3c732244cc7419c084a9a23e1bdc3f
+
+[photos]
+title = Photos
+version = 1.0.0
+category = Graphics
+author = Onyx
+summary = 
+size = 650084
+installed = 1487518
+sha256 = 64c4bd0029323bdfedf9745dfd1c73441c3f17d66ccc4e13dd6a82086ae23b59
+file = pkgs/photos-1.0.0.opk
+icon = icons/photos.bmp
+needs = kapi >= 72
+required = 0
+restart = 0
+content = 603405fd142ec60ebbcf56bf202bb2640a868132d7558f5e1a9e61aeb7784efc
 
 [pipes]
 title = Pipes

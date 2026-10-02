@@ -1,9 +1,9 @@
 # Onyx package index -- tools/pkg/mkrepo.py (docs/pkg/README.md)
 [repo]
 name = onyx-packages
-date = 2026-10-02 14:56
+date = 2026-10-02 18:30
 kapi = 76
-packages = 60
+packages = 61
 
 [pkgman]
 title = Package Manager
@@ -20,6 +20,22 @@ needs = kapi >= 76
 required = 1
 restart = 0
 content = 5cba1b5e8eb9a691102e91785c6d317c9734846aa51ed892f93b4300855649db
+
+[jsc]
+title = JavaScriptCore shell (jsc)
+version = 1.0.0
+category = Development
+author = Onyx
+summary = WebKit's JavaScript engine as a command (JavaScript and WebAssembly): jsc file.js, jsc -e "print(6*7)"; its self-test and timings in docs/jsc
+size = 13836731
+installed = 33124586
+sha256 = 4e43d8e5a79b3e61f166d80f2674d4cddbbf7fc6799c08ebfeb5d42ea9c94f3d
+file = pkgs/jsc-1.0.0.opk
+icon = icons/jsc.bmp
+needs = kapi >= 76
+required = 0
+restart = 0
+content = 6fa18ff6306cf3e9d14366c431ca5a06bc069c064264ee88240812d73b698c54
 
 [onyx]
 title = Onyx system

@@ -1,7 +1,7 @@
 # Onyx package index -- tools/pkg/mkrepo.py (docs/pkg/README.md)
 [repo]
 name = onyx-packages
-date = 2026-10-02 07:33
+date = 2026-10-02 07:36
 kapi = 72
 packages = 60
 
@@ -727,19 +727,19 @@ content = 37de2810e908f1fb42de098367cd73308024c02196f76fae7574c7aa729977ec
 
 [photos]
 title = Photos
-version = 1.0.1
+version = 1.0.2
 category = Graphics
 author = Onyx
 summary = 
-size = 640180
-installed = 1477654
-sha256 = ca2262d243d0466ebaf83d8ab21d4d7629a50456b783139f273da6779fd35326
-file = pkgs/photos-1.0.1.opk
+size = 652307
+installed = 1489110
+sha256 = 9acc68ad67a19d32c11efcd3f5c3d919664d460a6654c0940907136b98758e6b
+file = pkgs/photos-1.0.2.opk
 icon = icons/photos.bmp
 needs = kapi >= 72
 required = 0
 restart = 0
-content = ff8fbddfb3b2c51aa629a0ca7cbb5974bf573109f65a336b3be270862f93d856
+content = 08d588156d0d00c9f16b74c0948768d5430f5dc1e93bfbf2a5dcd97b91ec8a43
 
 [pipes]
 title = Pipes

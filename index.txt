@@ -1,7 +1,7 @@
 # Onyx package index -- tools/pkg/mkrepo.py (docs/pkg/README.md)
 [repo]
 name = onyx-packages
-date = 2026-10-02 02:08
+date = 2026-10-02 02:25
 kapi = 72
 packages = 59
 
@@ -23,19 +23,19 @@ content = 379abed0a54548b61efe519c4d8140928ce24d50dc30fba89ea24ebba8a09919
 
 [onyx]
 title = Onyx system
-version = 2026.10.18
+version = 2026.10.19
 category = System
 author = Onyx
 summary = The kernel, the commands of /bin, the desktop, the settings, the terminal, the File Viewer, the text editor, the fonts
-size = 18239093
-installed = 47821581
-sha256 = aa4c1141dc06bf3f0d1989080e14e18dc506a8d258fd37faef5966ba0bdb81a3
-file = pkgs/onyx-2026.10.18.opk
+size = 18239138
+installed = 47821750
+sha256 = 0c0ef51deb9618657cf244ea77f87c1fd329d5508c979bec80f04655545fae92
+file = pkgs/onyx-2026.10.19.opk
 icon = icons/onyx.bmp
 needs = pkgman, kapi >= 72
 required = 1
 restart = 1
-content = 7211d615eac82d0ec33f57b9d39a79029d4319b8257f3b794fc3b8649b376542
+content = 93212d35d629c26fcbb38259220982654ca8694a166fa39959ca7fe70b32626f
 
 [pi-firmware]
 title = Raspberry Pi firmware
@@ -615,19 +615,19 @@ content = 2345afaeb161ac15d295be396da8523ecfd4a03f54881d85ade0d264f66e5f8b
 
 [media]
 title = Media Player
-version = 1.0.5
+version = 1.0.6
 category = Multimedia
 author = Onyx
 summary = 
-size = 1269201
-installed = 2733646
-sha256 = 9b023c5043bce6e74eb29287d0b22e96fa3ec371bc7d6e368a726ef68c185ca9
-file = pkgs/media-1.0.5.opk
+size = 7978130
+installed = 16420486
+sha256 = 5095eb14beeb22176b0bf8d62901eeff9b95df16f4ff61333df13e8239360900
+file = pkgs/media-1.0.6.opk
 icon = icons/media.bmp
 needs = generaluser-gs, kapi >= 72
 required = 0
 restart = 0
-content = b15bf6132554cc936b38baa95b54c3d54421f9724804e6dec3184d53065d564a
+content = e43fb935c195195f56e2c3d871f2b9b634c8a01f6f6396c81b3281b7fc99cc70
 
 [memmon]
 title = Memory Monitor

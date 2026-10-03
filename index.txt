@@ -1,7 +1,7 @@
 # Onyx package index -- tools/pkg/mkrepo.py (docs/pkg/README.md)
 [repo]
 name = onyx-packages
-date = 2026-10-03 18:42
+date = 2026-10-03 19:06
 kapi = 78
 packages = 62
 
@@ -551,35 +551,35 @@ content = 646335ed27489dd95035137c0f622cbe64310623c879d486ef8e7feefabae43d
 
 [koton]
 title = Koton
-version = 1.0.8
+version = 1.0.9
 category = Multimedia
 author = Onyx
 summary = 
-size = 6117198
-installed = 11086216
-sha256 = 34cd831402b6bd6c5df263d2b236084e09b54fb47746a76d34bad872278fd2a7
-file = pkgs/koton-1.0.8.opk
+size = 5954716
+installed = 10925586
+sha256 = b8c1cae513298f2145d36f9a36863815e9e0447cb8367070ffdb4aa0fbed941f
+file = pkgs/koton-1.0.9.opk
 icon = icons/koton.bmp
 needs = generaluser-gs, kapi >= 78
 required = 0
 restart = 0
-content = ab0291ca94b1775144f29a43984185b9e4055a5bc4d1f64171ff715bef9d2d34
+content = 90edf6fe4f12683462391a2feb8b74044b7c61baaa2c6e55ca859cfa60052597
 
 [ledger]
 title = Ledger
-version = 1.0.9
+version = 1.0.10
 category = Productivity
 author = Onyx
 summary = 
-size = 7561451
-installed = 10900488
-sha256 = dc31e5a9e6aa9e973681d6b42b8e54bf701e348de7b9e16afe6968bd3de3d88b
-file = pkgs/ledger-1.0.9.opk
+size = 17871269
+installed = 21493516
+sha256 = 3577f5b6bb67d1ffc22bda07f61cb9728dcdbb84dfd07fe9c159ce2d2d82f7f3
+file = pkgs/ledger-1.0.10.opk
 icon = icons/ledger.bmp
 needs = cardfile, kapi >= 78
 required = 0
 restart = 0
-content = 6392b9b53841695de900f18ee22197615305ea537e16d2e83b270c0f18e1aa5d
+content = b12011296936e98b5b66a127e2bd28c540be5e522397bb14ac99975ba9acb3c9
 
 [life]
 title = Game of Life

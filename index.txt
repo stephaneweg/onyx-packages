@@ -1,7 +1,7 @@
 # Onyx package index -- tools/pkg/mkrepo.py (docs/pkg/README.md)
 [repo]
 name = onyx-packages
-date = 2026-10-03 16:50
+date = 2026-10-03 17:16
 kapi = 78
 packages = 62
 
@@ -87,19 +87,19 @@ content = e8d7f0fff8bb04a602b6e38651bc47cae9752d30ae159e29308c9fbcf5c7031e
 
 [demos]
 title = Demos
-version = 1.0.7
+version = 1.0.8
 category = Demos
 author = Onyx
 summary = The graphics and toolkit demos (demoA..F, the GPU, the widgets, plasma, spin...)
-size = 781675
-installed = 2738765
-sha256 = b7e91a2dc1f1db43bbc24d574331349bf11e6fe2d2887c818ac72ca0d835df42
-file = pkgs/demos-1.0.7.opk
+size = 781931
+installed = 2738893
+sha256 = 5129118885cb450e565f396427deb5ff5b955c8e3b90748be989ec0417357e90
+file = pkgs/demos-1.0.8.opk
 icon = icons/demos.bmp
 needs = kapi >= 78
 required = 0
 restart = 0
-content = 58453d1109b8423a8fae22c25eff3b6753e9e6e087e917379592224520530e4f
+content = a44f0eb6fe99df285c2b291fc4ee2a6effc80a2b58bdc303f14669c32ece72b6
 
 [basic-samples]
 title = BASIC samples
@@ -295,19 +295,19 @@ content = bd1e006545332c29a3af2cea388705f5b346cc0933de43e2657a5da2752cee2f
 
 [calendar]
 title = Calendar
-version = 1.0.5
+version = 1.0.6
 category = Productivity
 author = Onyx
 summary = 
-size = 348050
-installed = 867610
-sha256 = 6539073e5f58d48ac44e62b4c411f5fff324d607411c8864566e8357868c1bdd
-file = pkgs/calendar-1.0.5.opk
+size = 348408
+installed = 867738
+sha256 = 3630ae5dd682796945f4c5091505c7302d589096c3de0aa9c584b8e18733ebd0
+file = pkgs/calendar-1.0.6.opk
 icon = icons/calendar.bmp
 needs = kapi >= 78
 required = 0
 restart = 0
-content = 5e5e47fc2b2d1b00a1144a2f16bb2bc28b890812a94c3a6cabdf8e91b31e3c95
+content = 475856651ca067fc74f409cfabafd52b6f37324505addb97458091c2eacf56ea
 
 [cardfile]
 title = Cardfile

@@ -1,7 +1,7 @@
 # Onyx package index -- tools/pkg/mkrepo.py (docs/pkg/README.md)
 [repo]
 name = onyx-packages
-date = 2026-10-03 17:16
+date = 2026-10-03 17:55
 kapi = 78
 packages = 62
 
@@ -375,19 +375,19 @@ content = 0c11c62b456bde738b2b541c366649734bde13859e2187c75bc618413d62bff3
 
 [fmtracker]
 title = FM Tracker
-version = 1.0.7
-category = Productivity
+version = 1.0.8
+category = Multimedia
 author = Onyx
 summary = 
-size = 103866
-installed = 311934
-sha256 = de48078860c4ecd65bf67e35aa649e0a81e2e356b9ac8a1a553f8fd6a9313e02
-file = pkgs/fmtracker-1.0.7.opk
+size = 103861
+installed = 311932
+sha256 = baf824055cd363643e03f2638f53b61063c182c544a2392cf395ebceddba4335
+file = pkgs/fmtracker-1.0.8.opk
 icon = icons/fmtracker.bmp
 needs = kapi >= 78
 required = 0
 restart = 0
-content = 846580f6ee29abd455243f96a7baf8c20f405012288a0dd3ce0c3b6052ca8414
+content = 90b536a97fd292038d3ce795f42baa1a36c6d0a6eed543aa4ec5be6b7f6de122
 
 [freecell]
 title = FreeCell
@@ -551,19 +551,19 @@ content = 646335ed27489dd95035137c0f622cbe64310623c879d486ef8e7feefabae43d
 
 [koton]
 title = Koton
-version = 1.0.6
-category = Productivity
+version = 1.0.7
+category = Multimedia
 author = Onyx
 summary = 
-size = 6123906
-installed = 11089722
-sha256 = 7d4d17132db0971741dcfabb20aacaa52fb8fc24cdfd5175ee3cdfbda2303781
-file = pkgs/koton-1.0.6.opk
+size = 6123907
+installed = 11089720
+sha256 = caf26f9444df374a5659652e7c88b81d36d2238ac87db371b32ab1d260c9dbc9
+file = pkgs/koton-1.0.7.opk
 icon = icons/koton.bmp
 needs = generaluser-gs, kapi >= 78
 required = 0
 restart = 0
-content = 2b2eb834a1d1cfdbdc154f03ce8ae6b9ae7e18b8985da6f9f1346b46b36de1ff
+content = f682e5629b20d10ffb3986ac35f5885119c55b72ec60546aebb9e2bfe68784dd
 
 [ledger]
 title = Ledger
@@ -647,19 +647,19 @@ content = d0d46b9c41d8130fdbdf289397c770f0e3bc06cf5065bf94be7d3062d4e5ae7c
 
 [media]
 title = Media Player
-version = 1.0.8
+version = 1.0.9
 category = Multimedia
 author = Onyx
 summary = 
-size = 7985016
-installed = 16441902
-sha256 = 753ae0a66136baf2aecbbe875ec775b7bb968d8926663a06df721b5ce50f0a20
-file = pkgs/media-1.0.8.opk
+size = 7984901
+installed = 16442286
+sha256 = 008b22babae589d063a967e5e6866382560c420eced8c25a9c2c72f21947992c
+file = pkgs/media-1.0.9.opk
 icon = icons/media.bmp
 needs = generaluser-gs, kapi >= 78
 required = 0
 restart = 0
-content = 802042a9488c271e787472a2d756ae5abbaad0d90c0a8ab0c9bdc7ddf5578b71
+content = 0dc7b7946ca40ca615ebe124ee60277fc944258c97b51ee560de18cf6f65d24e
 
 [memmon]
 title = Memory Monitor
@@ -759,19 +759,19 @@ content = 8dd0e364f23c4733d74014ed4448da59bc765e0d467b8e1eb8c5acfb65ef457e
 
 [photos]
 title = Photos
-version = 1.0.3
+version = 1.0.4
 category = Graphics
 author = Onyx
 summary = 
-size = 652285
-installed = 1489110
-sha256 = 7ffdb66c6ca356622c08ef5e68b848ccb9bb079d450be091bddce2a61ed46800
-file = pkgs/photos-1.0.3.opk
+size = 652863
+installed = 1489374
+sha256 = 2b152099e1ffc32d23dce1ff42bc040efde0bc417636b44bbed5fba3d914760d
+file = pkgs/photos-1.0.4.opk
 icon = icons/photos.bmp
 needs = kapi >= 78
 required = 0
 restart = 0
-content = ea0d8dc12786f96ecce398e1d71a1838765ceb866210e3b623b5d75993e9a326
+content = 155850f1180466175143182254733a6cf843331005f036f555dd54f9f49009ae
 
 [pipes]
 title = Pipes

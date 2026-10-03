@@ -1,25 +1,25 @@
 # Onyx package index -- tools/pkg/mkrepo.py (docs/pkg/README.md)
 [repo]
 name = onyx-packages
-date = 2026-10-03 19:35
+date = 2026-10-03 19:47
 kapi = 78
 packages = 62
 
 [pkgman]
 title = Package Manager
-version = 1.0.9
+version = 1.0.10
 category = System
 author = Onyx
 summary = The packages: the pkg command, the Package Manager (the Control Panel's applet), the update daemon pkgd
-size = 2267331
-installed = 5629449
-sha256 = cf44a3d41e091b1f563ae5b38d7b6c48c4162e8660b97a20d755ceee52c43993
-file = pkgs/pkgman-1.0.9.opk
+size = 2269250
+installed = 5629761
+sha256 = a7e61fd35e0a2ca987453af5877b4bde83585466ae9791616f4d3324fda9bcd7
+file = pkgs/pkgman-1.0.10.opk
 icon = icons/pkgman.bmp
 needs = kapi >= 78
 required = 1
 restart = 0
-content = 3ff2ac11dd48e045a97cdb277edc4237e6cb1213bb590adfb7faebba0a83af87
+content = 5840ff81dbab069e5f409880663e77373e62195ede72754cd9225c4faf9ce9bc
 
 [jsc]
 title = JavaScriptCore shell (jsc)

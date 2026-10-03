@@ -1,7 +1,7 @@
 # Onyx package index -- tools/pkg/mkrepo.py (docs/pkg/README.md)
 [repo]
 name = onyx-packages
-date = 2026-10-03 09:47
+date = 2026-10-03 12:03
 kapi = 78
 packages = 62
 
@@ -39,19 +39,19 @@ content = 92a95b3d51d54e70df41d950b4b359a809ff8df58617298957b55ccf35af32bc
 
 [web]
 title = Web (WebKit browser)
-version = 1.0.3
+version = 1.0.4
 category = Internet
 author = Onyx
 summary = The browser on WebKit: one page per window, HTTPS, JavaScript; tip: "preload web" in SD:/etc/autostart makes it open at once
-size = 42215619
-installed = 101971092
-sha256 = 1eecb29c63b65f961659a426722b7ff7d46870eb3c3518f65853b01e0c5cdc7c
-file = pkgs/web-1.0.3.opk
+size = 42269158
+installed = 102102180
+sha256 = 397301a4387c319f8f6b45b1433939cea2dbe8e9c32476497e33e4e035faa0ae
+file = pkgs/web-1.0.4.opk
 icon = icons/web.bmp
 needs = onyx >= 2026.10.28, kapi >= 78
 required = 0
 restart = 0
-content = d67b8688b060b312cad12959fef2e61ebd273609e7077d3dee8b27cb372204bc
+content = f171f7d58b10338bcdef974d7a8b9c652a5b757170f86ea8f018d754c000a313
 
 [onyx]
 title = Onyx system

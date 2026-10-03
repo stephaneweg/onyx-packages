@@ -1,7 +1,7 @@
 # Onyx package index -- tools/pkg/mkrepo.py (docs/pkg/README.md)
 [repo]
 name = onyx-packages
-date = 2026-10-03 16:33
+date = 2026-10-03 16:50
 kapi = 78
 packages = 62
 
@@ -615,19 +615,19 @@ content = c74c12f676b7ae0743d58dcf20d0cf590fb176b19be80cff797c5fe208214c95
 
 [mail]
 title = Mail
-version = 1.0.4
+version = 1.0.5
 category = Internet
 author = Onyx
 summary = 
-size = 1067350
+size = 1067460
 installed = 2421036
-sha256 = f1c3f2e2b4d6d25b253ba1ebfb681447424673e19240afb29440d9c3f7904ca1
-file = pkgs/mail-1.0.4.opk
+sha256 = 616be93357c701ff68e2c881f5ad06cfffe9849a5d811985fc4ba28f6faf5855
+file = pkgs/mail-1.0.5.opk
 icon = icons/mail.bmp
 needs = kapi >= 78
 required = 0
 restart = 0
-content = f4b3b8c9ceebc4da8d60cc9151df6f09171cd440321c04c3da608e72be864522
+content = 12e668367628e807a8f8b2f0df863b2b53f635afecac4a5add8baeb08ae35081
 
 [mandelbrot]
 title = Mandelbrot

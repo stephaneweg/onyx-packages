@@ -1,7 +1,7 @@
 # Onyx package index -- tools/pkg/mkrepo.py (docs/pkg/README.md)
 [repo]
 name = onyx-packages
-date = 2026-10-03 00:09
+date = 2026-10-03 02:04
 kapi = 77
 packages = 62
 
@@ -39,35 +39,35 @@ content = 6fa18ff6306cf3e9d14366c431ca5a06bc069c064264ee88240812d73b698c54
 
 [web]
 title = Web (WebKit browser)
-version = 1.0.0
+version = 1.0.1
 category = Internet
 author = Onyx
 summary = The browser on WebKit: one page per window, HTTPS, JavaScript; tip: "preload web" in SD:/etc/autostart makes it open at once
-size = 38727100
-installed = 93123604
-sha256 = cd1864821d6c4fbd216abe0f421f89fc0fffb38648a8b2c049c83ec14f924716
-file = pkgs/web-1.0.0.opk
+size = 38730660
+installed = 93189140
+sha256 = 8443b035799b71d908a86392425384863124f56426e81ed33977c3a27c8dd4cb
+file = pkgs/web-1.0.1.opk
 icon = icons/web.bmp
 needs = onyx >= 2026.10.28, kapi >= 77
 required = 0
 restart = 0
-content = ebf6679d5ae28560b95f3982f8bdc2be51fa78724b52950b37afaadbfa6f6934
+content = 2abc6a2b6434c7047329fd62660319f1938cdceaf630aebd3e58db96234138a5
 
 [onyx]
 title = Onyx system
-version = 2026.10.28
+version = 2026.10.29
 category = System
 author = Onyx
 summary = The kernel, the commands of /bin, the desktop, the settings, the terminal, the File Viewer, the text editor, the fonts
-size = 48037753
-installed = 118062489
-sha256 = 86dbe181d47b0f1218c934f904ecbc1d3a3ffe3e7947ab9d773f4e040b2d6ab7
-file = pkgs/onyx-2026.10.28.opk
+size = 48038607
+installed = 118062585
+sha256 = f481fc50daefafa650df93d0e2342838eb290e1ac97d149ad5ed3ab5ba7a5ea2
+file = pkgs/onyx-2026.10.29.opk
 icon = icons/onyx.bmp
 needs = pkgman, kapi >= 77
 required = 1
 restart = 1
-content = e979bfd73c0f745277b37d7aa5788ef984f810f90075d46446f352a2430ec6bf
+content = 475d761dab71bf5d26b3090920ee89e8fc20b5f293226238c985432ea9de95e0
 
 [pi-firmware]
 title = Raspberry Pi firmware

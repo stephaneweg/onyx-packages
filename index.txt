@@ -1,7 +1,7 @@
 # Onyx package index -- tools/pkg/mkrepo.py (docs/pkg/README.md)
 [repo]
 name = onyx-packages
-date = 2026-10-04 17:27
+date = 2026-10-04 18:02
 kapi = 81
 packages = 64
 
@@ -841,19 +841,19 @@ content = b84df45e90b53d15eacca81142efb1a38cce6a03d78db1b85f433dd44fd0f0da
 
 [qbstudio]
 title = QBStudio
-version = 1.0.0
+version = 1.0.1
 category = Productivity
 author = Onyx
 summary = 
-size = 574561
-installed = 1370181
-sha256 = 0fe95d8f14c7b6f0ede713b2b2d1501b959f75e4541e0cc33995bc9d36b3f321
-file = pkgs/qbstudio-1.0.0.opk
+size = 575858
+installed = 1371140
+sha256 = af72b2acf871999355ff3e7042457be078d10e4184ca536cf88a6afb1ea82d17
+file = pkgs/qbstudio-1.0.1.opk
 icon = icons/qbstudio.bmp
 needs = kapi >= 81
 required = 0
 restart = 0
-content = ea850e51fb8e94d1f96f0db564f8ba2a29cfae9709799f7166e0f586e0ec996f
+content = 0a60fe430bfbe2a95b1ec698f2fcd306f939ec14fa38bd142999d77205b37a2c
 
 [rtfview]
 title = RTF Reader

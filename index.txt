@@ -1,7 +1,7 @@
 # Onyx package index -- tools/pkg/mkrepo.py (docs/pkg/README.md)
 [repo]
 name = onyx-packages
-date = 2026-10-04 14:43
+date = 2026-10-04 15:08
 kapi = 80
 packages = 62
 
@@ -39,35 +39,35 @@ content = 0d92a1e265c6b4087b0004b8634f6c83a7d2402b817cac03a00806fe90fd812c
 
 [jet]
 title = Jet Browser
-version = 2.0.3
+version = 2.0.4
 category = Internet
 author = Onyx
 summary = The browser, on WebKit: one page per window, HTTPS, JavaScript, video; tip: "preload jet" in SD:/etc/autostart makes it open at once
-size = 43657226
-installed = 105251172
-sha256 = 6beff578eb5cd5dd50a87a010d56ea638f9d83ec4363d073d937e4dad1f15be8
-file = pkgs/jet-2.0.3.opk
+size = 2597
+installed = 6388
+sha256 = b93d993ba855a1d1fc9d5970a39d395a025e760645b619b5c26d01d8132a8f13
+file = pkgs/jet-2.0.4.opk
 icon = icons/jet.bmp
 needs = onyx >= 2026.10.39, kapi >= 80
 required = 0
 restart = 0
-content = 7490988b36a370dc7294245089ed61435e52f0cc695531fc98971811269d4bc5
+content = e9fbf611c7be5e762b5ca951fb21db1a7d078f310aa87237512bfb53c21aecf9
 
 [onyx]
 title = Onyx system
-version = 2026.10.45
+version = 2026.10.46
 category = System
 author = Onyx
 summary = The kernel, the commands of /bin, the desktop, the settings, the terminal, the File Viewer, the text editor, the fonts
-size = 48358776
-installed = 117983507
-sha256 = f4a98917e42a24090541ecf2b080e205a9be9c15b51fcfb589dd202059583c19
-file = pkgs/onyx-2026.10.45.opk
+size = 48358779
+installed = 117983521
+sha256 = 305d2e78759b681d139bc35f1ecf5ade38995a819a92d47caf1f2dc1c625188d
+file = pkgs/onyx-2026.10.46.opk
 icon = icons/onyx.bmp
 needs = pkgman, kapi >= 80
 required = 1
 restart = 1
-content = d5b4857a63e91bfc4a6c08f8fea5930b5a8526c2bfb0eb7adbecfed3a1a901c0
+content = c12f06c7f1baf33746e92a7598ad5b6448f35027f02aa185ca2a275bc7c98ecf
 
 [pi-firmware]
 title = Raspberry Pi firmware
@@ -152,19 +152,19 @@ content = e00edaae21370f51610b370cc50dc4eafd4499e98923a709f9f1b89e6901e267
 
 [slides-samples]
 title = Slides samples
-version = 1.0.0
+version = 1.0.1
 category = Productivity
 author = Onyx
-summary = A presentation to try Slides with
-size = 157413
-installed = 184911
-sha256 = 49c98cafd6f906d241f9606204a2357fc4e3689731e080ce0fb64272c4e1bf73
-file = pkgs/slides-samples-1.0.0.opk
+summary = A presentation to try Slides with (OpenDocument and PowerPoint)
+size = 270837
+installed = 324832
+sha256 = 0321b386efee202cc011f372b6eaf729a821544d1620a494a3370d7328794cc1
+file = pkgs/slides-samples-1.0.1.opk
 icon = icons/slides-samples.bmp
 needs = slides, kapi >= 80
 required = 0
 restart = 0
-content = 30e3d90785850bbb22f3bda12bbc132aacbb6a09620847141b4e54a833453c49
+content = 1ba6bca4750be3182d4423411671c12520f573bc24de5bbf7cfd0694f73e4d22
 
 [cardfile-samples]
 title = Cardfile samples
@@ -889,19 +889,19 @@ content = 4ba8e61a68e851530f0b7844c3bc1d58cc9ac6274074e7086ccf6e8299a991b5
 
 [slides]
 title = Slides
-version = 1.0.0
+version = 1.0.1
 category = Productivity
 author = Onyx
 summary = 
-size = 810743
-installed = 1829185
-sha256 = 7097f7de4ddb8232cdfe6622cf419a82b28c92b6ba03c6841ee5ec9b6e094102
-file = pkgs/slides-1.0.0.opk
+size = 879271
+installed = 1976753
+sha256 = ced4024810d6a3700e35cae1ebbfcb04d418410284a09bf19d7e893a25192388
+file = pkgs/slides-1.0.1.opk
 icon = icons/slides.bmp
 needs = kapi >= 80
 required = 0
 restart = 0
-content = b5dde9e6bf9cc8e79cdbb80e87f640bb4f94b6833101fd59cfc2700ad2191ead
+content = 9d012a0d1984921b0edf953931c6bc1d1ffd50fdef8688a81aa85ca5dbdde0d8
 
 [snake]
 title = Snake

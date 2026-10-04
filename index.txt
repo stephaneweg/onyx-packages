@@ -1,9 +1,9 @@
 # Onyx package index -- tools/pkg/mkrepo.py (docs/pkg/README.md)
 [repo]
 name = onyx-packages
-date = 2026-10-04 23:24
+date = 2026-10-04 23:31
 kapi = 84
-packages = 67
+packages = 68
 
 [pkgman]
 title = Package Manager
@@ -87,35 +87,51 @@ content = 0f5c407a46d6beb255482511397d83c77d7be655b22c5e1dca193886c9e2aefe
 
 [print]
 title = Printing (shared library)
-version = 1.33.0
+version = 1.33.1
 category = System
 author = Onyx
 summary = The Print dialog and the print jobs of the apps (to the print service: PDF files, network printers)
-size = 43716
-installed = 145896
-sha256 = cac2f16b3fa3b032c9969eb2d95aa81af369b3143b275dfbc9e9ed301e417b03
-file = pkgs/print-1.33.0.opk
+size = 43466
+installed = 145840
+sha256 = d793207ea61e9c054c86ba03c7b80092f53e8ecf1c4e69fa07592182b30500d0
+file = pkgs/print-1.33.1.opk
 icon = icons/print.bmp
 needs = kapi >= 84
 required = 1
 restart = 0
-content = a8834d56fada503524aaf996a526a469bbbd367124c62f00bd6d4b7bfc24596c
+content = dc0b9c894c1407fe8000c390277e5814d19be243563db8a7796037e6b04b1953
+
+[audiokit]
+title = AudioKit (shared library)
+version = 1.206.0
+category = System
+author = Onyx
+summary = The sound library: music files (MP3, FLAC, WAV, Ogg, MIDI), a General MIDI synthesizer, mixing -- for Koton, the Media Player, BASIC and the play command
+size = 329574
+installed = 750104
+sha256 = b092fc7140a3918552dea1699fddf778f095c57c220e602f8909a4f45fc80e1f
+file = pkgs/audiokit-1.206.0.opk
+icon = icons/audiokit.bmp
+needs = kapi >= 84
+required = 1
+restart = 0
+content = ccce7e69a21e81d831df23d0ed318d0ff351628c8ee16eacb2f8a09c56976975
 
 [onyx]
 title = Onyx system
-version = 2026.10.54
+version = 2026.10.55
 category = System
 author = Onyx
 summary = The kernel, the commands of /bin, the desktop, the settings, the terminal, the File Viewer, the text editor, the fonts
-size = 45036139
-installed = 114963089
-sha256 = 66eabcb2fc2513bc8bdc58b06e5b71e1e35f5876b1b1d40c653703bb40675ae5
-file = pkgs/onyx-2026.10.54.opk
+size = 45049659
+installed = 115072393
+sha256 = 3a1d6278b8d7de5b3393423013103c94c5dfd718700952f667a6e786d29ac6c1
+file = pkgs/onyx-2026.10.55.opk
 icon = icons/onyx.bmp
-needs = pkgman, wtk >= 1.683, ft, print >= 1.33, kapi >= 84
+needs = pkgman, wtk >= 1.683, ft, print, audiokit >= 1.206, kapi >= 84
 required = 1
 restart = 1
-content = 759ac942accbc696da8be33bf59d4913e6065d67683cf5146f1eb815214babcf
+content = 60ef9bde27e4f9ebef573e02acedee154162a75771c213158de9288c567593aa
 
 [pi-firmware]
 title = Raspberry Pi firmware
@@ -616,19 +632,19 @@ content = 59e938bae6a71d426bc67b3fd09ac226fc673b53cb1d50d33da479b09d369061
 
 [koton]
 title = Koton
-version = 1.0.13
+version = 1.0.14
 category = Multimedia
 author = Onyx
 summary = 
-size = 4986636
-installed = 9388490
-sha256 = 2547a07eb713eb9debd524d843bf6fb73e077bfbc88225f7458a047c44b4a2fa
-file = pkgs/koton-1.0.13.opk
+size = 4945891
+installed = 9269994
+sha256 = 0712d2bb54e0512b683b78c2d7a1ffb1d4559eda1b2cc9ff09efa666cb425df6
+file = pkgs/koton-1.0.14.opk
 icon = icons/koton.bmp
-needs = wtk >= 1.683, ft, generaluser-gs, kapi >= 84
+needs = wtk >= 1.683, ft, generaluser-gs, audiokit >= 1.206, kapi >= 84
 required = 0
 restart = 0
-content = e2302d32a58d54fa0b7a9ace885536ce1da714e3310f0c4c3c3e28f6a96057a3
+content = 9cfa79eccd9558949b2edebef15a19fe46592ff935f267d3e61847b18e0d1cc3
 
 [ledger]
 title = Ledger
@@ -729,19 +745,19 @@ content = 6f26f9c72e660d42a026d8a6356d7be8fed75a48f52b28318f1b829a35a8476e
 
 [media]
 title = Media Player
-version = 1.0.14
+version = 1.0.15
 category = Multimedia
 author = Onyx
 summary = 
-size = 7789712
-installed = 16050278
-sha256 = 99583302c77746af8d4bb123ccf70261d9d41934141678a8845e194f4ca9f1ca
-file = pkgs/media-1.0.14.opk
+size = 7689157
+installed = 15897974
+sha256 = f1bd7d325f669739ea72d1a555b1f129e7936427117a036be82e1ea26944c45c
+file = pkgs/media-1.0.15.opk
 icon = icons/media.bmp
-needs = wtk >= 1.683, ft, generaluser-gs, kapi >= 84
+needs = wtk >= 1.683, ft, generaluser-gs, audiokit >= 1.206, kapi >= 84
 required = 0
 restart = 0
-content = c707d933cd20d272a9c3677fb028f125ca3256c3d66359eadde42c644b08e3a9
+content = b3c156ea95ec5721d22ae36032433ee7a6a7fb82c18fec245ccd67feba5b3199
 
 [minesweeper]
 title = Minesweeper
@@ -873,35 +889,35 @@ content = 82b77dc198301b458feaa4411205fba261a457cf6c1bfb6b560556fd29333008
 
 [qbasic]
 title = QBasic
-version = 1.0.14
+version = 1.0.15
 category = Productivity
 author = Onyx
 summary = 
-size = 107117
+size = 107226
 installed = 365681
-sha256 = 1e5754955ac9e472e5a45711417df893977b42c07b07f6886d4fd2c7091cc75b
-file = pkgs/qbasic-1.0.14.opk
+sha256 = 7f8b3633f902eeb99f0cf535d4fb4c8d34d6dabc7668c70749417104fd9ebdb2
+file = pkgs/qbasic-1.0.15.opk
 icon = icons/qbasic.bmp
 needs = wtk >= 1.683, ft, kapi >= 84
 required = 0
 restart = 0
-content = 970f1706c1b57dc252ba3e0edac19430c1a9997bd1c4e7f4569b0747caeed8e5
+content = 8fca161058fae1116daa7a7be86469b93a1a730aca748da3049ab967af680b49
 
 [qbstudio]
 title = QBStudio
-version = 1.0.3
+version = 1.0.4
 category = Productivity
 author = Onyx
 summary = 
-size = 337479
+size = 337649
 installed = 912068
-sha256 = e95cd23783247c6ab75a331e2ba0db6e246acb9b79c374b3973f51b0bb131ef6
-file = pkgs/qbstudio-1.0.3.opk
+sha256 = 0bd459edc135c363dcf8e8f56ba89e030040b8b6f65599e63862d27e652cfc5d
+file = pkgs/qbstudio-1.0.4.opk
 icon = icons/qbstudio.bmp
 needs = wtk >= 1.683, ft, kapi >= 84
 required = 0
 restart = 0
-content = e5c878a9cf440b98997f8da64283f88e89685197a48c068e4015a4bc8c34bb4a
+content = c36fdf9f839c067555bafa0b47cb1493270d968ba756f295a91e332496bdbe53
 
 [rtfview]
 title = RTF Reader

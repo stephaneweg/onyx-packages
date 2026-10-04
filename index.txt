@@ -1,9 +1,9 @@
 # Onyx package index -- tools/pkg/mkrepo.py (docs/pkg/README.md)
 [repo]
 name = onyx-packages
-date = 2026-10-04 12:16
+date = 2026-10-04 13:06
 kapi = 80
-packages = 60
+packages = 62
 
 [pkgman]
 title = Package Manager
@@ -55,19 +55,19 @@ content = e9fbf611c7be5e762b5ca951fb21db1a7d078f310aa87237512bfb53c21aecf9
 
 [onyx]
 title = Onyx system
-version = 2026.10.42
+version = 2026.10.43
 category = System
 author = Onyx
 summary = The kernel, the commands of /bin, the desktop, the settings, the terminal, the File Viewer, the text editor, the fonts
-size = 48358027
-installed = 117983237
-sha256 = 5bdd03adbf09d784d882fd5b243ac938130e822fc0c137ae098a665fada91e28
-file = pkgs/onyx-2026.10.42.opk
+size = 48358033
+installed = 117983251
+sha256 = 72348651d4126dc31c1e9fd0c4c79bed2b4f301b4f7da39255d071da7b7a0284
+file = pkgs/onyx-2026.10.43.opk
 icon = icons/onyx.bmp
 needs = pkgman, kapi >= 80
 required = 1
 restart = 1
-content = 61361887bc02cf4c64dc53220e2c4b64058f619120d44c068c1e8921e4032dc7
+content = d96ca42d5286cd05a036243a4a25d30780be06d8e93e55df86753bd85f45c98c
 
 [pi-firmware]
 title = Raspberry Pi firmware
@@ -149,6 +149,22 @@ needs = sheet, kapi >= 80
 required = 0
 restart = 0
 content = e00edaae21370f51610b370cc50dc4eafd4499e98923a709f9f1b89e6901e267
+
+[slides-samples]
+title = Slides samples
+version = 1.0.0
+category = Productivity
+author = Onyx
+summary = A presentation to try Slides with
+size = 157413
+installed = 184911
+sha256 = 49c98cafd6f906d241f9606204a2357fc4e3689731e080ce0fb64272c4e1bf73
+file = pkgs/slides-samples-1.0.0.opk
+icon = icons/slides-samples.bmp
+needs = slides, kapi >= 80
+required = 0
+restart = 0
+content = 30e3d90785850bbb22f3bda12bbc132aacbb6a09620847141b4e54a833453c49
 
 [cardfile-samples]
 title = Cardfile samples
@@ -870,6 +886,22 @@ needs = cardfile, kapi >= 80
 required = 0
 restart = 0
 content = 4ba8e61a68e851530f0b7844c3bc1d58cc9ac6274074e7086ccf6e8299a991b5
+
+[slides]
+title = Slides
+version = 1.0.0
+category = Productivity
+author = Onyx
+summary = 
+size = 810743
+installed = 1829185
+sha256 = 7097f7de4ddb8232cdfe6622cf419a82b28c92b6ba03c6841ee5ec9b6e094102
+file = pkgs/slides-1.0.0.opk
+icon = icons/slides.bmp
+needs = kapi >= 80
+required = 0
+restart = 0
+content = b5dde9e6bf9cc8e79cdbb80e87f640bb4f94b6833101fd59cfc2700ad2191ead
 
 [snake]
 title = Snake

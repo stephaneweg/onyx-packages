@@ -1,7 +1,7 @@
 # Onyx package index -- tools/pkg/mkrepo.py (docs/pkg/README.md)
 [repo]
 name = onyx-packages
-date = 2026-10-04 15:09
+date = 2026-10-04 16:30
 kapi = 80
 packages = 62
 
@@ -889,19 +889,19 @@ content = 4ba8e61a68e851530f0b7844c3bc1d58cc9ac6274074e7086ccf6e8299a991b5
 
 [slides]
 title = Slides
-version = 1.0.1
+version = 1.0.2
 category = Productivity
 author = Onyx
 summary = 
-size = 879271
-installed = 1976753
-sha256 = ced4024810d6a3700e35cae1ebbfcb04d418410284a09bf19d7e893a25192388
-file = pkgs/slides-1.0.1.opk
+size = 887160
+installed = 1978929
+sha256 = d2f8ec89ce2421a5c2a6947a994aed079b7de7d95ee547347080bc95e5cf4387
+file = pkgs/slides-1.0.2.opk
 icon = icons/slides.bmp
 needs = kapi >= 80
 required = 0
 restart = 0
-content = 9d012a0d1984921b0edf953931c6bc1d1ffd50fdef8688a81aa85ca5dbdde0d8
+content = 5db331d79e7c2002e7cfb6c4b91280ce1ef610d4ab58c060e3848b907e7b5212
 
 [snake]
 title = Snake

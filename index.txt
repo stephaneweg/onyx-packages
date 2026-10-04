@@ -1,25 +1,25 @@
 # Onyx package index -- tools/pkg/mkrepo.py (docs/pkg/README.md)
 [repo]
 name = onyx-packages
-date = 2026-10-04 11:45
+date = 2026-10-04 12:16
 kapi = 80
 packages = 60
 
 [pkgman]
 title = Package Manager
-version = 1.0.10
+version = 1.0.11
 category = System
 author = Onyx
 summary = The packages: the pkg command, the Package Manager (the Control Panel's applet), the update daemon pkgd
-size = 2269250
-installed = 5629761
-sha256 = a7e61fd35e0a2ca987453af5877b4bde83585466ae9791616f4d3324fda9bcd7
-file = pkgs/pkgman-1.0.10.opk
+size = 2273340
+installed = 5630529
+sha256 = 4058e7ec230df03338f09093e4f652acf5fe5ba048cab0f60f150cbcb71834a2
+file = pkgs/pkgman-1.0.11.opk
 icon = icons/pkgman.bmp
 needs = kapi >= 80
 required = 1
 restart = 0
-content = 5840ff81dbab069e5f409880663e77373e62195ede72754cd9225c4faf9ce9bc
+content = d7e4e9922a8f4a72983c2c1970db1ed75b29e8090fb93280e2a482f41ec7c687
 
 [jsc]
 title = JavaScriptCore shell (jsc)
@@ -55,19 +55,19 @@ content = e9fbf611c7be5e762b5ca951fb21db1a7d078f310aa87237512bfb53c21aecf9
 
 [onyx]
 title = Onyx system
-version = 2026.10.41
+version = 2026.10.42
 category = System
 author = Onyx
 summary = The kernel, the commands of /bin, the desktop, the settings, the terminal, the File Viewer, the text editor, the fonts
-size = 48358026
-installed = 117983233
-sha256 = 8f6754b151476c13291b58e16006ae99d7209b927967caaf308838944648a7e7
-file = pkgs/onyx-2026.10.41.opk
+size = 48358027
+installed = 117983237
+sha256 = 5bdd03adbf09d784d882fd5b243ac938130e822fc0c137ae098a665fada91e28
+file = pkgs/onyx-2026.10.42.opk
 icon = icons/onyx.bmp
 needs = pkgman, kapi >= 80
 required = 1
 restart = 1
-content = 99316394d9007424898bebab89762da1166a9b216d02ce96135b82f06e97316b
+content = 61361887bc02cf4c64dc53220e2c4b64058f619120d44c068c1e8921e4032dc7
 
 [pi-firmware]
 title = Raspberry Pi firmware
@@ -117,21 +117,22 @@ required = 0
 restart = 0
 content = 88855d60f216b0a9ad775a980f6b71c5f5c9c5fbff29c17336ec782bed72bce9
 
-[writer-samples]
+[letters-samples]
 title = Letters samples
-version = 1.0.1
+version = 1.0.2
 category = Productivity
 author = Onyx
 summary = Documents to try Letters with: a tour, a letter, an RTF sample
-size = 14550
+size = 14563
 installed = 30897
-sha256 = ec45ffd69db352451229256bdedaecec67921fae923aab99b46b36ccce909c3e
-file = pkgs/writer-samples-1.0.1.opk
-icon = icons/writer-samples.bmp
-needs = writer, kapi >= 80
+sha256 = 5e97df97732f91cb0351b291cea01224e24d39326dbe92171a4c1f3a6f96db33
+file = pkgs/letters-samples-1.0.2.opk
+icon = icons/letters-samples.bmp
+needs = letters, kapi >= 80
 required = 0
 restart = 0
-content = 5797922b1f622f3289f9be63245324fd7cd1244cf604715b5df8ef056497f444
+replaces = writer-samples
+content = 0b79919dda73c0bc297019cbd67f9a19c71655718b16e8e79e8020bfb23f5de8
 
 [sheet-samples]
 title = Spreadsheet samples
@@ -311,19 +312,19 @@ content = 10d15abb2ab1c6a7fe93abdc155f0ad786a54920dac6b0390f8ebc9ee778e9b2
 
 [cardfile]
 title = Cardfile
-version = 1.0.11
+version = 1.0.12
 category = Productivity
 author = Onyx
 summary = 
 size = 167153
 installed = 457192
-sha256 = 4659dfa4457a5d70086fd2f324dff4cb4902afee365f9c373980c34ece816727
-file = pkgs/cardfile-1.0.11.opk
+sha256 = c5aaa0cf16090e4ff3bd403e82174a2519c13992a7b55048e1e717db2ae885d8
+file = pkgs/cardfile-1.0.12.opk
 icon = icons/cardfile.bmp
 needs = kapi >= 80
 required = 0
 restart = 0
-content = 29f5fbf3d7bb09e2d597939837fa56bea324e8dc3be710d0f3f6a4e4fad56c66
+content = 8a958a9b4b62badfde9b68dceceb6feebf8e0679deb4f74b93b78d14f9bd2b66
 
 [courier]
 title = Courier
@@ -551,19 +552,36 @@ content = cd5928a83980e810a55652cf5ae5f0656d881ae725bf0c16cbcc4681d6f46bb9
 
 [ledger]
 title = Ledger
-version = 1.0.13
+version = 1.0.14
 category = Productivity
 author = Onyx
 summary = 
-size = 17928700
-installed = 21549142
-sha256 = f84fc3b7ff5018cfa3d0d31ea77b26195840757af15826cb8269083bb01cafd1
-file = pkgs/ledger-1.0.13.opk
+size = 17928708
+installed = 21549145
+sha256 = 9e8feff8d084d0b94fe2a4b1a453cb0e6418e0df211f5304f908f41ce7bf51d3
+file = pkgs/ledger-1.0.14.opk
 icon = icons/ledger.bmp
 needs = cardfile, kapi >= 80
 required = 0
 restart = 0
-content = ba105e7f5a636c65c7bccc03e45bfd9f64bd7cb1f62d7826cf3b303ef6ce4e41
+content = 298c08c7a2aaa98c752656f20d87766d6f3b707eb9bbf49cda91ffd4a8a16d44
+
+[letters]
+title = Letters
+version = 1.0.10
+category = Productivity
+author = Onyx
+summary = 
+size = 695557
+installed = 1576063
+sha256 = ca4497f7aeffefe9e9cbbd95f82edf57ecf294c24eecbb9598881c9f97d3e562
+file = pkgs/letters-1.0.10.opk
+icon = icons/letters.bmp
+needs = cardfile, kapi >= 80
+required = 0
+restart = 0
+replaces = writer
+content = a6c2ba28944904316da5d920345e08acebe18a2226aa8805b7429d51bf6fcd5d
 
 [life]
 title = Game of Life
@@ -791,19 +809,19 @@ content = 5da5597ae653b006987d45cd3b0e91fe3de2903800d788d92a2db1f0d11a4601
 
 [rtfview]
 title = RTF Reader
-version = 1.0.11
+version = 1.0.12
 category = Productivity
 author = Onyx
 summary = 
-size = 78144
+size = 78142
 installed = 232294
-sha256 = 9364ed40376dd48ebb51613af9c40891963279580c605b08f3bc76bab6bc2a82
-file = pkgs/rtfview-1.0.11.opk
+sha256 = 882b5a0f243c713037ecac8478ef06f85da3009439f2770064ce9aaf2e7eff7f
+file = pkgs/rtfview-1.0.12.opk
 icon = icons/rtfview.bmp
 needs = kapi >= 80
 required = 0
 restart = 0
-content = f6c071510e4aa08201fe3a03e755e4e2c33db0608886dedf3bf35c0bb79d8c3d
+content = 8cfb43a3341f43cb734e3ff9baae7e7b5102b4211d91ce24eefde4143fe0f1de
 
 [same]
 title = SameGame
@@ -948,19 +966,3 @@ needs = kapi >= 80
 required = 0
 restart = 0
 content = 9d74c0c07a0d6c932457605fc4250f25049b154b26256cf814d97ed021815334
-
-[writer]
-title = Letters
-version = 1.0.10
-category = Productivity
-author = Onyx
-summary = 
-size = 695570
-installed = 1576063
-sha256 = 10b2611747e2d4759c5ef341e0b515e444518a51159f8da0f6620a9610681529
-file = pkgs/writer-1.0.10.opk
-icon = icons/writer.bmp
-needs = cardfile, kapi >= 80
-required = 0
-restart = 0
-content = 022bc24dd0c5370ae288bcf857af7e7e3669afed56fc0ad61de0d5f5914926f1

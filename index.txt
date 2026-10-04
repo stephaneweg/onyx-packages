@@ -1,7 +1,7 @@
 # Onyx package index -- tools/pkg/mkrepo.py (docs/pkg/README.md)
 [repo]
 name = onyx-packages
-date = 2026-10-04 22:44
+date = 2026-10-04 22:55
 kapi = 84
 packages = 66
 
@@ -87,19 +87,19 @@ content = 0f5c407a46d6beb255482511397d83c77d7be655b22c5e1dca193886c9e2aefe
 
 [onyx]
 title = Onyx system
-version = 2026.10.51
+version = 2026.10.52
 category = System
 author = Onyx
 summary = The kernel, the commands of /bin, the desktop, the settings, the terminal, the File Viewer, the text editor, the fonts
-size = 44391374
+size = 44391424
 installed = 113023793
-sha256 = 2325c22a99bcee9fde753f4936437bbc1975867d631800a44160fce89014cb5b
-file = pkgs/onyx-2026.10.51.opk
+sha256 = 83656c55a84c39db1dedd54e82b9f6688de3b1c8a6bfbe8ce6426a9841aeb361
+file = pkgs/onyx-2026.10.52.opk
 icon = icons/onyx.bmp
 needs = pkgman, wtk >= 1.683, ft, kapi >= 84
 required = 1
 restart = 1
-content = 58b9be6e0c029c9d31e6e6a875640e4b2a19507e9752085670bc0efcc20fe8e4
+content = 05d1f5359404d91903fb0af01c066e923f4645f6a6d6ef85e0f7f63672c072c9
 
 [pi-firmware]
 title = Raspberry Pi firmware

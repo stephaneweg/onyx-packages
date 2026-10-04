@@ -1,7 +1,7 @@
 # Onyx package index -- tools/pkg/mkrepo.py (docs/pkg/README.md)
 [repo]
 name = onyx-packages
-date = 2026-10-04 23:31
+date = 2026-10-04 23:34
 kapi = 84
 packages = 68
 
@@ -87,19 +87,19 @@ content = 0f5c407a46d6beb255482511397d83c77d7be655b22c5e1dca193886c9e2aefe
 
 [print]
 title = Printing (shared library)
-version = 1.33.1
+version = 1.33.2
 category = System
 author = Onyx
 summary = The Print dialog and the print jobs of the apps (to the print service: PDF files, network printers)
-size = 43466
-installed = 145840
-sha256 = d793207ea61e9c054c86ba03c7b80092f53e8ecf1c4e69fa07592182b30500d0
-file = pkgs/print-1.33.1.opk
+size = 43716
+installed = 145896
+sha256 = 67d5d0d63d455aa18b09a09580537ab8bb084e9e70aab264043316b229e1502d
+file = pkgs/print-1.33.2.opk
 icon = icons/print.bmp
 needs = kapi >= 84
 required = 1
 restart = 0
-content = dc0b9c894c1407fe8000c390277e5814d19be243563db8a7796037e6b04b1953
+content = a8834d56fada503524aaf996a526a469bbbd367124c62f00bd6d4b7bfc24596c
 
 [audiokit]
 title = AudioKit (shared library)
@@ -119,19 +119,19 @@ content = ccce7e69a21e81d831df23d0ed318d0ff351628c8ee16eacb2f8a09c56976975
 
 [onyx]
 title = Onyx system
-version = 2026.10.55
+version = 2026.10.56
 category = System
 author = Onyx
 summary = The kernel, the commands of /bin, the desktop, the settings, the terminal, the File Viewer, the text editor, the fonts
-size = 45049659
-installed = 115072393
-sha256 = 3a1d6278b8d7de5b3393423013103c94c5dfd718700952f667a6e786d29ac6c1
-file = pkgs/onyx-2026.10.55.opk
+size = 45051118
+installed = 115073089
+sha256 = 98ae14460b784f80604618d2494791c416bd7a550e931b5a9e3120fd75d768cc
+file = pkgs/onyx-2026.10.56.opk
 icon = icons/onyx.bmp
-needs = pkgman, wtk >= 1.683, ft, print, audiokit >= 1.206, kapi >= 84
+needs = pkgman, wtk >= 1.683, ft, print >= 1.33, audiokit >= 1.206, kapi >= 84
 required = 1
 restart = 1
-content = 60ef9bde27e4f9ebef573e02acedee154162a75771c213158de9288c567593aa
+content = e8c8a0b8a825dc14dbb9cc4bc1f20ccbe2a6382bb67ca9a98fa8133c1a6c3b45
 
 [pi-firmware]
 title = Raspberry Pi firmware

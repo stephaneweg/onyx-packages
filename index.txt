@@ -1,9 +1,9 @@
 # Onyx package index -- tools/pkg/mkrepo.py (docs/pkg/README.md)
 [repo]
 name = onyx-packages
-date = 2026-10-04 16:47
+date = 2026-10-04 17:26
 kapi = 81
-packages = 62
+packages = 64
 
 [pkgman]
 title = Package Manager
@@ -39,35 +39,35 @@ content = 0d92a1e265c6b4087b0004b8634f6c83a7d2402b817cac03a00806fe90fd812c
 
 [jet]
 title = Jet Browser
-version = 2.0.6
+version = 2.0.7
 category = Internet
 author = Onyx
 summary = The browser, on WebKit: one page per window, HTTPS, JavaScript, video; tip: "preload jet" in SD:/etc/autostart makes it open at once
-size = 43655908
+size = 43657228
 installed = 105251172
-sha256 = 566c0203bc43bd5feb7786f3b2dc972d69da4491e0faaf14cce818471478aab9
-file = pkgs/jet-2.0.6.opk
+sha256 = d0a39830a630c51c5db1298e6ed019f6bc449ec50efe77c168065f172bb3f8a7
+file = pkgs/jet-2.0.7.opk
 icon = icons/jet.bmp
 needs = onyx >= 2026.10.39, kapi >= 81
 required = 0
 restart = 0
-content = 8ee031d5d4d802dca35f8da66e62a1090bd8c88c5684898211bc7eea26fcbd6e
+content = 7490988b36a370dc7294245089ed61435e52f0cc695531fc98971811269d4bc5
 
 [onyx]
 title = Onyx system
-version = 2026.10.47
+version = 2026.10.48
 category = System
 author = Onyx
 summary = The kernel, the commands of /bin, the desktop, the settings, the terminal, the File Viewer, the text editor, the fonts
-size = 48372741
-installed = 118024233
-sha256 = f830ea1aa30ec30d10c2901e62d3632651b3820fdb7010b8ce5dfb697ffe21b2
-file = pkgs/onyx-2026.10.47.opk
+size = 48377529
+installed = 118028145
+sha256 = 6c13f3eb04e20699fe32b4e9d0579626c3607ff681f2ea1fcb26b24775e6fb86
+file = pkgs/onyx-2026.10.48.opk
 icon = icons/onyx.bmp
 needs = pkgman, kapi >= 81
 required = 1
 restart = 1
-content = fb23c27cc92f06a8debf89bb9fe7804f5e7445ae8301e597100da85f9a6964c7
+content = 25bee51ecb2da8fbf80e34e81b05f93328c65ff07d7212a0b330495a4edaa0d2
 
 [pi-firmware]
 title = Raspberry Pi firmware
@@ -87,19 +87,19 @@ content = e8d7f0fff8bb04a602b6e38651bc47cae9752d30ae159e29308c9fbcf5c7031e
 
 [demos]
 title = Demos
-version = 1.0.12
+version = 1.0.13
 category = Demos
 author = Onyx
 summary = The graphics and toolkit demos (demoA..F, the GPU, the widgets, plasma, spin...)
 size = 787462
 installed = 2739269
-sha256 = dc7fbda56cc3b341a84f7064da4db74e67429e551b216ec6e03f628d19199407
-file = pkgs/demos-1.0.12.opk
+sha256 = c3041ea67c18f10fbc85b04a9f887b6776f0ebb594faef38b0aa2233eba8c13c
+file = pkgs/demos-1.0.13.opk
 icon = icons/demos.bmp
 needs = kapi >= 81
 required = 0
 restart = 0
-content = 94d0caab4d537c514474bf32950a0321d8bec4eb819eeaf1cc2feb6629eaf758
+content = 0e00364b389aa34ac814d94c28da4b1648cffe94c1eb221acc511ab2804e1cc1
 
 [basic-samples]
 title = BASIC samples
@@ -165,6 +165,22 @@ needs = slides, kapi >= 81
 required = 0
 restart = 0
 content = 1f18bef660e31d39dfe204cf812b8d1d3165d3a2741d3b5456f0fd17ffb72a38
+
+[qbstudio-samples]
+title = QBStudio samples
+version = 1.0.0
+category = Productivity
+author = Onyx
+summary = A project to try QBStudio with: the temperature converter
+size = 1675
+installed = 1617
+sha256 = cf5140a4e67036688acdcdeebece2d853eae30ab70fda74f47776d9aec5d5e0f
+file = pkgs/qbstudio-samples-1.0.0.opk
+icon = icons/qbstudio-samples.bmp
+needs = qbstudio, kapi >= 81
+required = 0
+restart = 0
+content = 2f5ca0d311296989dba7410e45975b083322bb9dd286d9befd8e39069324b014
 
 [cardfile-samples]
 title = Cardfile samples
@@ -296,19 +312,19 @@ content = e7c0fd8cc67761ef3216a07fdc86ca0e55c00b3388cfcb5c9a1a47dc8422dc88
 
 [arkanoid]
 title = Arkanoid
-version = 1.0.0
+version = 1.0.1
 category = Games
 author = Onyx
 summary = 
-size = 12925
+size = 12926
 installed = 49761
-sha256 = abcef102ab3a4678b20ab507c219758d3cab350cdfe451f120544bd23ed77d7d
-file = pkgs/arkanoid-1.0.0.opk
+sha256 = 41ba2849b36362de1cb7d0774833069e5183d8e97a690312a99bb7212d3889cb
+file = pkgs/arkanoid-1.0.1.opk
 icon = icons/arkanoid.bmp
 needs = kapi >= 81
 required = 0
 restart = 0
-content = bd1e006545332c29a3af2cea388705f5b346cc0933de43e2657a5da2752cee2f
+content = d1dde3b99cfb921450f4e808ffebc8d8396fcc95680c8fab42069137cea1e82f
 
 [calendar]
 title = Calendar
@@ -809,19 +825,35 @@ content = 7c1e924bfa32683888660252aea6e58de38dfb426680bfd7d9431aa7bc550a00
 
 [qbasic]
 title = QBasic
-version = 1.0.11
+version = 1.0.12
 category = Productivity
 author = Onyx
 summary = 
-size = 161915
-installed = 458707
-sha256 = a77676af8ad12fdc1ecd5232035b2022a6c5368198777aeb04b3e84fa04ada68
-file = pkgs/qbasic-1.0.11.opk
+size = 163356
+installed = 459513
+sha256 = 4355700851b13a61ad74e13ca4d4e6ec3fd049befe16ecd9404ee4dac917cf7c
+file = pkgs/qbasic-1.0.12.opk
 icon = icons/qbasic.bmp
 needs = kapi >= 81
 required = 0
 restart = 0
-content = 43c17c2168007267b0a403169a12048e762d60a89903fcae6eb132755e2bb42f
+content = b84df45e90b53d15eacca81142efb1a38cce6a03d78db1b85f433dd44fd0f0da
+
+[qbstudio]
+title = QBStudio
+version = 1.0.0
+category = Productivity
+author = Onyx
+summary = 
+size = 574561
+installed = 1370181
+sha256 = 0fe95d8f14c7b6f0ede713b2b2d1501b959f75e4541e0cc33995bc9d36b3f321
+file = pkgs/qbstudio-1.0.0.opk
+icon = icons/qbstudio.bmp
+needs = kapi >= 81
+required = 0
+restart = 0
+content = ea850e51fb8e94d1f96f0db564f8ba2a29cfae9709799f7166e0f586e0ec996f
 
 [rtfview]
 title = RTF Reader

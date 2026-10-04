@@ -1,9 +1,9 @@
 # Onyx package index -- tools/pkg/mkrepo.py (docs/pkg/README.md)
 [repo]
 name = onyx-packages
-date = 2026-10-04 07:10
+date = 2026-10-04 10:01
 kapi = 79
-packages = 61
+packages = 60
 
 [pkgman]
 title = Package Manager
@@ -37,37 +37,37 @@ required = 0
 restart = 0
 content = 0d92a1e265c6b4087b0004b8634f6c83a7d2402b817cac03a00806fe90fd812c
 
-[web]
-title = Web (WebKit browser)
-version = 1.0.8
+[jet]
+title = Jet Browser
+version = 2.0.0
 category = Internet
 author = Onyx
-summary = The browser on WebKit: one page per window, HTTPS, JavaScript; tip: "preload web" in SD:/etc/autostart makes it open at once
-size = 43656903
+summary = The browser, on WebKit: one page per window, HTTPS, JavaScript, video; tip: "preload jet" in SD:/etc/autostart makes it open at once
+size = 43656950
 installed = 105251172
-sha256 = 76e3b2029fb451b8fe6691b5702d04f25a91986469b4634f7c9517061b357477
-file = pkgs/web-1.0.8.opk
-icon = icons/web.bmp
-needs = onyx >= 2026.10.28, kapi >= 79
+sha256 = 2007ee36bd0a4ddfe3094844448beaaa5ffc451285768edade52e71c0af89c13
+file = pkgs/jet-2.0.0.opk
+icon = icons/jet.bmp
+needs = onyx >= 2026.10.39, kapi >= 79
 required = 0
 restart = 0
-content = f753f38fd63c856abd17bf5a9aad036ce025a0eff6cbcb946a2731b016e440b4
+content = b2968461cb2657f4c6adb064fa84a3ea750da16e62afbc49578560bb43095be7
 
 [onyx]
 title = Onyx system
-version = 2026.10.39
+version = 2026.10.40
 category = System
 author = Onyx
 summary = The kernel, the commands of /bin, the desktop, the settings, the terminal, the File Viewer, the text editor, the fonts
-size = 49079246
-installed = 120665905
-sha256 = 0d390c238c2665ffbacfaa5c946df3f285bedfbd51e1cbcd7c939a14e2f51046
-file = pkgs/onyx-2026.10.39.opk
+size = 48351059
+installed = 117978305
+sha256 = d4ab8f591dac1a1a72d5c66108e95d5eadc3339042145ee8d525e211f0ef0f5b
+file = pkgs/onyx-2026.10.40.opk
 icon = icons/onyx.bmp
 needs = pkgman, kapi >= 79
 required = 1
 restart = 1
-content = 73417efd786581974d2e612d8642c77e7e1a12142e01b784186ede9180d5391f
+content = 436af8903bfdc3ecd4b16a313bf1f9e246a57ea81b0da0825529d02a17c34861
 
 [pi-firmware]
 title = Raspberry Pi firmware
@@ -533,22 +533,6 @@ required = 0
 restart = 0
 content = 9c65a0ea5604e3a74d380db68775a46d9ecfa12ff5f6cb2d5525c0351e706f37
 
-[jet]
-title = Jet Browser
-version = 1.0.7
-category = Internet
-author = Onyx
-summary = 
-size = 4782465
-installed = 11316626
-sha256 = aa2ab95ae92e3c81c11e0d5a6232c3406a23923327c5e7a09790445c0617d367
-file = pkgs/jet-1.0.7.opk
-icon = icons/jet.bmp
-needs = kapi >= 79
-required = 0
-restart = 0
-content = 646335ed27489dd95035137c0f622cbe64310623c879d486ef8e7feefabae43d
-
 [koton]
 title = Koton
 version = 1.0.10
@@ -615,19 +599,19 @@ content = 79be876e549bd33ffa5052267808ebc1da56e35faadbae486ffd2f95336f673c
 
 [mail]
 title = Mail
-version = 1.0.7
+version = 1.0.8
 category = Internet
 author = Onyx
 summary = 
-size = 1067635
+size = 1067542
 installed = 2420884
-sha256 = 94eb5f8a2daf1a0da9bec7c6a67df0e9f330ff59d0695976030b9aa33aa321a2
-file = pkgs/mail-1.0.7.opk
+sha256 = a411f89c5842726e4adece2dad9a0e7c53195f2df23af6fe76819c7b096c275b
+file = pkgs/mail-1.0.8.opk
 icon = icons/mail.bmp
 needs = kapi >= 79
 required = 0
 restart = 0
-content = 7377d0d26f979757cc726a1f691d0d573d8517793b16f545755013528602a8c5
+content = 15132a1e61a9c6ac1f876d623922efa150b3a2928c16250764619d5d3501f7a9
 
 [mandelbrot]
 title = Mandelbrot

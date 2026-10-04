@@ -1,7 +1,7 @@
 # Onyx package index -- tools/pkg/mkrepo.py (docs/pkg/README.md)
 [repo]
 name = onyx-packages
-date = 2026-10-04 00:15
+date = 2026-10-04 01:14
 kapi = 79
 packages = 61
 
@@ -23,19 +23,19 @@ content = 5840ff81dbab069e5f409880663e77373e62195ede72754cd9225c4faf9ce9bc
 
 [jsc]
 title = JavaScriptCore shell (jsc)
-version = 1.1.0
+version = 1.1.1
 category = Development
 author = Onyx
 summary = WebKit's JavaScript engine as a command (JavaScript and WebAssembly): jsc file.js, jsc -e "print(6*7)"; its self-test and timings in docs/jsc
-size = 17213785
+size = 17213792
 installed = 41709802
-sha256 = 5f2b1205b2b030f235c9598ea409e2b36290288e44c4b26465846ee613011fe9
-file = pkgs/jsc-1.1.0.opk
+sha256 = cc18f28136ce7fc01c64b8bd52883ac99c3583432d20b6c7aecdb290430cc372
+file = pkgs/jsc-1.1.1.opk
 icon = icons/jsc.bmp
 needs = kapi >= 79
 required = 0
 restart = 0
-content = 92a95b3d51d54e70df41d950b4b359a809ff8df58617298957b55ccf35af32bc
+content = 0d92a1e265c6b4087b0004b8634f6c83a7d2402b817cac03a00806fe90fd812c
 
 [web]
 title = Web (WebKit browser)
@@ -55,19 +55,19 @@ content = 6f93fdb97da76bf3fcea72e8ec5dac2a07da6b48a2bd62d98cc5ecebca320962
 
 [onyx]
 title = Onyx system
-version = 2026.10.36
+version = 2026.10.37
 category = System
 author = Onyx
 summary = The kernel, the commands of /bin, the desktop, the settings, the terminal, the File Viewer, the text editor, the fonts
-size = 49086128
-installed = 120688649
-sha256 = a0300f43a2b7bd9da85537c9d8d566eb8a460c4586f725ef08137bc245c2bdb5
-file = pkgs/onyx-2026.10.36.opk
+size = 49086444
+installed = 120690729
+sha256 = ce8c8f2fb387a8163d78584e42587497d1080379f1a179c576805ae0ab93115e
+file = pkgs/onyx-2026.10.37.opk
 icon = icons/onyx.bmp
 needs = pkgman, kapi >= 79
 required = 1
 restart = 1
-content = c866240dd294f21d38ed75f8d1e481c3805afa6a67071f3c8231bc33f474a237
+content = f250ea73b0365d574e474d474e8c2fb0a40f78051bfa07e3374d7d4973259066
 
 [pi-firmware]
 title = Raspberry Pi firmware

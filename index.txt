@@ -1,7 +1,7 @@
 # Onyx package index -- tools/pkg/mkrepo.py (docs/pkg/README.md)
 [repo]
 name = onyx-packages
-date = 2026-10-04 16:30
+date = 2026-10-04 16:41
 kapi = 80
 packages = 62
 
@@ -152,19 +152,19 @@ content = e00edaae21370f51610b370cc50dc4eafd4499e98923a709f9f1b89e6901e267
 
 [slides-samples]
 title = Slides samples
-version = 1.0.1
+version = 1.0.2
 category = Productivity
 author = Onyx
 summary = A presentation to try Slides with (OpenDocument and PowerPoint)
-size = 270837
-installed = 324832
-sha256 = 0321b386efee202cc011f372b6eaf729a821544d1620a494a3370d7328794cc1
-file = pkgs/slides-samples-1.0.1.opk
+size = 271094
+installed = 325052
+sha256 = e48bf3d8b871555f0fe0f7b0308ac1bc7805a4a4c02f79319522c071138f980b
+file = pkgs/slides-samples-1.0.2.opk
 icon = icons/slides-samples.bmp
 needs = slides, kapi >= 80
 required = 0
 restart = 0
-content = 1ba6bca4750be3182d4423411671c12520f573bc24de5bbf7cfd0694f73e4d22
+content = 1f18bef660e31d39dfe204cf812b8d1d3165d3a2741d3b5456f0fd17ffb72a38
 
 [cardfile-samples]
 title = Cardfile samples
@@ -889,19 +889,19 @@ content = 4ba8e61a68e851530f0b7844c3bc1d58cc9ac6274074e7086ccf6e8299a991b5
 
 [slides]
 title = Slides
-version = 1.0.2
+version = 1.0.3
 category = Productivity
 author = Onyx
 summary = 
-size = 887160
-installed = 1978929
-sha256 = d2f8ec89ce2421a5c2a6947a994aed079b7de7d95ee547347080bc95e5cf4387
-file = pkgs/slides-1.0.2.opk
+size = 901808
+installed = 2049513
+sha256 = b87593e1ec16ff1c0df18450f18f555ea83cb0c566b32c97a1feebe8b8b772ae
+file = pkgs/slides-1.0.3.opk
 icon = icons/slides.bmp
 needs = kapi >= 80
 required = 0
 restart = 0
-content = 5db331d79e7c2002e7cfb6c4b91280ce1ef610d4ab58c060e3848b907e7b5212
+content = 2f77aa9adcbfac6b605066fd4997f5c7eb1bbff71166a7f61b0aee57e1f346b7
 
 [snake]
 title = Snake

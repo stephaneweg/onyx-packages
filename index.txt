@@ -1,7 +1,7 @@
 # Onyx package index -- tools/pkg/mkrepo.py (docs/pkg/README.md)
 [repo]
 name = onyx-packages
-date = 2026-10-04 11:27
+date = 2026-10-04 11:45
 kapi = 80
 packages = 60
 
@@ -39,19 +39,19 @@ content = 0d92a1e265c6b4087b0004b8634f6c83a7d2402b817cac03a00806fe90fd812c
 
 [jet]
 title = Jet Browser
-version = 2.0.1
+version = 2.0.2
 category = Internet
 author = Onyx
 summary = The browser, on WebKit: one page per window, HTTPS, JavaScript, video; tip: "preload jet" in SD:/etc/autostart makes it open at once
-size = 43657228
-installed = 105251172
-sha256 = 12a4dc7c7a5a5d8c8a36161e7615e071f4befa0517b88936adec2674e30eae77
-file = pkgs/jet-2.0.1.opk
+size = 2596
+installed = 6388
+sha256 = 50f6839725258f8acad86f7c5b54daafdca9fad99baf37a66484287e3af1848c
+file = pkgs/jet-2.0.2.opk
 icon = icons/jet.bmp
 needs = onyx >= 2026.10.39, kapi >= 80
 required = 0
 restart = 0
-content = 7490988b36a370dc7294245089ed61435e52f0cc695531fc98971811269d4bc5
+content = e9fbf611c7be5e762b5ca951fb21db1a7d078f310aa87237512bfb53c21aecf9
 
 [onyx]
 title = Onyx system
@@ -118,20 +118,20 @@ restart = 0
 content = 88855d60f216b0a9ad775a980f6b71c5f5c9c5fbff29c17336ec782bed72bce9
 
 [writer-samples]
-title = Writer samples
-version = 1.0.0
+title = Letters samples
+version = 1.0.1
 category = Productivity
 author = Onyx
-summary = Documents to try Writer with: a tour, a letter, an RTF sample
-size = 14544
-installed = 30888
-sha256 = 9344d98e51e36f1d25ff934b26cd1a5c1cff69b75ebf8fb115085b9d64c32b13
-file = pkgs/writer-samples-1.0.0.opk
+summary = Documents to try Letters with: a tour, a letter, an RTF sample
+size = 14550
+installed = 30897
+sha256 = ec45ffd69db352451229256bdedaecec67921fae923aab99b46b36ccce909c3e
+file = pkgs/writer-samples-1.0.1.opk
 icon = icons/writer-samples.bmp
 needs = writer, kapi >= 80
 required = 0
 restart = 0
-content = 00a2bb9a3845bd64bd946e3e98315b8b42a97af38cc93d1bd14026834d5fa1a7
+content = 5797922b1f622f3289f9be63245324fd7cd1244cf604715b5df8ef056497f444
 
 [sheet-samples]
 title = Spreadsheet samples
@@ -311,19 +311,19 @@ content = 10d15abb2ab1c6a7fe93abdc155f0ad786a54920dac6b0390f8ebc9ee778e9b2
 
 [cardfile]
 title = Cardfile
-version = 1.0.10
+version = 1.0.11
 category = Productivity
 author = Onyx
 summary = 
-size = 167168
+size = 167153
 installed = 457192
-sha256 = 99cab257d73de6d1d13f0d61f8861ed2fd16e313542db4414fe8e48339113af5
-file = pkgs/cardfile-1.0.10.opk
+sha256 = 4659dfa4457a5d70086fd2f324dff4cb4902afee365f9c373980c34ece816727
+file = pkgs/cardfile-1.0.11.opk
 icon = icons/cardfile.bmp
 needs = kapi >= 80
 required = 0
 restart = 0
-content = 92fcbd0c9016a8ba7979996d63590879af1c63a7ac5100071cf81e1bda4281da
+content = 29f5fbf3d7bb09e2d597939837fa56bea324e8dc3be710d0f3f6a4e4fad56c66
 
 [courier]
 title = Courier
@@ -551,19 +551,19 @@ content = cd5928a83980e810a55652cf5ae5f0656d881ae725bf0c16cbcc4681d6f46bb9
 
 [ledger]
 title = Ledger
-version = 1.0.12
+version = 1.0.13
 category = Productivity
 author = Onyx
 summary = 
-size = 17872679
-installed = 21493748
-sha256 = 7e1e09c189f1d2334ee47dbcc9eebf8de252b3175c26a3797c7f9d6c518e5441
-file = pkgs/ledger-1.0.12.opk
+size = 17928700
+installed = 21549142
+sha256 = f84fc3b7ff5018cfa3d0d31ea77b26195840757af15826cb8269083bb01cafd1
+file = pkgs/ledger-1.0.13.opk
 icon = icons/ledger.bmp
 needs = cardfile, kapi >= 80
 required = 0
 restart = 0
-content = 67f0411750b6ed1478d2f2ae06764d380d7ee71362b84305dc8f6f87ae158a0e
+content = ba105e7f5a636c65c7bccc03e45bfd9f64bd7cb1f62d7826cf3b303ef6ce4e41
 
 [life]
 title = Game of Life
@@ -791,19 +791,19 @@ content = 5da5597ae653b006987d45cd3b0e91fe3de2903800d788d92a2db1f0d11a4601
 
 [rtfview]
 title = RTF Reader
-version = 1.0.10
+version = 1.0.11
 category = Productivity
 author = Onyx
 summary = 
-size = 78145
+size = 78144
 installed = 232294
-sha256 = 8d51d1478b00aeac5e85d4d007efbea1fb7a0e0f31d2c0554e1ae73b6e05d081
-file = pkgs/rtfview-1.0.10.opk
+sha256 = 9364ed40376dd48ebb51613af9c40891963279580c605b08f3bc76bab6bc2a82
+file = pkgs/rtfview-1.0.11.opk
 icon = icons/rtfview.bmp
 needs = kapi >= 80
 required = 0
 restart = 0
-content = ab6e77f3f5b6dea77d54d1c8dec8949f057d0475219f2b380b223d8f2c3bd444
+content = f6c071510e4aa08201fe3a03e755e4e2c33db0608886dedf3bf35c0bb79d8c3d
 
 [same]
 title = SameGame
@@ -950,17 +950,17 @@ restart = 0
 content = 9d74c0c07a0d6c932457605fc4250f25049b154b26256cf814d97ed021815334
 
 [writer]
-title = Writer
-version = 1.0.9
+title = Letters
+version = 1.0.10
 category = Productivity
 author = Onyx
 summary = 
-size = 695577
-installed = 1576062
-sha256 = 10fa2606ac24589100f6caf9d0af42fb08ce3ece7608a8882cdcf03df21983ff
-file = pkgs/writer-1.0.9.opk
+size = 695570
+installed = 1576063
+sha256 = 10b2611747e2d4759c5ef341e0b515e444518a51159f8da0f6620a9610681529
+file = pkgs/writer-1.0.10.opk
 icon = icons/writer.bmp
 needs = cardfile, kapi >= 80
 required = 0
 restart = 0
-content = d4b5b7c2d544e0367fc2f3bcfb27ab2ebb63879daddedf08deb7d22949cf9791
+content = 022bc24dd0c5370ae288bcf857af7e7e3669afed56fc0ad61de0d5f5914926f1

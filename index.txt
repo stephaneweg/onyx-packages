@@ -1,7 +1,7 @@
 # Onyx package index -- tools/pkg/mkrepo.py (docs/pkg/README.md)
 [repo]
 name = onyx-packages
-date = 2026-10-05 09:12
+date = 2026-10-05 09:44
 kapi = 86
 packages = 70
 
@@ -153,21 +153,21 @@ content = 475024d32e75bbdd880fda89ff48d6ba52123bf3ab3f00a3118d7681b2028220
 
 [onyx]
 title = Onyx system
-version = 2026.10.78
+version = 2026.10.79
 category = System
 author = Onyx
 summary = The kernel, the commands of /bin, the desktop, the settings, the terminal, the File Viewer, the text editor, the fonts
-size = 45605285
+size = 45605299
 installed = 117523430
-sha256 = 91a6a608aad868c751f8c06ad417dc49c4bf860e06487331dc0dd42c1518fa47
-file = pkgs/onyx-2026.10.78.opk
+sha256 = 439d9f54556324ca42f6f05e92650b9234d2146b9d06c0aa16024e79f6040e67
+file = pkgs/onyx-2026.10.79.opk
 icon = icons/onyx.bmp
 needs = pkgman, uikit >= 1.683, ft, printerkit >= 1.33, audiokit >= 1.232, filekit >= 1.63, imagekit >= 1.46
 required = 1
 restart = 1
 assoc = txt=tinypad md=tinypad ini=tinypad cfg=tinypad conf=tinypad log=tinypad c=tinypad h=tinypad cpp=tinypad hpp=tinypad json=tinypad html=tinypad htm=tinypad css=tinypad kmap=tinypad sh=tinypad bmp=imageview gif=imageview png=imageview jpg=imageview jpeg=imageview jpe=imageview pcx=imageview webp=imageview
 runners = bax=SD:/bin/basic bas=SD:/bin/basic
-content = 0eedd98e024b649377f864e6b60d459559130ec77e78861dc7ee177a5417a301
+content = e382512b5b1b1148e5fe470c5a52ea77bf9dc7e7a3fac3da2bbad11977928ba7
 
 [pi-firmware]
 title = Raspberry Pi firmware
@@ -870,20 +870,20 @@ content = 5bf58aa41fc7e7867265a367ce9da6d57811613c9211207ce5a7ddfc45ef3156
 
 [pdf]
 title = PDF Viewer
-version = 1.0.16
+version = 1.0.17
 category = Productivity
 author = Onyx
 summary = 
-size = 2842523
+size = 2842493
 installed = 5366462
-sha256 = 3d52d069451dbece3f749acf7e92e2fe5ce633bb352d4481b2b358f39a7ae211
-file = pkgs/pdf-1.0.16.opk
+sha256 = fc25a54c66054003afbe0675c8ee6b7d62377520277def2e60d1f823bb6c7a41
+file = pkgs/pdf-1.0.17.opk
 icon = icons/pdf.bmp
 needs = uikit >= 1.683, ft, printerkit, kapi >= 86
 required = 0
 restart = 0
 assoc = pdf=pdf
-content = 5191c79b79497de78b767f61edf8a19730c7e24a432e5f9e3e896f0639b625fc
+content = cc2944ae6fd80d6e008358cb568afed696d6f0357cdaac4d200521fe19bf26e3
 
 [photos]
 title = Photos

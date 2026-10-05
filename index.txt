@@ -1,7 +1,7 @@
 # Onyx package index -- tools/pkg/mkrepo.py (docs/pkg/README.md)
 [repo]
 name = onyx-packages
-date = 2026-10-05 17:27
+date = 2026-10-05 17:52
 kapi = 88
 packages = 72
 
@@ -55,20 +55,20 @@ content = 451ad661a95cad380e6335787c745ed6fe055507dff25dd9957b25fd5f66dbfc
 
 [uikit]
 title = UIKit, the toolkit (shared library)
-version = 1.686.3
+version = 1.722.0
 category = System
 author = Onyx
 summary = The widgets, the windows' frames and the theme every app draws with: one copy in memory, shared by all the apps
-size = 141875
-installed = 361465
-sha256 = 714278843a115f93bd866f0c0dbb264543a17794b4418aeabd73d617467c3200
-file = pkgs/uikit-1.686.3.opk
+size = 145985
+installed = 365092
+sha256 = a92ace12368492728eb9b3db09ec779ed8fb325159663da85afce36f8c92fe39
+file = pkgs/uikit-1.722.0.opk
 icon = icons/uikit.bmp
 needs = imagekit >= 1.46, systemkit >= 1.56, kapi >= 88
 required = 1
 restart = 0
 replaces = wtk
-content = 4b6a349879f914dde89af618ae697f13a189237f68583c3d6f55f0b497da85ba
+content = 8e7acd85f11b66b760ad0d6a84a0e81e30913a920b807471adebfef802b94650
 
 [fontkit]
 title = FontKit (FreeType, shared library)
@@ -106,19 +106,19 @@ content = 2a5957ff82ad1378bed8e0f8cdc58e2bc4941e6416b9ed90f82b6749a3462911
 
 [audiokit]
 title = AudioKit (shared library)
-version = 1.232.4
+version = 1.232.5
 category = System
 author = Onyx
 summary = The sound library: music files (MP3, FLAC, WAV, Ogg, MIDI, FM Songs), a General MIDI synthesizer, an FM synthesizer, mixing and effects -- for Koton, the Media Player, FM Tracker, the emulators, BASIC and the play command
-size = 353900
-installed = 829005
-sha256 = 45f0d65fe59a7da747e6a6fedc653c0318fe3f4680be0c3ae828640204d8cc77
-file = pkgs/audiokit-1.232.4.opk
+size = 353901
+installed = 828783
+sha256 = 872201e038dbae1aac41b93710ad57cd3aa1943f7d936db5e088e5ce8e74d53a
+file = pkgs/audiokit-1.232.5.opk
 icon = icons/audiokit.bmp
 needs = kapi >= 88
 required = 1
 restart = 0
-content = 8b71afe130a2a414ea61d22437b772fccb8c75dab9b519d4426e6aa6abebf180
+content = fc5b834101536d550d8b858e88dbd8eaa2a72f3a9f8dc1054f1ca5856c44411f
 
 [filekit]
 title = FileKit (shared library)
@@ -186,21 +186,21 @@ content = 538c7ff2fac56e8dcae7894394f0f58d0940639e2ef163977f62a21cf39fe8dd
 
 [onyx]
 title = Onyx system
-version = 2026.10.89
+version = 2026.10.90
 category = System
 author = Onyx
 summary = The kernel, the commands of /bin, the desktop, the settings, the terminal, the File Viewer, the text editor, the fonts
-size = 43768311
-installed = 111927632
-sha256 = 425fbc5e3b1452b23bf512fcd402d26df1e26ac8ffd03fb9ba9bef4e555b5a09
-file = pkgs/onyx-2026.10.89.opk
+size = 43768931
+installed = 111929824
+sha256 = 5ec55c9dbc6cc71dbc997dcc00cf644dfcf20c9ba66ad46975868c0e3660ff86
+file = pkgs/onyx-2026.10.90.opk
 icon = icons/onyx.bmp
-needs = pkgman, uikit >= 1.686, fontkit, printerkit >= 1.33, audiokit >= 1.232, filekit >= 1.78, systemkit >= 1.56, netkit >= 1.21, imagekit >= 1.46
+needs = pkgman, uikit >= 1.722, fontkit, printerkit >= 1.33, audiokit >= 1.232, filekit >= 1.78, systemkit >= 1.56, netkit >= 1.21, imagekit >= 1.46
 required = 1
 restart = 1
 assoc = txt=tinypad md=tinypad ini=tinypad cfg=tinypad conf=tinypad log=tinypad c=tinypad h=tinypad cpp=tinypad hpp=tinypad json=tinypad html=tinypad htm=tinypad css=tinypad kmap=tinypad sh=tinypad bmp=imageview gif=imageview png=imageview jpg=imageview jpeg=imageview jpe=imageview pcx=imageview webp=imageview
 runners = bax=SD:/bin/basic bas=SD:/bin/basic
-content = 4e32379ca3e869d08850cd10035c71448b1d634632d4818dbb9aa6d6cee56147
+content = 9391aab7baa556407f9ea3f64e6f7309199abf65306c6349ea962fd38325dd7e
 
 [pi-firmware]
 title = Raspberry Pi firmware
@@ -236,19 +236,19 @@ content = eb627d4f7bba1beae47c022e603baa950b55737535f29e49c1b77f75f86c6e68
 
 [basic-samples]
 title = BASIC samples
-version = 1.0.5
+version = 1.0.6
 category = BASIC
 author = Onyx
 summary = Sample BASIC programs for QBasic (games, graphics, a GUI)
-size = 14550
-installed = 33965
-sha256 = 60847b3f56e34b4b00fe9a32d843e7799c92829afc59a5d2fec3cd7d5243bb96
-file = pkgs/basic-samples-1.0.5.opk
+size = 15652
+installed = 36212
+sha256 = d39bbd89d227d1bdf92fc54fa62d07a04ef1e5571e085b59f4d6630875714b78
+file = pkgs/basic-samples-1.0.6.opk
 icon = icons/basic-samples.bmp
 needs = qbasic, kapi >= 88
 required = 0
 restart = 0
-content = 1e67013c86a7c87225d3bdb44cd3738c721c2defd97e6b796f2042612465a640
+content = c3b1ac454e2fa6904bb3eaef501aae14efbe0aead7d95e8cd90ddf3881350301
 
 [letters-samples]
 title = Letters samples
@@ -968,37 +968,37 @@ content = b1ccf05434973db90daad68a47dc1911303b164e94135bb674474ba5e7a02ff0
 
 [qbasic]
 title = QBasic
-version = 1.0.29
+version = 1.0.30
 category = Productivity
 author = Onyx
 summary = 
-size = 143224
-installed = 467110
-sha256 = 9d3cbd8e97c53946f319ebe873faaf1c746ebc117ac1b12796ab6cf0f270b08e
-file = pkgs/qbasic-1.0.29.opk
+size = 144047
+installed = 470008
+sha256 = 7071610352816c3bc77947272e9d02e023bd9a60e28ddb050b0897052bda8a3b
+file = pkgs/qbasic-1.0.30.opk
 icon = icons/qbasic.bmp
-needs = uikit >= 1.686, fontkit, kapi >= 88
+needs = uikit >= 1.686, fontkit, uikit >= 1.722, kapi >= 88
 required = 0
 restart = 0
 assoc = bas=qbasic
-content = 14618303c5790d2360f54fe76f60b353f8ec9b97a6a4635f6df691e47a1bb747
+content = 10b2d091a8e90000b648ef03cced8d2a92c51bf7ab91eeef325bbcb88a558d52
 
 [qbstudio]
 title = QBStudio
-version = 1.0.15
+version = 1.0.16
 category = Productivity
 author = Onyx
 summary = 
-size = 358571
-installed = 917556
-sha256 = acc163ccf29758866d42eb001cad6620909cc63126fb6454056bbc5edc06c195
-file = pkgs/qbstudio-1.0.15.opk
+size = 358832
+installed = 917708
+sha256 = 1c9dd03eb6857759265fa979a3a07e417390048e1e7a76f322ba512bf3ed0052
+file = pkgs/qbstudio-1.0.16.opk
 icon = icons/qbstudio.bmp
-needs = uikit >= 1.686, fontkit, kapi >= 88
+needs = uikit >= 1.686, fontkit, uikit >= 1.722, kapi >= 88
 required = 0
 restart = 0
 assoc = form=qbstudio
-content = 7feb9f030ceb8f3fe7d3ef9674f9145cf1d247aab99b7b7551d6a8bed7950ef1
+content = 6b83c1b4720d5f14480330e2fde8d12384fe128711a7b14c8f1e495480bb25d0
 
 [rtfview]
 title = RTF Reader

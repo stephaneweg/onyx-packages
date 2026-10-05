@@ -1,9 +1,9 @@
 # Onyx package index -- tools/pkg/mkrepo.py (docs/pkg/README.md)
 [repo]
 name = onyx-packages
-date = 2026-10-05 20:16
+date = 2026-10-05 21:16
 kapi = 88
-packages = 72
+packages = 74
 
 [pkgman]
 title = Package Manager
@@ -186,21 +186,21 @@ content = 1416c9dbd31b3ed5ab69858656d7cf1af2582a5da6eb0ef169a0931d39ba38c0
 
 [onyx]
 title = Onyx system
-version = 2026.10.92
+version = 2026.10.93
 category = System
 author = Onyx
 summary = The kernel, the commands of /bin, the desktop, the settings, the terminal, the File Viewer, the text editor, the fonts
-size = 43769929
-installed = 111932326
-sha256 = 060df452c3dbde6a260f651a4e05f8ddf742d805595e90e09dc8726f084db0aa
-file = pkgs/onyx-2026.10.92.opk
+size = 43769943
+installed = 111932351
+sha256 = fb2219e7e568f3211c81794a9886620ba3f73d6cacc6338bd1f8ff3fd6bb9425
+file = pkgs/onyx-2026.10.93.opk
 icon = icons/onyx.bmp
 needs = pkgman, uikit >= 1.722, fontkit, printerkit >= 1.33, audiokit >= 1.232, filekit >= 1.78, systemkit >= 1.56, netkit >= 1.21, imagekit >= 1.46
 required = 1
 restart = 1
 assoc = txt=tinypad md=tinypad ini=tinypad cfg=tinypad conf=tinypad log=tinypad c=tinypad h=tinypad cpp=tinypad hpp=tinypad json=tinypad html=tinypad htm=tinypad css=tinypad kmap=tinypad sh=tinypad bmp=imageview gif=imageview png=imageview jpg=imageview jpeg=imageview jpe=imageview pcx=imageview webp=imageview
 runners = bax=SD:/bin/basic bas=SD:/bin/basic
-content = 6f3ddb83e11af2fe6bfab59c40cb85d9bf08ca9c3a35dd8a9646ec899f668df8
+content = 01c884bdd0ff1cfdc9ea53517f57017d786ac3fb74e8522a12ce827bd1c4518e
 
 [pi-firmware]
 title = Raspberry Pi firmware
@@ -298,6 +298,22 @@ needs = slides, kapi >= 88
 required = 0
 restart = 0
 content = 1f18bef660e31d39dfe204cf812b8d1d3165d3a2741d3b5456f0fd17ffb72a38
+
+[3dforge-samples]
+title = 3DForge samples
+version = 1.0.0
+category = Graphics
+author = Onyx
+summary = A part to try 3DForge with: a bracket made of boxes, a cut cylinder, an extruded sketch, fillets and chamfers
+size = 873
+installed = 1481
+sha256 = 104af3b17bfc37c8152f1fc5d2d1852f2c4402821069cb6b17c7cef72beee2c8
+file = pkgs/3dforge-samples-1.0.0.opk
+icon = icons/3dforge-samples.bmp
+needs = 3dforge, kapi >= 88
+required = 0
+restart = 0
+content = 9cfaa7f94a883c68c77b61d0064382fdf41506e250a4fb6b358dfecd8eb4ee02
 
 [qbstudio-samples]
 title = QBStudio samples
@@ -426,6 +442,23 @@ needs = uikit >= 1.686, fontkit, kapi >= 88
 required = 0
 restart = 0
 content = 13361a8c51efd6a359ea08703445343cfdb3a13684b981100d139e180c7a5e5b
+
+[3dforge]
+title = 3DForge
+version = 1.0.0
+category = Graphics
+author = Onyx
+summary = 
+size = 455157
+installed = 928358
+sha256 = 88a41269b1fdf49e5f556a6e12adeb288f450da97f50295da50e1e475ddac02c
+file = pkgs/3dforge-1.0.0.opk
+icon = icons/3dforge.bmp
+needs = uikit >= 1.686, fontkit, uikit >= 1.726, kapi >= 88
+required = 0
+restart = 0
+assoc = 3df=3dforge
+content = e6bd23d36e2af1a075b27c4e89bf2bb4521a193b38228f1ec69339b534591e62
 
 [archiver]
 title = Archiver

@@ -1,7 +1,7 @@
 # Onyx package index -- tools/pkg/mkrepo.py (docs/pkg/README.md)
 [repo]
 name = onyx-packages
-date = 2026-10-05 15:21
+date = 2026-10-05 15:31
 kapi = 88
 packages = 72
 
@@ -704,20 +704,20 @@ content = 422d147c2283871d34af5e9e75a562503ec68d4ed968bb2f439452059b9cba0f
 
 [koton]
 title = Koton
-version = 1.0.22
+version = 1.0.23
 category = Multimedia
 author = Onyx
 summary = 
-size = 4941545
-installed = 9269034
-sha256 = 524dfb66cfa6f22140bab33ff635067174ac650ba6cc62da7c80c12956b32d7e
-file = pkgs/koton-1.0.22.opk
+size = 4942378
+installed = 9283538
+sha256 = d638c0e13f2cff5f35cdc02b042deaa987a1d864c8083faef52a3aa189e42018
+file = pkgs/koton-1.0.23.opk
 icon = icons/koton.bmp
 needs = uikit >= 1.686, fontkit, generaluser-gs, audiokit >= 1.232, kapi >= 88
 required = 0
 restart = 0
 assoc = kson=koton sq=koton
-content = 3c40b719dbe30fc4d20517285eb33e9cf0f9d4597dd9e47264622e09a919b577
+content = c8c02537986aeeb1ef8e22077c2c6087c10122215cd8eb86128611f34c0f6761
 
 [ledger]
 title = Ledger

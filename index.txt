@@ -1,7 +1,7 @@
 # Onyx package index -- tools/pkg/mkrepo.py (docs/pkg/README.md)
 [repo]
 name = onyx-packages
-date = 2026-10-05 14:48
+date = 2026-10-05 15:21
 kapi = 88
 packages = 72
 
@@ -23,19 +23,19 @@ content = d069eb3c17b7295f633cc8baf05a0565182fa2887473f1ad0a9b71b14cc3ffee
 
 [jsc]
 title = JavaScriptCore shell (jsc)
-version = 1.1.1
+version = 1.1.2
 category = Development
 author = Onyx
 summary = WebKit's JavaScript engine as a command (JavaScript and WebAssembly): jsc file.js, jsc -e "print(6*7)"; its self-test and timings in docs/jsc
-size = 17213792
+size = 17211920
 installed = 41709802
-sha256 = cc18f28136ce7fc01c64b8bd52883ac99c3583432d20b6c7aecdb290430cc372
-file = pkgs/jsc-1.1.1.opk
+sha256 = ba3943e4603eeebcb4e9e777c285cc6cacd32da2e3e791bba18529de2e794f27
+file = pkgs/jsc-1.1.2.opk
 icon = icons/jsc.bmp
 needs = kapi >= 88
 required = 0
 restart = 0
-content = 0d92a1e265c6b4087b0004b8634f6c83a7d2402b817cac03a00806fe90fd812c
+content = 476518e9a42ccfbfaab693d84060dcb8e95b3f679692044d08ff34a7d923b7d1
 
 [jet]
 title = Jet Browser
@@ -186,21 +186,21 @@ content = 475024d32e75bbdd880fda89ff48d6ba52123bf3ab3f00a3118d7681b2028220
 
 [onyx]
 title = Onyx system
-version = 2026.10.86
+version = 2026.10.87
 category = System
 author = Onyx
 summary = The kernel, the commands of /bin, the desktop, the settings, the terminal, the File Viewer, the text editor, the fonts
-size = 45680448
-installed = 117211032
-sha256 = 1427457296d924333b420b173351df0ca5ac595f7ab0342e868aad877055ac70
-file = pkgs/onyx-2026.10.86.opk
+size = 43741249
+installed = 111906520
+sha256 = cc87885dd718d81d1578e4ff91dd7a57d1f41419b5d3c9753e98f1736d98bb06
+file = pkgs/onyx-2026.10.87.opk
 icon = icons/onyx.bmp
 needs = pkgman, uikit >= 1.686, fontkit, printerkit >= 1.33, audiokit >= 1.232, filekit >= 1.78, systemkit >= 1.56, netkit >= 1.21, imagekit >= 1.46
 required = 1
 restart = 1
 assoc = txt=tinypad md=tinypad ini=tinypad cfg=tinypad conf=tinypad log=tinypad c=tinypad h=tinypad cpp=tinypad hpp=tinypad json=tinypad html=tinypad htm=tinypad css=tinypad kmap=tinypad sh=tinypad bmp=imageview gif=imageview png=imageview jpg=imageview jpeg=imageview jpe=imageview pcx=imageview webp=imageview
 runners = bax=SD:/bin/basic bas=SD:/bin/basic
-content = 02ec047d27fe4be5e89989f437bcb0819206a4dc84b3e27796f58156c90ddf25
+content = 585321ab06f8c1b31d85bfeaf74db523468adba2bf87b3ad85ba4fd70cf1b4e8
 
 [pi-firmware]
 title = Raspberry Pi firmware

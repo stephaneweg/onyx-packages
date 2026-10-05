@@ -1,7 +1,7 @@
 # Onyx package index -- tools/pkg/mkrepo.py (docs/pkg/README.md)
 [repo]
 name = onyx-packages
-date = 2026-10-05 01:17
+date = 2026-10-05 01:23
 kapi = 84
 packages = 68
 
@@ -105,19 +105,19 @@ content = 6a7f7cf088f51be968d0bc689d73f855dd8c2ca6a5c89de4c145ade16ba49a54
 
 [audiokit]
 title = AudioKit (shared library)
-version = 1.231.0
+version = 1.231.1
 category = System
 author = Onyx
-summary = The sound library: music files (MP3, FLAC, WAV, Ogg, MIDI), a General MIDI synthesizer, an FM synthesizer, mixing and effects -- for Koton, the Media Player, FM Tracker, the emulators, BASIC and the play command
-size = 336523
-installed = 752904
-sha256 = a794a822fe5a43dda4aa3211cab2197dd103fc09bc3e5ca53881c71939ebb786
-file = pkgs/audiokit-1.231.0.opk
+summary = The sound library: music files (MP3, FLAC, WAV, Ogg, MIDI, FM Songs), a General MIDI synthesizer, an FM synthesizer, mixing and effects -- for Koton, the Media Player, FM Tracker, the emulators, BASIC and the play command
+size = 341082
+installed = 754336
+sha256 = b0ec26bb1bf95a10aa90f5019c01aed7a91fe8e9a14b14f6ed38dc1397b3665c
+file = pkgs/audiokit-1.231.1.opk
 icon = icons/audiokit.bmp
 needs = kapi >= 84
 required = 1
 restart = 0
-content = d3b34bdaf081cbacb0d2136f234918595679eda01a96577c4862650a5df8cd80
+content = 99ddd2f6baf50a76110c90f62514f35d48c905b798f7b95777c6fd7a0e19b4cc
 
 [onyx]
 title = Onyx system
@@ -747,19 +747,19 @@ content = c06b4999b2aa0e63068221cc12cb0b709bdc7504b9cf2ce76ad4123eeb16be58
 
 [media]
 title = Media Player
-version = 1.0.18
+version = 1.0.19
 category = Multimedia
 author = Onyx
 summary = 
-size = 7682533
-installed = 15893790
-sha256 = 076a636448c92429dd25a4216feb28771a64de1ecb1bf5dbef89a1838c0218b8
-file = pkgs/media-1.0.18.opk
+size = 7685335
+installed = 15894022
+sha256 = 843d601e72548496bf07d4aba5727debb94b1557570c11ce756767e69e54e7b5
+file = pkgs/media-1.0.19.opk
 icon = icons/media.bmp
 needs = uikit >= 1.683, ft, generaluser-gs, audiokit >= 1.231, kapi >= 84
 required = 0
 restart = 0
-content = 3f9959a2db0fd0db597ddf3936f908b401f3c12aa1e46afd28eeac23b2d1eb78
+content = d9f07c4be701986c892259c8d3edef817c0957226bea57fb150479980d8c2118
 
 [minesweeper]
 title = Minesweeper

@@ -1,25 +1,25 @@
 # Onyx package index -- tools/pkg/mkrepo.py (docs/pkg/README.md)
 [repo]
 name = onyx-packages
-date = 2026-10-05 02:54
+date = 2026-10-05 06:14
 kapi = 85
 packages = 70
 
 [pkgman]
 title = Package Manager
-version = 1.0.15
+version = 1.0.16
 category = System
 author = Onyx
 summary = The packages: the pkg command, the Package Manager (the Control Panel's applet), the update daemon pkgd
-size = 2060834
-installed = 5252937
-sha256 = b31376be34c1c59ad1d4e286ace1f175e9804cba061ac14117348b8db81f24e8
-file = pkgs/pkgman-1.0.15.opk
+size = 2072608
+installed = 5257441
+sha256 = b83a368a5fbf9a4356ab900eca3c916e5af4011aa975f4c9f88f0d05029a91b1
+file = pkgs/pkgman-1.0.16.opk
 icon = icons/pkgman.bmp
 needs = kapi >= 85
 required = 1
 restart = 0
-content = 62a427a6d6a283f9240822e19c67083c107bb1e809c3b777abfb7a7975563c07
+content = f6f4531c1261d904ba62d3462d47a57c7df388f17409e7f91a18db49bbb21c54
 
 [jsc]
 title = JavaScriptCore shell (jsc)
@@ -121,51 +121,51 @@ content = b567374e4d9354b826001d83fbfaabc8e403b44cd9d652149f3c7bcb6eebe7fa
 
 [filekit]
 title = FileKit (shared library)
-version = 1.43.0
+version = 1.63.0
 category = System
 author = Onyx
-summary = The file library: compression (zlib), ZIP archives on the card and in memory, files and trees copied, moved, removed, paths -- for ImageKit and the programs that work on files
-size = 148967
-installed = 338880
-sha256 = 389ad926d624a314c9934b7f90c45e9fe914e5c92935481732a344cef2b31b6a
-file = pkgs/filekit-1.43.0.opk
+summary = The file library: compression (zlib), archives (ZIP read and written; tar, tar.gz, gzip read) on the card and in memory, files and trees copied, moved, removed, paths -- for the Archiver, ImageKit and the programs that work on files
+size = 167451
+installed = 423920
+sha256 = 5d5577c2e314c01de2f58c1dfd863100fc333eed8aac872309eb69bf04160e37
+file = pkgs/filekit-1.63.0.opk
 icon = icons/filekit.bmp
 needs = kapi >= 85
 required = 1
 restart = 0
-content = 272a3236ad4aa32f4ee3ae073e8bcb226f2530efd7c0b51ff76ecb91e13ad4fb
+content = 7ef3b5c5f3842bddef12afb772c0d874826d4902a2f5637761f72e8c69bde9d8
 
 [imagekit]
 title = ImageKit (shared library)
-version = 1.41.0
+version = 1.41.1
 category = System
 author = Onyx
 summary = The picture library: BMP, GIF, PNG, JPEG, PCX and WebP read, PNG, JPEG, BMP and GIF written, the resize, the turns, the camera's orientation, the adjustments -- for the Image Viewer and the programs that work on pictures
 size = 309609
 installed = 705648
-sha256 = 3a3103df0c8107439b4dcca4ac3098655bcd78ac61a376bcb64704a72292999d
-file = pkgs/imagekit-1.41.0.opk
+sha256 = be868f4a7cd0c01c00c8591271a1874412bc76e6431194b19b0d4fe97a46f220
+file = pkgs/imagekit-1.41.1.opk
 icon = icons/imagekit.bmp
-needs = filekit >= 1.43, kapi >= 85
+needs = filekit >= 1.63, kapi >= 85
 required = 1
 restart = 0
-content = b411187afae91c78edcd760bd6308f2527d8035bc62ea5041fada926a944ffa9
+content = 5ab3ccc3ed0bffff260d94115cb40b862e770f3013dacf2027e124b1139b9e57
 
 [onyx]
 title = Onyx system
-version = 2026.10.71
+version = 2026.10.72
 category = System
 author = Onyx
 summary = The kernel, the commands of /bin, the desktop, the settings, the terminal, the File Viewer, the text editor, the fonts
-size = 45114114
-installed = 115374879
-sha256 = defcc34b64b8bafb299c17b748c148b12eebc93337d66e5683d1169206abd359
-file = pkgs/onyx-2026.10.71.opk
+size = 45116590
+installed = 115380375
+sha256 = d9fc6cf5ec572589bb9cdc9314c582143ee6a782c11730b6abdbb4998c73c591
+file = pkgs/onyx-2026.10.72.opk
 icon = icons/onyx.bmp
-needs = pkgman, uikit >= 1.683, ft, printerkit >= 1.33, audiokit >= 1.232, filekit >= 1.43, imagekit >= 1.41, kapi >= 85
+needs = pkgman, uikit >= 1.683, ft, printerkit >= 1.33, audiokit >= 1.232, filekit >= 1.63, imagekit >= 1.41, kapi >= 85
 required = 1
 restart = 1
-content = d79873cba017da0cc081088e596abf7e20e36b2063793944cdca9c86b671fa89
+content = 0e9d83230cf97bd2e99e268f7825397e5eae4bbf093ead43eec90ba64dc52b34
 
 [pi-firmware]
 title = Raspberry Pi firmware
@@ -394,19 +394,19 @@ content = f6e64d1db7c94dcd8609a454f4a6a2cacee843219875f9b280d17eb57d8611c3
 
 [archiver]
 title = Archiver
-version = 1.0.12
+version = 1.0.13
 category = Productivity
 author = Onyx
 summary = 
-size = 155433
-installed = 466236
-sha256 = b5e6393d709cc45d5b7da793781b16075417edbed87650f85c468b2948d87bb4
-file = pkgs/archiver-1.0.12.opk
+size = 117282
+installed = 395084
+sha256 = a3ae3cd05df57619a8233439502eaa29b814f391dbf9b318457358467b3dec9c
+file = pkgs/archiver-1.0.13.opk
 icon = icons/archiver.bmp
-needs = uikit >= 1.683, ft, kapi >= 85
+needs = uikit >= 1.683, ft, filekit >= 1.63, kapi >= 85
 required = 0
 restart = 0
-content = 43f59c2a135a886277082bd5ac9718d64281f6dae747e95abd62fe6de6fbf276
+content = 28206616c8b840029d81b08e680c741e9aa5972b45a11792aaed0f16d654b26d
 
 [arkanoid]
 title = Arkanoid

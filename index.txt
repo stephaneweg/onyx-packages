@@ -1,7 +1,7 @@
 # Onyx package index -- tools/pkg/mkrepo.py (docs/pkg/README.md)
 [repo]
 name = onyx-packages
-date = 2026-10-05 17:52
+date = 2026-10-05 17:59
 kapi = 88
 packages = 72
 
@@ -495,19 +495,19 @@ content = 88b39fcfc1132c8fdd7a3f4f55cc987db6837d4e8448fa6c09a679024b39d444
 
 [courier]
 title = Courier
-version = 1.0.14
+version = 1.0.15
 category = Internet
 author = Onyx
 summary = 
-size = 757291
+size = 757238
 installed = 1844815
-sha256 = 5ad6697dfd4d80a815acbc8876ffc83850d17ae0b7255a51d55a44da361c3eeb
-file = pkgs/courier-1.0.14.opk
+sha256 = a598be225c520f1c082df40606c7ab098aa6e08f129d33de15f00a1d9f1283b5
+file = pkgs/courier-1.0.15.opk
 icon = icons/courier.bmp
-needs = uikit >= 1.686, fontkit, kapi >= 88
+needs = uikit >= 1.686, fontkit, uikit >= 1.722, kapi >= 88
 required = 0
 restart = 0
-content = b42b1980dfd3c6c7548a8cd5b1e7b73bf1bdaa9954bb5ff9e31eb5a2c4c0fdf5
+content = a7b4b38550184c7738f78e84322190741e654e913afee28437de0ff39cd1551b
 
 [doom]
 title = Doom
@@ -985,20 +985,20 @@ content = 10b2d091a8e90000b648ef03cced8d2a92c51bf7ab91eeef325bbcb88a558d52
 
 [qbstudio]
 title = QBStudio
-version = 1.0.16
+version = 1.0.17
 category = Productivity
 author = Onyx
 summary = 
-size = 358832
+size = 358816
 installed = 917708
-sha256 = 1c9dd03eb6857759265fa979a3a07e417390048e1e7a76f322ba512bf3ed0052
-file = pkgs/qbstudio-1.0.16.opk
+sha256 = 4d62d68f07cc6f6f86c74cc6754fdb801a36ca0ce9dc1b753ef25de0272e2494
+file = pkgs/qbstudio-1.0.17.opk
 icon = icons/qbstudio.bmp
 needs = uikit >= 1.686, fontkit, uikit >= 1.722, kapi >= 88
 required = 0
 restart = 0
 assoc = form=qbstudio
-content = 6b83c1b4720d5f14480330e2fde8d12384fe128711a7b14c8f1e495480bb25d0
+content = 415bd78c20fd63aa3468d4973bd0673d2d859164e54a9a8f1e39d577d62cd297
 
 [rtfview]
 title = RTF Reader

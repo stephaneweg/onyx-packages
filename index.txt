@@ -1,7 +1,7 @@
 # Onyx package index -- tools/pkg/mkrepo.py (docs/pkg/README.md)
 [repo]
 name = onyx-packages
-date = 2026-10-05 18:07
+date = 2026-10-05 18:12
 kapi = 88
 packages = 72
 
@@ -55,20 +55,20 @@ content = 451ad661a95cad380e6335787c745ed6fe055507dff25dd9957b25fd5f66dbfc
 
 [uikit]
 title = UIKit, the toolkit (shared library)
-version = 1.722.0
+version = 1.722.1
 category = System
 author = Onyx
 summary = The widgets, the windows' frames and the theme every app draws with: one copy in memory, shared by all the apps
-size = 145985
-installed = 365092
-sha256 = a92ace12368492728eb9b3db09ec779ed8fb325159663da85afce36f8c92fe39
-file = pkgs/uikit-1.722.0.opk
+size = 146140
+installed = 365635
+sha256 = b5c6a375fbf36305095d33fb144b506c012c902d867789f52e9390c23372be2a
+file = pkgs/uikit-1.722.1.opk
 icon = icons/uikit.bmp
 needs = imagekit >= 1.46, systemkit >= 1.56, kapi >= 88
 required = 1
 restart = 0
 replaces = wtk
-content = 8e7acd85f11b66b760ad0d6a84a0e81e30913a920b807471adebfef802b94650
+content = f76807b339d2966617f767cffb1c9945b3387fd263896c38fb22554519452f26
 
 [fontkit]
 title = FontKit (FreeType, shared library)
@@ -89,118 +89,118 @@ content = 97f501a513f585f2e32057d55870c4f716602b43b5011ef1adb14a26ac188df9
 
 [printerkit]
 title = Printing (shared library)
-version = 1.33.8
+version = 1.33.9
 category = System
 author = Onyx
 summary = The Print dialog and the print jobs of the apps (to the print service: PDF files, network printers)
-size = 44968
-installed = 150069
-sha256 = db61935927b9397b3e1df33370ab5de3d277a4d0a77cd58d1e9af1faa17106ba
-file = pkgs/printerkit-1.33.8.opk
+size = 45159
+installed = 150507
+sha256 = f41c2b33ac400ee72985e1412ff92b32b77c508d4cd7ab3c74b0832936246a20
+file = pkgs/printerkit-1.33.9.opk
 icon = icons/printerkit.bmp
 needs = kapi >= 88
 required = 1
 restart = 0
 replaces = print
-content = 2a5957ff82ad1378bed8e0f8cdc58e2bc4941e6416b9ed90f82b6749a3462911
+content = b08b46402be409c46e346b87f62bd9e0743ab59dd8efd3fcca6d5df3f329e816
 
 [audiokit]
 title = AudioKit (shared library)
-version = 1.232.5
+version = 1.232.6
 category = System
 author = Onyx
 summary = The sound library: music files (MP3, FLAC, WAV, Ogg, MIDI, FM Songs), a General MIDI synthesizer, an FM synthesizer, mixing and effects -- for Koton, the Media Player, FM Tracker, the emulators, BASIC and the play command
-size = 353901
-installed = 828783
-sha256 = 872201e038dbae1aac41b93710ad57cd3aa1943f7d936db5e088e5ce8e74d53a
-file = pkgs/audiokit-1.232.5.opk
+size = 354200
+installed = 829499
+sha256 = 9672cc0832ddddf9324e8d2ce3c9210a42512b1573310ab411bf7a27beff9574
+file = pkgs/audiokit-1.232.6.opk
 icon = icons/audiokit.bmp
 needs = kapi >= 88
 required = 1
 restart = 0
-content = fc5b834101536d550d8b858e88dbd8eaa2a72f3a9f8dc1054f1ca5856c44411f
+content = 339c08a33368c1218088b67975c3906ea0f7181c52f3c2e5398579e2ec31bb0a
 
 [filekit]
 title = FileKit (shared library)
-version = 1.78.2
+version = 1.78.3
 category = System
 author = Onyx
 summary = The file library: compression (zlib), archives (ZIP read and written; tar, tar.gz, gzip read) on the card and in memory, files and trees copied, moved, removed, paths -- for the Archiver, ImageKit and the programs that work on files
-size = 172150
-installed = 429493
-sha256 = 8f0f9ba645eacfc78b52096375fc08f8f859bf349eb41f14af0d9d360600d736
-file = pkgs/filekit-1.78.2.opk
+size = 172447
+installed = 430362
+sha256 = 77c47916e014165dafdb392e2e7febcffe7785d44cfdd58ae752d7dc355f3ac8
+file = pkgs/filekit-1.78.3.opk
 icon = icons/filekit.bmp
 needs = kapi >= 88
 required = 1
 restart = 0
-content = ea5e9a7c1edbc3e4455d3b1de80d945b972859acfdf6ed64ffea212c5e2aa520
+content = d50365daa8a3cbb4802259a3873886746a1c7065977909b04dcc346a8f6064e1
 
 [systemkit]
 title = SystemKit (shared library)
-version = 1.56.2
+version = 1.56.3
 category = System
 author = Onyx
 summary = What the programs say to the system and to each other: the wallpaper, the volume, the trash, the preload list, the file associations, the notifications, the clipboard
-size = 27710
-installed = 92939
-sha256 = 765a54255c29abf7d7156fbca0d60eedc2b592b26355e53cff0cf87add74004a
-file = pkgs/systemkit-1.56.2.opk
+size = 27878
+installed = 93316
+sha256 = 5bbc613f7fa8f0f5acf2d3ead85af99069b9ea0dbefcce9e4ff299219fb23cb9
+file = pkgs/systemkit-1.56.3.opk
 icon = icons/systemkit.bmp
 needs = kapi >= 88
 required = 1
 restart = 0
-content = 31d185e6bdbaee645807fcc3e3ea7b7211712d7a5839d2dae39bf9b353bb47f1
+content = 243cb8bdf9814e05a9453d13f344468dde48954041f895aa44411aca1753cdb0
 
 [netkit]
 title = NetKit (shared library)
-version = 1.21.2
+version = 1.21.3
 category = System
 author = Onyx
 summary = The network for the programs: the FTP volumes' client, a small HTTP client
-size = 13339
-installed = 89504
-sha256 = 888f5d71057077d0b1658230b5ba6dce1364f95740982cf3616e9c852817f704
-file = pkgs/netkit-1.21.2.opk
+size = 13412
+installed = 89681
+sha256 = 9cb7800f73032d7252cbf24d700a92038945e0b00b6b4449b42f87b7408c43f8
+file = pkgs/netkit-1.21.3.opk
 icon = icons/netkit.bmp
 needs = kapi >= 88
 required = 1
 restart = 0
-content = d807b7ecc05c897599ddf1f06bc5dd134ef76ce7c0cba9c2be3dfffcc2a80c26
+content = 05a46cf6ec56aa7baaa09abaa9638476064a7bf790f8f9cec6bea5f757410c35
 
 [imagekit]
 title = ImageKit (shared library)
-version = 1.46.3
+version = 1.46.4
 category = System
 author = Onyx
 summary = The picture library: BMP, GIF, PNG, JPEG, PCX and WebP read, PNG, JPEG, BMP and GIF written, the resize, the turns, the camera's orientation, the adjustments -- for the Image Viewer and the programs that work on pictures
-size = 312390
-installed = 709200
-sha256 = f7401950457765ead3f93976e1610816fe35a60e6615cee78d070ef346523448
-file = pkgs/imagekit-1.46.3.opk
+size = 312544
+installed = 709544
+sha256 = ae2edc4627be91c898b26133d2e246f791caded9bea4e30fad52ac9626000a25
+file = pkgs/imagekit-1.46.4.opk
 icon = icons/imagekit.bmp
 needs = filekit >= 1.63, kapi >= 88
 required = 1
 restart = 0
-content = 538c7ff2fac56e8dcae7894394f0f58d0940639e2ef163977f62a21cf39fe8dd
+content = 1416c9dbd31b3ed5ab69858656d7cf1af2582a5da6eb0ef169a0931d39ba38c0
 
 [onyx]
 title = Onyx system
-version = 2026.10.91
+version = 2026.10.92
 category = System
 author = Onyx
 summary = The kernel, the commands of /bin, the desktop, the settings, the terminal, the File Viewer, the text editor, the fonts
-size = 43768939
-installed = 111929824
-sha256 = bd43f5bd38474fb17bf7d6d34f98a2899fe3c06c328718842899671cceea7f15
-file = pkgs/onyx-2026.10.91.opk
+size = 43769929
+installed = 111932326
+sha256 = 060df452c3dbde6a260f651a4e05f8ddf742d805595e90e09dc8726f084db0aa
+file = pkgs/onyx-2026.10.92.opk
 icon = icons/onyx.bmp
 needs = pkgman, uikit >= 1.722, fontkit, printerkit >= 1.33, audiokit >= 1.232, filekit >= 1.78, systemkit >= 1.56, netkit >= 1.21, imagekit >= 1.46
 required = 1
 restart = 1
 assoc = txt=tinypad md=tinypad ini=tinypad cfg=tinypad conf=tinypad log=tinypad c=tinypad h=tinypad cpp=tinypad hpp=tinypad json=tinypad html=tinypad htm=tinypad css=tinypad kmap=tinypad sh=tinypad bmp=imageview gif=imageview png=imageview jpg=imageview jpeg=imageview jpe=imageview pcx=imageview webp=imageview
 runners = bax=SD:/bin/basic bas=SD:/bin/basic
-content = 7feb527836ab17665f160d2ba449a5783664b79a29ca7a599c2f422c4a08f906
+content = 6f3ddb83e11af2fe6bfab59c40cb85d9bf08ca9c3a35dd8a9646ec899f668df8
 
 [pi-firmware]
 title = Raspberry Pi firmware
@@ -985,20 +985,20 @@ content = 10b2d091a8e90000b648ef03cced8d2a92c51bf7ab91eeef325bbcb88a558d52
 
 [qbstudio]
 title = QBStudio
-version = 1.0.17
+version = 1.0.18
 category = Productivity
 author = Onyx
 summary = 
-size = 358816
-installed = 917708
-sha256 = 4d62d68f07cc6f6f86c74cc6754fdb801a36ca0ce9dc1b753ef25de0272e2494
-file = pkgs/qbstudio-1.0.17.opk
+size = 361666
+installed = 917660
+sha256 = 8b6715909b67790a73a8052dff05c5e2a3ad087c73810b55962e095b842e830e
+file = pkgs/qbstudio-1.0.18.opk
 icon = icons/qbstudio.bmp
 needs = uikit >= 1.686, fontkit, uikit >= 1.722, kapi >= 88
 required = 0
 restart = 0
 assoc = form=qbstudio
-content = 415bd78c20fd63aa3468d4973bd0673d2d859164e54a9a8f1e39d577d62cd297
+content = b3c716f69e57290a1bb053c058686d802354c15dbe5152c2df5a273907771bb9
 
 [rtfview]
 title = RTF Reader

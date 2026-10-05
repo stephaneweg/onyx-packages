@@ -1,7 +1,7 @@
 # Onyx package index -- tools/pkg/mkrepo.py (docs/pkg/README.md)
 [repo]
 name = onyx-packages
-date = 2026-10-05 00:19
+date = 2026-10-05 00:47
 kapi = 84
 packages = 68
 
@@ -105,35 +105,35 @@ content = 6a7f7cf088f51be968d0bc689d73f855dd8c2ca6a5c89de4c145ade16ba49a54
 
 [audiokit]
 title = AudioKit (shared library)
-version = 1.206.0
+version = 1.230.0
 category = System
 author = Onyx
-summary = The sound library: music files (MP3, FLAC, WAV, Ogg, MIDI), a General MIDI synthesizer, mixing -- for Koton, the Media Player, BASIC and the play command
-size = 329574
-installed = 750104
-sha256 = b092fc7140a3918552dea1699fddf778f095c57c220e602f8909a4f45fc80e1f
-file = pkgs/audiokit-1.206.0.opk
+summary = The sound library: music files (MP3, FLAC, WAV, Ogg, MIDI), a General MIDI synthesizer, an FM synthesizer, mixing and effects -- for Koton, the Media Player, FM Tracker, the emulators, BASIC and the play command
+size = 337049
+installed = 753568
+sha256 = 06150f76799f80c007cc4c217747b54c3f51da2861e84a6f75c44e7eee4b6397
+file = pkgs/audiokit-1.230.0.opk
 icon = icons/audiokit.bmp
 needs = kapi >= 84
 required = 1
 restart = 0
-content = ccce7e69a21e81d831df23d0ed318d0ff351628c8ee16eacb2f8a09c56976975
+content = 29586ce0af533d33e0f89c485e780e0129b20b619536f5e16c541baf2262ee28
 
 [onyx]
 title = Onyx system
-version = 2026.10.60
+version = 2026.10.61
 category = System
 author = Onyx
 summary = The kernel, the commands of /bin, the desktop, the settings, the terminal, the File Viewer, the text editor, the fonts
-size = 45064892
-installed = 115101567
-sha256 = d5c8d966a5e7605dde5441f7bc50b8c62c1fbb89d376b737df69cea40c05dd41
-file = pkgs/onyx-2026.10.60.opk
+size = 45068520
+installed = 115106319
+sha256 = f587a081cb02acefe92edc2805c0764a7f34614e8c35e301ebcced7ba4f6e5e1
+file = pkgs/onyx-2026.10.61.opk
 icon = icons/onyx.bmp
-needs = pkgman, uikit >= 1.683, ft, printerkit >= 1.33, audiokit >= 1.206, kapi >= 84
+needs = pkgman, uikit >= 1.683, ft, printerkit >= 1.33, audiokit >= 1.230, kapi >= 84
 required = 1
 restart = 1
-content = aa16820e46a429e6790a6fc7c926fce6ca9ccbdeb8c92c8d8a5545c549cae4e7
+content = d02ad0b687488c60a534a1beef997f9398143e6d6c8aa33409439236cd62fe67
 
 [pi-firmware]
 title = Raspberry Pi firmware
@@ -474,19 +474,19 @@ content = 23e28df827e41a818f67a2a7c37fb964b7f842c8c07086de9b5c7ec5ec5c1f2a
 
 [fmtracker]
 title = FM Tracker
-version = 1.0.14
+version = 1.0.15
 category = Multimedia
 author = Onyx
 summary = 
-size = 249825
-installed = 711636
-sha256 = 6536a1181f7c26611ed81ceb8bf9a52819bc1575b0c6d5d1f446592d8f3c6a32
-file = pkgs/fmtracker-1.0.14.opk
+size = 249669
+installed = 712132
+sha256 = 58380cf9ffa5fce5c9853c8cb37701e3dfe48dea81dc2212e8dd34316929cf27
+file = pkgs/fmtracker-1.0.15.opk
 icon = icons/fmtracker.bmp
-needs = uikit >= 1.683, ft, kapi >= 84
+needs = uikit >= 1.683, ft, audiokit >= 1.230, kapi >= 84
 required = 0
 restart = 0
-content = e48cef007f47cdd093909f316a231a9c2dd3c1eca58dac1c6f9267299ac36ecf
+content = c008ae68da9ac52f93a9766a98fa3fe13220a82f729081725adc4a3864d8f123
 
 [freecell]
 title = FreeCell
@@ -522,51 +522,51 @@ content = 015f39c69c2a1e6b8342a897e16308632bcf188f07f81499202d16906174e416
 
 [gbaemu]
 title = Game Boy Advance
-version = 1.0.15
+version = 1.0.16
 category = Emulators
 author = Onyx
 summary = 
-size = 59063
-installed = 279249
-sha256 = 89689ccec5b56d0d9c6f0a01511a68feec43a95eaf4852944966dc536a8be41d
-file = pkgs/gbaemu-1.0.15.opk
+size = 63505
+installed = 295945
+sha256 = 8f60fbc77d16fe7c3972c13ac1a30a30c6827e07f7d9a877e47f0a33deac14a3
+file = pkgs/gbaemu-1.0.16.opk
 icon = icons/gbaemu.bmp
-needs = uikit >= 1.683, ft, gamelib, kapi >= 84
+needs = uikit >= 1.683, ft, gamelib, audiokit >= 1.230, kapi >= 84
 required = 0
 restart = 0
-content = 0ae2739f38496a820a5ef73aed83d5cbe8eb9f86af6ef2efb0986e0c831fad1f
+content = 80200608c0396d4a5d6deee557f7e0aa10170c9c1a81a2058a3c84c69892629c
 
 [gbemu]
 title = Game Boy
-version = 1.0.15
+version = 1.0.16
 category = Emulators
 author = Onyx
 summary = 
-size = 46174
-installed = 211509
-sha256 = fdfbc03ff1ce5f672f83589de1865d592db81903099ccb827bd9669093902067
-file = pkgs/gbemu-1.0.15.opk
+size = 50296
+installed = 228205
+sha256 = 41e79de2c29b0b9fae0fc87057d26183a0c741a4b1cdc26044efff5820249069
+file = pkgs/gbemu-1.0.16.opk
 icon = icons/gbemu.bmp
-needs = uikit >= 1.683, ft, gamelib, kapi >= 84
+needs = uikit >= 1.683, ft, gamelib, audiokit >= 1.230, kapi >= 84
 required = 0
 restart = 0
-content = 3fdd1bb5957e67b9f337f1d2db782caab045699cb14c8c92db990e657a5a6012
+content = 6dd29a9fae8c695ab22bc6f700a56735433d3faa227e0702db5f722f870c5d18
 
 [gcemu]
 title = GameCube
-version = 1.0.15
+version = 1.0.16
 category = Emulators
 author = Onyx
 summary = 
-size = 222312
-installed = 564825
-sha256 = 4881eb959db8e7dab8f616332b605a67f9f24cf470e92ad56e070b52efc8efdf
-file = pkgs/gcemu-1.0.15.opk
+size = 226439
+installed = 581521
+sha256 = 11a0def8990f45ac66d2d10f633f9cf5aac054f3baa508cc53951128b065aa17
+file = pkgs/gcemu-1.0.16.opk
 icon = icons/gcemu.bmp
-needs = uikit >= 1.683, ft, gamelib, kapi >= 84
+needs = uikit >= 1.683, ft, gamelib, audiokit >= 1.230, kapi >= 84
 required = 0
 restart = 0
-content = 457870c2fe35613b21589026ccc86e0b716863c4d6c9c487c90a28a5e24d02f7
+content = 0d74aeb06f0c679959ed20865543b2ad587b5bdfac2d418ae9bf74fb7922ed10
 
 [graphcalc]
 title = Graphing Calculator
@@ -634,19 +634,19 @@ content = 25318c7af895cc3ca281b3c8355a93d79ef262e7a687d3a7817f7272bca621ef
 
 [koton]
 title = Koton
-version = 1.0.15
+version = 1.0.16
 category = Multimedia
 author = Onyx
 summary = 
-size = 4947819
-installed = 9272298
-sha256 = 1458f82c5a0a4f1fb740e5d59d1af908090abf4b1b3d1a4056c08949ed2c0358
-file = pkgs/koton-1.0.15.opk
+size = 4943301
+installed = 9264890
+sha256 = 82fb91b0abda3dfe05481dba29e92663f2fbe369e82218be6a6010aa03b1dc67
+file = pkgs/koton-1.0.16.opk
 icon = icons/koton.bmp
-needs = uikit >= 1.683, ft, generaluser-gs, audiokit >= 1.206, kapi >= 84
+needs = uikit >= 1.683, ft, generaluser-gs, audiokit >= 1.230, kapi >= 84
 required = 0
 restart = 0
-content = a6f078fa09a8da9fbc82afc87c619fe5b2d412a662eed680fdbfc189463504a7
+content = d7dead01a1cb5d3ee2ac627c45f6b751311fe220dd7fcaadcd9c0c5c1e5b4c08
 
 [ledger]
 title = Ledger
@@ -747,19 +747,19 @@ content = c06b4999b2aa0e63068221cc12cb0b709bdc7504b9cf2ce76ad4123eeb16be58
 
 [media]
 title = Media Player
-version = 1.0.16
+version = 1.0.17
 category = Multimedia
 author = Onyx
 summary = 
-size = 7689252
-installed = 15898286
-sha256 = 2f05234b693e7736f7f1e5dca1583ef22a7308e4f4cdaf0336e921270d99cb12
-file = pkgs/media-1.0.16.opk
+size = 7682533
+installed = 15893790
+sha256 = 46346017dee096426e8f6c88bcf84f2e11b0be81514d0d2df9a0a67311ef25db
+file = pkgs/media-1.0.17.opk
 icon = icons/media.bmp
-needs = uikit >= 1.683, ft, generaluser-gs, audiokit >= 1.206, kapi >= 84
+needs = uikit >= 1.683, ft, generaluser-gs, audiokit >= 1.230, kapi >= 84
 required = 0
 restart = 0
-content = 4e365548c1b5b96b64368543b56bf8a827c4be9b6d987182bcab70109520fd43
+content = c74da80ce4d96c64cc3890209ee61fbb6d6e6f03ee7d80f3c9f1127d6b7359dd
 
 [minesweeper]
 title = Minesweeper
@@ -779,35 +779,35 @@ content = c03a31e1554253243baa17ea9fad8f624abf313e4fe2417038daec684b3a4572
 
 [n64emu]
 title = Nintendo 64
-version = 1.0.15
+version = 1.0.16
 category = Emulators
 author = Onyx
 summary = 
-size = 79926
-installed = 280055
-sha256 = a43769ddeaa32e0ea6604b96670a882cb5a0cc752ae191f4607bdb2c43e26fe1
-file = pkgs/n64emu-1.0.15.opk
+size = 84072
+installed = 296751
+sha256 = 25617726760872d0d7e6fa5cf24ca9e9a0a9383430deb7df5c8ed7aff1feee9c
+file = pkgs/n64emu-1.0.16.opk
 icon = icons/n64emu.bmp
-needs = uikit >= 1.683, ft, gamelib, kapi >= 84
+needs = uikit >= 1.683, ft, gamelib, audiokit >= 1.230, kapi >= 84
 required = 0
 restart = 0
-content = 913310d3fa22bdce763888d92d5ffce5fc0df725046a21ec880f07026ab4d09a
+content = 63ce47ba8fc3c83fccfa963e69dffb3af2fc19d6cae9aea78c79fc71bc972e05
 
 [nesemu]
 title = NES
-version = 1.0.15
+version = 1.0.16
 category = Emulators
 author = Onyx
 summary = 
-size = 46984
-installed = 211295
-sha256 = 8ab3ce7cb2b2855525a1aea3060582f74f0fedb9fc7a276ade6cfc566159b2c2
-file = pkgs/nesemu-1.0.15.opk
+size = 51046
+installed = 227983
+sha256 = d5c2962a7f23414ce4cd59758fa2d5c1aca39f8b626b33cb44a1ea58390abc99
+file = pkgs/nesemu-1.0.16.opk
 icon = icons/nesemu.bmp
-needs = uikit >= 1.683, ft, gamelib, kapi >= 84
+needs = uikit >= 1.683, ft, gamelib, audiokit >= 1.230, kapi >= 84
 required = 0
 restart = 0
-content = bab8fba5ad7251ce460aa9de67d2de99acebf75672740184894fc984f8f30cf6
+content = df5332aee35f86842544d7119cf2517de4ec3069494e4b2f3209faa9273822a8
 
 [paint]
 title = Paint
@@ -1019,19 +1019,19 @@ content = 363ea26829a5906ab098f29feecb0f65ade198831c9c88065935c6d2fc803a5f
 
 [snesemu]
 title = Super Nintendo
-version = 1.0.15
+version = 1.0.16
 category = Emulators
 author = Onyx
 summary = 
-size = 67787
-installed = 279889
-sha256 = 41d82b54aaf77df8763e394c95ffad2d027715aecf98f01f210feed1edb3f666
-file = pkgs/snesemu-1.0.15.opk
+size = 71884
+installed = 296585
+sha256 = fcf0dd7c8c9abcf1d582a822614f75b88c4ff9bdefd9bf0cf23eebd397df806c
+file = pkgs/snesemu-1.0.16.opk
 icon = icons/snesemu.bmp
-needs = uikit >= 1.683, ft, gamelib, kapi >= 84
+needs = uikit >= 1.683, ft, gamelib, audiokit >= 1.230, kapi >= 84
 required = 0
 restart = 0
-content = 63d19da48006e886c21d2c1d1f0122774dee6a29e8d03672460a917da08ee6c5
+content = 11b552a81af72a7c37d85477e609f2a6baa9bb117d10ca952dd4fa018186b436
 
 [sokoban]
 title = Sokoban

@@ -1,7 +1,7 @@
 # Onyx package index -- tools/pkg/mkrepo.py (docs/pkg/README.md)
 [repo]
 name = onyx-packages
-date = 2026-10-05 18:12
+date = 2026-10-05 18:47
 kapi = 88
 packages = 72
 
@@ -55,20 +55,20 @@ content = 451ad661a95cad380e6335787c745ed6fe055507dff25dd9957b25fd5f66dbfc
 
 [uikit]
 title = UIKit, the toolkit (shared library)
-version = 1.722.1
+version = 1.726.0
 category = System
 author = Onyx
 summary = The widgets, the windows' frames and the theme every app draws with: one copy in memory, shared by all the apps
-size = 146140
-installed = 365635
-sha256 = b5c6a375fbf36305095d33fb144b506c012c902d867789f52e9390c23372be2a
-file = pkgs/uikit-1.722.1.opk
+size = 146516
+installed = 365963
+sha256 = 46e2ff84a478d9874c10c9b535674c253d0f25cd82c8118f0c12f7fdfc1dbdf6
+file = pkgs/uikit-1.726.0.opk
 icon = icons/uikit.bmp
 needs = imagekit >= 1.46, systemkit >= 1.56, kapi >= 88
 required = 1
 restart = 0
 replaces = wtk
-content = f76807b339d2966617f767cffb1c9945b3387fd263896c38fb22554519452f26
+content = 6f3bbc937cfbe21b140722592435f43eee11951ed6f9e698f45a1ecdb7295561
 
 [fontkit]
 title = FontKit (FreeType, shared library)
@@ -301,19 +301,19 @@ content = 1f18bef660e31d39dfe204cf812b8d1d3165d3a2741d3b5456f0fd17ffb72a38
 
 [qbstudio-samples]
 title = QBStudio samples
-version = 1.0.0
+version = 1.0.1
 category = Productivity
 author = Onyx
-summary = A project to try QBStudio with: the temperature converter
-size = 1675
-installed = 1617
-sha256 = cf5140a4e67036688acdcdeebece2d853eae30ab70fda74f47776d9aec5d5e0f
-file = pkgs/qbstudio-samples-1.0.0.opk
+summary = Projects to try QBStudio with: the temperature converter, Pages (user controls shown in a window's Hosts)
+size = 3895
+installed = 3878
+sha256 = 3efb17eaa5950df18127c7ff1e6df8ad1ff7dd870ef797b72362a864f2e6604f
+file = pkgs/qbstudio-samples-1.0.1.opk
 icon = icons/qbstudio-samples.bmp
 needs = qbstudio, kapi >= 88
 required = 0
 restart = 0
-content = 2f5ca0d311296989dba7410e45975b083322bb9dd286d9befd8e39069324b014
+content = 9716baddc4497a6ce14b02c90ae41df6b7c0f45a446ffb966a72fe72d9ba69a2
 
 [cardfile-samples]
 title = Cardfile samples
@@ -985,20 +985,20 @@ content = 10b2d091a8e90000b648ef03cced8d2a92c51bf7ab91eeef325bbcb88a558d52
 
 [qbstudio]
 title = QBStudio
-version = 1.0.18
+version = 1.0.19
 category = Productivity
 author = Onyx
 summary = 
-size = 361666
-installed = 917660
-sha256 = 8b6715909b67790a73a8052dff05c5e2a3ad087c73810b55962e095b842e830e
-file = pkgs/qbstudio-1.0.18.opk
+size = 396874
+installed = 1030038
+sha256 = a1323dc142f4d9d76a9b7f96a3676c4cd05433b33bde1c93f51959c2ab6093da
+file = pkgs/qbstudio-1.0.19.opk
 icon = icons/qbstudio.bmp
-needs = uikit >= 1.686, fontkit, uikit >= 1.722, kapi >= 88
+needs = uikit >= 1.686, fontkit, uikit >= 1.726, kapi >= 88
 required = 0
 restart = 0
 assoc = form=qbstudio
-content = b3c716f69e57290a1bb053c058686d802354c15dbe5152c2df5a273907771bb9
+content = 082e2e1b61390368f1789c5d3c0c36f63085c094c3953d9e7e411a0fab1e25db
 
 [rtfview]
 title = RTF Reader

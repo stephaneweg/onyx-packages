@@ -1,7 +1,7 @@
 # Onyx package index -- tools/pkg/mkrepo.py (docs/pkg/README.md)
 [repo]
 name = onyx-packages
-date = 2026-10-05 06:14
+date = 2026-10-05 06:30
 kapi = 85
 packages = 70
 
@@ -55,117 +55,117 @@ content = ef6a337c48f45635dfa1c8c7e4e3b59bad45bd6b60452852c14aff5989da5ee5
 
 [uikit]
 title = UIKit, the toolkit (shared library)
-version = 1.683.0
+version = 1.683.1
 category = System
 author = Onyx
 summary = The widgets, the windows' frames and the theme every app draws with: one copy in memory, shared by all the apps
-size = 194039
-installed = 408792
-sha256 = 9b7e3684bc4e7491d22129efc6984cdd368bce304402c024583e9e1d18e11ad4
-file = pkgs/uikit-1.683.0.opk
+size = 139585
+installed = 338616
+sha256 = 06c53cc4a0391c400bfcd06ecce7a72906973c93bfcecd7af493c62ba1cff428
+file = pkgs/uikit-1.683.1.opk
 icon = icons/uikit.bmp
-needs = kapi >= 85
+needs = imagekit >= 1.45, kapi >= 85
 required = 1
 restart = 0
 replaces = wtk
-content = ecd9f31c379376601236a73edfef370a0671a1cc4fed7d325d2f46f6e2aad8b9
+content = 9033da884a9da36c664c98e53ff8280a10daac76341d03e8f587dde9a603e5ed
 
 [ft]
 title = FreeType (shared library)
-version = 1.135.0
+version = 1.135.1
 category = System
 author = Onyx
 summary = The TrueType text of the apps (FreeType 2.14), shared by all of them
-size = 112205
-installed = 286304
-sha256 = 07664553d89b5b359b5e6410a88f983beb94b1cfb290551a68bc84fd1f9902df
-file = pkgs/ft-1.135.0.opk
+size = 112224
+installed = 286344
+sha256 = 835e362d758d450b03c6c653843462026615f205465ee6fb2fe4e92c2899daa4
+file = pkgs/ft-1.135.1.opk
 icon = icons/ft.bmp
 needs = kapi >= 85
 required = 1
 restart = 0
-content = 0f5c407a46d6beb255482511397d83c77d7be655b22c5e1dca193886c9e2aefe
+content = a6f1c3fd5ade9abcd2f94a6b239e530e21d2701c1872ff66747d17928c85aa35
 
 [printerkit]
 title = Printing (shared library)
-version = 1.33.3
+version = 1.33.4
 category = System
 author = Onyx
 summary = The Print dialog and the print jobs of the apps (to the print service: PDF files, network printers)
-size = 43758
-installed = 146072
-sha256 = 52b6f689d2a98edbf7908c691ddae7677d11b3a6ff7bf360fbece0b93e9d5557
-file = pkgs/printerkit-1.33.3.opk
+size = 43804
+installed = 146112
+sha256 = 8de44da140719ef3373053caf55772d86e6d7c4c14940a4f2c7129099b4726cd
+file = pkgs/printerkit-1.33.4.opk
 icon = icons/printerkit.bmp
 needs = kapi >= 85
 required = 1
 restart = 0
 replaces = print
-content = 6a7f7cf088f51be968d0bc689d73f855dd8c2ca6a5c89de4c145ade16ba49a54
+content = e741983b2087cac6ba7b9831224ab312b82b92ad458d0afeb28c3384d922d373
 
 [audiokit]
 title = AudioKit (shared library)
-version = 1.232.0
+version = 1.232.1
 category = System
 author = Onyx
 summary = The sound library: music files (MP3, FLAC, WAV, Ogg, MIDI, FM Songs), a General MIDI synthesizer, an FM synthesizer, mixing and effects -- for Koton, the Media Player, FM Tracker, the emulators, BASIC and the play command
-size = 352828
-installed = 823912
-sha256 = 1afad1dc5f72c850ed5b0861fa321b1239421fe1f3d0d76e449e08a0fb7d0b6d
-file = pkgs/audiokit-1.232.0.opk
+size = 352847
+installed = 823952
+sha256 = 24f7a8d908030ea7e0b5616b07215df20edaf32cd438fbfe53bb0f4830a3cacb
+file = pkgs/audiokit-1.232.1.opk
 icon = icons/audiokit.bmp
 needs = kapi >= 85
 required = 1
 restart = 0
-content = b567374e4d9354b826001d83fbfaabc8e403b44cd9d652149f3c7bcb6eebe7fa
+content = 49884eba17b4b12d3394f3c6ba7ff1252abcbfb29f9f0c4d0ca88d936277d7e8
 
 [filekit]
 title = FileKit (shared library)
-version = 1.63.0
+version = 1.63.1
 category = System
 author = Onyx
 summary = The file library: compression (zlib), archives (ZIP read and written; tar, tar.gz, gzip read) on the card and in memory, files and trees copied, moved, removed, paths -- for the Archiver, ImageKit and the programs that work on files
-size = 167451
-installed = 423920
-sha256 = 5d5577c2e314c01de2f58c1dfd863100fc333eed8aac872309eb69bf04160e37
-file = pkgs/filekit-1.63.0.opk
+size = 167483
+installed = 423960
+sha256 = 4723de99d9823aaa50bc082b31b2029f72d3394935d1444bc38f5db0777cadcb
+file = pkgs/filekit-1.63.1.opk
 icon = icons/filekit.bmp
 needs = kapi >= 85
 required = 1
 restart = 0
-content = 7ef3b5c5f3842bddef12afb772c0d874826d4902a2f5637761f72e8c69bde9d8
+content = fe44b9dbbbc0012a43cb424a9057fff997f626b6775f2e879792c5e1b02ccf38
 
 [imagekit]
 title = ImageKit (shared library)
-version = 1.41.1
+version = 1.45.0
 category = System
 author = Onyx
 summary = The picture library: BMP, GIF, PNG, JPEG, PCX and WebP read, PNG, JPEG, BMP and GIF written, the resize, the turns, the camera's orientation, the adjustments -- for the Image Viewer and the programs that work on pictures
-size = 309609
-installed = 705648
-sha256 = be868f4a7cd0c01c00c8591271a1874412bc76e6431194b19b0d4fe97a46f220
-file = pkgs/imagekit-1.41.1.opk
+size = 311027
+installed = 706408
+sha256 = 6adf9d1ad7e5d5702277d1a3f3e24ccbd5aa1021a54640fb7b3c3f3bc6b14044
+file = pkgs/imagekit-1.45.0.opk
 icon = icons/imagekit.bmp
 needs = filekit >= 1.63, kapi >= 85
 required = 1
 restart = 0
-content = 5ab3ccc3ed0bffff260d94115cb40b862e770f3013dacf2027e124b1139b9e57
+content = 4aac0401d050472368936ed4a60a0921dbfe5700264bfa1ce86e831ca04472d9
 
 [onyx]
 title = Onyx system
-version = 2026.10.72
+version = 2026.10.73
 category = System
 author = Onyx
 summary = The kernel, the commands of /bin, the desktop, the settings, the terminal, the File Viewer, the text editor, the fonts
-size = 45116590
-installed = 115380375
-sha256 = d9fc6cf5ec572589bb9cdc9314c582143ee6a782c11730b6abdbb4998c73c591
-file = pkgs/onyx-2026.10.72.opk
+size = 45116749
+installed = 115381007
+sha256 = ef6fb5846c4c67a3551d23af4c0095c59ceaf55cc37b58421b9e31b625648631
+file = pkgs/onyx-2026.10.73.opk
 icon = icons/onyx.bmp
-needs = pkgman, uikit >= 1.683, ft, printerkit >= 1.33, audiokit >= 1.232, filekit >= 1.63, imagekit >= 1.41, kapi >= 85
+needs = pkgman, uikit >= 1.683, ft, printerkit >= 1.33, audiokit >= 1.232, filekit >= 1.63, imagekit >= 1.45, kapi >= 85
 required = 1
 restart = 1
-content = 0e9d83230cf97bd2e99e268f7825397e5eae4bbf093ead43eec90ba64dc52b34
+content = f87f0f3f2da55f8ab4ba279a8175d797ce1afb436594ee3e72a999aae9bf6073
 
 [pi-firmware]
 title = Raspberry Pi firmware
@@ -698,20 +698,20 @@ content = 189ab870dad48fc6960c57c3142ac1bc069ef41311fff09495b932f461e9002a
 
 [letters]
 title = Letters
-version = 1.0.16
+version = 1.0.17
 category = Productivity
 author = Onyx
 summary = 
-size = 473603
-installed = 1135519
-sha256 = 13db680e032d2b0d53d1e0cda85442533bd26914b715385b622ff069f75d3663
-file = pkgs/letters-1.0.16.opk
+size = 468269
+installed = 1134727
+sha256 = fadcd4148ae89b6f3f22bb37ad34acbe40cc285ce01948f38d6fa44b460d6d4c
+file = pkgs/letters-1.0.17.opk
 icon = icons/letters.bmp
-needs = uikit >= 1.683, ft, cardfile, printerkit, kapi >= 85
+needs = uikit >= 1.683, ft, cardfile, printerkit, imagekit >= 1.45, kapi >= 85
 required = 0
 restart = 0
 replaces = writer
-content = 3bf7ea4598c73eb4e27eba3cfbc6ca1ef6a6ebf970dd3deddacac8d36709646a
+content = 412a84ff9d5b88b47a08361dfa59a66cd64e2df51d93f59d8ed21a6001df947d
 
 [life]
 title = Game of Life
@@ -779,19 +779,19 @@ content = c06b4999b2aa0e63068221cc12cb0b709bdc7504b9cf2ce76ad4123eeb16be58
 
 [media]
 title = Media Player
-version = 1.0.20
+version = 1.0.21
 category = Multimedia
 author = Onyx
 summary = 
-size = 7674304
-installed = 15827494
-sha256 = 0531c6c988da728d6a89274d53157d5a761f26cd521449d2981f60b9e47c21e5
-file = pkgs/media-1.0.20.opk
+size = 7671872
+installed = 15826326
+sha256 = 95e7fb0d6807050ec6614e958a998efd45ff0a6eab771f71866a90f481858021
+file = pkgs/media-1.0.21.opk
 icon = icons/media.bmp
-needs = uikit >= 1.683, ft, generaluser-gs, audiokit >= 1.232, kapi >= 85
+needs = uikit >= 1.683, ft, generaluser-gs, audiokit >= 1.232, imagekit >= 1.45, kapi >= 85
 required = 0
 restart = 0
-content = 6fd5b9aecb95c5f4897701023d281fd1bf650c037254f17a648a0fdb586d95a7
+content = b01dce295c52f3f81973f8c11e063711dc8f8987d8e9e686f5ead8fb9fcad40e
 
 [minesweeper]
 title = Minesweeper
@@ -843,19 +843,19 @@ content = 0f19f0243bb1a540e5ec35852665d7ec87a844f32e8556e71af18b4831fef27d
 
 [paint]
 title = Paint
-version = 1.0.14
+version = 1.0.15
 category = Graphics
 author = Onyx
 summary = 
-size = 369751
-installed = 969857
-sha256 = febe6c08d88eadcd57961db1ea9c67447e7841d263848667c629cad1f782f260
-file = pkgs/paint-1.0.14.opk
+size = 358344
+installed = 902985
+sha256 = 0d4ca6ed79fcb5bbaa4781c94b003c12368995ed3ee948e5ba860d889503e92d
+file = pkgs/paint-1.0.15.opk
 icon = icons/paint.bmp
-needs = uikit >= 1.683, ft, printerkit, kapi >= 85
+needs = uikit >= 1.683, ft, printerkit, imagekit >= 1.45, kapi >= 85
 required = 0
 restart = 0
-content = 9f1acc27c20073f85ef6edb8376c07e0cc2b8d49c34706a12ce174af7eed3542
+content = 2083bf4fdb95acafe06348b0582dc669853349f828a2bfd4c1be45a11d6a2c7a
 
 [pdf]
 title = PDF Viewer
@@ -875,19 +875,19 @@ content = 4dbd80e4cb900a376682e21f2551967064cce570b7a3c637cb9dba03a07b7421
 
 [photos]
 title = Photos
-version = 1.0.12
+version = 1.0.13
 category = Graphics
 author = Onyx
 summary = 
-size = 430317
-installed = 1039390
-sha256 = 5f00844f4ddf195d02b9c8b6444f474acf6a4816b0fe84cabddf02b0e21d81c9
-file = pkgs/photos-1.0.12.opk
+size = 424267
+installed = 1038318
+sha256 = f73e8ceed75b6d792f216bd303d114cb3ee7fc304e85b7a28f15fd8b2f1fcbd9
+file = pkgs/photos-1.0.13.opk
 icon = icons/photos.bmp
-needs = uikit >= 1.683, ft, printerkit, kapi >= 85
+needs = uikit >= 1.683, ft, printerkit, imagekit >= 1.45, kapi >= 85
 required = 0
 restart = 0
-content = 302a5fd69f54535bef7670924ca27a8e2352c143bd8e185bbabdfd47adf5b9d3
+content = 475a1e047c387c09a7f8238ae6ccf6501d72c237ea1fe344f2ad3e4cae9e66e3
 
 [pipes]
 title = Pipes
@@ -987,19 +987,19 @@ content = bf85504b67e12b1d9c0b71b059ae6f236073f25c3d1c0177579ddfa912e7e276
 
 [screenshot]
 title = Screenshot
-version = 1.0.11
+version = 1.0.12
 category = Graphics
 author = Onyx
 summary = 
-size = 231794
-installed = 685354
-sha256 = cdec80ce50a8322697db4f77960263f6edaf35508fd50ba18d4a4226c3feb2dd
-file = pkgs/screenshot-1.0.11.opk
+size = 219200
+installed = 618498
+sha256 = f324d98df390645443b56a62524af21276e2d0476c25b7e87f067eb1e35d131a
+file = pkgs/screenshot-1.0.12.opk
 icon = icons/screenshot.bmp
-needs = uikit >= 1.683, ft, kapi >= 85
+needs = uikit >= 1.683, ft, imagekit >= 1.45, kapi >= 85
 required = 0
 restart = 0
-content = 9bc5e1b107688130576a0fdd48956899c6ab3824fa3fb004eb155639f9d4796a
+content = 683d17dfd86b3cda04226abc36a3d0ba489bad78b8de4fc659b40022f7074008
 
 [sheet]
 title = Spreadsheet
@@ -1019,19 +1019,19 @@ content = a5d71e2f35c57db2e3972fb1800464dcff36f89f6bd0a120ef87427693b2d850
 
 [slides]
 title = Slides
-version = 1.0.9
+version = 1.0.10
 category = Productivity
 author = Onyx
 summary = 
-size = 675794
-installed = 1609441
-sha256 = 9d18a1ec5769e99c576e6cc1ea4194fc557b2eb7d3b9c3f335454817563794c9
-file = pkgs/slides-1.0.9.opk
+size = 671225
+installed = 1608665
+sha256 = 3ae53584dd72129d8dc9b6c9d1d941d06177a6bee14d393eca06c3ac8d424c9c
+file = pkgs/slides-1.0.10.opk
 icon = icons/slides.bmp
-needs = uikit >= 1.683, ft, printerkit, kapi >= 85
+needs = uikit >= 1.683, ft, printerkit, imagekit >= 1.45, kapi >= 85
 required = 0
 restart = 0
-content = 731142f45be24196499c05dcc0e4cc455af9917259b116f14d339b9089959bed
+content = 93b8dc78e8c05bd0ca2687bcab90e942ad7976023e4eaf5e853e7eda7a4d0ad2
 
 [snake]
 title = Snake

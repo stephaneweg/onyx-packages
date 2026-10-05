@@ -1,7 +1,7 @@
 # Onyx package index -- tools/pkg/mkrepo.py (docs/pkg/README.md)
 [repo]
 name = onyx-packages
-date = 2026-10-05 10:05
+date = 2026-10-05 10:14
 kapi = 87
 packages = 70
 
@@ -153,21 +153,21 @@ content = 475024d32e75bbdd880fda89ff48d6ba52123bf3ab3f00a3118d7681b2028220
 
 [onyx]
 title = Onyx system
-version = 2026.10.80
+version = 2026.10.81
 category = System
 author = Onyx
 summary = The kernel, the commands of /bin, the desktop, the settings, the terminal, the File Viewer, the text editor, the fonts
-size = 45608103
-installed = 117624574
-sha256 = f151d71e89695388f304464c947e7288973db5ec623739bc8b459f6efebdcb98
-file = pkgs/onyx-2026.10.80.opk
+size = 45539438
+installed = 117179204
+sha256 = 187607586fdffdd647c4a2ad97c7d2541fe6887e183bced7c521c05de89abb91
+file = pkgs/onyx-2026.10.81.opk
 icon = icons/onyx.bmp
 needs = pkgman, uikit >= 1.683, ft, printerkit >= 1.33, audiokit >= 1.232, filekit >= 1.63, imagekit >= 1.46
 required = 1
 restart = 1
 assoc = txt=tinypad md=tinypad ini=tinypad cfg=tinypad conf=tinypad log=tinypad c=tinypad h=tinypad cpp=tinypad hpp=tinypad json=tinypad html=tinypad htm=tinypad css=tinypad kmap=tinypad sh=tinypad bmp=imageview gif=imageview png=imageview jpg=imageview jpeg=imageview jpe=imageview pcx=imageview webp=imageview
 runners = bax=SD:/bin/basic bas=SD:/bin/basic
-content = 41f106a9926fbd9c65463784c9a9a4e6e72b6b2d8af7a7555a8a91c472db8985
+content = 826d3e2b69f8668f67471f5089443ef20ec170c467aa559b04f25ac6c1ed68f6
 
 [pi-firmware]
 title = Raspberry Pi firmware
@@ -187,19 +187,19 @@ content = e8d7f0fff8bb04a602b6e38651bc47cae9752d30ae159e29308c9fbcf5c7031e
 
 [demos]
 title = Demos
-version = 1.0.18
+version = 1.0.19
 category = Demos
 author = Onyx
 summary = The graphics and toolkit demos (demoA..F, the GPU, the widgets, plasma, spin...)
 size = 364002
 installed = 3016077
-sha256 = 7b9bbfefa6a8dcd5a57c707f8fbd91a3c287318dbc4e1518e3839634efbbcbf3
-file = pkgs/demos-1.0.18.opk
+sha256 = a7115d9945d04abb1a8b45394016eb178075a0c3a1bbd90008468421e668055a
+file = pkgs/demos-1.0.19.opk
 icon = icons/demos.bmp
 needs = kapi >= 87
 required = 0
 restart = 0
-content = 4427a2aedba480ace3da3347a49746adf6760b5e9887c42b6d761c0672f36c7b
+content = 671959c77c25e8de93da0154684030cc14f8af955cb797bc06523e835f34dcfa
 
 [basic-samples]
 title = BASIC samples

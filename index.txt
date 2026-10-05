@@ -1,9 +1,9 @@
 # Onyx package index -- tools/pkg/mkrepo.py (docs/pkg/README.md)
 [repo]
 name = onyx-packages
-date = 2026-10-05 01:52
+date = 2026-10-05 02:00
 kapi = 85
-packages = 68
+packages = 69
 
 [pkgman]
 title = Package Manager
@@ -119,21 +119,37 @@ required = 1
 restart = 0
 content = b567374e4d9354b826001d83fbfaabc8e403b44cd9d652149f3c7bcb6eebe7fa
 
+[filekit]
+title = FileKit (shared library)
+version = 1.43.0
+category = System
+author = Onyx
+summary = The file library: compression (zlib), ZIP archives on the card and in memory, files and trees copied, moved, removed, paths -- for ImageKit and the programs that work on files
+size = 148967
+installed = 338880
+sha256 = 389ad926d624a314c9934b7f90c45e9fe914e5c92935481732a344cef2b31b6a
+file = pkgs/filekit-1.43.0.opk
+icon = icons/filekit.bmp
+needs = kapi >= 85
+required = 1
+restart = 0
+content = 272a3236ad4aa32f4ee3ae073e8bcb226f2530efd7c0b51ff76ecb91e13ad4fb
+
 [onyx]
 title = Onyx system
-version = 2026.10.68
+version = 2026.10.69
 category = System
 author = Onyx
 summary = The kernel, the commands of /bin, the desktop, the settings, the terminal, the File Viewer, the text editor, the fonts
-size = 45097222
-installed = 115205407
-sha256 = 3d6c546e2f261ea14b5467bae10085ac97da5254cf8a1ca6a64c07e09cc84521
-file = pkgs/onyx-2026.10.68.opk
+size = 45105153
+installed = 115288743
+sha256 = cf010fe472ebe4c10996ed5169f467350a9bcc33ad4f0d3a42ad197122d2528c
+file = pkgs/onyx-2026.10.69.opk
 icon = icons/onyx.bmp
-needs = pkgman, uikit >= 1.683, ft, printerkit >= 1.33, audiokit >= 1.232, kapi >= 85
+needs = pkgman, uikit >= 1.683, ft, printerkit >= 1.33, audiokit >= 1.232, filekit >= 1.43, kapi >= 85
 required = 1
 restart = 1
-content = 4f4f640b66f4e52c970e815f68617771da557392d339657340f1a295b7a294b3
+content = 4587c8cc7f03e75e47e2d31691ff20df073993b8c84bdfbf6e39ab9ec00de512
 
 [pi-firmware]
 title = Raspberry Pi firmware

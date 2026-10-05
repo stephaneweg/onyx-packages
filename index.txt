@@ -1,25 +1,25 @@
 # Onyx package index -- tools/pkg/mkrepo.py (docs/pkg/README.md)
 [repo]
 name = onyx-packages
-date = 2026-10-05 06:30
+date = 2026-10-05 06:49
 kapi = 85
 packages = 70
 
 [pkgman]
 title = Package Manager
-version = 1.0.16
+version = 1.0.17
 category = System
 author = Onyx
 summary = The packages: the pkg command, the Package Manager (the Control Panel's applet), the update daemon pkgd
-size = 2072608
-installed = 5257441
-sha256 = b83a368a5fbf9a4356ab900eca3c916e5af4011aa975f4c9f88f0d05029a91b1
-file = pkgs/pkgman-1.0.16.opk
+size = 2079928
+installed = 5263537
+sha256 = b292871dfb1b0a81313e7b243bb5fdcff58d4b9f60ee5fddd66bb87828f0636e
+file = pkgs/pkgman-1.0.17.opk
 icon = icons/pkgman.bmp
 needs = kapi >= 85
 required = 1
 restart = 0
-content = f6f4531c1261d904ba62d3462d47a57c7df388f17409e7f91a18db49bbb21c54
+content = 9b9d10df5dd6d6f77a0d0484c0e003f9dbd40db164ac6d7646d68454c5c4ccf0
 
 [jsc]
 title = JavaScriptCore shell (jsc)
@@ -153,19 +153,21 @@ content = 4aac0401d050472368936ed4a60a0921dbfe5700264bfa1ce86e831ca04472d9
 
 [onyx]
 title = Onyx system
-version = 2026.10.73
+version = 2026.10.74
 category = System
 author = Onyx
 summary = The kernel, the commands of /bin, the desktop, the settings, the terminal, the File Viewer, the text editor, the fonts
-size = 45116749
-installed = 115381007
-sha256 = ef6fb5846c4c67a3551d23af4c0095c59ceaf55cc37b58421b9e31b625648631
-file = pkgs/onyx-2026.10.73.opk
+size = 45117095
+installed = 115381502
+sha256 = 46808d18471cde7f2a04216d59d65132aae4141ffc2a7bbfdc54de981bfcd7b5
+file = pkgs/onyx-2026.10.74.opk
 icon = icons/onyx.bmp
 needs = pkgman, uikit >= 1.683, ft, printerkit >= 1.33, audiokit >= 1.232, filekit >= 1.63, imagekit >= 1.45, kapi >= 85
 required = 1
 restart = 1
-content = f87f0f3f2da55f8ab4ba279a8175d797ce1afb436594ee3e72a999aae9bf6073
+assoc = txt=tinypad md=tinypad ini=tinypad cfg=tinypad conf=tinypad log=tinypad c=tinypad h=tinypad cpp=tinypad hpp=tinypad json=tinypad html=tinypad htm=tinypad css=tinypad kmap=tinypad sh=tinypad bmp=imageview gif=imageview png=imageview jpg=imageview jpeg=imageview jpe=imageview pcx=imageview webp=imageview
+runners = bax=SD:/bin/basic bas=SD:/bin/basic
+content = 8cddb7f08cb71fa9ec885de9c2834b370053e9546bf2ee4829f1b9fc15998903
 
 [pi-firmware]
 title = Raspberry Pi firmware
@@ -394,19 +396,20 @@ content = f6e64d1db7c94dcd8609a454f4a6a2cacee843219875f9b280d17eb57d8611c3
 
 [archiver]
 title = Archiver
-version = 1.0.13
+version = 1.0.14
 category = Productivity
 author = Onyx
 summary = 
-size = 117282
+size = 117313
 installed = 395084
-sha256 = a3ae3cd05df57619a8233439502eaa29b814f391dbf9b318457358467b3dec9c
-file = pkgs/archiver-1.0.13.opk
+sha256 = 9a8a000dfb8139c6652e61f86c03a577d7ca4052f6488cf245756daf46b1828b
+file = pkgs/archiver-1.0.14.opk
 icon = icons/archiver.bmp
 needs = uikit >= 1.683, ft, filekit >= 1.63, kapi >= 85
 required = 0
 restart = 0
-content = 28206616c8b840029d81b08e680c741e9aa5972b45a11792aaed0f16d654b26d
+assoc = zip=archiver jar=archiver tar=archiver tgz=archiver gz=archiver
+content = 17f245319eadfccb3fb8b69b4007b1a95459fa4bec7996f961716a905a7f462f
 
 [arkanoid]
 title = Arkanoid
@@ -442,19 +445,20 @@ content = d7f2e946e9f407a2e6da5026ef0abda22380d507f2e5aa04fd4c9888752101d3
 
 [cardfile]
 title = Cardfile
-version = 1.0.16
+version = 1.0.17
 category = Productivity
 author = Onyx
 summary = 
-size = 104678
+size = 104689
 installed = 360584
-sha256 = 1fa5a53893713981bf26de031f97d34d32cda4fc35f8945f023ff35d448eab26
-file = pkgs/cardfile-1.0.16.opk
+sha256 = 113db040e15eac1c996e952e512b288a9b37332bcd8a6b0f14068b45ad076395
+file = pkgs/cardfile-1.0.17.opk
 icon = icons/cardfile.bmp
 needs = uikit >= 1.683, ft, kapi >= 85
 required = 0
 restart = 0
-content = 7fe3f580d43e476a39d9ba9c71b26e92c7b2dce65fe73c9b39ea3fec4c1e297f
+assoc = card=cardfile
+content = 55226746e4b30df7fd4aa2526a00bdf572503fd0f7e2880f84141d022bdb7b46
 
 [courier]
 title = Courier
@@ -506,19 +510,20 @@ content = 23e28df827e41a818f67a2a7c37fb964b7f842c8c07086de9b5c7ec5ec5c1f2a
 
 [fmtracker]
 title = FM Tracker
-version = 1.0.17
+version = 1.0.18
 category = Multimedia
 author = Onyx
 summary = 
-size = 250640
+size = 250651
 installed = 712772
-sha256 = d09aa46462a55a3bc1e2ef0537083daf9641f37d91e1455a5900e6834691a8a1
-file = pkgs/fmtracker-1.0.17.opk
+sha256 = f04e79818c5cb41f6c98a22a79b4bfb8e16d238ca0602d8f491241e89b24d0b2
+file = pkgs/fmtracker-1.0.18.opk
 icon = icons/fmtracker.bmp
 needs = uikit >= 1.683, ft, audiokit >= 1.232, kapi >= 85
 required = 0
 restart = 0
-content = 88b73007c6d360e7fe132ac8c0a10e9af6b953372e3efeb0f040f2716947d1bb
+assoc = fms=fmtracker
+content = f2e8d2ade1a6b1d4424ba2f1f235b28fe019b8598b5b375ce5975fd1ab7c6275
 
 [freecell]
 title = FreeCell
@@ -666,52 +671,55 @@ content = 25318c7af895cc3ca281b3c8355a93d79ef262e7a687d3a7817f7272bca621ef
 
 [koton]
 title = Koton
-version = 1.0.18
+version = 1.0.19
 category = Multimedia
 author = Onyx
 summary = 
-size = 4943302
+size = 4943316
 installed = 9264890
-sha256 = be5a67b7c415aa1d40ece6f967d1b04990ab8851f5231081f73a13a60497c281
-file = pkgs/koton-1.0.18.opk
+sha256 = 91635e553fd0c3b6938301e69eda703d2e0f08666e614919589cea8f02b4b1a1
+file = pkgs/koton-1.0.19.opk
 icon = icons/koton.bmp
 needs = uikit >= 1.683, ft, generaluser-gs, audiokit >= 1.232, kapi >= 85
 required = 0
 restart = 0
-content = a53c6a5376ab0a356a3fb116468a55386d3156684fbd392b42f7da2ed590ca22
+assoc = kson=koton sq=koton
+content = 121ca39a80bfffc43774f70b105a5d5e2b52a77ec9ffa1abcb33770722d0b4c1
 
 [ledger]
 title = Ledger
-version = 1.0.18
+version = 1.0.19
 category = Productivity
 author = Onyx
 summary = 
-size = 17667366
+size = 17667377
 installed = 21006987
-sha256 = 0075ab0f4be28dd9bdd8f52bcc75bb1314dc8a4041ed09dc1fda68d347554cd3
-file = pkgs/ledger-1.0.18.opk
+sha256 = aead6e7bfcf15244332e827a7b260e0159d29bd0ca160b82e8c23f9ad93237fa
+file = pkgs/ledger-1.0.19.opk
 icon = icons/ledger.bmp
 needs = uikit >= 1.683, ft, cardfile, kapi >= 85
 required = 0
 restart = 0
-content = 189ab870dad48fc6960c57c3142ac1bc069ef41311fff09495b932f461e9002a
+assoc = ledger=ledger
+content = ab7ed9665038813ce122edb78498d31c0603c753ec73e8b3e59a9563293aa4a3
 
 [letters]
 title = Letters
-version = 1.0.17
+version = 1.0.18
 category = Productivity
 author = Onyx
 summary = 
-size = 468269
+size = 468292
 installed = 1134727
-sha256 = fadcd4148ae89b6f3f22bb37ad34acbe40cc285ce01948f38d6fa44b460d6d4c
-file = pkgs/letters-1.0.17.opk
+sha256 = 1843cc8d36bd9ddd79f8cdbd1d14591bb985d4de9820d64b032dd21ea8b36c88
+file = pkgs/letters-1.0.18.opk
 icon = icons/letters.bmp
 needs = uikit >= 1.683, ft, cardfile, printerkit, imagekit >= 1.45, kapi >= 85
 required = 0
 restart = 0
 replaces = writer
-content = 412a84ff9d5b88b47a08361dfa59a66cd64e2df51d93f59d8ed21a6001df947d
+assoc = doc=letters rtf=letters docx=letters odt=letters
+content = 275593863d2966b9a02e54e5a04cc6fb22eb690b04314a85ac69f8cffeeda62f
 
 [life]
 title = Game of Life
@@ -747,19 +755,20 @@ content = 59d471be4a801865e28272f9a361d17cdb1873d95fd784153b72803909697a6f
 
 [mail]
 title = Mail
-version = 1.0.12
+version = 1.0.13
 category = Internet
 author = Onyx
 summary = 
-size = 842256
+size = 842239
 installed = 1979356
-sha256 = c385c412bbeb082e1ae450100703456fdfb2d18d24f10dc00f3a7c8307d167fa
-file = pkgs/mail-1.0.12.opk
+sha256 = 2a7e2c7da75bcfb04ef305dd046220278ee5ec6b9cd64f57b66473ec23bf3385
+file = pkgs/mail-1.0.13.opk
 icon = icons/mail.bmp
 needs = uikit >= 1.683, ft, kapi >= 85
 required = 0
 restart = 0
-content = d92faffc4bd34ec84a141deb5ad7f26a150791b743e4bf7f8a331d779fa0fa7c
+assoc = eml=mail
+content = 727f0668a21fd794f37936484f0060177a2aae8a7528a1dbffc665e68332275b
 
 [mandelbrot]
 title = Mandelbrot
@@ -779,19 +788,20 @@ content = c06b4999b2aa0e63068221cc12cb0b709bdc7504b9cf2ce76ad4123eeb16be58
 
 [media]
 title = Media Player
-version = 1.0.21
+version = 1.0.22
 category = Multimedia
 author = Onyx
 summary = 
-size = 7671872
+size = 7671948
 installed = 15826326
-sha256 = 95e7fb0d6807050ec6614e958a998efd45ff0a6eab771f71866a90f481858021
-file = pkgs/media-1.0.21.opk
+sha256 = bcbb7a026072aea8a68e8900790cca3d8c97ef68315f9d8f366122225ddb856b
+file = pkgs/media-1.0.22.opk
 icon = icons/media.bmp
 needs = uikit >= 1.683, ft, generaluser-gs, audiokit >= 1.232, imagekit >= 1.45, kapi >= 85
 required = 0
 restart = 0
-content = b01dce295c52f3f81973f8c11e063711dc8f8987d8e9e686f5ead8fb9fcad40e
+assoc = mp3=media ogg=media oga=media flac=media wav=media mid=media midi=media kar=media rmi=media m3u=media m3u8=media webm=media mkv=media mp4=media m4v=media mov=media avi=media divx=media mpg=media mpeg=media vob=media ts=media m2ts=media mts=media flv=media wmv=media asf=media ogv=media 3gp=media
+content = 1d6cca1f35de9c45a11716988783adaaa97f7b4595e96d1f34c0afdec68875ce
 
 [minesweeper]
 title = Minesweeper
@@ -843,35 +853,37 @@ content = 0f19f0243bb1a540e5ec35852665d7ec87a844f32e8556e71af18b4831fef27d
 
 [paint]
 title = Paint
-version = 1.0.15
+version = 1.0.16
 category = Graphics
 author = Onyx
 summary = 
-size = 358344
+size = 358354
 installed = 902985
-sha256 = 0d4ca6ed79fcb5bbaa4781c94b003c12368995ed3ee948e5ba860d889503e92d
-file = pkgs/paint-1.0.15.opk
+sha256 = f14d62ad6cf7fe5cd26c9529849ffa28b8e885547334c6afdc533ab0f7c331b4
+file = pkgs/paint-1.0.16.opk
 icon = icons/paint.bmp
 needs = uikit >= 1.683, ft, printerkit, imagekit >= 1.45, kapi >= 85
 required = 0
 restart = 0
-content = 2083bf4fdb95acafe06348b0582dc669853349f828a2bfd4c1be45a11d6a2c7a
+assoc = ora=paint
+content = 9b7290869f29f9c121cdaf22a8f74a131d78a6e442d910ab21be06a05591a0c4
 
 [pdf]
 title = PDF Viewer
-version = 1.0.14
+version = 1.0.15
 category = Productivity
 author = Onyx
 summary = 
-size = 2842332
+size = 2842341
 installed = 5363734
-sha256 = 47e2c6d67f263acb9c1aed18c88a6f6bfae546b36d24d7007267d05acfe73201
-file = pkgs/pdf-1.0.14.opk
+sha256 = 573763dc6059c9f9391bd3b9cad660f9ec919c733ab2b2ed316a74e1c177fa9a
+file = pkgs/pdf-1.0.15.opk
 icon = icons/pdf.bmp
 needs = uikit >= 1.683, ft, printerkit, kapi >= 85
 required = 0
 restart = 0
-content = 4dbd80e4cb900a376682e21f2551967064cce570b7a3c637cb9dba03a07b7421
+assoc = pdf=pdf
+content = 15500d6d7597d1650520fcb12705279ad8f540fdc24f80d974b0bdc771bdca32
 
 [photos]
 title = Photos
@@ -923,35 +935,37 @@ content = ac29af5af6a201ee56ac3c2e3a4002c31decb7d27fc80f60c14e4966f92082f5
 
 [qbasic]
 title = QBasic
-version = 1.0.21
+version = 1.0.22
 category = Productivity
 author = Onyx
 summary = 
-size = 122501
+size = 122513
 installed = 436398
-sha256 = b90c9434c6f5af26bbe46dc38909fb1b281868e544c60f6665b507bf86ece365
-file = pkgs/qbasic-1.0.21.opk
+sha256 = 84677535eab1478800dc4fa12d6298e15570c1c933936aadb9975792e6e9232a
+file = pkgs/qbasic-1.0.22.opk
 icon = icons/qbasic.bmp
 needs = uikit >= 1.683, ft, kapi >= 85
 required = 0
 restart = 0
-content = 35293aadb2a28970c31c1214413cb59734bf8c46844ad7ded39f66ed3940393b
+assoc = bas=qbasic
+content = 61a95614e619926b049173bc6614a5d83283ab7847ebdc4c5410cb9b65db5b22
 
 [qbstudio]
 title = QBStudio
-version = 1.0.9
+version = 1.0.10
 category = Productivity
 author = Onyx
 summary = 
-size = 350991
+size = 351003
 installed = 914476
-sha256 = 49fdc6af0016d7846d1654b16f5b248e1ef593da69863604abef578904683470
-file = pkgs/qbstudio-1.0.9.opk
+sha256 = 86591972659108f5fff36d55f2faf8f6dacacf289cade9a8550d7a5dd84a8123
+file = pkgs/qbstudio-1.0.10.opk
 icon = icons/qbstudio.bmp
 needs = uikit >= 1.683, ft, kapi >= 85
 required = 0
 restart = 0
-content = 8f595133635d979e67ec67781fe318002f7040351cddc16c563cb2ffffc1ca3e
+assoc = form=qbstudio
+content = a89f2a94c20106c10c6ea1767ea8fd3dec16a19c622994177cccce58ac08d42f
 
 [rtfview]
 title = RTF Reader
@@ -1003,35 +1017,37 @@ content = 683d17dfd86b3cda04226abc36a3d0ba489bad78b8de4fc659b40022f7074008
 
 [sheet]
 title = Spreadsheet
-version = 1.0.14
+version = 1.0.15
 category = Productivity
 author = Onyx
 summary = 
-size = 674438
+size = 674461
 installed = 1629078
-sha256 = 4d26653dd34d0337ce75d884eae32d5ec51be029fe65fc85a1e1635a7f89e6fd
-file = pkgs/sheet-1.0.14.opk
+sha256 = 317af4374125faa178a93f4925f1e1d4c96115f2c200c7a7f16ccc07e0cf9bd0
+file = pkgs/sheet-1.0.15.opk
 icon = icons/sheet.bmp
 needs = uikit >= 1.683, ft, cardfile, printerkit, kapi >= 85
 required = 0
 restart = 0
-content = a5d71e2f35c57db2e3972fb1800464dcff36f89f6bd0a120ef87427693b2d850
+assoc = xlsx=sheet ods=sheet csv=sheet tsv=sheet
+content = af5af7e245f674ea4e8b31aa6275be5a0ac429a74faace10b7970ce825b3ff41
 
 [slides]
 title = Slides
-version = 1.0.10
+version = 1.0.11
 category = Productivity
 author = Onyx
 summary = 
-size = 671225
+size = 671242
 installed = 1608665
-sha256 = 3ae53584dd72129d8dc9b6c9d1d941d06177a6bee14d393eca06c3ac8d424c9c
-file = pkgs/slides-1.0.10.opk
+sha256 = edb90c553c3cfbfb19e56863b40b38467b2829c79abc6b418d9db4e21c64153c
+file = pkgs/slides-1.0.11.opk
 icon = icons/slides.bmp
 needs = uikit >= 1.683, ft, printerkit, imagekit >= 1.45, kapi >= 85
 required = 0
 restart = 0
-content = 93b8dc78e8c05bd0ca2687bcab90e942ad7976023e4eaf5e853e7eda7a4d0ad2
+assoc = odp=slides pptx=slides
+content = ff75b6799b57be02e2701af52831742d040dca7c495f694fe11a57ed3f4da094
 
 [snake]
 title = Snake

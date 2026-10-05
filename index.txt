@@ -1,7 +1,7 @@
 # Onyx package index -- tools/pkg/mkrepo.py (docs/pkg/README.md)
 [repo]
 name = onyx-packages
-date = 2026-10-05 00:47
+date = 2026-10-05 01:03
 kapi = 84
 packages = 68
 
@@ -121,19 +121,19 @@ content = 29586ce0af533d33e0f89c485e780e0129b20b619536f5e16c541baf2262ee28
 
 [onyx]
 title = Onyx system
-version = 2026.10.61
+version = 2026.10.62
 category = System
 author = Onyx
 summary = The kernel, the commands of /bin, the desktop, the settings, the terminal, the File Viewer, the text editor, the fonts
-size = 45068520
-installed = 115106319
-sha256 = f587a081cb02acefe92edc2805c0764a7f34614e8c35e301ebcced7ba4f6e5e1
-file = pkgs/onyx-2026.10.61.opk
+size = 45081917
+installed = 115173487
+sha256 = 2f6d53156b43b5a769435ab36de6a4325d8f6efef91fba5903878d47d5ab120d
+file = pkgs/onyx-2026.10.62.opk
 icon = icons/onyx.bmp
 needs = pkgman, uikit >= 1.683, ft, printerkit >= 1.33, audiokit >= 1.230, kapi >= 84
 required = 1
 restart = 1
-content = d02ad0b687488c60a534a1beef997f9398143e6d6c8aa33409439236cd62fe67
+content = ed892ce38084f4ae7c0ad6be5c7e749d182776a011328dfb7d784e931414ca0a
 
 [pi-firmware]
 title = Raspberry Pi firmware
@@ -891,35 +891,35 @@ content = ac29af5af6a201ee56ac3c2e3a4002c31decb7d27fc80f60c14e4966f92082f5
 
 [qbasic]
 title = QBasic
-version = 1.0.18
+version = 1.0.19
 category = Productivity
 author = Onyx
 summary = 
-size = 120323
-installed = 435137
-sha256 = 730fceb68a283d3d5c8e817400165989a459fca5330dd6c5d83ed6898267d754
-file = pkgs/qbasic-1.0.18.opk
+size = 121617
+installed = 436254
+sha256 = 9b6c7a9820a81918683b846330890926f0e2b3812140fb24a11f164695212f8e
+file = pkgs/qbasic-1.0.19.opk
 icon = icons/qbasic.bmp
 needs = uikit >= 1.683, ft, kapi >= 84
 required = 0
 restart = 0
-content = 540bcd0813b60b80159faa0f8a77abcb4c97779d58094ba9803087c215005247
+content = 63a2a5b0a233deadc35e3ebe74d5757e74cd95b04e25385b80d3a536699fa09d
 
 [qbstudio]
 title = QBStudio
-version = 1.0.7
+version = 1.0.8
 category = Productivity
 author = Onyx
 summary = 
-size = 349599
-installed = 914100
-sha256 = b1e20aa82d807e61f1bfb6dfa35c9812c9f4f1d3b910244d620e78a78d0921ee
-file = pkgs/qbstudio-1.0.7.opk
+size = 349998
+installed = 914300
+sha256 = 09ecd0e046d9fec442524a7f9e7a461b9dd5e13cd3b9fe9195bda2454b13edab
+file = pkgs/qbstudio-1.0.8.opk
 icon = icons/qbstudio.bmp
 needs = uikit >= 1.683, ft, kapi >= 84
 required = 0
 restart = 0
-content = b073546934dcd11dec4f87dd8fe12de3340973abb1c3729bfa6556ef10388a04
+content = ebee381f13a1e9a8cec1d2004fbafd2549ab242a87eb89412f71f9a3dacc37e0
 
 [rtfview]
 title = RTF Reader

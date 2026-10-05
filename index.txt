@@ -1,7 +1,7 @@
 # Onyx package index -- tools/pkg/mkrepo.py (docs/pkg/README.md)
 [repo]
 name = onyx-packages
-date = 2026-10-05 00:02
+date = 2026-10-05 00:07
 kapi = 84
 packages = 68
 
@@ -120,19 +120,19 @@ content = ccce7e69a21e81d831df23d0ed318d0ff351628c8ee16eacb2f8a09c56976975
 
 [onyx]
 title = Onyx system
-version = 2026.10.58
+version = 2026.10.59
 category = System
 author = Onyx
 summary = The kernel, the commands of /bin, the desktop, the settings, the terminal, the File Viewer, the text editor, the fonts
-size = 45052092
-installed = 115099879
-sha256 = 2dc643aee5cb81f2d8bfbdcb4c9b4bd484126190090d6b92ed60aea834a4e5d4
-file = pkgs/onyx-2026.10.58.opk
+size = 45064888
+installed = 115101543
+sha256 = ea95d54f1b8896f516c32982123fce944ea2bf287e6f80994d8c01453a8c205a
+file = pkgs/onyx-2026.10.59.opk
 icon = icons/onyx.bmp
 needs = pkgman, uikit >= 1.683, ft, print >= 1.33, audiokit >= 1.206, kapi >= 84
 required = 1
 restart = 1
-content = bbb4b4f3d066596f7a57354372869e2d8861fbeb4765d12ab08d291e248fb645
+content = d707e2db39994a7b0b98e0820758272fe8d53d42564130c791748dc410690f50
 
 [pi-firmware]
 title = Raspberry Pi firmware
@@ -168,19 +168,19 @@ content = 6d26167c57e58c56bf7e769033b5f83dbfdffe9f544572d4aea30089e80986af
 
 [basic-samples]
 title = BASIC samples
-version = 1.0.2
+version = 1.0.3
 category = BASIC
 author = Onyx
 summary = Sample BASIC programs for QBasic (games, graphics, a GUI)
-size = 11751
-installed = 27789
-sha256 = 49d7fa73a5ec0671637db7621a0f597772e757dd22b49ec21463cbc72bd51cca
-file = pkgs/basic-samples-1.0.2.opk
+size = 13054
+installed = 31013
+sha256 = a5dc813bf65ae2bc8155383bf480352e06d5bce365c2204bc7d5ea3e95f97eb6
+file = pkgs/basic-samples-1.0.3.opk
 icon = icons/basic-samples.bmp
 needs = qbasic, kapi >= 84
 required = 0
 restart = 0
-content = 88855d60f216b0a9ad775a980f6b71c5f5c9c5fbff29c17336ec782bed72bce9
+content = 05fc448159e7d3fdc7779f7a454f7dad90669afc40e8f9a8c38ee1d18231c85d
 
 [letters-samples]
 title = Letters samples
@@ -890,35 +890,35 @@ content = ac29af5af6a201ee56ac3c2e3a4002c31decb7d27fc80f60c14e4966f92082f5
 
 [qbasic]
 title = QBasic
-version = 1.0.17
+version = 1.0.18
 category = Productivity
 author = Onyx
 summary = 
-size = 107262
-installed = 367161
-sha256 = fcbbba33df83043a7ff0baac1d409360321d909bd31f077e62d1c5795b44c24d
-file = pkgs/qbasic-1.0.17.opk
+size = 120323
+installed = 435137
+sha256 = 730fceb68a283d3d5c8e817400165989a459fca5330dd6c5d83ed6898267d754
+file = pkgs/qbasic-1.0.18.opk
 icon = icons/qbasic.bmp
 needs = uikit >= 1.683, ft, kapi >= 84
 required = 0
 restart = 0
-content = 243487606088e61fd13400160e195743884f27977955fb4ba265ae1068b1d940
+content = 540bcd0813b60b80159faa0f8a77abcb4c97779d58094ba9803087c215005247
 
 [qbstudio]
 title = QBStudio
-version = 1.0.6
+version = 1.0.7
 category = Productivity
 author = Onyx
 summary = 
-size = 337643
-installed = 912420
-sha256 = 8ffd2f65d0d2b287d5412bcf48f32c20a6da3eac8b79b58f0e42575d4c6c5fdb
-file = pkgs/qbstudio-1.0.6.opk
+size = 349599
+installed = 914100
+sha256 = b1e20aa82d807e61f1bfb6dfa35c9812c9f4f1d3b910244d620e78a78d0921ee
+file = pkgs/qbstudio-1.0.7.opk
 icon = icons/qbstudio.bmp
 needs = uikit >= 1.683, ft, kapi >= 84
 required = 0
 restart = 0
-content = 94987b5313919027268f025cab98feea30d6ef95e89f388593d238139391dbdc
+content = b073546934dcd11dec4f87dd8fe12de3340973abb1c3729bfa6556ef10388a04
 
 [rtfview]
 title = RTF Reader

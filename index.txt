@@ -1,7 +1,7 @@
 # Onyx package index -- tools/pkg/mkrepo.py (docs/pkg/README.md)
 [repo]
 name = onyx-packages
-date = 2026-10-05 01:44
+date = 2026-10-05 01:48
 kapi = 85
 packages = 68
 
@@ -121,19 +121,19 @@ content = 99ddd2f6baf50a76110c90f62514f35d48c905b798f7b95777c6fd7a0e19b4cc
 
 [onyx]
 title = Onyx system
-version = 2026.10.66
+version = 2026.10.67
 category = System
 author = Onyx
 summary = The kernel, the commands of /bin, the desktop, the settings, the terminal, the File Viewer, the text editor, the fonts
-size = 45091895
-installed = 115204231
-sha256 = 056a5be7a318103150a794d5184470679d5129d15869fff0a95c1d748da90cbb
-file = pkgs/onyx-2026.10.66.opk
+size = 45097079
+installed = 115205023
+sha256 = 0555e7d4f548ca82887ca22e67d58d3f28ddeb3c839e4156a413ecb3bc6aa7b1
+file = pkgs/onyx-2026.10.67.opk
 icon = icons/onyx.bmp
 needs = pkgman, uikit >= 1.683, ft, printerkit >= 1.33, audiokit >= 1.231, kapi >= 85
 required = 1
 restart = 1
-content = 1316b0d6e84f9c8990b407fcbaa81ad6f9600dba759b19fb2a29042e7c3e8c42
+content = 4ff5572d7a53c211fea3663b88f579bfa09da08dd4c0e19aebc9640b4fec1bcd
 
 [pi-firmware]
 title = Raspberry Pi firmware
@@ -891,19 +891,19 @@ content = ac29af5af6a201ee56ac3c2e3a4002c31decb7d27fc80f60c14e4966f92082f5
 
 [qbasic]
 title = QBasic
-version = 1.0.20
+version = 1.0.21
 category = Productivity
 author = Onyx
 summary = 
-size = 122500
+size = 122501
 installed = 436398
-sha256 = 43e6201ec6a4e9ec33a2094a2984d468b149e519af87f97803a24aa7d681a17e
-file = pkgs/qbasic-1.0.20.opk
+sha256 = b90c9434c6f5af26bbe46dc38909fb1b281868e544c60f6665b507bf86ece365
+file = pkgs/qbasic-1.0.21.opk
 icon = icons/qbasic.bmp
 needs = uikit >= 1.683, ft, kapi >= 85
 required = 0
 restart = 0
-content = ad6cf5e5ee2985b3c04960e1af112f5efe71f25020dac21430cde41d67e32256
+content = 35293aadb2a28970c31c1214413cb59734bf8c46844ad7ded39f66ed3940393b
 
 [qbstudio]
 title = QBStudio

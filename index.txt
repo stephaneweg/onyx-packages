@@ -1,9 +1,9 @@
 # Onyx package index -- tools/pkg/mkrepo.py (docs/pkg/README.md)
 [repo]
 name = onyx-packages
-date = 2026-10-05 02:00
+date = 2026-10-05 02:12
 kapi = 85
-packages = 69
+packages = 70
 
 [pkgman]
 title = Package Manager
@@ -135,21 +135,37 @@ required = 1
 restart = 0
 content = 272a3236ad4aa32f4ee3ae073e8bcb226f2530efd7c0b51ff76ecb91e13ad4fb
 
+[imagekit]
+title = ImageKit (shared library)
+version = 1.41.0
+category = System
+author = Onyx
+summary = The picture library: BMP, GIF, PNG, JPEG, PCX and WebP read, PNG, JPEG, BMP and GIF written, the resize, the turns, the camera's orientation, the adjustments -- for the Image Viewer and the programs that work on pictures
+size = 309609
+installed = 705648
+sha256 = 3a3103df0c8107439b4dcca4ac3098655bcd78ac61a376bcb64704a72292999d
+file = pkgs/imagekit-1.41.0.opk
+icon = icons/imagekit.bmp
+needs = filekit >= 1.43, kapi >= 85
+required = 1
+restart = 0
+content = b411187afae91c78edcd760bd6308f2527d8035bc62ea5041fada926a944ffa9
+
 [onyx]
 title = Onyx system
-version = 2026.10.69
+version = 2026.10.70
 category = System
 author = Onyx
 summary = The kernel, the commands of /bin, the desktop, the settings, the terminal, the File Viewer, the text editor, the fonts
-size = 45105153
-installed = 115288743
-sha256 = cf010fe472ebe4c10996ed5169f467350a9bcc33ad4f0d3a42ad197122d2528c
-file = pkgs/onyx-2026.10.69.opk
+size = 45113782
+installed = 115374415
+sha256 = 1330a3350255ccb747bc1310e04f39ebc24c7e0ff89cbd2585bdc4d88bbb36cd
+file = pkgs/onyx-2026.10.70.opk
 icon = icons/onyx.bmp
-needs = pkgman, uikit >= 1.683, ft, printerkit >= 1.33, audiokit >= 1.232, filekit >= 1.43, kapi >= 85
+needs = pkgman, uikit >= 1.683, ft, printerkit >= 1.33, audiokit >= 1.232, filekit >= 1.43, imagekit >= 1.41, kapi >= 85
 required = 1
 restart = 1
-content = 4587c8cc7f03e75e47e2d31691ff20df073993b8c84bdfbf6e39ab9ec00de512
+content = 4aa46c5f64f6430230f275e7d697d4a14211e1ad8e7e16fdb5eaf1d736f4034f
 
 [pi-firmware]
 title = Raspberry Pi firmware

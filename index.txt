@@ -1,7 +1,7 @@
 # Onyx package index -- tools/pkg/mkrepo.py (docs/pkg/README.md)
 [repo]
 name = onyx-packages
-date = 2026-10-05 11:55
+date = 2026-10-05 12:37
 kapi = 88
 packages = 72
 
@@ -39,36 +39,36 @@ content = 0d92a1e265c6b4087b0004b8634f6c83a7d2402b817cac03a00806fe90fd812c
 
 [jet]
 title = Jet Browser
-version = 2.0.12
+version = 2.0.13
 category = Internet
 author = Onyx
 summary = The browser, on WebKit: one page per window, HTTPS, JavaScript, video; tip: "preload jet" in SD:/etc/autostart makes it open at once
-size = 43601369
+size = 43601368
 installed = 105186228
-sha256 = 7aa8a61aaeec2aea70b55ddee85d2ec7f72e16f2e1389700bfe2caba1b0b60ef
-file = pkgs/jet-2.0.12.opk
+sha256 = 5d706ecc59044b381d2c387743ac1bc058934115163806613452ee6966cdd39f
+file = pkgs/jet-2.0.13.opk
 icon = icons/jet.bmp
-needs = onyx >= 2026.10.39, uikit >= 1.686, systemkit >= 1.48, kapi >= 88
+needs = onyx >= 2026.10.39, uikit >= 1.686, systemkit >= 1.56, kapi >= 88
 required = 0
 restart = 0
-content = e52fd97eb53a7ee7158c7b1917a39726a997057d60840a3ce92ff05d625c1d64
+content = 451ad661a95cad380e6335787c745ed6fe055507dff25dd9957b25fd5f66dbfc
 
 [uikit]
 title = UIKit, the toolkit (shared library)
-version = 1.686.0
+version = 1.686.1
 category = System
 author = Onyx
 summary = The widgets, the windows' frames and the theme every app draws with: one copy in memory, shared by all the apps
-size = 141325
-installed = 360440
-sha256 = 2f665ebabb34451ea652e34b22a85247f3d3d9582a42e5700c8af33977fc90c3
-file = pkgs/uikit-1.686.0.opk
+size = 141468
+installed = 360920
+sha256 = ef8ebe65045b41f89cd2e8b8dc222e39508b2e5d429a2551479db042fb537cf5
+file = pkgs/uikit-1.686.1.opk
 icon = icons/uikit.bmp
-needs = imagekit >= 1.46, systemkit >= 1.48, kapi >= 88
+needs = imagekit >= 1.46, systemkit >= 1.56, kapi >= 88
 required = 1
 restart = 0
 replaces = wtk
-content = 1a9fe37b70e9e1173b168678caf91c41a9ad1186c80fd3e120df3ede0bad0b6c
+content = 8894514f596a4ad50af9b6868c4ba4008239b48e092d06c38f854c3d0d833d23
 
 [fontkit]
 title = FontKit (FreeType, shared library)
@@ -138,19 +138,19 @@ content = 91e89c534406e1212161e8e17ad75e6b29014da64d038c6ab2ea56cc60de09f8
 
 [systemkit]
 title = SystemKit (shared library)
-version = 1.48.0
+version = 1.56.0
 category = System
 author = Onyx
 summary = What the programs say to the system and to each other: the wallpaper, the volume, the trash, the preload list, the file associations, the notifications, the clipboard
-size = 24452
-installed = 90416
-sha256 = 92be85349fc7ebe02c8c24625f3ab084512c4fff9996a08303aca40b7373464b
-file = pkgs/systemkit-1.48.0.opk
+size = 26781
+installed = 91032
+sha256 = 27c416076d6de57ff2ce893fc3b336f422703218b22c6581291e828ab480bb8f
+file = pkgs/systemkit-1.56.0.opk
 icon = icons/systemkit.bmp
 needs = kapi >= 88
 required = 1
 restart = 0
-content = 757642a40dc13d9ccad4aa818a1aaeaf604522676e5f304ae1d602cc90733b57
+content = 9078363bc08ca0f0f0cd18747c93b880e800999bd775d2c3644c8c9f7cfac3f3
 
 [netkit]
 title = NetKit (shared library)
@@ -186,21 +186,21 @@ content = 475024d32e75bbdd880fda89ff48d6ba52123bf3ab3f00a3118d7681b2028220
 
 [onyx]
 title = Onyx system
-version = 2026.10.83
+version = 2026.10.84
 category = System
 author = Onyx
 summary = The kernel, the commands of /bin, the desktop, the settings, the terminal, the File Viewer, the text editor, the fonts
-size = 45656418
-installed = 117151416
-sha256 = 46a1ce014752f32d6ac36920647df07618ea8c83486f0833ff023dd5fdd8dabd
-file = pkgs/onyx-2026.10.83.opk
+size = 45664930
+installed = 117180280
+sha256 = eabfb7bbf4a24b7e895776b14c048c0b4e32461652b1f5dd358eb50eba4471ba
+file = pkgs/onyx-2026.10.84.opk
 icon = icons/onyx.bmp
-needs = pkgman, uikit >= 1.686, fontkit, printerkit >= 1.33, audiokit >= 1.232, filekit >= 1.78, systemkit >= 1.48, netkit >= 1.21, imagekit >= 1.46
+needs = pkgman, uikit >= 1.686, fontkit, printerkit >= 1.33, audiokit >= 1.232, filekit >= 1.78, systemkit >= 1.56, netkit >= 1.21, imagekit >= 1.46
 required = 1
 restart = 1
 assoc = txt=tinypad md=tinypad ini=tinypad cfg=tinypad conf=tinypad log=tinypad c=tinypad h=tinypad cpp=tinypad hpp=tinypad json=tinypad html=tinypad htm=tinypad css=tinypad kmap=tinypad sh=tinypad bmp=imageview gif=imageview png=imageview jpg=imageview jpeg=imageview jpe=imageview pcx=imageview webp=imageview
 runners = bax=SD:/bin/basic bas=SD:/bin/basic
-content = 391bca0a83b51dced0f373470295c7bb90c8e101d19966b2f20dfc3b97300136
+content = 7f01dda153f4b3909b48a2ac29787876d7c4344a514c2b079b276509e59e3c58
 
 [pi-firmware]
 title = Raspberry Pi firmware
@@ -478,20 +478,20 @@ content = b5675a1d2f296071c0200424c9096ddb96f022a018d0dc3b8a0b242befab3fac
 
 [cardfile]
 title = Cardfile
-version = 1.0.21
+version = 1.0.22
 category = Productivity
 author = Onyx
 summary = 
-size = 109467
-installed = 382544
-sha256 = 92d43546dd130f4e0897ec3fb5094182be73066e6f0355509c7908d57bc838d3
-file = pkgs/cardfile-1.0.21.opk
+size = 109619
+installed = 383024
+sha256 = d14fc56e25c70192dd19d1e092718c77166cecc20848c46edd021ff6805f09fa
+file = pkgs/cardfile-1.0.22.opk
 icon = icons/cardfile.bmp
 needs = uikit >= 1.686, fontkit, kapi >= 88
 required = 0
 restart = 0
 assoc = card=cardfile
-content = 09c4dbc87eec6a4b78414ad1752180adb391a582b78a43c7cbf323ed06bd3f54
+content = 88b39fcfc1132c8fdd7a3f4f55cc987db6837d4e8448fa6c09a679024b39d444
 
 [courier]
 title = Courier
@@ -772,19 +772,19 @@ content = 85f323973ac432b6562d5f0d7c15b50bec9c45edd8536c4cbf83355cfd47cab5
 
 [lisa]
 title = Lisa
-version = 1.0.18
+version = 1.0.19
 category = Internet
 author = Onyx
 summary = 
-size = 32247
-installed = 230509
-sha256 = 118ccd29002a6f4872c2b66a2fa6eb8c8c43a80ed4e15818508fbc6e128f0c11
-file = pkgs/lisa-1.0.18.opk
+size = 32394
+installed = 230989
+sha256 = 1747060f2fab0e177dcd6d2bb3d3541826fc1fb74a723f8073875c0ad4969a90
+file = pkgs/lisa-1.0.19.opk
 icon = icons/lisa.bmp
 needs = uikit >= 1.686, fontkit, kapi >= 88
 required = 0
 restart = 0
-content = d02b1d1a63ee228eb6cad6d086ac5174d1bf13550bf88589a9eb60bf5189f90e
+content = d0f92db5d32296ad81ac5fca374f32eb6f6364c5f35c75c93712141fce53f845
 
 [mail]
 title = Mail
@@ -821,20 +821,20 @@ content = bc6cc0854fa5c69f059230e1e6ddac555ed3654fb2633e88b25af6cf6af871cd
 
 [media]
 title = Media Player
-version = 1.0.27
+version = 1.0.28
 category = Multimedia
 author = Onyx
 summary = 
-size = 7662661
+size = 7662656
 installed = 15828878
-sha256 = 0b1ef3afe8a39e69e0e177c180a52e3e20ec4fab1377d47009064ee7753e8756
-file = pkgs/media-1.0.27.opk
+sha256 = e9aba30b61b4a7ba50fdbd51663eaf608f573e4b828c966386b254e13ea5ead1
+file = pkgs/media-1.0.28.opk
 icon = icons/media.bmp
 needs = uikit >= 1.686, fontkit, generaluser-gs, audiokit >= 1.232, imagekit >= 1.46, kapi >= 88
 required = 0
 restart = 0
 assoc = mp3=media ogg=media oga=media flac=media wav=media mid=media midi=media kar=media rmi=media m3u=media m3u8=media webm=media mkv=media mp4=media m4v=media mov=media avi=media divx=media mpg=media mpeg=media vob=media ts=media m2ts=media mts=media flv=media wmv=media asf=media ogv=media 3gp=media
-content = 2ce8bd1c4cd0a60b08ddf10881a98925db8253789d12e9705f0e0c90b69f11f6
+content = 77f316933fbb3fa40839e10ba591bdbd914387df652994f74e8a3de14da6f9d0
 
 [minesweeper]
 title = Minesweeper
@@ -903,20 +903,20 @@ content = 63024ebd0ca534d3f9bc117012fd8bc32b4a1bc20d8fd73d42bd269024eab456
 
 [pdf]
 title = PDF Viewer
-version = 1.0.19
+version = 1.0.20
 category = Productivity
 author = Onyx
 summary = 
 size = 2841628
 installed = 5366398
-sha256 = 4c1d610912245f49364b1c44678f3e94bc884647a599ec94df9a9a0f591f84cf
-file = pkgs/pdf-1.0.19.opk
+sha256 = 5f63587231c753e2dfe0f5a91cdaecb75144ff8694fcaa9ca66d906e40d17653
+file = pkgs/pdf-1.0.20.opk
 icon = icons/pdf.bmp
 needs = uikit >= 1.686, fontkit, printerkit, kapi >= 88
 required = 0
 restart = 0
 assoc = pdf=pdf
-content = ac599cf9c1f83130a2de3ff503a529142f2280503be03db937529783b937481a
+content = 0bd79ccb996bdea9bca45c65b701a9541cbc254471b1ec3fac7fb7cd292152bc
 
 [photos]
 title = Photos
@@ -968,20 +968,20 @@ content = b1ccf05434973db90daad68a47dc1911303b164e94135bb674474ba5e7a02ff0
 
 [qbasic]
 title = QBasic
-version = 1.0.26
+version = 1.0.27
 category = Productivity
 author = Onyx
 summary = 
-size = 129256
-installed = 463990
-sha256 = b88ca43a5ab8892109849c65fabd2122e5a684c068d6bba4f2a4f50df58e1c67
-file = pkgs/qbasic-1.0.26.opk
+size = 129360
+installed = 464470
+sha256 = c69e604e21a8c528fb729ac3e45d69cfc90f379b17d2dc9e51d5952f74daa78c
+file = pkgs/qbasic-1.0.27.opk
 icon = icons/qbasic.bmp
 needs = uikit >= 1.686, fontkit, kapi >= 88
 required = 0
 restart = 0
 assoc = bas=qbasic
-content = df57da759677dfa331b618b9e5c978f2b5a19c3e988505f4c8c977ba8a77cf77
+content = 4261bbe8d87ea70897d303b4d9e91d589fa7e36533e477ab62b2c298385377c9
 
 [qbstudio]
 title = QBStudio
@@ -1002,19 +1002,19 @@ content = 7f59cb7d1f6580652902b4e7c43652eda5d1e9810e43d34f093dbef9d37b5268
 
 [rtfview]
 title = RTF Reader
-version = 1.0.20
+version = 1.0.21
 category = Productivity
 author = Onyx
 summary = 
-size = 31868
-installed = 228814
-sha256 = 8632f38ff4e83b101dfe8a4615988e0997cf6ef7e762950db446841debe77d1b
-file = pkgs/rtfview-1.0.20.opk
+size = 32043
+installed = 229294
+sha256 = f172343897af164ed64ba2728db7f088a781d049dc13f60f60ffeaeeae214223
+file = pkgs/rtfview-1.0.21.opk
 icon = icons/rtfview.bmp
 needs = uikit >= 1.686, fontkit, kapi >= 88
 required = 0
 restart = 0
-content = 7f5aa5307c197e7feb9f195241b5516006fbe3b7fb8d214f758d99e7d2a43475
+content = 8a16df81c07ee52997f3fb50e474ffefa3079b83d098a0de0989ea09295db0b7
 
 [same]
 title = SameGame

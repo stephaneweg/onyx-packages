@@ -1,7 +1,7 @@
 # Onyx package index -- tools/pkg/mkrepo.py (docs/pkg/README.md)
 [repo]
 name = onyx-packages
-date = 2026-10-05 23:31
+date = 2026-10-05 23:38
 kapi = 90
 packages = 74
 
@@ -445,20 +445,20 @@ content = 0acff49ed0d4b56f4a59e39c9752c36ef0f8f12c8cd2a145c12e7a64f71b00a8
 
 [3dforge]
 title = 3DForge
-version = 1.0.5
+version = 1.0.6
 category = Graphics
 author = Onyx
 summary = 
-size = 561790
-installed = 1125150
-sha256 = 3cbff41735aac91a08c88fc8d01a135b861ed801cdbc617d6f3a9ca5d0d1abce
-file = pkgs/3dforge-1.0.5.opk
+size = 603697
+installed = 1190686
+sha256 = b92b32e75777a6952302a7cd0bffcdbc80caede5e89d2297b16fa3ba05dbd405
+file = pkgs/3dforge-1.0.6.opk
 icon = icons/3dforge.bmp
 needs = uikit >= 1.729, fontkit, uikit >= 1.726, imagekit >= 1.46, kapi >= 90
 required = 0
 restart = 0
 assoc = 3df=3dforge
-content = 51f146291277e243f10dfcc581bcc7fdd7e70d03459d5ade6e4e72d42b19352e
+content = 474ff123d27ea6f163f1e0fd1644ab6bedbebe0d3fd121c5b5cd857c93f72ebb
 
 [archiver]
 title = Archiver

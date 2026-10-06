@@ -1,7 +1,7 @@
 # Onyx package index -- tools/pkg/mkrepo.py (docs/pkg/README.md)
 [repo]
 name = onyx-packages
-date = 2026-10-06 10:33
+date = 2026-10-06 11:00
 kapi = 93
 packages = 76
 
@@ -673,19 +673,19 @@ content = 6d602a3a38f3887c22401cbe886ec09c11f93853dc68dc45f33846e1e3f027bf
 
 [gpiolab]
 title = GPIO Lab
-version = 1.0.1
+version = 1.0.2
 category = System
 author = Onyx
 summary = 
-size = 396791
-installed = 969774
-sha256 = 5ba5287bf8569cf4da90183e0ddbc9299655e58e6d7a2e8a264992d6e29c88e1
-file = pkgs/gpiolab-1.0.1.opk
+size = 397427
+installed = 970214
+sha256 = 8f7b0362300c1a36ca0bd742cd82288ad3f2b764beaaf7b8016348811a1507ca
+file = pkgs/gpiolab-1.0.2.opk
 icon = icons/gpiolab.bmp
 needs = uikit >= 1.729, fontkit, kapi >= 93
 required = 0
 restart = 0
-content = 9d3cf5651f22468c965e4f882683512563260e25d484f38aee302d526b52e409
+content = d5e1f4207f05f60367c5383ad99bbf8b225b89cba63ac60dbbd7b14485ac2d7f
 
 [graphcalc]
 title = Graphing Calculator

@@ -1,25 +1,25 @@
 # Onyx package index -- tools/pkg/mkrepo.py (docs/pkg/README.md)
 [repo]
 name = onyx-packages
-date = 2026-10-06 15:55
+date = 2026-10-06 16:35
 kapi = 93
 packages = 76
 
 [pkgman]
 title = Package Manager
-version = 1.0.24
+version = 1.0.25
 category = System
 author = Onyx
 summary = The packages: the pkg command, the Package Manager (the Control Panel's applet), the update daemon pkgd
-size = 2081641
-installed = 5271721
-sha256 = f59c7887f5782f862697948ca263f428494c2ed1deb798b600ac6bf31c1c1700
-file = pkgs/pkgman-1.0.24.opk
+size = 2083836
+installed = 5274665
+sha256 = 72b361ef822e8770562e8c0e822b0425d54edc501d20cafbccd9d6b916b3dd47
+file = pkgs/pkgman-1.0.25.opk
 icon = icons/pkgman.bmp
 needs = kapi >= 93
 required = 1
 restart = 0
-content = 2adc3cc9e73846403d7a70a43c8e5ec6c6b3b0840b560fca3db7880201dbae34
+content = e578504cd17327527b754c38ac807b64db1be5a1803159d9831dbec1b6e49ef3
 
 [jsc]
 title = JavaScriptCore shell (jsc)
@@ -55,20 +55,20 @@ content = 451ad661a95cad380e6335787c745ed6fe055507dff25dd9957b25fd5f66dbfc
 
 [uikit]
 title = UIKit, the toolkit (shared library)
-version = 1.779.4
+version = 1.779.5
 category = System
 author = Onyx
 summary = The widgets, the windows' frames and the theme every app draws with: one copy in memory, shared by all the apps
-size = 175835
-installed = 438475
-sha256 = 74f8afb93ca816fb692f8bb5257037dbe1341fce5859bd0cf1cf72d48460c133
-file = pkgs/uikit-1.779.4.opk
+size = 175972
+installed = 439403
+sha256 = 53f2d0ab6c5cb8d29b5c85298d814bf08051e7b24a43807bf09665890f7f542e
+file = pkgs/uikit-1.779.5.opk
 icon = icons/uikit.bmp
-needs = imagekit >= 1.46, systemkit >= 1.56, kapi >= 88
+needs = imagekit >= 1.46, systemkit >= 1.74, kapi >= 88
 required = 1
 restart = 0
 replaces = wtk
-content = ae59ec071dca2cc479005d1789aa4bc2cc359a64a24c491604d4927fbd6c5d2a
+content = e03d3bd6621d48d16ba48346bd5706c3b9a76dedafd39fc2bcc7d16a7555821f
 
 [fontkit]
 title = FontKit (FreeType, shared library)
@@ -138,19 +138,19 @@ content = d50365daa8a3cbb4802259a3873886746a1c7065977909b04dcc346a8f6064e1
 
 [systemkit]
 title = SystemKit (shared library)
-version = 1.59.0
+version = 1.74.0
 category = System
 author = Onyx
 summary = What the programs say to the system and to each other: the wallpaper, the volume, the trash, the preload list, the file associations, the notifications, the clipboard
-size = 30877
-installed = 94385
-sha256 = c6f49aeab70a2f6788e8ebae5e3fdbdadcfb5a789e554f10a7cd7ed6070a26fb
-file = pkgs/systemkit-1.59.0.opk
+size = 33737
+installed = 96474
+sha256 = 6dd7ea58803f4a947db993e5c2e1299715dea632ce93f059f15834fe431373b7
+file = pkgs/systemkit-1.74.0.opk
 icon = icons/systemkit.bmp
 needs = kapi >= 93
 required = 1
 restart = 0
-content = 0680ad434f0c5a6663ab2e7868da982a55fd3b62f7a7c372a2f38b1eaf7798af
+content = e47def8026d2217467f15765ebbe6486e88a38309c11faa55b21ac4776255da1
 
 [netkit]
 title = NetKit (shared library)
@@ -186,21 +186,21 @@ content = 1416c9dbd31b3ed5ab69858656d7cf1af2582a5da6eb0ef169a0931d39ba38c0
 
 [onyx]
 title = Onyx system
-version = 2026.10.106
+version = 2026.10.107
 category = System
 author = Onyx
 summary = The kernel, the commands of /bin, the desktop, the settings, the terminal, the File Viewer, Disks, the text editor, the fonts
-size = 43944023
-installed = 113005503
-sha256 = 7765609c0d745ccfec95c314d7a79d7a9344ea611ae2660bc5ff44c56c356800
-file = pkgs/onyx-2026.10.106.opk
+size = 44140489
+installed = 113683031
+sha256 = b27d4653ac26aeab4d165038141760c6878718a742dbe95906251ba401d156dd
+file = pkgs/onyx-2026.10.107.opk
 icon = icons/onyx.bmp
-needs = pkgman, uikit >= 1.744, fontkit, printerkit >= 1.33, audiokit >= 1.232, filekit >= 1.78, systemkit >= 1.59, netkit >= 1.21, imagekit >= 1.46
+needs = pkgman, uikit >= 1.744, fontkit, printerkit >= 1.33, audiokit >= 1.232, filekit >= 1.78, systemkit >= 1.74, netkit >= 1.21, imagekit >= 1.46
 required = 1
 restart = 1
 assoc = txt=tinypad md=tinypad ini=tinypad cfg=tinypad conf=tinypad log=tinypad c=tinypad h=tinypad cpp=tinypad hpp=tinypad json=tinypad html=tinypad htm=tinypad css=tinypad kmap=tinypad sh=tinypad bmp=imageview gif=imageview png=imageview jpg=imageview jpeg=imageview jpe=imageview pcx=imageview webp=imageview
 runners = bax=SD:/bin/basic bas=SD:/bin/basic
-content = 9118239aad66bc38a61b0791e4dc09342674cf863c5671c59a6ee2059be8915d
+content = 0f2115fd18519794f6bf71f2da30d5930952b3f7bf5ea6970119402643c6003d
 
 [pi-firmware]
 title = Raspberry Pi firmware
@@ -770,20 +770,20 @@ content = 4c95ab9cb3f71023afeb46f8bd19fc40c439e14483c7f3922948559214899db9
 
 [ledger]
 title = Ledger
-version = 1.0.24
+version = 1.0.25
 category = Productivity
 author = Onyx
 summary = 
-size = 17667940
-installed = 21008683
-sha256 = 916765671a67b6b14ee2a707c1949965d9b49d269ae3a31ba2d0a17bb17cfdd3
-file = pkgs/ledger-1.0.24.opk
+size = 17667186
+installed = 21008251
+sha256 = 6c22b6b6aba97faf71945fcb759cfe26ba2edeec3937e51423bb7cdb46f68f48
+file = pkgs/ledger-1.0.25.opk
 icon = icons/ledger.bmp
 needs = uikit >= 1.729, fontkit, cardfile, kapi >= 93
 required = 0
 restart = 0
 assoc = ledger=ledger
-content = 181cc5c0161e3cbd612a2e7e43be205914ec54aeb2350e014e7c18cbb76affca
+content = d7ea255de4cc85e99d8b97a656f14ab1bf9f34e472ec57b13ac4fd0ae9b87060
 
 [letters]
 title = Letters
@@ -1229,17 +1229,17 @@ content = eafb24dd636d4099f789653cb8b0c5589c87a4f45d515d8cc9935cf8c52942e9
 
 [turtle]
 title = Turtle Quest
-version = 1.0.1
+version = 1.0.2
 category = Programming
 author = Onyx
 summary = 
-size = 559086
-installed = 1348107
-sha256 = b2424b941822b033c9d34e3b65cfc9bcaa139efdfdde702b902a3b0339216541
-file = pkgs/turtle-1.0.1.opk
+size = 560866
+installed = 1348694
+sha256 = 124ea4f464e097800bf271c90dce9b3733ed57647963f65d205bd92895ace800
+file = pkgs/turtle-1.0.2.opk
 icon = icons/turtle.bmp
-needs = uikit >= 1.729, fontkit, uikit >= 1.779, kapi >= 93
+needs = uikit >= 1.729, fontkit, uikit >= 1.779, systemkit >= 1.74, kapi >= 93
 required = 0
 restart = 0
 assoc = turtle=turtle
-content = ccc7e65ae62d660f5f9d0ff27a5a9e1d408a130b895a3f998c8aac300ac1c30b
+content = fccd50ce9624308793875fa9fe2745422ea899ec6c38c1c3f37101adfa7282e9

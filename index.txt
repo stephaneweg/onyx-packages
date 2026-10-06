@@ -1,7 +1,7 @@
 # Onyx package index -- tools/pkg/mkrepo.py (docs/pkg/README.md)
 [repo]
 name = onyx-packages
-date = 2026-10-06 11:19
+date = 2026-10-06 11:25
 kapi = 93
 packages = 76
 
@@ -55,20 +55,20 @@ content = 451ad661a95cad380e6335787c745ed6fe055507dff25dd9957b25fd5f66dbfc
 
 [uikit]
 title = UIKit, the toolkit (shared library)
-version = 1.779.2
+version = 1.779.3
 category = System
 author = Onyx
 summary = The widgets, the windows' frames and the theme every app draws with: one copy in memory, shared by all the apps
-size = 175505
-installed = 437923
-sha256 = bfb7b0874246fef1d7fc46c517827268492758d35592d1a8b995507d149bd588
-file = pkgs/uikit-1.779.2.opk
+size = 175741
+installed = 438275
+sha256 = bcc0f3f4cf2536f4349237d81e00bcfc8a3a73a40d99e52c15f848397a607f7d
+file = pkgs/uikit-1.779.3.opk
 icon = icons/uikit.bmp
 needs = imagekit >= 1.46, systemkit >= 1.56, kapi >= 88
 required = 1
 restart = 0
 replaces = wtk
-content = bfc5e498dc4aaca33d8d1ba898df45a91f2214ed3d42b49ad0de2bed43012b38
+content = a912370a936823cb70f13ec71869e2652af204a19f11225b57d3d1b08bd66a02
 
 [fontkit]
 title = FontKit (FreeType, shared library)
@@ -186,21 +186,21 @@ content = 1416c9dbd31b3ed5ab69858656d7cf1af2582a5da6eb0ef169a0931d39ba38c0
 
 [onyx]
 title = Onyx system
-version = 2026.10.103
+version = 2026.10.104
 category = System
 author = Onyx
 summary = The kernel, the commands of /bin, the desktop, the settings, the terminal, the File Viewer, Disks, the text editor, the fonts
-size = 43923813
-installed = 112926644
-sha256 = 1965b66fb9264a8b9ed9909324694ff54096565d2de31cc0f896e961da5403ed
-file = pkgs/onyx-2026.10.103.opk
+size = 43926635
+installed = 112929940
+sha256 = 0f4e0615a1117f99d21f3d2da8b5742045825a9c51503de0aaef53470651d741
+file = pkgs/onyx-2026.10.104.opk
 icon = icons/onyx.bmp
 needs = pkgman, uikit >= 1.744, fontkit, printerkit >= 1.33, audiokit >= 1.232, filekit >= 1.78, systemkit >= 1.59, netkit >= 1.21, imagekit >= 1.46
 required = 1
 restart = 1
 assoc = txt=tinypad md=tinypad ini=tinypad cfg=tinypad conf=tinypad log=tinypad c=tinypad h=tinypad cpp=tinypad hpp=tinypad json=tinypad html=tinypad htm=tinypad css=tinypad kmap=tinypad sh=tinypad bmp=imageview gif=imageview png=imageview jpg=imageview jpeg=imageview jpe=imageview pcx=imageview webp=imageview
 runners = bax=SD:/bin/basic bas=SD:/bin/basic
-content = b9a5178dd11cf3dc03e529a6522465f73e3f8cc6cc3ef54c713fe9f4ca4f58fc
+content = 4e174f26ae32903d98bebde9a737fde685e200d9a45ad748f686c4d2aae49e7e
 
 [pi-firmware]
 title = Raspberry Pi firmware
@@ -969,19 +969,19 @@ content = 759b026018b1d77dcc8c0dc367cac727fe53c688a952233e0eddd67ae4754c0b
 
 [photos]
 title = Photos
-version = 1.0.21
+version = 1.0.22
 category = Graphics
 author = Onyx
 summary = 
 size = 418356
 installed = 1040670
-sha256 = 34160b67fee7c8d9dfc35f943f45cb8f59f78d0b447777ae9cc9ca922e226eb4
-file = pkgs/photos-1.0.21.opk
+sha256 = 9cdf94d7ee5dbf253ad4d06348a71598fc53cce8bd704eac9eb47d6caa1e3f85
+file = pkgs/photos-1.0.22.opk
 icon = icons/photos.bmp
 needs = uikit >= 1.729, fontkit, printerkit, imagekit >= 1.46, kapi >= 93
 required = 0
 restart = 0
-content = 734b06e2241739c7157826733db13d7b661dc8aee540e6a9737cf0528bf6e672
+content = bd72e32bf5bc81af56a45dfb3f3c1f2b3a35d6a03b8f802307700ca97fd1d100
 
 [pipes]
 title = Pipes

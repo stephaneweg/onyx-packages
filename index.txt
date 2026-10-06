@@ -1,7 +1,7 @@
 # Onyx package index -- tools/pkg/mkrepo.py (docs/pkg/README.md)
 [repo]
 name = onyx-packages
-date = 2026-10-06 20:13
+date = 2026-10-06 20:41
 kapi = 93
 packages = 77
 
@@ -186,19 +186,19 @@ content = 1416c9dbd31b3ed5ab69858656d7cf1af2582a5da6eb0ef169a0931d39ba38c0
 
 [notes]
 title = Notes
-version = 1.0.0
+version = 1.0.1
 category = Productivity
 author = Onyx
 summary = Quick notes kept by themselves (one text file each in SD:/Notes), coloured, pinned on the desktop by Stickies
-size = 383914
-installed = 1173486
-sha256 = 662c6a24ef395ccec532e9ecbc0719ff053ef43b0d8f9d3e566cd9e54332d448
-file = pkgs/notes-1.0.0.opk
+size = 386479
+installed = 1177743
+sha256 = 27b40604933d9e4363eafa65ee2e4d77d610c2f69a5f51f2708805466560e1be
+file = pkgs/notes-1.0.1.opk
 icon = icons/notes.bmp
 needs = uikit >= 1.781, systemkit >= 1.76, fontkit, kapi >= 93
 required = 0
 restart = 0
-content = 05c4649550648d573953d68fb0c2dadce726a4bf886f1a0e41e7c4ef74eb2059
+content = b5cbd57878027ddb98a1b2180ed8dc4da3d5bc4e34b7d59ede0a85eccbc4fdce
 
 [onyx]
 title = Onyx system

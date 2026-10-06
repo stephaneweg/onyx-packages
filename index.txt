@@ -1,9 +1,9 @@
 # Onyx package index -- tools/pkg/mkrepo.py (docs/pkg/README.md)
 [repo]
 name = onyx-packages
-date = 2026-10-06 10:04
+date = 2026-10-06 10:11
 kapi = 93
-packages = 75
+packages = 76
 
 [pkgman]
 title = Package Manager
@@ -55,20 +55,20 @@ content = 451ad661a95cad380e6335787c745ed6fe055507dff25dd9957b25fd5f66dbfc
 
 [uikit]
 title = UIKit, the toolkit (shared library)
-version = 1.744.0
+version = 1.779.0
 category = System
 author = Onyx
 summary = The widgets, the windows' frames and the theme every app draws with: one copy in memory, shared by all the apps
-size = 155692
-installed = 368379
-sha256 = 1dc00e749a338d985e60db590853f1b0e88d851e8e1ea71b2c5989e927d2df3d
-file = pkgs/uikit-1.744.0.opk
+size = 175505
+installed = 437923
+sha256 = c6aee9db56a262a95868a1c19f0b9a221d4517fae201f5c0e7a5cfd1d6991434
+file = pkgs/uikit-1.779.0.opk
 icon = icons/uikit.bmp
 needs = imagekit >= 1.46, systemkit >= 1.56, kapi >= 88
 required = 1
 restart = 0
 replaces = wtk
-content = d1fa98999e60e45243241ae15f6983e3cdb2d91134907250bbf9fdd76e5af687
+content = bfc5e498dc4aaca33d8d1ba898df45a91f2214ed3d42b49ad0de2bed43012b38
 
 [fontkit]
 title = FontKit (FreeType, shared library)
@@ -186,21 +186,21 @@ content = 1416c9dbd31b3ed5ab69858656d7cf1af2582a5da6eb0ef169a0931d39ba38c0
 
 [onyx]
 title = Onyx system
-version = 2026.10.97
+version = 2026.10.98
 category = System
 author = Onyx
 summary = The kernel, the commands of /bin, the desktop, the settings, the terminal, the File Viewer, Disks, the text editor, the fonts
-size = 43919353
-installed = 112918118
-sha256 = a1541cf31ccb65f545be86de477bdaf2e4c4826d096880175fbacea3e3dcb40b
-file = pkgs/onyx-2026.10.97.opk
+size = 43922122
+installed = 112921789
+sha256 = dcdd2fa9ff0760179267b17a92b74496ee2a1e862fd02b98ffc0da5a746b6844
+file = pkgs/onyx-2026.10.98.opk
 icon = icons/onyx.bmp
 needs = pkgman, uikit >= 1.744, fontkit, printerkit >= 1.33, audiokit >= 1.232, filekit >= 1.78, systemkit >= 1.56, netkit >= 1.21, imagekit >= 1.46
 required = 1
 restart = 1
 assoc = txt=tinypad md=tinypad ini=tinypad cfg=tinypad conf=tinypad log=tinypad c=tinypad h=tinypad cpp=tinypad hpp=tinypad json=tinypad html=tinypad htm=tinypad css=tinypad kmap=tinypad sh=tinypad bmp=imageview gif=imageview png=imageview jpg=imageview jpeg=imageview jpe=imageview pcx=imageview webp=imageview
 runners = bax=SD:/bin/basic bas=SD:/bin/basic
-content = 7693d6080457806e9c5c3313bfc5446dbb582a9940608c6d4a9442af35b578ec
+content = ec4faa848c310366abefbd73ab8900b83e9508ccce816df5285e5b9f9f843937
 
 [pi-firmware]
 title = Raspberry Pi firmware
@@ -1017,37 +1017,37 @@ content = 0c9fb9caa68c68613b38a2cec3acd2f3b2bff5b732742ceebabc49bf769fab9d
 
 [qbasic]
 title = QBasic
-version = 1.0.32
+version = 1.0.33
 category = Productivity
 author = Onyx
 summary = 
-size = 145061
-installed = 472128
-sha256 = d5cd2cafca3b05469f8aa4f09a53110efc15eb01b12f8c3f4baac3e09ae81865
-file = pkgs/qbasic-1.0.32.opk
+size = 147066
+installed = 475408
+sha256 = 3c17ff0555ebb5baca1bc2bbf8309850a4637faf623d56acd5ee09bbc749e02d
+file = pkgs/qbasic-1.0.33.opk
 icon = icons/qbasic.bmp
 needs = uikit >= 1.729, fontkit, uikit >= 1.722, kapi >= 93
 required = 0
 restart = 0
 assoc = bas=qbasic
-content = 61c3bfb7c1c1f5cc1375fe00946c3f0ff39d3a947ce47617d30cd192de6453af
+content = 0751ea47c220c73fe0cba4688ca83f8f381c266b62e1daca3e8a65d1136931bb
 
 [qbstudio]
 title = QBStudio
-version = 1.0.25
+version = 1.0.26
 category = Productivity
 author = Onyx
 summary = 
-size = 401966
-installed = 1032095
-sha256 = 8b6c720d8565c7cc173dad238088fefef5fec7fc36156b5e94e17a07584e3b20
-file = pkgs/qbstudio-1.0.25.opk
+size = 388083
+installed = 1030447
+sha256 = c46738c289dee89caf1c0acad8cfa50e4298570c4549f658bf2f19825f2006e8
+file = pkgs/qbstudio-1.0.26.opk
 icon = icons/qbstudio.bmp
-needs = uikit >= 1.729, fontkit, uikit >= 1.726, kapi >= 93
+needs = uikit >= 1.729, fontkit, uikit >= 1.779, kapi >= 93
 required = 0
 restart = 0
 assoc = form=qbstudio
-content = 67040b3af724ba8d810c88bf04a8c7e8c4918003946df8efd313a15bd5dfd2b5
+content = b5a4b0772878c0060d24bb76b405a254626ee850a7f32b157b717e4db1469035
 
 [rtfview]
 title = RTF Reader
@@ -1226,3 +1226,20 @@ needs = uikit >= 1.729, fontkit, kapi >= 93
 required = 0
 restart = 0
 content = 11e449949469e490d47ca35b2a87d5ec9a984f0363a10b9dfe7ba2bff72276fe
+
+[turtle]
+title = Turtle Quest
+version = 1.0.0
+category = Games
+author = Onyx
+summary = 
+size = 559080
+installed = 1348101
+sha256 = 4051681ce4e1478bd3a7c80e71f5e3b8ecc7fc6349e49ce9c39f327c1d28da80
+file = pkgs/turtle-1.0.0.opk
+icon = icons/turtle.bmp
+needs = uikit >= 1.729, fontkit, uikit >= 1.779, kapi >= 93
+required = 0
+restart = 0
+assoc = turtle=turtle
+content = f3a2f0ca0235c8f1c369d8f4cc87d279531eeea230cde6054baedbed8ddc83dc

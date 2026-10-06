@@ -1,9 +1,9 @@
 # Onyx package index -- tools/pkg/mkrepo.py (docs/pkg/README.md)
 [repo]
 name = onyx-packages
-date = 2026-10-06 18:39
+date = 2026-10-06 18:45
 kapi = 93
-packages = 76
+packages = 77
 
 [pkgman]
 title = Package Manager
@@ -55,20 +55,20 @@ content = 451ad661a95cad380e6335787c745ed6fe055507dff25dd9957b25fd5f66dbfc
 
 [uikit]
 title = UIKit, the toolkit (shared library)
-version = 1.779.6
+version = 1.781.0
 category = System
 author = Onyx
 summary = The widgets, the windows' frames and the theme every app draws with: one copy in memory, shared by all the apps
-size = 175962
-installed = 439403
-sha256 = 06526e3cba8a35d5b823a157cdc6b3ee633a6635c04c3045056151e79589931b
-file = pkgs/uikit-1.779.6.opk
+size = 178102
+installed = 439931
+sha256 = 27c5e27e48099228c049f91f63c291df5959258ede254fbf11adbe67d6a1a9b4
+file = pkgs/uikit-1.781.0.opk
 icon = icons/uikit.bmp
 needs = imagekit >= 1.46, systemkit >= 1.74, kapi >= 88
 required = 1
 restart = 0
 replaces = wtk
-content = 77cd16510c12c900803d75cfe661f45229a1e63efe5cd5b21397816dc3a8597c
+content = 386ad7b97c42ee603270a702e4170de55b0625a72d6804c590291dcf4625f741
 
 [fontkit]
 title = FontKit (FreeType, shared library)
@@ -138,19 +138,19 @@ content = d50365daa8a3cbb4802259a3873886746a1c7065977909b04dcc346a8f6064e1
 
 [systemkit]
 title = SystemKit (shared library)
-version = 1.74.0
+version = 1.76.0
 category = System
 author = Onyx
 summary = What the programs say to the system and to each other: the wallpaper, the volume, the trash, the preload list, the file associations, the notifications, the clipboard
-size = 33737
-installed = 96474
-sha256 = 6dd7ea58803f4a947db993e5c2e1299715dea632ce93f059f15834fe431373b7
-file = pkgs/systemkit-1.74.0.opk
+size = 35422
+installed = 96870
+sha256 = d5b85c6bb709d0908d04aca89318b3478fd1851bbe43fd459f6673992e101c1e
+file = pkgs/systemkit-1.76.0.opk
 icon = icons/systemkit.bmp
 needs = kapi >= 93
 required = 1
 restart = 0
-content = e47def8026d2217467f15765ebbe6486e88a38309c11faa55b21ac4776255da1
+content = 315c5ba4bb636a3103b70763b2adc0e10052212b7faa3000d8f9efe833ac4acf
 
 [netkit]
 title = NetKit (shared library)
@@ -184,23 +184,39 @@ required = 1
 restart = 0
 content = 1416c9dbd31b3ed5ab69858656d7cf1af2582a5da6eb0ef169a0931d39ba38c0
 
+[notes]
+title = Notes
+version = 1.0.0
+category = Productivity
+author = Onyx
+summary = Quick notes kept by themselves (one text file each in SD:/Notes), coloured, pinned on the desktop by Stickies
+size = 383914
+installed = 1173486
+sha256 = 662c6a24ef395ccec532e9ecbc0719ff053ef43b0d8f9d3e566cd9e54332d448
+file = pkgs/notes-1.0.0.opk
+icon = icons/notes.bmp
+needs = uikit >= 1.781, systemkit >= 1.76, fontkit, kapi >= 93
+required = 0
+restart = 0
+content = 05c4649550648d573953d68fb0c2dadce726a4bf886f1a0e41e7c4ef74eb2059
+
 [onyx]
 title = Onyx system
-version = 2026.10.109
+version = 2026.10.110
 category = System
 author = Onyx
 summary = The kernel, the commands of /bin, the desktop, the settings, the terminal, the File Viewer, Disks, the text editor, the fonts
-size = 44141720
-installed = 113684119
-sha256 = 7cc00249658aec7509a80611381e177a6bce6417337713710078c586df42b382
-file = pkgs/onyx-2026.10.109.opk
+size = 44141756
+installed = 113684203
+sha256 = 8e3af5c78ff346a524b77745b9f9a2aa28aa7ee41be7501c82f8c3dee074c3a0
+file = pkgs/onyx-2026.10.110.opk
 icon = icons/onyx.bmp
 needs = pkgman, uikit >= 1.744, fontkit, printerkit >= 1.33, audiokit >= 1.232, filekit >= 1.78, systemkit >= 1.74, netkit >= 1.21, imagekit >= 1.46
 required = 1
 restart = 1
 assoc = txt=tinypad md=tinypad ini=tinypad cfg=tinypad conf=tinypad log=tinypad c=tinypad h=tinypad cpp=tinypad hpp=tinypad json=tinypad html=tinypad htm=tinypad css=tinypad kmap=tinypad sh=tinypad bmp=imageview gif=imageview png=imageview jpg=imageview jpeg=imageview jpe=imageview pcx=imageview webp=imageview
 runners = bax=SD:/bin/basic bas=SD:/bin/basic
-content = fd8eb0540b917f8d76ef3556300ecf9c5be2cb7ff81a27c18fd1d227f749a167
+content = c49360dd3b59a9b9441e4ddace4b87de4de2a95f670088c216a1d41a7cf0d9ce
 
 [pi-firmware]
 title = Raspberry Pi firmware

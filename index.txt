@@ -1,7 +1,7 @@
 # Onyx package index -- tools/pkg/mkrepo.py (docs/pkg/README.md)
 [repo]
 name = onyx-packages
-date = 2026-10-06 16:57
+date = 2026-10-06 17:21
 kapi = 93
 packages = 76
 
@@ -186,21 +186,21 @@ content = 1416c9dbd31b3ed5ab69858656d7cf1af2582a5da6eb0ef169a0931d39ba38c0
 
 [onyx]
 title = Onyx system
-version = 2026.10.108
+version = 2026.10.109
 category = System
 author = Onyx
 summary = The kernel, the commands of /bin, the desktop, the settings, the terminal, the File Viewer, Disks, the text editor, the fonts
-size = 44141438
-installed = 113684191
-sha256 = 9500ac6d975c00de14711ad6a1ba81cf6b4b68e7479351070eefbe950a20e59f
-file = pkgs/onyx-2026.10.108.opk
+size = 44141720
+installed = 113684119
+sha256 = 7cc00249658aec7509a80611381e177a6bce6417337713710078c586df42b382
+file = pkgs/onyx-2026.10.109.opk
 icon = icons/onyx.bmp
 needs = pkgman, uikit >= 1.744, fontkit, printerkit >= 1.33, audiokit >= 1.232, filekit >= 1.78, systemkit >= 1.74, netkit >= 1.21, imagekit >= 1.46
 required = 1
 restart = 1
 assoc = txt=tinypad md=tinypad ini=tinypad cfg=tinypad conf=tinypad log=tinypad c=tinypad h=tinypad cpp=tinypad hpp=tinypad json=tinypad html=tinypad htm=tinypad css=tinypad kmap=tinypad sh=tinypad bmp=imageview gif=imageview png=imageview jpg=imageview jpeg=imageview jpe=imageview pcx=imageview webp=imageview
 runners = bax=SD:/bin/basic bas=SD:/bin/basic
-content = 12ab5e995807b24f781456bbb70c7a86099047267864f0ae445a99e46940dff3
+content = fd8eb0540b917f8d76ef3556300ecf9c5be2cb7ff81a27c18fd1d227f749a167
 
 [pi-firmware]
 title = Raspberry Pi firmware
@@ -236,19 +236,19 @@ content = b8ded20463f08d45a243e4ea6beb1f6adb3302d9a66b14ff03b1f3c250ce91cf
 
 [basic-samples]
 title = BASIC samples
-version = 1.0.9
+version = 1.0.10
 category = BASIC
 author = Onyx
 summary = Sample BASIC programs for QBasic (games, graphics, a GUI, the GPIO header: an LED, a button, a servo, a BME280, an SSD1306)
-size = 19766
-installed = 42898
-sha256 = 17f49aaf3ee563270e1c778cfe2dec7293cf42fbc4152bc9c7ab9fa5046cd58a
-file = pkgs/basic-samples-1.0.9.opk
+size = 19765
+installed = 42885
+sha256 = 2ca18089ccfeeb2402f5b68ccb2bc5d103d64cfbfe0a0cc1e12135ec32f3d715
+file = pkgs/basic-samples-1.0.10.opk
 icon = icons/basic-samples.bmp
 needs = qbasic, kapi >= 93
 required = 0
 restart = 0
-content = f26b5be0c6404dfc486cd4de2a887d6f756e15fb64a6bd06ab0385b8339a14c8
+content = 1ee1efa9c99c708e535918c1351ef85fe27a80adc12ba90560c5cb9a385b67e4
 
 [letters-samples]
 title = Letters samples
@@ -317,19 +317,19 @@ content = 9cfaa7f94a883c68c77b61d0064382fdf41506e250a4fb6b358dfecd8eb4ee02
 
 [qbstudio-samples]
 title = QBStudio samples
-version = 1.0.1
+version = 1.0.2
 category = Productivity
 author = Onyx
 summary = Projects to try QBStudio with: the temperature converter, Pages (user controls shown in a window's Hosts)
-size = 3895
-installed = 3878
-sha256 = 3efb17eaa5950df18127c7ff1e6df8ad1ff7dd870ef797b72362a864f2e6604f
-file = pkgs/qbstudio-samples-1.0.1.opk
+size = 3894
+installed = 3874
+sha256 = d9a3d1147ae97ff7bf9641e5afec1607d8f6eb47175afdcbf0e5d3fec83c7595
+file = pkgs/qbstudio-samples-1.0.2.opk
 icon = icons/qbstudio-samples.bmp
 needs = qbstudio, kapi >= 93
 required = 0
 restart = 0
-content = 9716baddc4497a6ce14b02c90ae41df6b7c0f45a446ffb966a72fe72d9ba69a2
+content = 200c7351f212a2544168208cd944cc93226d12908861162ed8ee221f64de0e58
 
 [cardfile-samples]
 title = Cardfile samples
@@ -673,19 +673,19 @@ content = c93dfbe8c2c4e5703c61752bd3866401ee289e7dc6896c5012fa46981cf1226c
 
 [gpiolab]
 title = GPIO Lab
-version = 1.0.4
+version = 1.0.5
 category = Programming
 author = Onyx
 summary = 
-size = 398361
-installed = 970483
-sha256 = 3bb747e64deb0d221980debfcb690534a00633eb867c2c0f49b58c84f17c5df5
-file = pkgs/gpiolab-1.0.4.opk
+size = 398559
+installed = 970387
+sha256 = ad5b1daafcc3e5e1c774c3219a0f1195a0bcdbbcddaea491a884095ab71acac7
+file = pkgs/gpiolab-1.0.5.opk
 icon = icons/gpiolab.bmp
 needs = uikit >= 1.729, fontkit, kapi >= 93
 required = 0
 restart = 0
-content = a5b855bcc6878cf444f16634afe0e897f777381ca6de7f5e37c6fef8a077649b
+content = fcd4d88b6b0d8d19f3aec11d151b101533207a3c8b7b6e4afaa14f8f7363a76f
 
 [graphcalc]
 title = Graphing Calculator
@@ -1017,37 +1017,37 @@ content = 2396189eb0af721ddcdf9950957b323da88b8b55110e11c15b195a7f5c21cad3
 
 [qbasic]
 title = QBasic
-version = 1.0.38
+version = 1.0.39
 category = Programming
 author = Onyx
 summary = 
-size = 148291
-installed = 477023
-sha256 = e34a99d30b5171c25d6cb093d6346d3e6cd42d664fffaa95bd566b0922a62def
-file = pkgs/qbasic-1.0.38.opk
+size = 148642
+installed = 477278
+sha256 = 0f07a8a88d84b90055d73f444e24c11b957d1654d67cf9a66431827b2ca9a249
+file = pkgs/qbasic-1.0.39.opk
 icon = icons/qbasic.bmp
 needs = uikit >= 1.729, fontkit, uikit >= 1.722, kapi >= 93
 required = 0
 restart = 0
 assoc = bas=qbasic
-content = 12d8644019c0c4154d5c764efec869b0e08f49336a658852c834ae8238e9bb17
+content = 3c46143ceef9803c01fe639370bef35e8dee9207d430f9c657809d76f75a71b0
 
 [qbstudio]
 title = QBStudio
-version = 1.0.31
+version = 1.0.32
 category = Programming
 author = Onyx
 summary = 
-size = 388870
-installed = 1030670
-sha256 = 93e2ff0d0933a1e04ea3b7dde0709d5ac5cd04fd3b908e79471bd27fd47c8638
-file = pkgs/qbstudio-1.0.31.opk
+size = 388935
+installed = 1030574
+sha256 = 3dabd22f914d70e1805e74ff7e87aec711debec9f7302fc983bac7b905930da0
+file = pkgs/qbstudio-1.0.32.opk
 icon = icons/qbstudio.bmp
 needs = uikit >= 1.729, fontkit, uikit >= 1.779, kapi >= 93
 required = 0
 restart = 0
 assoc = form=qbstudio
-content = 182010562f36ec5362593b86e9255e640842ca694ca4f7d0a2641ba1c1f2da82
+content = f08bbab60d515127553db595603fe7a3191376690987d53b0b229388ca17da5a
 
 [rtfview]
 title = RTF Reader
@@ -1229,17 +1229,17 @@ content = eafb24dd636d4099f789653cb8b0c5589c87a4f45d515d8cc9935cf8c52942e9
 
 [turtle]
 title = Turtle Quest
-version = 1.0.3
+version = 1.0.4
 category = Programming
 author = Onyx
 summary = 
-size = 560992
-installed = 1348790
-sha256 = f87b512a36c75af3a84e8c8ea2a40e82c6afbd0281258b8e773fda55b62e4ac8
-file = pkgs/turtle-1.0.3.opk
+size = 561401
+installed = 1348694
+sha256 = 35759473286c23552cbc14d4f2f3fa37732b8782193450ac37cf1a64c51315e2
+file = pkgs/turtle-1.0.4.opk
 icon = icons/turtle.bmp
 needs = uikit >= 1.729, fontkit, uikit >= 1.779, systemkit >= 1.74, kapi >= 93
 required = 0
 restart = 0
 assoc = turtle=turtle
-content = 1706cfdf518375d1433cbe2e04281dea76223bd61fc70b6e6b0f2539a475b9db
+content = 122dba79b1040f752247cb39480c0b67b11009d66aebed73a50a72ff0a8929e9

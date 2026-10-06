@@ -1,9 +1,9 @@
 # Onyx package index -- tools/pkg/mkrepo.py (docs/pkg/README.md)
 [repo]
 name = onyx-packages
-date = 2026-10-06 20:41
+date = 2026-10-06 20:54
 kapi = 93
-packages = 77
+packages = 78
 
 [pkgman]
 title = Package Manager
@@ -122,19 +122,19 @@ content = 339c08a33368c1218088b67975c3906ea0f7181c52f3c2e5398579e2ec31bb0a
 
 [filekit]
 title = FileKit (shared library)
-version = 1.78.3
+version = 1.96.0
 category = System
 author = Onyx
 summary = The file library: compression (zlib), archives (ZIP read and written; tar, tar.gz, gzip read) on the card and in memory, files and trees copied, moved, removed, paths -- for the Archiver, ImageKit and the programs that work on files
-size = 172447
-installed = 430362
-sha256 = 77c47916e014165dafdb392e2e7febcffe7785d44cfdd58ae752d7dc355f3ac8
-file = pkgs/filekit-1.78.3.opk
+size = 178351
+installed = 432081
+sha256 = f28e4a7117b68671980753456c157173038ece34b2a9721e64ec46f628f60c8b
+file = pkgs/filekit-1.96.0.opk
 icon = icons/filekit.bmp
 needs = kapi >= 93
 required = 1
 restart = 0
-content = d50365daa8a3cbb4802259a3873886746a1c7065977909b04dcc346a8f6064e1
+content = 0160ce13c929d799803e12ecf7261c17d246af3368c0bd5923b8071192366c64
 
 [systemkit]
 title = SystemKit (shared library)
@@ -202,21 +202,21 @@ content = b5cbd57878027ddb98a1b2180ed8dc4da3d5bc4e34b7d59ede0a85eccbc4fdce
 
 [onyx]
 title = Onyx system
-version = 2026.10.112
+version = 2026.10.113
 category = System
 author = Onyx
 summary = The kernel, the commands of /bin, the desktop, the settings, the terminal, the File Viewer, Disks, the text editor, the fonts
-size = 44144798
-installed = 113685251
-sha256 = b2228eb373ac4870ae234a6bdf1e8cc57fecb29f0f54f307f6629b99a25be102
-file = pkgs/onyx-2026.10.112.opk
+size = 44144810
+installed = 113685282
+sha256 = 52edae8bb20419dde3704fbb54d7fe7cc665540c3be8d23ab54c60649e8d35d1
+file = pkgs/onyx-2026.10.113.opk
 icon = icons/onyx.bmp
 needs = pkgman, uikit >= 1.744, fontkit, printerkit >= 1.33, audiokit >= 1.232, filekit >= 1.78, systemkit >= 1.74, netkit >= 1.21, imagekit >= 1.46
 required = 1
 restart = 1
 assoc = txt=tinypad md=tinypad ini=tinypad cfg=tinypad conf=tinypad log=tinypad c=tinypad h=tinypad cpp=tinypad hpp=tinypad json=tinypad html=tinypad htm=tinypad css=tinypad kmap=tinypad sh=tinypad bmp=imageview gif=imageview png=imageview jpg=imageview jpeg=imageview jpe=imageview pcx=imageview webp=imageview
 runners = bax=SD:/bin/basic bas=SD:/bin/basic
-content = afe0c8e6556f2e752e170c037b4df6129e55811f313b923e9ec5255441b5a3f1
+content = ee0484e589c0adfc9226c4e33ea0e5bcb928053202b7bfadff6cdc797edfed4a
 
 [pi-firmware]
 title = Raspberry Pi firmware
@@ -541,6 +541,23 @@ required = 0
 restart = 0
 assoc = card=cardfile
 content = dd08e504e4846f8d9d04f825f9264b617586af2e80b8adc0a136865ab8e9e5a2
+
+[circuits]
+title = Circuits
+version = 1.0.0
+category = Programming
+author = Onyx
+summary = 
+size = 247176
+installed = 701438
+sha256 = eb9bfc5a7987ae6ad73ea8142c718db66bf6781982558b1f56c83b87fee9eb37
+file = pkgs/circuits-1.0.0.opk
+icon = icons/circuits.bmp
+needs = uikit >= 1.729, fontkit, uikit >= 1.779, systemkit >= 1.74, filekit >= 1.96, kapi >= 93
+required = 0
+restart = 0
+assoc = circuits=circuits
+content = 92ef8a88f7d73f71556e37aabf6490fa0058679255fe0c3acd1dd334cda5e76a
 
 [courier]
 title = Courier

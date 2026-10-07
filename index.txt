@@ -1,9 +1,9 @@
 # Onyx package index -- tools/pkg/mkrepo.py (docs/pkg/README.md)
 [repo]
 name = onyx-packages
-date = 2026-10-06 20:54
+date = 2026-10-07 06:07
 kapi = 93
-packages = 78
+packages = 80
 
 [pkgman]
 title = Package Manager
@@ -202,21 +202,21 @@ content = b5cbd57878027ddb98a1b2180ed8dc4da3d5bc4e34b7d59ede0a85eccbc4fdce
 
 [onyx]
 title = Onyx system
-version = 2026.10.113
+version = 2026.10.114
 category = System
 author = Onyx
 summary = The kernel, the commands of /bin, the desktop, the settings, the terminal, the File Viewer, Disks, the text editor, the fonts
-size = 44144810
-installed = 113685282
-sha256 = 52edae8bb20419dde3704fbb54d7fe7cc665540c3be8d23ab54c60649e8d35d1
-file = pkgs/onyx-2026.10.113.opk
+size = 44144837
+installed = 113685336
+sha256 = ff3da670e98a1587e9985d5788658f74f21bff162acc95e63678a1aa247c0bb7
+file = pkgs/onyx-2026.10.114.opk
 icon = icons/onyx.bmp
 needs = pkgman, uikit >= 1.744, fontkit, printerkit >= 1.33, audiokit >= 1.232, filekit >= 1.78, systemkit >= 1.74, netkit >= 1.21, imagekit >= 1.46
 required = 1
 restart = 1
 assoc = txt=tinypad md=tinypad ini=tinypad cfg=tinypad conf=tinypad log=tinypad c=tinypad h=tinypad cpp=tinypad hpp=tinypad json=tinypad html=tinypad htm=tinypad css=tinypad kmap=tinypad sh=tinypad bmp=imageview gif=imageview png=imageview jpg=imageview jpeg=imageview jpe=imageview pcx=imageview webp=imageview
 runners = bax=SD:/bin/basic bas=SD:/bin/basic
-content = ee0484e589c0adfc9226c4e33ea0e5bcb928053202b7bfadff6cdc797edfed4a
+content = 4e053aa6094adfd369b7e3e58ba87fe3db0606116ec1fc48294987210d34f821
 
 [pi-firmware]
 title = Raspberry Pi firmware
@@ -574,6 +574,23 @@ needs = uikit >= 1.729, fontkit, uikit >= 1.722, kapi >= 93
 required = 0
 restart = 0
 content = ef9706d573f8ca5d7a26017cde7145bc76d4ffc524e8dd3bde405121d5b937ce
+
+[critters]
+title = Critters
+version = 1.0.0
+category = Games
+author = Onyx
+summary = 
+size = 306147
+installed = 816401
+sha256 = 83029ddd9cc740ebad94ed801b06cbff7a85ba7e386ad66891a4c9d43a95a91d
+file = pkgs/critters-1.0.0.opk
+icon = icons/critters.bmp
+needs = uikit >= 1.729, fontkit, uikit >= 1.781, audiokit >= 1.232, filekit >= 1.96, fontkit >= 1.135, kapi >= 93
+required = 0
+restart = 0
+assoc = level=critters
+content = c044ebd38c9870b298e09c4f3d267d54a3272fa06100e89a2065fee32d758980
 
 [doom]
 title = Doom
@@ -1016,6 +1033,23 @@ required = 0
 restart = 0
 content = 73d0930528cbe83a4045202d8f7413c560c9cfae0cf3d6e59c2e8ef6a25ef181
 
+[pinball]
+title = Pinball
+version = 1.0.0
+category = Games
+author = Onyx
+summary = 
+size = 290046
+installed = 781217
+sha256 = c144034733295ce298f0334779251f3965e30e79bb7a43e3541cd3f17b7e448a
+file = pkgs/pinball-1.0.0.opk
+icon = icons/pinball.bmp
+needs = uikit >= 1.729, fontkit, uikit >= 1.781, audiokit >= 1.232, filekit >= 1.96, fontkit >= 1.135, kapi >= 93
+required = 0
+restart = 0
+assoc = table=pinball
+content = d8151416c617e0658ac3ee9838eec552109dfde010523d70ae6a7e06dd90d0aa
+
 [pipes]
 title = Pipes
 version = 1.0.22
@@ -1262,17 +1296,17 @@ content = eafb24dd636d4099f789653cb8b0c5589c87a4f45d515d8cc9935cf8c52942e9
 
 [turtle]
 title = Turtle Quest
-version = 1.0.5
+version = 1.0.6
 category = Programming
 author = Onyx
 summary = 
-size = 561987
-installed = 1348766
-sha256 = a9524fd7d26e98e94519a1f3a3865b2b9b488253de5a21e6fe220d918804b52e
-file = pkgs/turtle-1.0.5.opk
+size = 579251
+installed = 1437278
+sha256 = c19eada16b94607e952a2e2d3080c862ac4aaebe25ee6977ccceff38b6949ac0
+file = pkgs/turtle-1.0.6.opk
 icon = icons/turtle.bmp
 needs = uikit >= 1.729, fontkit, uikit >= 1.779, systemkit >= 1.74, kapi >= 93
 required = 0
 restart = 0
 assoc = turtle=turtle
-content = d148aa12ed564bc83d5b25b57f96600f06521c37ae2b15112533cd2d10d717fd
+content = 36c83dff956cd6f66cb572b9c530b15c4a902ecbcbfdb0aa32668ba716d8c6cf

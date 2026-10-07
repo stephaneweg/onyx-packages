@@ -1,7 +1,7 @@
 # Onyx package index -- tools/pkg/mkrepo.py (docs/pkg/README.md)
 [repo]
 name = onyx-packages
-date = 2026-10-07 16:43
+date = 2026-10-07 17:23
 kapi = 93
 packages = 81
 
@@ -1264,19 +1264,19 @@ content = 8edd777a2e3f6ba74e48f021cb6261563c942c7981cc413788219ad443b064a8
 
 [telegram]
 title = Telegram
-version = 1.0.3
+version = 1.0.4
 category = Internet
 author = Onyx
 summary = 
-size = 539652
-installed = 1454408
-sha256 = c9682dc99de5e8a59e641f608969863338a64e8a29e42947ef492be213ab3fa2
-file = pkgs/telegram-1.0.3.opk
+size = 543944
+installed = 1456012
+sha256 = 97f84275c814bf50248c173a8e2c38184652ecb3999548254212d2908822c634
+file = pkgs/telegram-1.0.4.opk
 icon = icons/telegram.bmp
 needs = uikit >= 1.729, fontkit, uikit >= 1.781, filekit >= 1.96, systemkit >= 1.76, fontkit >= 1.135, kapi >= 93
 required = 0
 restart = 0
-content = cad835d39bd02b8fdbb8666e0ec9f81cdb4862fd752b5e637ed47d15f2e94700
+content = 21c8aa1f65e6998b510f45ef4f20dfa699c21350c081c9ad275eab19db4dcc81
 
 [tetris]
 title = Tetris

@@ -1,9 +1,9 @@
 # Onyx package index -- tools/pkg/mkrepo.py (docs/pkg/README.md)
 [repo]
 name = onyx-packages
-date = 2026-10-07 20:40
+date = 2026-10-07 23:32
 kapi = 96
-packages = 81
+packages = 82
 
 [pkgman]
 title = Package Manager
@@ -122,35 +122,35 @@ content = 339c08a33368c1218088b67975c3906ea0f7181c52f3c2e5398579e2ec31bb0a
 
 [filekit]
 title = FileKit (shared library)
-version = 1.96.0
+version = 1.99.0
 category = System
 author = Onyx
 summary = The file library: compression (zlib), archives (ZIP read and written; tar, tar.gz, gzip read) on the card and in memory, files and trees copied, moved, removed, paths -- for the Archiver, ImageKit and the programs that work on files
-size = 178351
-installed = 432081
-sha256 = f28e4a7117b68671980753456c157173038ece34b2a9721e64ec46f628f60c8b
-file = pkgs/filekit-1.96.0.opk
+size = 179171
+installed = 432341
+sha256 = e71e820e459da50a72ece9d288b5ef101b634b6fcd860769d90e5009974bc10d
+file = pkgs/filekit-1.99.0.opk
 icon = icons/filekit.bmp
 needs = kapi >= 96
 required = 1
 restart = 0
-content = 0160ce13c929d799803e12ecf7261c17d246af3368c0bd5923b8071192366c64
+content = 6ba7deabd260a6e4fb4267c5cd7cb8fb562a4af2c1773ec833f25c7ff412ee2b
 
 [systemkit]
 title = SystemKit (shared library)
-version = 1.76.0
+version = 1.78.0
 category = System
 author = Onyx
 summary = What the programs say to the system and to each other: the wallpaper, the volume, the trash, the preload list, the file associations, the notifications, the clipboard
-size = 35422
-installed = 96870
-sha256 = d5b85c6bb709d0908d04aca89318b3478fd1851bbe43fd459f6673992e101c1e
-file = pkgs/systemkit-1.76.0.opk
+size = 36806
+installed = 97649
+sha256 = e555a25eac2c0f39e892470144232a3e87303c5df89dad3cc90952fd54bc6565
+file = pkgs/systemkit-1.78.0.opk
 icon = icons/systemkit.bmp
 needs = kapi >= 96
 required = 1
 restart = 0
-content = 315c5ba4bb636a3103b70763b2adc0e10052212b7faa3000d8f9efe833ac4acf
+content = f298d47b046a3aa0eb94f3739510c489d63fe68ac7fa51301eb2027c0ec3283e
 
 [netkit]
 title = NetKit (shared library)
@@ -200,23 +200,39 @@ required = 0
 restart = 0
 content = f38528c4bc5cc61721e4bcd5f241da9b12628ab15fbb574427e4c6dce10f7961
 
+[clock]
+title = Clock
+version = 1.0.0
+category = Productivity
+author = Onyx
+summary = The time here and around the world, alarms that ring with the app closed (clockd), a timer, a stopwatch
+size = 727923
+installed = 2107262
+sha256 = 832cab10b3e75134beca0915b3208c5cf1e74d5888afe8ca5723bd149f369589
+file = pkgs/clock-1.0.0.opk
+icon = icons/clock.bmp
+needs = uikit >= 1.793, systemkit >= 1.78, filekit >= 1.99, audiokit >= 1.232, fontkit, kapi >= 96
+required = 0
+restart = 0
+content = 9d7b2db0229442f48942be7173576e0fdecc71869773468e59d9bc9a94023953
+
 [onyx]
 title = Onyx system
-version = 2026.10.118
+version = 2026.10.119
 category = System
 author = Onyx
 summary = The kernel, the commands of /bin, the desktop, the settings, the terminal, the File Viewer, Disks, the text editor, the fonts
-size = 44154300
-installed = 113702977
-sha256 = d014c4f99d667e082851b11062e2de14417f748f01ae6a30835cf0a9ffdc9b08
-file = pkgs/onyx-2026.10.118.opk
+size = 44309696
+installed = 114113750
+sha256 = 6bee6eca63ce3169e6f419cda7f18d248f749b0490a65afeaca27a89fbcb1b03
+file = pkgs/onyx-2026.10.119.opk
 icon = icons/onyx.bmp
-needs = pkgman, uikit >= 1.793, fontkit, printerkit >= 1.33, audiokit >= 1.232, filekit >= 1.78, systemkit >= 1.74, netkit >= 1.21, imagekit >= 1.46
+needs = pkgman, uikit >= 1.793, fontkit, printerkit >= 1.33, audiokit >= 1.232, filekit >= 1.99, systemkit >= 1.74, netkit >= 1.21, imagekit >= 1.46
 required = 1
 restart = 1
 assoc = txt=tinypad md=tinypad ini=tinypad cfg=tinypad conf=tinypad log=tinypad c=tinypad h=tinypad cpp=tinypad hpp=tinypad json=tinypad html=tinypad htm=tinypad css=tinypad kmap=tinypad sh=tinypad bmp=imageview gif=imageview png=imageview jpg=imageview jpeg=imageview jpe=imageview pcx=imageview webp=imageview
 runners = bax=SD:/bin/basic bas=SD:/bin/basic
-content = a1f4e90f549aef85472d15bb858f1235d8e89c28a13469308a4dac92f96be17e
+content = afb7e00bab699c3fc4680eec5cdba59a572bf2b201fc0b5de0383620075f5507
 
 [pi-firmware]
 title = Raspberry Pi firmware

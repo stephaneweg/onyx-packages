@@ -1,7 +1,7 @@
 # Onyx package index -- tools/pkg/mkrepo.py (docs/pkg/README.md)
 [repo]
 name = onyx-packages
-date = 2026-10-08 23:24
+date = 2026-10-08 23:33
 kapi = 97
 packages = 82
 
@@ -218,21 +218,21 @@ content = cf36f0a2b7e4bfafe761ab307500b15389096f2fd86fec25c6eb3266d406e0c5
 
 [onyx]
 title = Onyx system
-version = 2026.10.129
+version = 2026.10.130
 category = System
 author = Onyx
 summary = The kernel, the commands of /bin, the desktop, the settings, the terminal, the File Viewer, Disks, the text editor, the fonts
-size = 44964819
+size = 44964810
 installed = 116490658
-sha256 = 05f233b7809e5db5f164212c31316d09c9f21f9ff4c93e044e0bb6d79861a39e
-file = pkgs/onyx-2026.10.129.opk
+sha256 = 965b2fd7c8ff24d3e8563c130b26ec44eacfd769d6ca01d0b5f4927bbe200119
+file = pkgs/onyx-2026.10.130.opk
 icon = icons/onyx.bmp
 needs = pkgman, uikit >= 1.850, fontkit, printerkit >= 1.33, audiokit >= 1.232, filekit >= 1.99, systemkit >= 1.93, netkit >= 1.21, imagekit >= 1.46
 required = 1
 restart = 1
 assoc = txt=tinypad md=tinypad ini=tinypad cfg=tinypad conf=tinypad log=tinypad c=tinypad h=tinypad cpp=tinypad hpp=tinypad json=tinypad html=tinypad htm=tinypad css=tinypad kmap=tinypad sh=tinypad bmp=imageview gif=imageview png=imageview jpg=imageview jpeg=imageview jpe=imageview pcx=imageview webp=imageview
 runners = bax=SD:/bin/basic bas=SD:/bin/basic
-content = 903bf2bd92811d7bdc9cf70c8c7590b29ffb6b901f89d8a5b2a7f1800e75b0c8
+content = c6d0e087aa754e316b010f97715f2afee75c87534311061a72854480ba80c6d3
 
 [pi-firmware]
 title = Raspberry Pi firmware
@@ -527,19 +527,19 @@ content = 6647667c9ba9fa50007b44eeb23917801b0a2435c584fb6d1faed6aa3003aaf2
 
 [calendar]
 title = Calendar
-version = 1.0.26
+version = 1.0.27
 category = Productivity
 author = Onyx
 summary = 
-size = 76509
-installed = 259607
-sha256 = 336757f9f8a3fdcc712710030bfe462eaee49f41ed195787ec554660b494270f
-file = pkgs/calendar-1.0.26.opk
+size = 76510
+installed = 259608
+sha256 = 8227fd1a3c8afc9223e0056d9398b3b3897939db12c3256cb7baf47958bd2f88
+file = pkgs/calendar-1.0.27.opk
 icon = icons/calendar.bmp
 needs = uikit >= 1.729, fontkit, uikit >= 1.949, kapi >= 97
 required = 0
 restart = 0
-content = 760cee0129997dc4f19cb724f26241874512ac056027b5aa7fed5c7f7bca2b64
+content = afa5d8882ef911a825b7a55789ddc300e003cb7b570218d1facefd9c4d11b240
 
 [cardfile]
 title = Cardfile
@@ -803,19 +803,19 @@ content = 09b8f21711d4a9184279db34a205ac2fc100ff4fa752c0dfeb0851306dd15e8d
 
 [irc]
 title = IRC
-version = 1.0.30
+version = 1.0.31
 category = Internet
 author = Onyx
 summary = 
-size = 65600
-installed = 320628
-sha256 = 1951d5f2223dd339701d86b07a730b5858281655ffd8a878fb46ca20f3aac8a8
-file = pkgs/irc-1.0.30.opk
+size = 68777
+installed = 324626
+sha256 = 18db81c31b79d9c7ad9e72cf5382970dc8ae3f3fe7c86cb8f80ce66f494fb057
+file = pkgs/irc-1.0.31.opk
 icon = icons/irc.bmp
-needs = uikit >= 1.729, fontkit, kapi >= 97
+needs = uikit >= 1.729, fontkit, uikit >= 1.949, kapi >= 97
 required = 0
 restart = 0
-content = 9e67b2f2565f1db527f7b6e9e3e5748d2dd5109bbcbe44ae78bbe312688c5f85
+content = 40c703dc7027a90bebe5b3ded032bf77d5afd23ee0c6086794f754c60872ad5d
 
 [koton]
 title = Koton
@@ -903,20 +903,20 @@ content = b6285009f8c362c59501746d358d9f13f6f31f9a3b855faf285f7af8d033b891
 
 [mail]
 title = Mail
-version = 1.0.28
+version = 1.0.29
 category = Internet
 author = Onyx
 summary = 
 size = 847727
-installed = 1996351
-sha256 = 7922dbb8ece8f36a1919db3aca3e216fc71f11badac6566851ca5520ac9fadae
-file = pkgs/mail-1.0.28.opk
+installed = 1996355
+sha256 = 40d979fbec0a566c6f8ad43b5f850f1927d72621843cb9f6e73573fef7cf6a07
+file = pkgs/mail-1.0.29.opk
 icon = icons/mail.bmp
 needs = uikit >= 1.729, fontkit, uikit >= 1.949, kapi >= 97
 required = 0
 restart = 0
 assoc = eml=mail
-content = e1c2ffa0ff0da01e5d94b11caa156c84e1279735d23b530be6a7ca5b59a056cb
+content = 0ff08697fb5b7441b1fc21d8dda0d2c5419b313082129c5ba7b8ed3e6d590e53
 
 [mandelbrot]
 title = Mandelbrot

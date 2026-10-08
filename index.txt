@@ -1,7 +1,7 @@
 # Onyx package index -- tools/pkg/mkrepo.py (docs/pkg/README.md)
 [repo]
 name = onyx-packages
-date = 2026-10-08 22:18
+date = 2026-10-08 23:24
 kapi = 97
 packages = 82
 
@@ -39,19 +39,19 @@ content = 476518e9a42ccfbfaab693d84060dcb8e95b3f679692044d08ff34a7d923b7d1
 
 [jet]
 title = Jet Browser
-version = 2.0.13
+version = 2.0.14
 category = Internet
 author = Onyx
 summary = The browser, on WebKit: one page per window, HTTPS, JavaScript, video; tip: "preload jet" in SD:/etc/autostart makes it open at once
-size = 43601368
+size = 43602647
 installed = 105186228
-sha256 = 5d706ecc59044b381d2c387743ac1bc058934115163806613452ee6966cdd39f
-file = pkgs/jet-2.0.13.opk
+sha256 = 8a91a26fd40037e8a0d9f90046e93ee46f7074734774e0d01c9685992ae8ee7b
+file = pkgs/jet-2.0.14.opk
 icon = icons/jet.bmp
 needs = onyx >= 2026.10.39, uikit >= 1.686, systemkit >= 1.56, kapi >= 97
 required = 0
 restart = 0
-content = 451ad661a95cad380e6335787c745ed6fe055507dff25dd9957b25fd5f66dbfc
+content = d0c93b9d62042a7047ca8670d442e866f8a7fe5d05b6aafa5ef771153af36461
 
 [uikit]
 title = UIKit, the toolkit (shared library)
@@ -527,19 +527,19 @@ content = 6647667c9ba9fa50007b44eeb23917801b0a2435c584fb6d1faed6aa3003aaf2
 
 [calendar]
 title = Calendar
-version = 1.0.25
+version = 1.0.26
 category = Productivity
 author = Onyx
 summary = 
-size = 72450
-installed = 254642
-sha256 = f212dd73488f74c450d391855f4621923065aa702cc99e076d23d952ac541d8f
-file = pkgs/calendar-1.0.25.opk
+size = 76509
+installed = 259607
+sha256 = 336757f9f8a3fdcc712710030bfe462eaee49f41ed195787ec554660b494270f
+file = pkgs/calendar-1.0.26.opk
 icon = icons/calendar.bmp
-needs = uikit >= 1.729, fontkit, kapi >= 97
+needs = uikit >= 1.729, fontkit, uikit >= 1.949, kapi >= 97
 required = 0
 restart = 0
-content = e296f5b6f68b3ea256dfc844053064cd77a86cf258513535795d6c8e6102f622
+content = 760cee0129997dc4f19cb724f26241874512ac056027b5aa7fed5c7f7bca2b64
 
 [cardfile]
 title = Cardfile
@@ -675,19 +675,19 @@ content = 5c67613f132aad5e47bb6de9844f598255f32d40b46b289babd2a5064df6d792
 
 [gamelib]
 title = Game Library
-version = 1.0.24
+version = 1.0.25
 category = Games
 author = Onyx
 summary = 
-size = 149386
-installed = 429857
-sha256 = 84d0d4daeb00883a4ed98f913abe9bc703fe272358c28218cc1425e42187cbd8
-file = pkgs/gamelib-1.0.24.opk
+size = 295913
+installed = 762546
+sha256 = 4fbedf04f1d58cf7fb46579fb33f063309fc3b603f0defb904c5ba71e8df6fb1
+file = pkgs/gamelib-1.0.25.opk
 icon = icons/gamelib.bmp
-needs = uikit >= 1.729, fontkit, kapi >= 97
+needs = uikit >= 1.729, fontkit, uikit >= 1.949, kapi >= 97
 required = 0
 restart = 0
-content = 62cea0c5bf3b6d932857a006985b1c1b628be51ee0e975ccf0eefbc0f2a49926
+content = e464a71eb496b84cdf73a97822300f3fbcc1e4c90f3aff9e9ec18c96a6b2afa7
 
 [gbaemu]
 title = Game Boy Advance
@@ -903,20 +903,20 @@ content = b6285009f8c362c59501746d358d9f13f6f31f9a3b855faf285f7af8d033b891
 
 [mail]
 title = Mail
-version = 1.0.27
+version = 1.0.28
 category = Internet
 author = Onyx
 summary = 
-size = 839185
-installed = 1982036
-sha256 = e9e609fec523fe4163281d999cdc4c8f57310ac9b6e91b69c437d99178550f28
-file = pkgs/mail-1.0.27.opk
+size = 847727
+installed = 1996351
+sha256 = 7922dbb8ece8f36a1919db3aca3e216fc71f11badac6566851ca5520ac9fadae
+file = pkgs/mail-1.0.28.opk
 icon = icons/mail.bmp
-needs = uikit >= 1.729, fontkit, kapi >= 97
+needs = uikit >= 1.729, fontkit, uikit >= 1.949, kapi >= 97
 required = 0
 restart = 0
 assoc = eml=mail
-content = 56ee133ffe488ca509048fc8aad1a41c9b261f35c25aa4cf690834721191a18d
+content = e1c2ffa0ff0da01e5d94b11caa156c84e1279735d23b530be6a7ca5b59a056cb
 
 [mandelbrot]
 title = Mandelbrot
@@ -936,20 +936,20 @@ content = 19ef973f92e5a0b42f3883044e7b9b500be117e2432f9847db34b284ce93b167
 
 [media]
 title = Media Player
-version = 1.0.37
+version = 1.0.38
 category = Multimedia
 author = Onyx
 summary = 
-size = 7662877
-installed = 15828862
-sha256 = d8f7e16da065b55a9c1e6c9bebaae86acc3d53b86d94c68803b09b629897ffd4
-file = pkgs/media-1.0.37.opk
+size = 7669986
+installed = 15838778
+sha256 = e6b3066f69a1eae1412aea379f802f6d4e221f5e4370bb41d350b38647f29932
+file = pkgs/media-1.0.38.opk
 icon = icons/media.bmp
-needs = uikit >= 1.729, fontkit, generaluser-gs, audiokit >= 1.232, imagekit >= 1.46, kapi >= 97
+needs = uikit >= 1.729, fontkit, generaluser-gs, audiokit >= 1.232, imagekit >= 1.46, uikit >= 1.949, kapi >= 97
 required = 0
 restart = 0
 assoc = mp3=media ogg=media oga=media flac=media wav=media mid=media midi=media kar=media rmi=media m3u=media m3u8=media webm=media mkv=media mp4=media m4v=media mov=media avi=media divx=media mpg=media mpeg=media vob=media ts=media m2ts=media mts=media flv=media wmv=media asf=media ogv=media 3gp=media
-content = 2a6bec95ab0f39d8f815f0f349e8f8980a62ed05afa380676468b1aee6b06670
+content = b578ba7a0d34dc60e2d383b4ba1669d718e8c568a4010a0a02324dda8bc2c550
 
 [minesweeper]
 title = Minesweeper
@@ -1035,19 +1035,19 @@ content = 200072aa07d6149f28c8a8e832ab447a1e712ebe7ed54c257d72e39459774a4c
 
 [photos]
 title = Photos
-version = 1.0.30
+version = 1.0.31
 category = Graphics
 author = Onyx
 summary = 
-size = 418415
-installed = 1040638
-sha256 = d6fd11849dc9c7073438950eee107983f6552bb02b649cc801dc95605b3ac002
-file = pkgs/photos-1.0.30.opk
+size = 424103
+installed = 1049412
+sha256 = 9da85ee38d81ef49583578b82a90377fa0cd6bd0a1fd111b14d0bf790387e142
+file = pkgs/photos-1.0.31.opk
 icon = icons/photos.bmp
-needs = uikit >= 1.729, fontkit, printerkit, imagekit >= 1.46, kapi >= 97
+needs = uikit >= 1.729, fontkit, printerkit, imagekit >= 1.46, uikit >= 1.949, kapi >= 97
 required = 0
 restart = 0
-content = 69ede514dc1a4695734f6e9bc4703664ac236ad4aa4c8d652539971e269fefc3
+content = ed71231d171522f3cdc06b48085a2ab27469d2df0447563630f498dc8bc5fc79
 
 [pinball]
 title = Pinball

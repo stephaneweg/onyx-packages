@@ -1,7 +1,7 @@
 # Onyx package index -- tools/pkg/mkrepo.py (docs/pkg/README.md)
 [repo]
 name = onyx-packages
-date = 2026-10-09 17:33
+date = 2026-10-09 17:47
 kapi = 97
 packages = 84
 board = pi5
@@ -1002,19 +1002,19 @@ content = 5dfed36d8fb56c23d8ce797f17b56b9afd6ac356a667571dd5d20e6af4dffa9b
 
 [ndsemu]
 title = Nintendo DS
-version = 1.0.1
+version = 1.0.2
 category = Emulators
 author = Onyx
 summary = 
-size = 150778
+size = 150769
 installed = 389639
-sha256 = b4b52d11027a3ee9d6489d058fe0e786069b95969594665853856a604cc8b556
-file = pkgs/ndsemu-1.0.1.opk
+sha256 = 328bdb8b71daa12f825249f045a0c482fb62e4d1532fde20a8886766aefbe90f
+file = pkgs/ndsemu-1.0.2.opk
 icon = icons/ndsemu.bmp
 needs = uikit >= 1.729, fontkit, gamelib, uikit >= 1.950, audiokit >= 1.232, fontkit >= 1.135, kapi >= 97
 required = 0
 restart = 0
-content = 2a66dbd344f9fbf5285a0e34d33c5daab7fba51cd7d88207162cbf24c380a7d6
+content = dd16cde5dfdf5be955371c68fc638ce40a15b7ae7ad650464281fa2ed932b001
 
 [nesemu]
 title = NES

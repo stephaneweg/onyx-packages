@@ -1,25 +1,25 @@
 # Onyx package index -- tools/pkg/mkrepo.py (docs/pkg/README.md)
 [repo]
 name = onyx-packages
-date = 2026-10-09 02:18
+date = 2026-10-09 08:39
 kapi = 97
 packages = 82
 
 [pkgman]
 title = Package Manager
-version = 1.0.31
+version = 1.0.32
 category = System
 author = Onyx
 summary = The packages: the pkg command, the Package Manager (the Control Panel's applet), the update daemon pkgd
-size = 2085838
+size = 2085841
 installed = 5275209
-sha256 = a9c82735aa7cd9a0edc962e64f1a9e4e760294c2f28249aca8999db386afca60
-file = pkgs/pkgman-1.0.31.opk
+sha256 = 09bca71859997f7fefbac36efe026f7e733220d1c466bf48031744a201d2af5c
+file = pkgs/pkgman-1.0.32.opk
 icon = icons/pkgman.bmp
 needs = kapi >= 97
 required = 1
 restart = 0
-content = 759f1da25bbee23339b4ede0ebf74ba217e3f989cfef165b578890f72f58fa19
+content = a5f71ed672be520c7699dff385a18538f41fded48dd0b813f891d5d504818e8d
 
 [jsc]
 title = JavaScriptCore shell (jsc)
@@ -186,53 +186,53 @@ content = 1416c9dbd31b3ed5ab69858656d7cf1af2582a5da6eb0ef169a0931d39ba38c0
 
 [notes]
 title = Notes
-version = 1.0.8
+version = 1.0.9
 category = Productivity
 author = Onyx
 summary = Quick notes kept by themselves (one text file each in SD:/Notes), coloured, pinned on the desktop by Stickies
 size = 386554
 installed = 1177679
-sha256 = d9c75f067565957d94fd90569abf91424f6fc2250d6ab3a00cfc9d612bb02729
-file = pkgs/notes-1.0.8.opk
+sha256 = 8035d3bfd79963d6de1113d2f03d5ee0be94d61254f3557c7cd35ae68e0270b3
+file = pkgs/notes-1.0.9.opk
 icon = icons/notes.bmp
 needs = uikit >= 1.781, systemkit >= 1.76, fontkit, kapi >= 97
 required = 0
 restart = 0
-content = a5c8dce7e6cb7f53c9798358bd78a14ffb6ef45fee7ad6db86feab13a2043112
+content = cbe56f3d047af5d77f061c26873d47693765dfb4f823058eba3da1aea15a2b14
 
 [clock]
 title = Clock
-version = 1.0.6
+version = 1.0.7
 category = Productivity
 author = Onyx
 summary = The time here and around the world, alarms that ring with the app closed (clockd), a timer, a stopwatch
 size = 727904
 installed = 2107254
-sha256 = c639cb5a5f328e525f5ab7b88c06c2f18ea623c3e3812008dbe089fd84a37b99
-file = pkgs/clock-1.0.6.opk
+sha256 = 16013091064276947fe59709a1323e0abb1085b027013e20eda72cbf87478614
+file = pkgs/clock-1.0.7.opk
 icon = icons/clock.bmp
 needs = uikit >= 1.793, systemkit >= 1.78, filekit >= 1.99, audiokit >= 1.232, fontkit, kapi >= 97
 required = 0
 restart = 0
-content = cf36f0a2b7e4bfafe761ab307500b15389096f2fd86fec25c6eb3266d406e0c5
+content = 23262c143b9168d0c7e313a360f897908957b0562adf4003f0adfd10ae0bdfd7
 
 [onyx]
 title = Onyx system
-version = 2026.10.137
+version = 2026.10.138
 category = System
 author = Onyx
 summary = The kernel, the commands of /bin, the desktop, the settings, the terminal, the File Viewer, Disks, the text editor, the fonts
-size = 45036806
-installed = 116750659
-sha256 = 0aebce653e0a7183d282a3437cff58dccf39617812ed40054b613bcc53baf89d
-file = pkgs/onyx-2026.10.137.opk
+size = 45040327
+installed = 116760131
+sha256 = 366f0b16be2e70ea46d075dff38a92eee684c8244de673542b755c592c545cd2
+file = pkgs/onyx-2026.10.138.opk
 icon = icons/onyx.bmp
 needs = pkgman, uikit >= 1.850, fontkit, printerkit >= 1.33, audiokit >= 1.232, filekit >= 1.99, systemkit >= 1.93, netkit >= 1.21, imagekit >= 1.46
 required = 1
 restart = 1
 assoc = txt=tinypad md=tinypad ini=tinypad cfg=tinypad conf=tinypad log=tinypad c=tinypad h=tinypad cpp=tinypad hpp=tinypad json=tinypad html=tinypad htm=tinypad css=tinypad kmap=tinypad sh=tinypad bmp=imageview gif=imageview png=imageview jpg=imageview jpeg=imageview jpe=imageview pcx=imageview webp=imageview
 runners = bax=SD:/bin/basic bas=SD:/bin/basic
-content = 9228929c52138b95913389009b3e828885536a2d45c54ff6e7ded0a71e850fab
+content = 5af087c746698c18ab4b30ada2824021f35a62021d2c8d5235e1175fb383d892
 
 [pi-firmware]
 title = Raspberry Pi firmware
@@ -252,19 +252,19 @@ content = 04d896b032e12d1a71cefcd071c3b66e6a92c4d119f03ab264221f2e2739e432
 
 [demos]
 title = Demos
-version = 1.0.32
+version = 1.0.33
 category = Demos
 author = Onyx
 summary = The graphics and toolkit demos (demoA..F, the GPU, the widgets, plasma, spin...)
-size = 449917
-installed = 3455409
-sha256 = 4a21b5f235cee07c230514a10c6d70688938bec179d203a27925e4d13349158b
-file = pkgs/demos-1.0.32.opk
+size = 450133
+installed = 3456697
+sha256 = 8ced0dff7f2c2567e8f8ed90e54cf6bb2569d0be2ed29b850e0af60d32e38f4d
+file = pkgs/demos-1.0.33.opk
 icon = icons/demos.bmp
 needs = kapi >= 97
 required = 0
 restart = 0
-content = d45ca87121d0aa4fc8cbd78aaaa1255bec0f539a3ce647451fc42aaabbca3572
+content = 373c008372a786cbecdc7a68c347f096dd29b77c002ea3f726f0f7701c98294d
 
 [basic-samples]
 title = BASIC samples
@@ -461,36 +461,36 @@ content = 1f79607b681f25869cd0cd265b739ec0e18c7a90b77d4003362f7145ed172e2d
 
 [2048]
 title = 2048
-version = 1.0.30
+version = 1.0.31
 category = Games
 author = Onyx
 summary = 
-size = 34318
-installed = 246453
-sha256 = 59e579327186f13f14ea98a01080b1b4f98cc8de07419b7b7e948c1ecdde8a61
-file = pkgs/2048-1.0.30.opk
+size = 34340
+installed = 246549
+sha256 = 8914bfac123563b98c18362ab63e7cd7db3e5a1e0daf594b21f284f246e9c9f8
+file = pkgs/2048-1.0.31.opk
 icon = icons/2048.bmp
 needs = uikit >= 1.729, fontkit, kapi >= 97
 required = 0
 restart = 0
-content = f0ae64f01d9d8f8e4f8c7a12f1b6bc7b4f9196ea898e073d0452d4440b1c2e1c
+content = c39f42ef6bf867c4a0ccf5b1d0a72ef8691310a211d47a8cc59bf463ae4013ae
 
 [3dforge]
 title = 3DForge
-version = 1.0.15
+version = 1.0.16
 category = Graphics
 author = Onyx
 summary = 
-size = 627403
+size = 627397
 installed = 1190686
-sha256 = 5d0217164a6319715a9089323165d863cd23147a2813248b1174f9b1b3e0f0bf
-file = pkgs/3dforge-1.0.15.opk
+sha256 = 82143abca19c19bab99ed88f8658bdc7e106280bf9ce8bcec33ed52b886d9459
+file = pkgs/3dforge-1.0.16.opk
 icon = icons/3dforge.bmp
 needs = uikit >= 1.729, fontkit, uikit >= 1.726, imagekit >= 1.46, kapi >= 97
 required = 0
 restart = 0
 assoc = 3df=3dforge
-content = d3f6b8d11d79c657fdff00d550709dfa4bb6f80568fa1f507ca4bb89ea3f0e4f
+content = 77e40519657a1371c0b0188ab102e841e835c3fc10fc8580b84cbb7c03ea10fb
 
 [archiver]
 title = Archiver
@@ -527,118 +527,118 @@ content = 6647667c9ba9fa50007b44eeb23917801b0a2435c584fb6d1faed6aa3003aaf2
 
 [calendar]
 title = Calendar
-version = 1.0.27
+version = 1.0.28
 category = Productivity
 author = Onyx
 summary = 
-size = 76510
+size = 76511
 installed = 259608
-sha256 = 8227fd1a3c8afc9223e0056d9398b3b3897939db12c3256cb7baf47958bd2f88
-file = pkgs/calendar-1.0.27.opk
+sha256 = 7b17df2f330ed3667f46d608475127109b222086fd524184be6ab978776af2e1
+file = pkgs/calendar-1.0.28.opk
 icon = icons/calendar.bmp
 needs = uikit >= 1.729, fontkit, uikit >= 1.949, kapi >= 97
 required = 0
 restart = 0
-content = afa5d8882ef911a825b7a55789ddc300e003cb7b570218d1facefd9c4d11b240
+content = b778dbc07d8d03ec701247b69f2fc41c2f4a430212fb42e07e7245523f157e33
 
 [cardfile]
 title = Cardfile
-version = 1.0.34
+version = 1.0.35
 category = Productivity
 author = Onyx
 summary = 
-size = 115386
-installed = 406760
-sha256 = dfeea798c6103f56e0eaead3fb3d78a8b0b516e2a30b1cfece94d24a68fd4dac
-file = pkgs/cardfile-1.0.34.opk
+size = 115409
+installed = 406848
+sha256 = 03d3f8c4e09ed4e3c81708cf85bdba995c1d6b21559115331605424db1db8e15
+file = pkgs/cardfile-1.0.35.opk
 icon = icons/cardfile.bmp
 needs = uikit >= 1.729, fontkit, kapi >= 97
 required = 0
 restart = 0
 assoc = card=cardfile
-content = e3817fa1a848ec0e25d450c248880ec0c5043c11536fc606ee986a1356fbdfe9
+content = 93239d45de82483d0ea0386b6ce6d7fc1649099662b8069d83f2621175827873
 
 [circuits]
 title = Circuits
-version = 1.0.7
+version = 1.0.8
 category = Programming
 author = Onyx
 summary = 
 size = 248779
 installed = 701462
-sha256 = f25b083eb03e6f9c550fc97ec41960de9a384aa5b633745faea1e8e983691452
-file = pkgs/circuits-1.0.7.opk
+sha256 = e017d8e2a91e3d3a682a6437fcf24f04386590ce21246ee2b489995181abff5f
+file = pkgs/circuits-1.0.8.opk
 icon = icons/circuits.bmp
 needs = uikit >= 1.729, fontkit, uikit >= 1.779, systemkit >= 1.74, filekit >= 1.96, kapi >= 97
 required = 0
 restart = 0
 assoc = circuits=circuits
-content = 89902bd0008e1570c40b6b15e97e31f05373d7a0749187ba635ee1e5e6cf1434
+content = 20dba18e98a708257a22375b2f6fe1ae65b1a9b081fd3f7ec53462e3795c7089
 
 [courier]
 title = Courier
-version = 1.0.24
+version = 1.0.25
 category = Internet
 author = Onyx
 summary = 
-size = 757267
+size = 757271
 installed = 1844791
-sha256 = faf6e3f8f381a32dddc9f6984ea0d3687d7706ae30fe177a53dff89e5e9b9c7b
-file = pkgs/courier-1.0.24.opk
+sha256 = 169b86bfa555992040fc4e184a152e3f2c242ffb2d020752a0833bd1e87fb147
+file = pkgs/courier-1.0.25.opk
 icon = icons/courier.bmp
 needs = uikit >= 1.729, fontkit, uikit >= 1.722, kapi >= 97
 required = 0
 restart = 0
-content = a924edf63c864818a02448b217113a08b0e19d38bbf465d27b84f286cf6ad26f
+content = 8a9d5e09f75ead35248706089de4dd0b77031e800c11d1b1fce1b2db788c9cd4
 
 [critters]
 title = Critters
-version = 1.0.5
+version = 1.0.6
 category = Games
 author = Onyx
 summary = 
-size = 309225
+size = 309223
 installed = 882401
-sha256 = ba02e680895e5928ca6305710686eca51409fe21476512d19bda55dd08b3bda5
-file = pkgs/critters-1.0.5.opk
+sha256 = 61a24ba83cd8e2e93e596398440af410d292f247d09ab93c16efb68dc417cb5c
+file = pkgs/critters-1.0.6.opk
 icon = icons/critters.bmp
 needs = uikit >= 1.729, fontkit, uikit >= 1.781, audiokit >= 1.232, filekit >= 1.96, fontkit >= 1.135, kapi >= 97
 required = 0
 restart = 0
 assoc = level=critters
-content = 8d5daa0c72bbf8a6056dc197cc319fd3d211881ce5e34fe95685b76ab03ebf18
+content = eb6fe22ca046a8f5a843f3ec92130cda50436c443d62ff8c1426f587f0e73121
 
 [doom]
 title = Doom
-version = 1.0.28
+version = 1.0.29
 category = Games
 author = Onyx
 summary = 
-size = 10881349
+size = 10881347
 installed = 30298487
-sha256 = 32c26cc03543703b1d8eb22df038011ab94027702207ec5e4011f714571b2496
-file = pkgs/doom-1.0.28.opk
+sha256 = 34d20d2875659ebb1ae15242e5d55808b917ff0b24c7ff5abc8ed417ec17865b
+file = pkgs/doom-1.0.29.opk
 icon = icons/doom.bmp
 needs = uikit >= 1.729, fontkit, audiokit >= 1.232, kapi >= 97
 required = 0
 restart = 0
-content = ad1aa29f08f1a90e7e4428f508e6ae47b10d13165cafdd4e196d78c139574c6a
+content = c522969df6c8c75b729fc4bef028deabea0c9cdd8f023bbbf0486b3e158b0937
 
 [eyes]
 title = Eyes
-version = 1.0.30
+version = 1.0.31
 category = Graphics
 author = Onyx
 summary = 
-size = 30521
-installed = 245216
-sha256 = 374f62372226e2c8869857e6fb9bc2e172a6edd8d43115c01d79a0be4136c1ae
-file = pkgs/eyes-1.0.30.opk
+size = 30531
+installed = 245312
+sha256 = 5d0b2459e9ccf48045acce89f76507919deb459a0adeb120dc466fe86febb442
+file = pkgs/eyes-1.0.31.opk
 icon = icons/eyes.bmp
 needs = uikit >= 1.729, fontkit, kapi >= 97
 required = 0
 restart = 0
-content = 198353c3176c88b6e48544a9ef3ae86d291d505f0d80153e784044f33f48e918
+content = 69cc129578fa2844da4af3a85aeb9243669ba76f6f4aac35e3b237fac93913b0
 
 [fmtracker]
 title = FM Tracker
@@ -659,180 +659,180 @@ content = 54224d17e7aa67346ef59fb2392be5e9c4f0017362d87294adebc46e87988eb5
 
 [freecell]
 title = FreeCell
-version = 1.0.32
+version = 1.0.33
 category = Games
 author = Onyx
 summary = 
-size = 48507
-installed = 266157
-sha256 = 306ac68d6534fca69d9f23e24fb8b375e130de8fb37991520801fe4065eb61ec
-file = pkgs/freecell-1.0.32.opk
+size = 48523
+installed = 266245
+sha256 = d5bc322da1792a6093475a2d386fb329df21018219cae2317a056d67a3b57c7a
+file = pkgs/freecell-1.0.33.opk
 icon = icons/freecell.bmp
 needs = uikit >= 1.729, fontkit, audiokit >= 1.232, kapi >= 97
 required = 0
 restart = 0
-content = 5c67613f132aad5e47bb6de9844f598255f32d40b46b289babd2a5064df6d792
+content = 9fbb3e79712abce32d0b875b898ab24614ad6e0878870a7bdfc0e203d4c0d70b
 
 [gamelib]
 title = Game Library
-version = 1.0.25
+version = 1.0.26
 category = Games
 author = Onyx
 summary = 
-size = 295913
+size = 295910
 installed = 762546
-sha256 = 4fbedf04f1d58cf7fb46579fb33f063309fc3b603f0defb904c5ba71e8df6fb1
-file = pkgs/gamelib-1.0.25.opk
+sha256 = 38564399e78179b9845c76c6cf6f24eab1ce348fb2e2b3800578891ad44b13ba
+file = pkgs/gamelib-1.0.26.opk
 icon = icons/gamelib.bmp
 needs = uikit >= 1.729, fontkit, uikit >= 1.949, kapi >= 97
 required = 0
 restart = 0
-content = e464a71eb496b84cdf73a97822300f3fbcc1e4c90f3aff9e9ec18c96a6b2afa7
+content = 3fe16e5d7ae6ea9fd3846c49794e504a08e73a57e3a413ca56abedac2b94cd91
 
 [gbaemu]
 title = Game Boy Advance
-version = 1.0.34
+version = 1.0.35
 category = Emulators
 author = Onyx
 summary = 
-size = 71249
-installed = 336073
-sha256 = a663781554fb75d580f942a5499af719b5f29d5cdd63295f4ecf51bfaecfd9cd
-file = pkgs/gbaemu-1.0.34.opk
+size = 71245
+installed = 336161
+sha256 = b3b3c0f2a145f549840a07697a57af968779ca04e9a65e4083b7f037aad88c6b
+file = pkgs/gbaemu-1.0.35.opk
 icon = icons/gbaemu.bmp
 needs = uikit >= 1.729, fontkit, gamelib, audiokit >= 1.232, kapi >= 97
 required = 0
 restart = 0
-content = 4b56b4e0d79420577a08d51e86242295790027d94fa8d585bcb7c46f644f18b4
+content = b3bfe5ca9a15707f8c23859a99013358fe285853b9825155a647061e9059e660
 
 [gbemu]
 title = Game Boy
-version = 1.0.34
+version = 1.0.35
 category = Emulators
 author = Onyx
 summary = 
-size = 58041
-installed = 333869
-sha256 = 2c6d86a4060b56e1b7ed1c5b369593ece3e851637eadb7d1880bd8383a7818e3
-file = pkgs/gbemu-1.0.34.opk
+size = 58045
+installed = 333957
+sha256 = 30bc5a8ef0c39908d3e9fe680f457b70a28761fb94b728a8d9e5ca5a3d01668d
+file = pkgs/gbemu-1.0.35.opk
 icon = icons/gbemu.bmp
 needs = uikit >= 1.729, fontkit, gamelib, audiokit >= 1.232, kapi >= 97
 required = 0
 restart = 0
-content = b1b4d51de0867c28d187ff7f15673fb7007718a5903dd4c2a09699b78a278938
+content = 8a6c22febd7f499baad557041ab5c81cf10ce2fd7faea23b6ece127295e3f3c4
 
 [gcemu]
 title = GameCube
-version = 1.0.34
+version = 1.0.35
 category = Emulators
 author = Onyx
 summary = 
-size = 233302
-installed = 621513
-sha256 = 18c3ffc502e6b5ae68c8efcc64689147034d0ce12ee2e6d06ec19bcc92f2d540
-file = pkgs/gcemu-1.0.34.opk
+size = 233316
+installed = 621609
+sha256 = 02533c86d31f3f3ddf34c50193366f50935de8de8d57a27a70ab3973456e93be
+file = pkgs/gcemu-1.0.35.opk
 icon = icons/gcemu.bmp
 needs = uikit >= 1.729, fontkit, gamelib, audiokit >= 1.232, kapi >= 97
 required = 0
 restart = 0
-content = 5b5f7dbc12d8791c4af03b8d7a335dc7aad129f7a50d1792fe92cba4fa40cf60
+content = 522f5bbfa7a2b94b2363d85d58b5ed654a77852c22d0f84a719366b64480e528
 
 [gpiolab]
 title = GPIO Lab
-version = 1.0.12
+version = 1.0.13
 category = Programming
 author = Onyx
 summary = 
 size = 405867
 installed = 1045332
-sha256 = 377ca7cac705f58bd71170555ccffe3f5dccaa321a5fb301d42d16373e226631
-file = pkgs/gpiolab-1.0.12.opk
+sha256 = 8139e59b9b682f38f9730c5b77299767b558390c42e88d0f5d41ad60a50a5267
+file = pkgs/gpiolab-1.0.13.opk
 icon = icons/gpiolab.bmp
 needs = uikit >= 1.729, fontkit, kapi >= 97
 required = 0
 restart = 0
-content = 32c16252ed3df1a0b3d765bab1bd07dbb4f71ca1d4d693d4754e339de152ff1d
+content = 04f4e619fc2e7c580ce3ac816b3cc2baaab7f523c10292ea045d13132f33d5c9
 
 [graphcalc]
 title = Graphing Calculator
-version = 1.0.30
+version = 1.0.31
 category = Productivity
 author = Onyx
 summary = 
-size = 45684
-installed = 250086
-sha256 = 23783e8bf0b3f16ef32077ddc4683f963f00ec3c8aefae58bb78e97e0f9de7a4
-file = pkgs/graphcalc-1.0.30.opk
+size = 45703
+installed = 250182
+sha256 = b6a02593af333c96e652f755897bfef450b89552f28dd3967e822f93e3c7a1ed
+file = pkgs/graphcalc-1.0.31.opk
 icon = icons/graphcalc.bmp
 needs = uikit >= 1.729, fontkit, kapi >= 97
 required = 0
 restart = 0
-content = 7daabae601840473fa2146212ce80d4e1edb3bead14f478bfabb8e7ab9d31803
+content = 27fba01d0d2fda2e6a7f0d391ba91773d12c039401e08d57d89501aa19964d8c
 
 [iconedit]
 title = Icon Editor
-version = 1.0.31
+version = 1.0.32
 category = Graphics
 author = Onyx
 summary = 
-size = 43054
+size = 43053
 installed = 251684
-sha256 = 59b2feaf36f1273205d3476128ddfb5faae6367331d85b1ff2ee683e631d734a
-file = pkgs/iconedit-1.0.31.opk
+sha256 = 253e6cbe62de108446faedf9281dbe21587ef06df8d78b4f05a00749ee00944c
+file = pkgs/iconedit-1.0.32.opk
 icon = icons/iconedit.bmp
 needs = uikit >= 1.729, fontkit, uikit >= 1.949, kapi >= 97
 required = 0
 restart = 0
-content = 054eea2bf2f3c3aa4cda3fdaab106abf91d64f5622af6a762b99755f28b9430b
+content = 3d1cc7729c4c5365609d30362e26e8b117a598d0e39ace18694a761c2e995968
 
 [invaders]
 title = Invaders
-version = 1.0.32
+version = 1.0.33
 category = Games
 author = Onyx
 summary = 
-size = 47321
-installed = 265565
-sha256 = 2a8751aa449a85275f7532417565107c8f63c18f7f3784af5deeedf8fa082ae5
-file = pkgs/invaders-1.0.32.opk
+size = 47342
+installed = 265653
+sha256 = 9ea6acd2633d2b6b4177812d034230e920ed69870013ceed4b1bd036c11c2545
+file = pkgs/invaders-1.0.33.opk
 icon = icons/invaders.bmp
 needs = uikit >= 1.729, fontkit, audiokit >= 1.232, kapi >= 97
 required = 0
 restart = 0
-content = 09b8f21711d4a9184279db34a205ac2fc100ff4fa752c0dfeb0851306dd15e8d
+content = 0c5d0f841e944dfc6e6bfd7d8b3d21df7005429c43f438a02bf4e76db2a68a01
 
 [irc]
 title = IRC
-version = 1.0.31
+version = 1.0.32
 category = Internet
 author = Onyx
 summary = 
-size = 68777
-installed = 324626
-sha256 = 18db81c31b79d9c7ad9e72cf5382970dc8ae3f3fe7c86cb8f80ce66f494fb057
-file = pkgs/irc-1.0.31.opk
+size = 68801
+installed = 324714
+sha256 = 0070f3c64545f81dcad96bee520e2bedcd1c8e88cf45c207e1d2512e658f9210
+file = pkgs/irc-1.0.32.opk
 icon = icons/irc.bmp
 needs = uikit >= 1.729, fontkit, uikit >= 1.949, kapi >= 97
 required = 0
 restart = 0
-content = 40c703dc7027a90bebe5b3ded032bf77d5afd23ee0c6086794f754c60872ad5d
+content = 85b98d43ea5ae959eecf4a570baec933a8a68bcc49bad88858bc4b5c96079cad
 
 [koton]
 title = Koton
-version = 1.0.32
+version = 1.0.33
 category = Multimedia
 author = Onyx
 summary = 
-size = 4942466
+size = 4942468
 installed = 9283538
-sha256 = 99c2aa302aed1c0345c59d4d19e2554ad725a918e074595046a6aae182f07c31
-file = pkgs/koton-1.0.32.opk
+sha256 = 39547801d52844872de67cbb6ffc9fe580ad54685fbfb97fbcd1fe008b3a1858
+file = pkgs/koton-1.0.33.opk
 icon = icons/koton.bmp
 needs = uikit >= 1.729, fontkit, generaluser-gs, audiokit >= 1.232, kapi >= 97
 required = 0
 restart = 0
 assoc = kson=koton sq=koton
-content = 365a700980236bbad44cd027bda063a878bcab4d91d79e26b04c62f83e7b3538
+content = a56d9bbc5d5f5e315187806386b260fe0c3b7a62ca6f30f3ccb2c94b7e93c3a1
 
 [ledger]
 title = Ledger
@@ -853,168 +853,168 @@ content = ade3d4ce2836b69f5f5715c83e1e234da4770e2699c9629d9a23b919fea69f9c
 
 [letters]
 title = Letters
-version = 1.0.31
+version = 1.0.32
 category = Productivity
 author = Onyx
 summary = 
-size = 469825
+size = 469826
 installed = 1137559
-sha256 = 911489454bee83c14a5eac312dd87a9c3343f688b6dadb30d94fb6f839a1eb9c
-file = pkgs/letters-1.0.31.opk
+sha256 = 21ce332a0b811e9680f831ec7ea84e3c88240084f8719c5cb6b3ea3637073239
+file = pkgs/letters-1.0.32.opk
 icon = icons/letters.bmp
 needs = uikit >= 1.729, fontkit, cardfile, printerkit, imagekit >= 1.46, kapi >= 97
 required = 0
 restart = 0
 replaces = writer
 assoc = doc=letters rtf=letters docx=letters odt=letters
-content = 04daee28225478347a7beae8775a08f1be3e332c24b24c91eb605971caea99f9
+content = 69f6d166b36c5730274a152bb835781ed959cd3a939d34ff91300e47b90e8c42
 
 [life]
 title = Game of Life
-version = 1.0.30
+version = 1.0.31
 category = Games
 author = Onyx
 summary = 
-size = 33516
-installed = 246613
-sha256 = 6094c14d8bde705a165bfcd679f5a921c86a51273ab71dc68e6459f89f0aadce
-file = pkgs/life-1.0.30.opk
+size = 33546
+installed = 246701
+sha256 = e832f39c14920c74ee931aeaba5fad5ec1ff8d96681fa4b092c99571ca130b22
+file = pkgs/life-1.0.31.opk
 icon = icons/life.bmp
 needs = uikit >= 1.729, fontkit, kapi >= 97
 required = 0
 restart = 0
-content = a173a9348c58353d93bf562d54ff926a192f3c3b439c86a76093c61133d0871e
+content = c2eb1097e6351d046d94d115939a3784ea2e7e8a5308daa44489a7f4a52566ed
 
 [lisa]
 title = Lisa
-version = 1.0.31
+version = 1.0.32
 category = Internet
 author = Onyx
 summary = 
-size = 38313
-installed = 254725
-sha256 = fa297203e78088586590ee9dc21a669ee1612f510808b3fb2b785d20a2a3eb2b
-file = pkgs/lisa-1.0.31.opk
+size = 38334
+installed = 254813
+sha256 = 0a127c6903fc7f425884ef23cc1a7a5ff0e47d4a2af13c179e467a7e83e5ce40
+file = pkgs/lisa-1.0.32.opk
 icon = icons/lisa.bmp
 needs = uikit >= 1.729, fontkit, kapi >= 97
 required = 0
 restart = 0
-content = b6285009f8c362c59501746d358d9f13f6f31f9a3b855faf285f7af8d033b891
+content = c0b4915c971064eaa6bcd29bb3af10545286be14d34bf91a0180546d9a454ad7
 
 [mail]
 title = Mail
-version = 1.0.29
+version = 1.0.30
 category = Internet
 author = Onyx
 summary = 
 size = 847727
 installed = 1996355
-sha256 = 40d979fbec0a566c6f8ad43b5f850f1927d72621843cb9f6e73573fef7cf6a07
-file = pkgs/mail-1.0.29.opk
+sha256 = 3ac3677cdb5f3a153d8e5e725120c07c6f9c7c9159149996efb859dc94909a4c
+file = pkgs/mail-1.0.30.opk
 icon = icons/mail.bmp
 needs = uikit >= 1.729, fontkit, uikit >= 1.949, kapi >= 97
 required = 0
 restart = 0
 assoc = eml=mail
-content = 0ff08697fb5b7441b1fc21d8dda0d2c5419b313082129c5ba7b8ed3e6d590e53
+content = d6e749af45b4ec1db189eb8ae4efd22589cb2a083a9dd7d5599e561d6a25dd93
 
 [mandelbrot]
 title = Mandelbrot
-version = 1.0.30
+version = 1.0.31
 category = Graphics
 author = Onyx
 summary = 
-size = 34358
-installed = 245654
-sha256 = e9dfd8c4404c5b87c5d46213d150f852ae2c7b8a36888fc82bb08b6244a1b75d
-file = pkgs/mandelbrot-1.0.30.opk
+size = 34361
+installed = 245750
+sha256 = 2311f6d00701cd79c505c55e2cd40d5a024f5405fb36c2bbd935782d3d475f1b
+file = pkgs/mandelbrot-1.0.31.opk
 icon = icons/mandelbrot.bmp
 needs = uikit >= 1.729, fontkit, kapi >= 97
 required = 0
 restart = 0
-content = 19ef973f92e5a0b42f3883044e7b9b500be117e2432f9847db34b284ce93b167
+content = 297ba02bb7ee457a9720a8b22df1d8cc4f42b6bfcd9b5fa9d843e5ead6053c5a
 
 [media]
 title = Media Player
-version = 1.0.38
+version = 1.0.39
 category = Multimedia
 author = Onyx
 summary = 
 size = 7669986
 installed = 15838778
-sha256 = e6b3066f69a1eae1412aea379f802f6d4e221f5e4370bb41d350b38647f29932
-file = pkgs/media-1.0.38.opk
+sha256 = a2fb3ff392fcfebb7b9d74ed9aa6917cf7968509591add559329fbd059288281
+file = pkgs/media-1.0.39.opk
 icon = icons/media.bmp
 needs = uikit >= 1.729, fontkit, generaluser-gs, audiokit >= 1.232, imagekit >= 1.46, uikit >= 1.949, kapi >= 97
 required = 0
 restart = 0
 assoc = mp3=media ogg=media oga=media flac=media wav=media mid=media midi=media kar=media rmi=media m3u=media m3u8=media webm=media mkv=media mp4=media m4v=media mov=media avi=media divx=media mpg=media mpeg=media vob=media ts=media m2ts=media mts=media flv=media wmv=media asf=media ogv=media 3gp=media
-content = b578ba7a0d34dc60e2d383b4ba1669d718e8c568a4010a0a02324dda8bc2c550
+content = ea5fd70cc1c89f79dc31051bb9d80597820d311fd732e5ff714a7dbf6ca45ce5
 
 [minesweeper]
 title = Minesweeper
-version = 1.0.30
+version = 1.0.31
 category = Games
 author = Onyx
 summary = 
-size = 34480
-installed = 246700
-sha256 = 91c10db89bbd496fe5e8fbd43a128a8dcc596bba1394eab67f87368fb4cba302
-file = pkgs/minesweeper-1.0.30.opk
+size = 34483
+installed = 246788
+sha256 = b659959482627541f886b956abc90bceae1d6791d7d5f3da2f4273013a7fb7b2
+file = pkgs/minesweeper-1.0.31.opk
 icon = icons/minesweeper.bmp
 needs = uikit >= 1.729, fontkit, kapi >= 97
 required = 0
 restart = 0
-content = af060e647dbaae7bd37f7a0bc3f2af74054e4e6b11615a4c1aae5eb46cf0e6be
+content = 00be1afa6d9a3a8e377fec7dc52b8880108954e88d98b8b663634b41d8e1e9f3
 
 [n64emu]
 title = Nintendo 64
-version = 1.0.34
+version = 1.0.35
 category = Emulators
 author = Onyx
 summary = 
-size = 91514
-installed = 336831
-sha256 = cdedf4a00e0031564dee8106941759c646666d17de39bfdd06404c9d3a767a0c
-file = pkgs/n64emu-1.0.34.opk
+size = 91523
+installed = 336927
+sha256 = f8fce953a48ad57d560972ca740e41ddadf891cc92a6572941f0ed93399ccf0a
+file = pkgs/n64emu-1.0.35.opk
 icon = icons/n64emu.bmp
 needs = uikit >= 1.729, fontkit, gamelib, audiokit >= 1.232, kapi >= 97
 required = 0
 restart = 0
-content = 28eba427a9bf4eff3270a0877dc1a396792ad0a1c15616caf16e08bf805f6454
+content = aaa31bf73474b4ed091944d6faf4d4cd9e5d3fe07b367028e3138a691d636218
 
 [nesemu]
 title = NES
-version = 1.0.34
+version = 1.0.35
 category = Emulators
 author = Onyx
 summary = 
-size = 59150
-installed = 333647
-sha256 = c58d365839d73707bd1d4ad86dded7decae435b415e6779584c602bf4cb30952
-file = pkgs/nesemu-1.0.34.opk
+size = 59165
+installed = 333743
+sha256 = c8dff19df15c7d7b35aa263d81ea1d92f58f3e3ae4d670210908c7de35234816
+file = pkgs/nesemu-1.0.35.opk
 icon = icons/nesemu.bmp
 needs = uikit >= 1.729, fontkit, gamelib, audiokit >= 1.232, kapi >= 97
 required = 0
 restart = 0
-content = 2d48ad41a17b400a6618b9b205d1cc1dbfba6ce3716ea922675a51bbfceaa275
+content = 968486304f16c350fdfa505592bf196e964753e179a34f45dcd5b468cb9b8dcc
 
 [paint]
 title = Paint
-version = 1.0.29
+version = 1.0.30
 category = Graphics
 author = Onyx
 summary = 
-size = 357036
+size = 357034
 installed = 905393
-sha256 = d3912bfde45d6597981ad12b0073fa5c05cf1741a04628e0b405ee87871c4370
-file = pkgs/paint-1.0.29.opk
+sha256 = 685a4fba1e19e8f550f02357c887b1ff06acc75e86faa6a6790173bf6f581270
+file = pkgs/paint-1.0.30.opk
 icon = icons/paint.bmp
 needs = uikit >= 1.729, fontkit, printerkit, imagekit >= 1.46, kapi >= 97
 required = 0
 restart = 0
 assoc = ora=paint
-content = 6132d03a30a3a259b18c1b928cda8e8dc586dc4cf988a64def3df058bba71a2c
+content = eeb6373ed94b36d59ff8246d5d07f4c164d1f985947325e6abed470fa9ae75f4
 
 [pdf]
 title = PDF Viewer
@@ -1035,248 +1035,248 @@ content = a77e15d11209db53c09c926a2397fd1b5fe2127ee519308f89bf2192bba8592f
 
 [photos]
 title = Photos
-version = 1.0.31
+version = 1.0.32
 category = Graphics
 author = Onyx
 summary = 
-size = 424103
+size = 424100
 installed = 1049412
-sha256 = 9da85ee38d81ef49583578b82a90377fa0cd6bd0a1fd111b14d0bf790387e142
-file = pkgs/photos-1.0.31.opk
+sha256 = 548283084f681305883be146ee15998c12171063c0cc5f701f4b9bcf382e884f
+file = pkgs/photos-1.0.32.opk
 icon = icons/photos.bmp
 needs = uikit >= 1.729, fontkit, printerkit, imagekit >= 1.46, uikit >= 1.949, kapi >= 97
 required = 0
 restart = 0
-content = ed71231d171522f3cdc06b48085a2ab27469d2df0447563630f498dc8bc5fc79
+content = 9a25d7591056d4f2d543076ee011a2b5c0218948360745ad96601e195a4ae6aa
 
 [pinball]
 title = Pinball
-version = 1.0.5
+version = 1.0.6
 category = Games
 author = Onyx
 summary = 
 size = 291869
 installed = 846985
-sha256 = 8e9ea95e0a1a23d8e6c1759dd507a6e39da30a4d46499ffdc1a3b3ed85752198
-file = pkgs/pinball-1.0.5.opk
+sha256 = ae59471705ea44ed5be6c5de3c89d74ff1eaa14c513e92f157ccf4a108d162af
+file = pkgs/pinball-1.0.6.opk
 icon = icons/pinball.bmp
 needs = uikit >= 1.729, fontkit, uikit >= 1.781, audiokit >= 1.232, filekit >= 1.96, fontkit >= 1.135, kapi >= 97
 required = 0
 restart = 0
 assoc = table=pinball
-content = 180c9eb2c2f826b27b777c7163cd61b99bf123d4cb2cdd473d9ca0daa1b01477
+content = b1046db626fb24df5f1b79756b3403aefdaf32207e7d8c874f8d6610f5ee29cb
 
 [pipes]
 title = Pipes
-version = 1.0.32
+version = 1.0.33
 category = Games
 author = Onyx
 summary = 
-size = 45872
-installed = 265378
-sha256 = b972509e411a48af37728cda61020d002b58f6ae0b6878e9f5ba588b0d04e3c6
-file = pkgs/pipes-1.0.32.opk
+size = 45894
+installed = 265466
+sha256 = be2b065c19ef7482a52b78211d0a199dc29928f34568d21b156788c633dae8e5
+file = pkgs/pipes-1.0.33.opk
 icon = icons/pipes.bmp
 needs = uikit >= 1.729, fontkit, audiokit >= 1.232, kapi >= 97
 required = 0
 restart = 0
-content = d4e3d093abebb30ee3aea4f64b273ab132a3af2a00731376be39131feb0f0586
+content = 1d5bc30569411d17ce61973e3c2e1fe1b07c1f7979c6fcb1c45613d0466b8dfc
 
 [pong]
 title = Pong
-version = 1.0.30
+version = 1.0.31
 category = Games
 author = Onyx
 summary = 
-size = 32963
-installed = 246429
-sha256 = d10a975f8a32d7bc0d0736d4d45d9f0b179578a6fa045b4b2ceb56c2ac16ac8e
-file = pkgs/pong-1.0.30.opk
+size = 32989
+installed = 246517
+sha256 = f08abfd98a9a100e2704759a2760efcfc7ffad787a497cd3fc86737e815aa32b
+file = pkgs/pong-1.0.31.opk
 icon = icons/pong.bmp
 needs = uikit >= 1.729, fontkit, kapi >= 97
 required = 0
 restart = 0
-content = 53e2bb6d90a4a008de5d60b45157111d593673a71e28dabf76c2f384c43971c0
+content = 8959739a040de09e62eac5ad2cceda3de4f453dc9c0978e282abbf98e3d72b18
 
 [qbasic]
 title = QBasic
-version = 1.0.50
+version = 1.0.51
 category = Programming
 author = Onyx
 summary = 
-size = 154169
-installed = 493878
-sha256 = 1dfe9cdb418265d080a93c251f0dc11a45898cf4e6f6a9c2e87b7cfcbae9a71b
-file = pkgs/qbasic-1.0.50.opk
+size = 154189
+installed = 493974
+sha256 = c083f1184ceab4d3eb0798cdd382340110c35f44838f36f47b28674349c2ea3d
+file = pkgs/qbasic-1.0.51.opk
 icon = icons/qbasic.bmp
 needs = uikit >= 1.729, fontkit, uikit >= 1.722, kapi >= 97
 required = 0
 restart = 0
 assoc = bas=qbasic
-content = 8883b3ac6578f24766ca69494d5dd8f8b078e3e8ff2d85c77a304fc38bf11919
+content = 70ca3d65edc13ae1ce582019f700526af94088d1bacda13a325129b110487239
 
 [qbstudio]
 title = QBStudio
-version = 1.0.39
+version = 1.0.40
 category = Programming
 author = Onyx
 summary = 
-size = 389337
+size = 389338
 installed = 1030550
-sha256 = f67df4218d8d64a1e16abe2d79b290bfd813fccf2c1da27b0d0f53f69782fce7
-file = pkgs/qbstudio-1.0.39.opk
+sha256 = 991f1902516665018a4d7fda25d402145fe7a084648412ef271d3b036d30bb19
+file = pkgs/qbstudio-1.0.40.opk
 icon = icons/qbstudio.bmp
 needs = uikit >= 1.729, fontkit, uikit >= 1.779, kapi >= 97
 required = 0
 restart = 0
 assoc = form=qbstudio
-content = 97d098c003cbe36795101c1c5e3ad61335292ac1bca86622f38334e296b3b87e
+content = 28bb6ce92d8cf54cdab8d31686f2bfa12809646258f425e703abfee27bade434
 
 [rtfview]
 title = RTF Reader
-version = 1.0.33
+version = 1.0.34
 category = Productivity
 author = Onyx
 summary = 
-size = 37949
-installed = 253022
-sha256 = 25ff3bc314be959c5d0686f423a53de57008f70140e4de62e44d47e69ce8bfbf
-file = pkgs/rtfview-1.0.33.opk
+size = 37974
+installed = 253110
+sha256 = a67e5def004be6590debe80f64b17d3fa8b9665cd30e17d6f7e3e7cc25283ea1
+file = pkgs/rtfview-1.0.34.opk
 icon = icons/rtfview.bmp
 needs = uikit >= 1.729, fontkit, kapi >= 97
 required = 0
 restart = 0
-content = 4955d0d79e40be4a9b6143c64080a9a215e806e944d02da7979fe10cabec08c4
+content = 25f7c09f5328aa33230bf7a9d619f2e887b5267293d3e9d72a50dfa81f9d03a4
 
 [same]
 title = SameGame
-version = 1.0.30
+version = 1.0.31
 category = Games
 author = Onyx
 summary = 
-size = 34537
-installed = 246697
-sha256 = fd566dc68368e7e10cb1a076e95b917a6b0fb42073afe142b6d155c0dae46730
-file = pkgs/same-1.0.30.opk
+size = 34548
+installed = 246793
+sha256 = e23b3c5d58977168cac7d911df7b07c98b51d1ee8f98c87bbc1e30f24c2010a2
+file = pkgs/same-1.0.31.opk
 icon = icons/same.bmp
 needs = uikit >= 1.729, fontkit, kapi >= 97
 required = 0
 restart = 0
-content = 2db87321fa7bec077aca6c1858408c1ccb5d904a98981d1adc1b164ece65443e
+content = df642423a07a2e3f48c53d61b3e90d59e0c1591d5d571ee39ac542af4a50bb67
 
 [screenshot]
 title = Screenshot
-version = 1.0.25
+version = 1.0.26
 category = Graphics
 author = Onyx
 summary = 
-size = 217809
+size = 217810
 installed = 621418
-sha256 = ce99dc29dd1edc405ff2b2757f7f7747d5c42dfc807b1b843b4a8d16e4a69649
-file = pkgs/screenshot-1.0.25.opk
+sha256 = 4d1e1e6bfe6a161caa5d6ac3b00bb78efbd13084bb326305376d4305d06083f1
+file = pkgs/screenshot-1.0.26.opk
 icon = icons/screenshot.bmp
 needs = uikit >= 1.729, fontkit, imagekit >= 1.46, kapi >= 97
 required = 0
 restart = 0
-content = d4aa1542208c325859f196b1a3be7c5031d6d26d4bff7d6fa05a4c59909e1bd6
+content = aea0d699a5e4e8d2d2471976d935a8f3d8ae996d2b64869ce190e132ec7f63e4
 
 [sheet]
 title = Spreadsheet
-version = 1.0.27
+version = 1.0.28
 category = Productivity
 author = Onyx
 summary = 
-size = 671733
+size = 671735
 installed = 1630686
-sha256 = dea8737ded45b000862d38d2832817600f79cc53a2915c01d994211d435e5019
-file = pkgs/sheet-1.0.27.opk
+sha256 = 3d10c340d6f3f041dfc5561643685edeaa85a5605a7de186830fac8bcd82c529
+file = pkgs/sheet-1.0.28.opk
 icon = icons/sheet.bmp
 needs = uikit >= 1.729, fontkit, cardfile, printerkit, kapi >= 97
 required = 0
 restart = 0
 assoc = xlsx=sheet ods=sheet csv=sheet tsv=sheet
-content = 7c6eb25164915355c83e73f2d0b95bc659367d15d5394a0c45dbdf3a12fdde97
+content = 7395681868702be4fee36e4af649e79bcb401d4c9da13c3d67f22369a533f412
 
 [slides]
 title = Slides
-version = 1.0.24
+version = 1.0.25
 category = Productivity
 author = Onyx
 summary = 
-size = 672698
+size = 672697
 installed = 1612465
-sha256 = 93d354e1101985dca1df91bfa075eb59720b5fd702bb95baa6e5b946935a5caa
-file = pkgs/slides-1.0.24.opk
+sha256 = 708effa3cdc1eb04b59ead6f015d621893f327467829abc802e818fbffab4655
+file = pkgs/slides-1.0.25.opk
 icon = icons/slides.bmp
 needs = uikit >= 1.729, fontkit, printerkit, imagekit >= 1.46, kapi >= 97
 required = 0
 restart = 0
 assoc = odp=slides pptx=slides
-content = 66def04c258e5c04ddc33725502c3c1c6076b7381f66a6293ccad6de0c96ef6a
+content = 51e2969b221d8eb645491217a6429075d5c079d21db7ae64651082a7d3d9e179
 
 [snake]
 title = Snake
-version = 1.0.30
+version = 1.0.31
 category = Games
 author = Onyx
 summary = 
-size = 34187
-installed = 246862
-sha256 = 2fa4db4e3f156601572b12141d810ddb3c9347d471f253ce21863a9646dfb738
-file = pkgs/snake-1.0.30.opk
+size = 34211
+installed = 246950
+sha256 = 2aee5fcb55a9cc1634f0509eadcf98a9adb1c246427c0537b81f6a8e5e52edb1
+file = pkgs/snake-1.0.31.opk
 icon = icons/snake.bmp
 needs = uikit >= 1.729, fontkit, kapi >= 97
 required = 0
 restart = 0
-content = 7b2add331bad819e18fd3e6e54cefff1d2e38bf45805eb64b964cddff03e3ef0
+content = 6dfe1360bddb321a4383bba2a788af4fc209202c5bad77a0d56ea848ac29f20e
 
 [snesemu]
 title = Super Nintendo
-version = 1.0.34
+version = 1.0.35
 category = Emulators
 author = Onyx
 summary = 
-size = 78922
-installed = 336713
-sha256 = b020c31ae03ba060a93d56a740163e264641070bdfbf3c99226a973065f85ae2
-file = pkgs/snesemu-1.0.34.opk
+size = 78935
+installed = 336801
+sha256 = e3ea6ca3cf599e66f2dceec40d41483045ad268704fbe57b97f8d44d1d6a9457
+file = pkgs/snesemu-1.0.35.opk
 icon = icons/snesemu.bmp
 needs = uikit >= 1.729, fontkit, gamelib, audiokit >= 1.232, kapi >= 97
 required = 0
 restart = 0
-content = e83751ee1b1f3689f5a5c04bbd00c53695792cb0451aa358e7f155c34486c29e
+content = 6462d76c9dd21d06a550311575319f1a0b4069db0a5380ec288de88f9ec2c0ec
 
 [sokoban]
 title = Sokoban
-version = 1.0.30
+version = 1.0.31
 category = Games
 author = Onyx
 summary = 
-size = 34601
-installed = 246836
-sha256 = 15b9935082565405dc95c31365fd521f4c6dcd46d80b6a0ac0a017c51273451e
-file = pkgs/sokoban-1.0.30.opk
+size = 34620
+installed = 246932
+sha256 = 26c3d4a4dd3d4d1659183d3f38949dc29162320e05e983e088783a05e9390026
+file = pkgs/sokoban-1.0.31.opk
 icon = icons/sokoban.bmp
 needs = uikit >= 1.729, fontkit, kapi >= 97
 required = 0
 restart = 0
-content = 244ad8a06b8e97816ff77ee11450eea739d43ce8b3408f1d847e1d0d8b17a5e8
+content = 7d9d650dabe567d61fa947879570119a1978282e97cd777b9735b9d86337a8d7
 
 [solitaire]
 title = Solitaire
-version = 1.0.32
+version = 1.0.33
 category = Games
 author = Onyx
 summary = 
-size = 48725
-installed = 265662
-sha256 = d7579a1193e5bb32e68b724515ece03921461857e412dd8a967ed8d5eb88c5f0
-file = pkgs/solitaire-1.0.32.opk
+size = 48741
+installed = 265750
+sha256 = 9ffbc5029e675b71c150e5d634d0a389053c39132320333d2a440a39052f8810
+file = pkgs/solitaire-1.0.33.opk
 icon = icons/solitaire.bmp
 needs = uikit >= 1.729, fontkit, audiokit >= 1.232, kapi >= 97
 required = 0
 restart = 0
-content = 1ee7e52d16ba2f36e66977668be1305be5b914452728fe8ccddabeddfd544759
+content = bd3a6b6cf1662524b287c465ea6687562b3ab9a759f765d6345c0420b167810e
 
 [telegram]
 title = Telegram
@@ -1296,49 +1296,49 @@ content = c36f932297d75bcb1f51b5048148c362404a5276bbf16f62b07e7e97c3ae163b
 
 [tetris]
 title = Tetris
-version = 1.0.30
+version = 1.0.31
 category = Games
 author = Onyx
 summary = 
-size = 34911
-installed = 246951
-sha256 = 2ff9d7babf04c2176f82f8cf5ea74eb2c757d0ff53cb5002e1d36ad5383850ef
-file = pkgs/tetris-1.0.30.opk
+size = 34928
+installed = 247047
+sha256 = 135ecf77caae9be0b244e0b0e4b81a16144b19f7d3c152a9cc633e5a4a8c6f13
+file = pkgs/tetris-1.0.31.opk
 icon = icons/tetris.bmp
 needs = uikit >= 1.729, fontkit, kapi >= 97
 required = 0
 restart = 0
-content = a2b8365f2bf77053a7acdc56c99d09afc6d79d406d6f0f3a5ff058d7f9a6112f
+content = 1d963eedbdc7548b05014c022fe231fdd4f007002ef3fe92363cc2e2e1893dda
 
 [tinycalc]
 title = Calculator
-version = 1.0.30
+version = 1.0.31
 category = Productivity
 author = Onyx
 summary = 
-size = 34286
-installed = 247362
-sha256 = a6964a5b6b0592007cdbe4ea92966b9ade1d62a9c092ce0d53122c8551262a93
-file = pkgs/tinycalc-1.0.30.opk
+size = 34305
+installed = 247450
+sha256 = 2a909159c7ead3765d4f0256ee7c6379a0674cfc94e9a0572e4bd6eddf0de168
+file = pkgs/tinycalc-1.0.31.opk
 icon = icons/tinycalc.bmp
 needs = uikit >= 1.729, fontkit, kapi >= 97
 required = 0
 restart = 0
-content = a3be3033003cc277f35847ad8e1ff82f9120291159f8f83f6ad26fb72b2c4ea4
+content = 8d5bea3eb00c2a0e249c45b4aca5a874393c13b2582012cb79e915040ca399ba
 
 [turtle]
 title = Turtle Quest
-version = 1.0.13
+version = 1.0.14
 category = Programming
 author = Onyx
 summary = 
 size = 579474
 installed = 1437318
-sha256 = 0dc6e88421fe7f5a3c51ae14592e0ca59e0ea1b67dddeffbb43eefd9affbccee
-file = pkgs/turtle-1.0.13.opk
+sha256 = 6b8aed888b506442bc65e6dae7e3cf0c6cadc90b159e51429a1ad3e88ffee517
+file = pkgs/turtle-1.0.14.opk
 icon = icons/turtle.bmp
 needs = uikit >= 1.729, fontkit, uikit >= 1.779, systemkit >= 1.74, kapi >= 97
 required = 0
 restart = 0
 assoc = turtle=turtle
-content = 2966dff62b6b7dee28bca56ceb5d0191f56d5faa3a119ae5f38277865bc75325
+content = df1df8df85155392e2402d3db4c41b47a54a9f2f2b809314b7a6704772e7223f

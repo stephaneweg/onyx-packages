@@ -1,7 +1,7 @@
 # Onyx package index -- tools/pkg/mkrepo.py (docs/pkg/README.md)
 [repo]
 name = onyx-packages
-date = 2026-10-08 23:56
+date = 2026-10-09 00:02
 kapi = 97
 packages = 82
 
@@ -494,20 +494,20 @@ content = d3f6b8d11d79c657fdff00d550709dfa4bb6f80568fa1f507ca4bb89ea3f0e4f
 
 [archiver]
 title = Archiver
-version = 1.0.26
+version = 1.0.27
 category = Productivity
 author = Onyx
 summary = 
-size = 113773
-installed = 396932
-sha256 = 4561e089a5d72e8c11511f58140a83436cc66d5dceb2bc044d73610c9c86bc1b
-file = pkgs/archiver-1.0.26.opk
+size = 119370
+installed = 403992
+sha256 = fa622c258516984a74ef2ffb8a40cad1e91d20c4b3a392e7532d7f44cd97f8b7
+file = pkgs/archiver-1.0.27.opk
 icon = icons/archiver.bmp
-needs = uikit >= 1.729, fontkit, filekit >= 1.78, kapi >= 97
+needs = uikit >= 1.729, fontkit, filekit >= 1.78, uikit >= 1.949, kapi >= 97
 required = 0
 restart = 0
 assoc = zip=archiver jar=archiver tar=archiver tgz=archiver gz=archiver
-content = 0da1867af808b8ca4848738ffdae8e47e459ea7a141b0e36369b88d51a1185a7
+content = 8bdb75ed2f420b1511dd0bc32aa5721af4f2a6cee7171a0cf2c48e740f44ec3d
 
 [arkanoid]
 title = Arkanoid

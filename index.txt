@@ -1,25 +1,25 @@
 # Onyx package index -- tools/pkg/mkrepo.py (docs/pkg/README.md)
 [repo]
 name = onyx-packages
-date = 2026-10-09 08:39
+date = 2026-10-09 09:02
 kapi = 97
 packages = 82
 
 [pkgman]
 title = Package Manager
-version = 1.0.32
+version = 1.0.33
 category = System
 author = Onyx
 summary = The packages: the pkg command, the Package Manager (the Control Panel's applet), the update daemon pkgd
-size = 2085841
-installed = 5275209
-sha256 = 09bca71859997f7fefbac36efe026f7e733220d1c466bf48031744a201d2af5c
-file = pkgs/pkgman-1.0.32.opk
+size = 2087592
+installed = 5341689
+sha256 = 7ad6e5b58b43b735207d4c3b00ee8a979902a51c9f1efa7e4ad3e9e467d5d354
+file = pkgs/pkgman-1.0.33.opk
 icon = icons/pkgman.bmp
 needs = kapi >= 97
 required = 1
 restart = 0
-content = a5f71ed672be520c7699dff385a18538f41fded48dd0b813f891d5d504818e8d
+content = c1f42498742e169701a8101ecf91dd3d2608dbd9192207733f56c7c520cfcf9f
 
 [jsc]
 title = JavaScriptCore shell (jsc)
@@ -218,21 +218,21 @@ content = 23262c143b9168d0c7e313a360f897908957b0562adf4003f0adfd10ae0bdfd7
 
 [onyx]
 title = Onyx system
-version = 2026.10.138
+version = 2026.10.139
 category = System
 author = Onyx
 summary = The kernel, the commands of /bin, the desktop, the settings, the terminal, the File Viewer, Disks, the text editor, the fonts
-size = 45040327
+size = 45040334
 installed = 116760131
-sha256 = 366f0b16be2e70ea46d075dff38a92eee684c8244de673542b755c592c545cd2
-file = pkgs/onyx-2026.10.138.opk
+sha256 = a2d6a883ff2e815b7918d4ae03d71a7209801494699e3ccdb2065264078ba7c3
+file = pkgs/onyx-2026.10.139.opk
 icon = icons/onyx.bmp
 needs = pkgman, uikit >= 1.850, fontkit, printerkit >= 1.33, audiokit >= 1.232, filekit >= 1.99, systemkit >= 1.93, netkit >= 1.21, imagekit >= 1.46
 required = 1
 restart = 1
 assoc = txt=tinypad md=tinypad ini=tinypad cfg=tinypad conf=tinypad log=tinypad c=tinypad h=tinypad cpp=tinypad hpp=tinypad json=tinypad html=tinypad htm=tinypad css=tinypad kmap=tinypad sh=tinypad bmp=imageview gif=imageview png=imageview jpg=imageview jpeg=imageview jpe=imageview pcx=imageview webp=imageview
 runners = bax=SD:/bin/basic bas=SD:/bin/basic
-content = 5af087c746698c18ab4b30ada2824021f35a62021d2c8d5235e1175fb383d892
+content = 18d61724bb8c29ea0efd5fe9f62d9510683a0ba7b28a9632ab06dd7d29fb8790
 
 [pi-firmware]
 title = Raspberry Pi firmware

@@ -1,7 +1,7 @@
 # Onyx package index -- tools/pkg/mkrepo.py (docs/pkg/README.md)
 [repo]
 name = onyx-packages
-date = 2026-10-09 09:51
+date = 2026-10-09 10:33
 kapi = 97
 packages = 82
 board = pi5
@@ -219,21 +219,21 @@ content = 23262c143b9168d0c7e313a360f897908957b0562adf4003f0adfd10ae0bdfd7
 
 [onyx]
 title = Onyx system
-version = 2026.10.140
+version = 2026.10.141
 category = System
 author = Onyx
 summary = The kernel, the commands of /bin, the desktop, the settings, the terminal, the File Viewer, Disks, the text editor, the fonts
-size = 45043221
-installed = 116753815
-sha256 = 6e47809475bfaafbd48692ce6a50f156806fa7ae2dfd872d44a4650251986e45
-file = pkgs/onyx-2026.10.140.opk
+size = 45045915
+installed = 116755794
+sha256 = 645edeaa85c2a8245585f8f4dd7da226e31586b839aafc16f97632a1d346228f
+file = pkgs/onyx-2026.10.141.opk
 icon = icons/onyx.bmp
 needs = pkgman, uikit >= 1.850, fontkit, printerkit >= 1.33, audiokit >= 1.232, filekit >= 1.99, systemkit >= 1.93, netkit >= 1.21, imagekit >= 1.46
 required = 1
 restart = 1
 assoc = txt=tinypad md=tinypad ini=tinypad cfg=tinypad conf=tinypad log=tinypad c=tinypad h=tinypad cpp=tinypad hpp=tinypad json=tinypad html=tinypad htm=tinypad css=tinypad kmap=tinypad sh=tinypad bmp=imageview gif=imageview png=imageview jpg=imageview jpeg=imageview jpe=imageview pcx=imageview webp=imageview
 runners = bax=SD:/bin/basic bas=SD:/bin/basic
-content = b45aee3858ad68f6b76d4d09317bb9cf72965728bffccf0f2270114d7cbe43a0
+content = eb380500e92e2f4d37df71210b4fda33abcd3546be3bd6aad8cb243a56580104
 
 [pi-firmware]
 title = Raspberry Pi firmware
@@ -692,51 +692,51 @@ content = 3fe16e5d7ae6ea9fd3846c49794e504a08e73a57e3a413ca56abedac2b94cd91
 
 [gbaemu]
 title = Game Boy Advance
-version = 1.0.36
+version = 1.0.37
 category = Emulators
 author = Onyx
 summary = 
-size = 71243
-installed = 336161
-sha256 = f88a2f8fd298f4b446aeb4178988374a55a422ef553136b911f523669857ed95
-file = pkgs/gbaemu-1.0.36.opk
+size = 71328
+installed = 336311
+sha256 = 20271e51ad1485f33e6d0d2ffe7aec9c9bc98f211e806967ed4100c7f6091e3d
+file = pkgs/gbaemu-1.0.37.opk
 icon = icons/gbaemu.bmp
 needs = uikit >= 1.729, fontkit, gamelib, audiokit >= 1.232, kapi >= 97
 required = 0
 restart = 0
-content = 0a67bd880d287ed159bc2942d1a8d0f73e64b1c9d72194219cfff7aaf20c1d10
+content = 18466b08085f33b65d8465322472310680fa334a101d1ea4ceb51b82babfd2fb
 
 [gbemu]
 title = Game Boy
-version = 1.0.36
+version = 1.0.37
 category = Emulators
 author = Onyx
 summary = 
-size = 58046
-installed = 333957
-sha256 = 2563bd2f76d4fff2bf4da52c9ea1678ab7bd98bc78ca3d6f89f5f0008ac6b07c
-file = pkgs/gbemu-1.0.36.opk
+size = 58132
+installed = 334107
+sha256 = e7f72fcecaa0f20afec9a2101e54f6d24c3171659a59534f8bbdbc9840060130
+file = pkgs/gbemu-1.0.37.opk
 icon = icons/gbemu.bmp
 needs = uikit >= 1.729, fontkit, gamelib, audiokit >= 1.232, kapi >= 97
 required = 0
 restart = 0
-content = 429b0d21502c385148e3913a197647007c3bd58c5572ed3f0321d8df74bb6626
+content = 2ce6e7a947c4925099e0f2398427acc749c662bf5b06b78b98363d9b662bf99a
 
 [gcemu]
 title = GameCube
-version = 1.0.36
+version = 1.0.37
 category = Emulators
 author = Onyx
 summary = 
-size = 234598
-installed = 622177
-sha256 = e5f4cbb53904f20b97b41587a1f8595bb2fb60635a17b8c60ee79e32d0fe5fee
-file = pkgs/gcemu-1.0.36.opk
+size = 234681
+installed = 622327
+sha256 = d954bcb4411949bf9b61f1ed02f8002da80b14e8cba224e40ee47c7c2cb82592
+file = pkgs/gcemu-1.0.37.opk
 icon = icons/gcemu.bmp
 needs = uikit >= 1.729, fontkit, gamelib, audiokit >= 1.232, kapi >= 97
 required = 0
 restart = 0
-content = e1de4f5dc52d3919290700f1e34b5ca3a64fe5038e7e4ebbe4d7930b6408c065
+content = 56a66450221d6a4aedde1218f153ae08dcb02b3f59fdb8f9764293982d6d8814
 
 [gpiolab]
 title = GPIO Lab
@@ -970,35 +970,35 @@ content = 653a545f37aa64b95238675c27741bd0319623ab025409fe977c1b49e0f5d9b5
 
 [n64emu]
 title = Nintendo 64
-version = 1.0.36
+version = 1.0.37
 category = Emulators
 author = Onyx
 summary = 
-size = 91521
-installed = 336927
-sha256 = 0f93a3a75cf95d5981cf56f2df985008e5d9fa842254e8bb6d8bd47e6354c1ff
-file = pkgs/n64emu-1.0.36.opk
+size = 91605
+installed = 337077
+sha256 = a0f3148d312d84a11b3d04fef9bc6b0bac9d8c9ad3edce1139da1384e9089f38
+file = pkgs/n64emu-1.0.37.opk
 icon = icons/n64emu.bmp
 needs = uikit >= 1.729, fontkit, gamelib, audiokit >= 1.232, kapi >= 97
 required = 0
 restart = 0
-content = 0512b79a08efccfa9de8fcf67b302e764dd93e997240bd02e8b49e446df385e3
+content = 051eb4154e6c1f8c987e95fedc40075e50b0e1870918b7a87a8601841450bbf1
 
 [nesemu]
 title = NES
-version = 1.0.36
+version = 1.0.37
 category = Emulators
 author = Onyx
 summary = 
-size = 59166
-installed = 333743
-sha256 = f193be8046142beca14870dd5f29ece970ea2d3c8d41564e323f16cd53dab30d
-file = pkgs/nesemu-1.0.36.opk
+size = 59249
+installed = 333893
+sha256 = 51db6284ce4d30bcfa147d3e462c4871213db61a620e00a6d1ca281bfc258980
+file = pkgs/nesemu-1.0.37.opk
 icon = icons/nesemu.bmp
 needs = uikit >= 1.729, fontkit, gamelib, audiokit >= 1.232, kapi >= 97
 required = 0
 restart = 0
-content = a6840dec36d92ecd09d35fee85c706237a3364ce6b4749f0fea4106f430e5540
+content = 8a6a01176ff12fbc6e9e72f831f726103819c3b35e83ac7d2121699fcd75435a
 
 [paint]
 title = Paint
@@ -1233,19 +1233,19 @@ content = 83408738e3f5d37187261caedba61ef8cbd17f1cd9e65c2c2f1f21b2d1fcd047
 
 [snesemu]
 title = Super Nintendo
-version = 1.0.36
+version = 1.0.37
 category = Emulators
 author = Onyx
 summary = 
-size = 78934
-installed = 336801
-sha256 = 0e29ecc0119c9489b5cc8d13314b00ebb4afe2044f2e00fd36cb2f48780e3e5a
-file = pkgs/snesemu-1.0.36.opk
+size = 79019
+installed = 336951
+sha256 = 3098a773ac2669a5b004951f02d37001a5351c037908b9bb5a1d86cc5c7ac724
+file = pkgs/snesemu-1.0.37.opk
 icon = icons/snesemu.bmp
 needs = uikit >= 1.729, fontkit, gamelib, audiokit >= 1.232, kapi >= 97
 required = 0
 restart = 0
-content = f71ad328beaca949f0b69e0ff1b546e0c3aea8366004a539b3ecece91eebd95c
+content = 2bf90bc85e71426f03cb5382500430ad6ad3369e00177d75406555bd5aae2e13
 
 [sokoban]
 title = Sokoban

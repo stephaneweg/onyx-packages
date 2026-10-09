@@ -1,7 +1,7 @@
 # Onyx package index -- tools/pkg/mkrepo.py (docs/pkg/README.md)
 [repo]
 name = onyx-packages
-date = 2026-10-09 00:19
+date = 2026-10-09 00:25
 kapi = 97
 packages = 82
 
@@ -642,20 +642,20 @@ content = 198353c3176c88b6e48544a9ef3ae86d291d505f0d80153e784044f33f48e918
 
 [fmtracker]
 title = FM Tracker
-version = 1.0.29
+version = 1.0.30
 category = Multimedia
 author = Onyx
 summary = 
-size = 251476
-installed = 715340
-sha256 = eb8ddae83488d16fd0fc8d5e65aeecb246e378e326bf590624d3a5c0ba7f4d41
-file = pkgs/fmtracker-1.0.29.opk
+size = 255460
+installed = 721346
+sha256 = ab86b8a4ebcb9a5fb613f8428d153bba1cbf541247c3117f88393554e90dc87c
+file = pkgs/fmtracker-1.0.30.opk
 icon = icons/fmtracker.bmp
-needs = uikit >= 1.729, fontkit, audiokit >= 1.232, kapi >= 97
+needs = uikit >= 1.729, fontkit, audiokit >= 1.232, uikit >= 1.949, kapi >= 97
 required = 0
 restart = 0
 assoc = fms=fmtracker
-content = 395c0a56239c5eca2d246bb1e1a7aa42a5219ab9b101c4c95e95083330fdfa61
+content = 54224d17e7aa67346ef59fb2392be5e9c4f0017362d87294adebc46e87988eb5
 
 [freecell]
 title = FreeCell
@@ -771,19 +771,19 @@ content = 7daabae601840473fa2146212ce80d4e1edb3bead14f478bfabb8e7ab9d31803
 
 [iconedit]
 title = Icon Editor
-version = 1.0.30
+version = 1.0.31
 category = Graphics
 author = Onyx
 summary = 
-size = 41302
-installed = 249835
-sha256 = 043ce47c06898cf2f4bd21e5d4c53a818a1a1cc7ef4878510444f8e2e3bf9b2f
-file = pkgs/iconedit-1.0.30.opk
+size = 43054
+installed = 251684
+sha256 = 59b2feaf36f1273205d3476128ddfb5faae6367331d85b1ff2ee683e631d734a
+file = pkgs/iconedit-1.0.31.opk
 icon = icons/iconedit.bmp
-needs = uikit >= 1.729, fontkit, kapi >= 97
+needs = uikit >= 1.729, fontkit, uikit >= 1.949, kapi >= 97
 required = 0
 restart = 0
-content = dab15183ea7af8480fe1a81674067d763c0f6264e155e9e8b83737af51ed7eb6
+content = 054eea2bf2f3c3aa4cda3fdaab106abf91d64f5622af6a762b99755f28b9430b
 
 [invaders]
 title = Invaders

@@ -1,25 +1,25 @@
 # Onyx package index -- tools/pkg/mkrepo.py (docs/pkg/README.md)
 [repo]
 name = onyx-packages
-date = 2026-10-09 12:08
+date = 2026-10-09 14:05
 kapi = 97
 packages = 83
 
 [pkgman]
 title = Package Manager
-version = 1.0.33
+version = 1.0.34
 category = System
 author = Onyx
 summary = The packages: the pkg command, the Package Manager (the Control Panel's applet), the update daemon pkgd
-size = 2087592
-installed = 5341689
-sha256 = 7ad6e5b58b43b735207d4c3b00ee8a979902a51c9f1efa7e4ad3e9e467d5d354
-file = pkgs/pkgman-1.0.33.opk
+size = 2087599
+installed = 5341793
+sha256 = 13de85e6ae905430a7b461d06091c81f4a9c7b022e38f1fc28a2779f2d0bd924
+file = pkgs/pkgman-1.0.34.opk
 icon = icons/pkgman.bmp
 needs = kapi >= 97
 required = 1
 restart = 0
-content = c1f42498742e169701a8101ecf91dd3d2608dbd9192207733f56c7c520cfcf9f
+content = 8ec8e08e5c29323c822a9b2529241ea323f548e8725f7997757f709f958a1524
 
 [jsc]
 title = JavaScriptCore shell (jsc)
@@ -138,35 +138,35 @@ content = 6ba7deabd260a6e4fb4267c5cd7cb8fb562a4af2c1773ec833f25c7ff412ee2b
 
 [systemkit]
 title = SystemKit (shared library)
-version = 1.93.0
+version = 1.93.1
 category = System
 author = Onyx
 summary = What the programs say to the system and to each other: the wallpaper, the volume, the trash, the preload list, the file associations, the notifications, the clipboard
-size = 43980
-installed = 99699
-sha256 = bafb4e08af8b0e95bf5a8d306b0af09f0b6475d653b9fef1f9ecc22046dd0647
-file = pkgs/systemkit-1.93.0.opk
+size = 50820
+installed = 167952
+sha256 = f68ad5401a0d8a3944f954381f75e82e8b09ccd605549bef81b7c8e51f6f0295
+file = pkgs/systemkit-1.93.1.opk
 icon = icons/systemkit.bmp
 needs = kapi >= 97
 required = 1
 restart = 0
-content = 5e973c1c8ed9013869d7c2f2e3589e6f51045daf8b234c6fec10e4b947d74369
+content = 426e9af783122e26540fca7b7aa37221f895f46df91988d245d9c94e71a01c7e
 
 [netkit]
 title = NetKit (shared library)
-version = 1.21.6
+version = 1.21.7
 category = System
 author = Onyx
 summary = The network for the programs: the FTP volumes' client, a small HTTP client
-size = 13594
-installed = 90737
-sha256 = edd8ac96118df287a47bee6687300902a9be3c874acafa5a447a72f75da21337
-file = pkgs/netkit-1.21.6.opk
+size = 18668
+installed = 91825
+sha256 = 941fddd9e48b92de1ed4d3ca147b52cb865444eaeb38de4b430167bd2c88bd48
+file = pkgs/netkit-1.21.7.opk
 icon = icons/netkit.bmp
 needs = kapi >= 97
 required = 1
 restart = 0
-content = 011576eaf3eb71315295d6d0b5d4485ff9ac0fbd707ed24dd4f1805eda9d4873
+content = 9c875fde93902107ebe2220f391fb346da78e131ceba34ca3d55009e184fc4d2
 
 [gamekit]
 title = GameKit (shared library)
@@ -234,21 +234,21 @@ content = 23262c143b9168d0c7e313a360f897908957b0562adf4003f0adfd10ae0bdfd7
 
 [onyx]
 title = Onyx system
-version = 2026.10.148
+version = 2026.10.149
 category = System
 author = Onyx
 summary = The kernel, the commands of /bin, the desktop, the settings, the terminal, the File Viewer, Disks, the text editor, the fonts
-size = 45207600
-installed = 117119698
-sha256 = 9402af0ff52d1f7457323635aa5ed59ebcfc381b776c069aab3f5346283cdafd
-file = pkgs/onyx-2026.10.148.opk
+size = 45783546
+installed = 118530444
+sha256 = 575b0677f1f904e60f90e5a982fab0c63277542013fda1969410044c4fbcdd87
+file = pkgs/onyx-2026.10.149.opk
 icon = icons/onyx.bmp
 needs = pkgman, uikit >= 1.850, fontkit, printerkit >= 1.33, audiokit >= 1.232, filekit >= 1.99, systemkit >= 1.93, netkit >= 1.21, imagekit >= 1.46, gamekit >= 1.9
 required = 1
 restart = 1
 assoc = txt=tinypad md=tinypad ini=tinypad cfg=tinypad conf=tinypad log=tinypad c=tinypad h=tinypad cpp=tinypad hpp=tinypad json=tinypad html=tinypad htm=tinypad css=tinypad kmap=tinypad sh=tinypad bmp=imageview gif=imageview png=imageview jpg=imageview jpeg=imageview jpe=imageview pcx=imageview webp=imageview
 runners = bax=SD:/bin/basic bas=SD:/bin/basic
-content = 8a42d9523f7b2baf0654dc19c8ce1eb99a6969ee8259ed596553d9dc0cc4c17b
+content = cca1062a3406778fbdd732bfe322876fed673262aa92ac512d9db0611efe1027
 
 [pi-firmware]
 title = Raspberry Pi firmware

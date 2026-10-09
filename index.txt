@@ -1,7 +1,7 @@
 # Onyx package index -- tools/pkg/mkrepo.py (docs/pkg/README.md)
 [repo]
 name = onyx-packages
-date = 2026-10-09 00:02
+date = 2026-10-09 00:19
 kapi = 97
 packages = 82
 
@@ -39,19 +39,19 @@ content = 476518e9a42ccfbfaab693d84060dcb8e95b3f679692044d08ff34a7d923b7d1
 
 [jet]
 title = Jet Browser
-version = 2.0.14
+version = 2.0.15
 category = Internet
 author = Onyx
 summary = The browser, on WebKit: one page per window, HTTPS, JavaScript, video; tip: "preload jet" in SD:/etc/autostart makes it open at once
-size = 43602647
+size = 43602646
 installed = 105186228
-sha256 = 8a91a26fd40037e8a0d9f90046e93ee46f7074734774e0d01c9685992ae8ee7b
-file = pkgs/jet-2.0.14.opk
+sha256 = a701c035f1e8f4d374f931fcefeb3248a5a8fa1dfd54672307a584c44e52c5b3
+file = pkgs/jet-2.0.15.opk
 icon = icons/jet.bmp
-needs = onyx >= 2026.10.39, uikit >= 1.686, systemkit >= 1.56, kapi >= 97
+needs = onyx >= 2026.10.126, uikit >= 1.850, systemkit >= 1.91, kapi >= 97
 required = 0
 restart = 0
-content = d0c93b9d62042a7047ca8670d442e866f8a7fe5d05b6aafa5ef771153af36461
+content = 23bdbc776d5ba8120a7052cdcd42dff95a8c797d2af0669837fc8ebb62e6d516
 
 [uikit]
 title = UIKit, the toolkit (shared library)

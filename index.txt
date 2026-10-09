@@ -1,9 +1,9 @@
 # Onyx package index -- tools/pkg/mkrepo.py (docs/pkg/README.md)
 [repo]
 name = onyx-packages
-date = 2026-10-09 10:32
+date = 2026-10-09 11:15
 kapi = 97
-packages = 82
+packages = 83
 
 [pkgman]
 title = Package Manager
@@ -168,6 +168,22 @@ required = 1
 restart = 0
 content = 011576eaf3eb71315295d6d0b5d4485ff9ac0fbd707ed24dd4f1805eda9d4873
 
+[gamekit]
+title = GameKit (shared library)
+version = 1.9.0
+category = System
+author = Onyx
+summary = The games of the card's ROMs: the consoles of the installed emulators, the watched folders, the ROMs found in them, their pictures -- for the Game Library and the console's home
+size = 13543
+installed = 90444
+sha256 = b266544819da573bfa877ea93d2ef6893e651c680879c7e11203cb4d51424773
+file = pkgs/gamekit-1.9.0.opk
+icon = icons/gamekit.bmp
+needs = kapi >= 97
+required = 1
+restart = 0
+content = 9419c34eeb5b64c825bdd39d7b431a96609396620d8502415df8108a4c250a16
+
 [imagekit]
 title = ImageKit (shared library)
 version = 1.46.4
@@ -218,21 +234,21 @@ content = 23262c143b9168d0c7e313a360f897908957b0562adf4003f0adfd10ae0bdfd7
 
 [onyx]
 title = Onyx system
-version = 2026.10.141
+version = 2026.10.142
 category = System
 author = Onyx
 summary = The kernel, the commands of /bin, the desktop, the settings, the terminal, the File Viewer, Disks, the text editor, the fonts
-size = 45044176
-installed = 116762678
-sha256 = ffaf4f36050468bbec99b36b80fc83af3effa65c4f4459cad9d68d845ab70ce3
-file = pkgs/onyx-2026.10.141.opk
+size = 45199072
+installed = 117104682
+sha256 = a31f108ea993f637a7f6d69ff034c3a5cd20c3b6be922a2ca5fa78dcb3095045
+file = pkgs/onyx-2026.10.142.opk
 icon = icons/onyx.bmp
-needs = pkgman, uikit >= 1.850, fontkit, printerkit >= 1.33, audiokit >= 1.232, filekit >= 1.99, systemkit >= 1.93, netkit >= 1.21, imagekit >= 1.46
+needs = pkgman, uikit >= 1.850, fontkit, printerkit >= 1.33, audiokit >= 1.232, filekit >= 1.99, systemkit >= 1.93, netkit >= 1.21, imagekit >= 1.46, gamekit >= 1.9
 required = 1
 restart = 1
 assoc = txt=tinypad md=tinypad ini=tinypad cfg=tinypad conf=tinypad log=tinypad c=tinypad h=tinypad cpp=tinypad hpp=tinypad json=tinypad html=tinypad htm=tinypad css=tinypad kmap=tinypad sh=tinypad bmp=imageview gif=imageview png=imageview jpg=imageview jpeg=imageview jpe=imageview pcx=imageview webp=imageview
 runners = bax=SD:/bin/basic bas=SD:/bin/basic
-content = c303ba032d1fc6048f5fb50aba235ff45fdeb527760e48fa8382cb4a712eb7c8
+content = c85e79f9a362aac07a49cd74893b13a8732f87b08e6f10be6aa807c71fe0a9d9
 
 [pi-firmware]
 title = Raspberry Pi firmware
@@ -675,19 +691,19 @@ content = 5a8eba338e8eb62c1464e7a82c67c3be4a51ee553554eed6eccf1dddd8efcbf7
 
 [gamelib]
 title = Game Library
-version = 1.0.26
+version = 1.0.27
 category = Games
 author = Onyx
 summary = 
-size = 295910
-installed = 762546
-sha256 = 38564399e78179b9845c76c6cf6f24eab1ce348fb2e2b3800578891ad44b13ba
-file = pkgs/gamelib-1.0.26.opk
+size = 283373
+installed = 738762
+sha256 = 6f78e439875881edb0c2c514504896477ec6a6c966d950a13b85d1c46e6d455a
+file = pkgs/gamelib-1.0.27.opk
 icon = icons/gamelib.bmp
-needs = uikit >= 1.729, fontkit, uikit >= 1.949, kapi >= 97
+needs = uikit >= 1.729, fontkit, uikit >= 1.949, gamekit >= 1.9, kapi >= 97
 required = 0
 restart = 0
-content = 3fe16e5d7ae6ea9fd3846c49794e504a08e73a57e3a413ca56abedac2b94cd91
+content = 5ba1217d8778ed3cbe7aaee90082fd684379ed2ac8dfef55abac4b904e0ef3cb
 
 [gbaemu]
 title = Game Boy Advance

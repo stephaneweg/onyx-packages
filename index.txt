@@ -1,7 +1,7 @@
 # Onyx package index -- tools/pkg/mkrepo.py (docs/pkg/README.md)
 [repo]
 name = onyx-packages
-date = 2026-10-09 00:28
+date = 2026-10-09 00:37
 kapi = 97
 packages = 82
 
@@ -1018,20 +1018,20 @@ content = 6132d03a30a3a259b18c1b928cda8e8dc586dc4cf988a64def3df058bba71a2c
 
 [pdf]
 title = PDF Viewer
-version = 1.0.29
+version = 1.0.30
 category = Productivity
 author = Onyx
 summary = 
-size = 2841662
-installed = 5366422
-sha256 = 5dfbc859bce8316ddc3347327cd5cd26692a1b7ea04920b56d9377d89eca0f66
-file = pkgs/pdf-1.0.29.opk
+size = 2845627
+installed = 5372525
+sha256 = a61f1605cbd4b8b94b934ddf2288feeaa671900c295ca5c9d7cae1772ad36559
+file = pkgs/pdf-1.0.30.opk
 icon = icons/pdf.bmp
-needs = uikit >= 1.729, fontkit, printerkit, kapi >= 97
+needs = uikit >= 1.729, fontkit, printerkit, uikit >= 1.949, kapi >= 97
 required = 0
 restart = 0
 assoc = pdf=pdf
-content = 200072aa07d6149f28c8a8e832ab447a1e712ebe7ed54c257d72e39459774a4c
+content = a77e15d11209db53c09c926a2397fd1b5fe2127ee519308f89bf2192bba8592f
 
 [photos]
 title = Photos

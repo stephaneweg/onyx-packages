@@ -1,7 +1,7 @@
 # Onyx package index -- tools/pkg/mkrepo.py (docs/pkg/README.md)
 [repo]
 name = onyx-packages
-date = 2026-10-09 17:03
+date = 2026-10-09 17:33
 kapi = 97
 packages = 84
 board = pi5
@@ -235,21 +235,21 @@ content = cffafd71293ab16f713c5846c7a46118ada7a27642dafdb86f63d4d9c06ce953
 
 [onyx]
 title = Onyx system
-version = 2026.10.153
+version = 2026.10.154
 category = System
 author = Onyx
 summary = The kernel, the commands of /bin, the desktop, the settings, the terminal, the File Viewer, Disks, the text editor, the fonts
-size = 45801159
+size = 45801161
 installed = 118553307
-sha256 = f892240668f2ff15cd10e1115c89ca1a9e6d9002346fd238dc6b66d71611dd58
-file = pkgs/onyx-2026.10.153.opk
+sha256 = fa7df83355c31c050f81d7589d277dbefc96bf696aaecbd798047e8614f20769
+file = pkgs/onyx-2026.10.154.opk
 icon = icons/onyx.bmp
 needs = pkgman, uikit >= 1.850, fontkit, printerkit >= 1.33, audiokit >= 1.232, filekit >= 1.99, systemkit >= 1.93, netkit >= 1.21, imagekit >= 1.46, gamekit >= 1.9
 required = 1
 restart = 1
 assoc = txt=tinypad md=tinypad ini=tinypad cfg=tinypad conf=tinypad log=tinypad c=tinypad h=tinypad cpp=tinypad hpp=tinypad json=tinypad html=tinypad htm=tinypad css=tinypad kmap=tinypad sh=tinypad bmp=imageview gif=imageview png=imageview jpg=imageview jpeg=imageview jpe=imageview pcx=imageview webp=imageview
 runners = bax=SD:/bin/basic bas=SD:/bin/basic
-content = 459d265b856d6b640030d681ed3a76faddda87b318a21028daa1c2f04025fc21
+content = 72d21d30978c0f06699ebb8ebc182f19be0d7bd4da9805d2afc162bd7ebe3602
 
 [pi-firmware]
 title = Raspberry Pi firmware
@@ -1002,19 +1002,19 @@ content = 5dfed36d8fb56c23d8ce797f17b56b9afd6ac356a667571dd5d20e6af4dffa9b
 
 [ndsemu]
 title = Nintendo DS
-version = 1.0.0
+version = 1.0.1
 category = Emulators
 author = Onyx
 summary = 
-size = 152644
-installed = 389631
-sha256 = 34f7c92f20404e2a67a85e4b4a434ab1d9a278f22129b60e1468b6e9a3446ae5
-file = pkgs/ndsemu-1.0.0.opk
+size = 150778
+installed = 389639
+sha256 = b4b52d11027a3ee9d6489d058fe0e786069b95969594665853856a604cc8b556
+file = pkgs/ndsemu-1.0.1.opk
 icon = icons/ndsemu.bmp
 needs = uikit >= 1.729, fontkit, gamelib, uikit >= 1.950, audiokit >= 1.232, fontkit >= 1.135, kapi >= 97
 required = 0
 restart = 0
-content = 25d2b349d7187e2091b5af12c660dffe1d3c9c5e3a2e58956c7ee061fd2a947f
+content = 2a66dbd344f9fbf5285a0e34d33c5daab7fba51cd7d88207162cbf24c380a7d6
 
 [nesemu]
 title = NES

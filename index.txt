@@ -1,7 +1,7 @@
 # Onyx package index -- tools/pkg/mkrepo.py (docs/pkg/README.md)
 [repo]
 name = onyx-packages
-date = 2026-10-09 01:45
+date = 2026-10-09 02:09
 kapi = 97
 packages = 82
 
@@ -55,20 +55,20 @@ content = 23bdbc776d5ba8120a7052cdcd42dff95a8c797d2af0669837fc8ebb62e6d516
 
 [uikit]
 title = UIKit, the toolkit (shared library)
-version = 1.950.1
+version = 1.950.2
 category = System
 author = Onyx
 summary = The widgets, the windows' frames and the theme every app draws with: one copy in memory, shared by all the apps
-size = 464566
+size = 464561
 installed = 1067050
-sha256 = 3934700f5d29f3ad44985f12b1f2ff64246c6e721ee4abf7b6f74325a9791078
-file = pkgs/uikit-1.950.1.opk
+sha256 = 67799e576166f32cb98d7bc5795e1d631fe4559af0a11aac15ca4e5863fd4ca2
+file = pkgs/uikit-1.950.2.opk
 icon = icons/uikit.bmp
 needs = imagekit >= 1.46, systemkit >= 1.74, kapi >= 89
 required = 1
 restart = 0
 replaces = wtk
-content = 10db32355fdc59d4d4dde78d1e5f3c37fae3ac98366fbfde88915147a0be7632
+content = 388044db23cdd247b886d4e594ac4ff93a2d8a2dd1bb919c955446177f8c58df
 
 [fontkit]
 title = FontKit (FreeType, shared library)

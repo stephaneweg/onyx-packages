@@ -1,7 +1,7 @@
 # Onyx package index -- tools/pkg/mkrepo.py (docs/pkg/README.md)
 [repo]
 name = onyx-packages
-date = 2026-10-10 14:35
+date = 2026-10-10 16:08
 kapi = 97
 packages = 85
 
@@ -985,19 +985,19 @@ content = ca4b4da55815742a5b14281eddd19651a22e4095b9b7e7adb458d9f36a4f88a5
 
 [n3dsemu]
 title = Nintendo 3DS
-version = 1.0.3
+version = 1.0.4
 category = Emulators
 author = Onyx
 summary = 
-size = 1091198
+size = 1091436
 installed = 3660974
-sha256 = b023e4b40287b7d4d824ee702cf05a18756a3d056c5e356ee7729643887398fb
-file = pkgs/n3dsemu-1.0.3.opk
+sha256 = 178e65e4d9ec1b0c68c3caa7f6952f4f71df4495313ed8e7a08365e0440f8914
+file = pkgs/n3dsemu-1.0.4.opk
 icon = icons/n3dsemu.bmp
 needs = uikit >= 1.729, fontkit, gamelib, uikit >= 1.950, audiokit >= 1.232, fontkit >= 1.135, kapi >= 97
 required = 0
 restart = 0
-content = f09e15affdd3a872a988f7bc468627ae06e601dcaab4b27a1d37cb743f1652be
+content = 35f73cf4cc14f5cbcb5dc44882f7eebfee2b48ed82e8fbc7f06053b49d776488
 
 [n64emu]
 title = Nintendo 64

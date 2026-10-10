@@ -1,7 +1,7 @@
 # Onyx package index -- tools/pkg/mkrepo.py (docs/pkg/README.md)
 [repo]
 name = onyx-packages
-date = 2026-10-09 20:31
+date = 2026-10-10 07:40
 kapi = 97
 packages = 84
 board = pi5
@@ -139,19 +139,19 @@ content = 6ba7deabd260a6e4fb4267c5cd7cb8fb562a4af2c1773ec833f25c7ff412ee2b
 
 [systemkit]
 title = SystemKit (shared library)
-version = 1.93.1
+version = 1.93.2
 category = System
 author = Onyx
 summary = What the programs say to the system and to each other: the wallpaper, the volume, the trash, the preload list, the file associations, the notifications, the clipboard
-size = 50820
-installed = 167952
-sha256 = f68ad5401a0d8a3944f954381f75e82e8b09ccd605549bef81b7c8e51f6f0295
-file = pkgs/systemkit-1.93.1.opk
+size = 50960
+installed = 168032
+sha256 = fe99c4f0778c3093a35eb64628b163f9921460846de1095ac9337a00f2b9fe6d
+file = pkgs/systemkit-1.93.2.opk
 icon = icons/systemkit.bmp
 needs = kapi >= 97
 required = 1
 restart = 0
-content = 426e9af783122e26540fca7b7aa37221f895f46df91988d245d9c94e71a01c7e
+content = 288fed8b78115413fa42f36ff4f872815575a004e7507207713c5d2763d0eaa2
 
 [netkit]
 title = NetKit (shared library)
@@ -235,21 +235,21 @@ content = cffafd71293ab16f713c5846c7a46118ada7a27642dafdb86f63d4d9c06ce953
 
 [onyx]
 title = Onyx system
-version = 2026.10.155
+version = 2026.10.156
 category = System
 author = Onyx
 summary = The kernel, the commands of /bin, the desktop, the settings, the terminal, the File Viewer, Disks, the text editor, the fonts
-size = 45801063
-installed = 118553291
-sha256 = f93fc56a545e764397c6b51e117643556e2ba8268e2b533704ccb358da4cadcb
-file = pkgs/onyx-2026.10.155.opk
+size = 45804800
+installed = 118560572
+sha256 = 2e4ba7bb67268f7319b0dc44c21f1336ae98cd9011ad8aeee0fe1f9f57ddb1d3
+file = pkgs/onyx-2026.10.156.opk
 icon = icons/onyx.bmp
 needs = pkgman, uikit >= 1.850, fontkit, printerkit >= 1.33, audiokit >= 1.232, filekit >= 1.99, systemkit >= 1.93, netkit >= 1.21, imagekit >= 1.46, gamekit >= 1.9
 required = 1
 restart = 1
 assoc = txt=tinypad md=tinypad ini=tinypad cfg=tinypad conf=tinypad log=tinypad c=tinypad h=tinypad cpp=tinypad hpp=tinypad json=tinypad html=tinypad htm=tinypad css=tinypad kmap=tinypad sh=tinypad bmp=imageview gif=imageview png=imageview jpg=imageview jpeg=imageview jpe=imageview pcx=imageview webp=imageview
 runners = bax=SD:/bin/basic bas=SD:/bin/basic
-content = ec185435d62be8da698f27720f48465537e4632f12f477dba68281d2417b7129
+content = 84ae07c1b7a4f4900822ca63177cecad4e4f92aa6425c891aa5b816efb0822d9
 
 [pi-firmware]
 title = Raspberry Pi firmware

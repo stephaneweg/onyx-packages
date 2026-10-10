@@ -1,7 +1,7 @@
 # Onyx package index -- tools/pkg/mkrepo.py (docs/pkg/README.md)
 [repo]
 name = onyx-packages
-date = 2026-10-10 13:04
+date = 2026-10-10 13:47
 kapi = 97
 packages = 85
 board = pi5
@@ -139,19 +139,19 @@ content = 6ba7deabd260a6e4fb4267c5cd7cb8fb562a4af2c1773ec833f25c7ff412ee2b
 
 [systemkit]
 title = SystemKit (shared library)
-version = 1.93.2
+version = 1.94.0
 category = System
 author = Onyx
 summary = What the programs say to the system and to each other: the wallpaper, the volume, the trash, the preload list, the file associations, the notifications, the clipboard
-size = 50960
-installed = 168032
-sha256 = fe99c4f0778c3093a35eb64628b163f9921460846de1095ac9337a00f2b9fe6d
-file = pkgs/systemkit-1.93.2.opk
+size = 51025
+installed = 168080
+sha256 = a6b78609ebe49ead4342373544d676bbe7e9bc28bb38c31274d7fe624f77ae13
+file = pkgs/systemkit-1.94.0.opk
 icon = icons/systemkit.bmp
 needs = kapi >= 97
 required = 1
 restart = 0
-content = 288fed8b78115413fa42f36ff4f872815575a004e7507207713c5d2763d0eaa2
+content = dae68f6551fb0801a5ec28b964c46170f5c8e73891fcc5289bc2147b96899d82
 
 [netkit]
 title = NetKit (shared library)
@@ -235,21 +235,21 @@ content = cffafd71293ab16f713c5846c7a46118ada7a27642dafdb86f63d4d9c06ce953
 
 [onyx]
 title = Onyx system
-version = 2026.10.160
+version = 2026.10.161
 category = System
 author = Onyx
 summary = The kernel, the commands of /bin, the desktop, the settings, the terminal, the File Viewer, Disks, the text editor, the fonts
-size = 45828572
-installed = 118564480
-sha256 = d15a3f1e79d20152b04ed9b6564f155da7c147a68bf12df43c698736c43f0c92
-file = pkgs/onyx-2026.10.160.opk
+size = 45829823
+installed = 118564728
+sha256 = 5c17f535be1b3624d360b46eb6a5f6737a52cf0c377c33f9a673188afa008d42
+file = pkgs/onyx-2026.10.161.opk
 icon = icons/onyx.bmp
-needs = pkgman, uikit >= 1.850, fontkit, printerkit >= 1.33, audiokit >= 1.232, filekit >= 1.99, systemkit >= 1.93, netkit >= 1.21, imagekit >= 1.46, gamekit >= 1.9
+needs = pkgman, uikit >= 1.850, fontkit, printerkit >= 1.33, audiokit >= 1.232, filekit >= 1.99, systemkit >= 1.94, netkit >= 1.21, imagekit >= 1.46, gamekit >= 1.9
 required = 1
 restart = 1
 assoc = txt=tinypad md=tinypad ini=tinypad cfg=tinypad conf=tinypad log=tinypad c=tinypad h=tinypad cpp=tinypad hpp=tinypad json=tinypad html=tinypad htm=tinypad css=tinypad kmap=tinypad sh=tinypad bmp=imageview gif=imageview png=imageview jpg=imageview jpeg=imageview jpe=imageview pcx=imageview webp=imageview
 runners = bax=SD:/bin/basic bas=SD:/bin/basic
-content = 5259d86ec3325962f530164bb9f259d6a34688a669de2649c15b5fe0ffd1cadc
+content = e40cbb8d40c8f4ec366edd2b7ff45520da7c733667330276d32e42d91ce77bb7
 
 [pi-firmware]
 title = Raspberry Pi firmware

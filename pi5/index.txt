@@ -1,7 +1,7 @@
 # Onyx package index -- tools/pkg/mkrepo.py (docs/pkg/README.md)
 [repo]
 name = onyx-packages
-date = 2026-10-10 12:12
+date = 2026-10-10 13:04
 kapi = 97
 packages = 85
 board = pi5
@@ -740,19 +740,19 @@ content = 30971516c45c41d92dbbe3ad3a5d19e9f53dfef66786f2d77ce4fbe966d198a6
 
 [gcemu]
 title = GameCube
-version = 1.0.41
+version = 1.0.42
 category = Emulators
 author = Onyx
 summary = 
-size = 235773
-installed = 622679
-sha256 = a68f21ec928359f3a11529b75aeb97a9bc9bad5cf03592dfb7a06e889c26726e
-file = pkgs/gcemu-1.0.41.opk
+size = 236720
+installed = 622751
+sha256 = 510c65a9753fbb6b540113d6b874e9c0fa7574c3103139ae22a5f0ef2c7f61b0
+file = pkgs/gcemu-1.0.42.opk
 icon = icons/gcemu.bmp
 needs = uikit >= 1.729, fontkit, gamelib, audiokit >= 1.232, kapi >= 97
 required = 0
 restart = 0
-content = c1a76ba9651189d1d621e756bda654f15b2d21868ea0d221a47ea4e6311c802e
+content = 3201c5b818651cb9c553ca10688187065f2afc1b28e015b5953ab68bc69467b1
 
 [gpiolab]
 title = GPIO Lab
@@ -986,19 +986,19 @@ content = ca4b4da55815742a5b14281eddd19651a22e4095b9b7e7adb458d9f36a4f88a5
 
 [n3dsemu]
 title = Nintendo 3DS
-version = 1.0.2
+version = 1.0.3
 category = Emulators
 author = Onyx
 summary = 
-size = 1090231
+size = 1091198
 installed = 3660974
-sha256 = 7226f4c8a7f0b4d09d546e4f1ac1b9f5196f46450737a0321a6ec5b5860919b2
-file = pkgs/n3dsemu-1.0.2.opk
+sha256 = b023e4b40287b7d4d824ee702cf05a18756a3d056c5e356ee7729643887398fb
+file = pkgs/n3dsemu-1.0.3.opk
 icon = icons/n3dsemu.bmp
 needs = uikit >= 1.729, fontkit, gamelib, uikit >= 1.950, audiokit >= 1.232, fontkit >= 1.135, kapi >= 97
 required = 0
 restart = 0
-content = 7313ed22aeb425d980680fe0067ab0f075955d6da01f99eef8cca630b004830b
+content = f09e15affdd3a872a988f7bc468627ae06e601dcaab4b27a1d37cb743f1652be
 
 [n64emu]
 title = Nintendo 64

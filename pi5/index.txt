@@ -1,8 +1,8 @@
 # Onyx package index -- tools/pkg/mkrepo.py (docs/pkg/README.md)
 [repo]
 name = onyx-packages
-date = 2026-10-10 20:53
-kapi = 97
+date = 2026-10-11 12:02
+kapi = 98
 packages = 85
 board = pi5
 
@@ -17,7 +17,7 @@ installed = 5341793
 sha256 = d5f9b5b22dfdb4df336f39e4ce568d150c8cee410278551f8e1026984902ea79
 file = pkgs/pkgman-1.0.35.opk
 icon = icons/pkgman.bmp
-needs = kapi >= 97
+needs = kapi >= 98
 required = 1
 restart = 0
 content = 73fc00e288aaf13a22c23c2a871bc2614cce8f275331a1f1450f90e2a038d0aa
@@ -33,7 +33,7 @@ installed = 41709802
 sha256 = a6bc9e5527f5c47623007344bb1909db2a942655e005b5d129b154d751b63d3d
 file = pkgs/jsc-1.1.2.opk
 icon = icons/jsc.bmp
-needs = kapi >= 97
+needs = kapi >= 98
 required = 0
 restart = 0
 content = 476518e9a42ccfbfaab693d84060dcb8e95b3f679692044d08ff34a7d923b7d1
@@ -49,7 +49,7 @@ installed = 105186228
 sha256 = a701c035f1e8f4d374f931fcefeb3248a5a8fa1dfd54672307a584c44e52c5b3
 file = pkgs/jet-2.0.15.opk
 icon = icons/jet.bmp
-needs = onyx >= 2026.10.126, uikit >= 1.850, systemkit >= 1.91, kapi >= 97
+needs = onyx >= 2026.10.126, uikit >= 1.850, systemkit >= 1.91, kapi >= 98
 required = 0
 restart = 0
 content = 23bdbc776d5ba8120a7052cdcd42dff95a8c797d2af0669837fc8ebb62e6d516
@@ -82,7 +82,7 @@ installed = 286958
 sha256 = f48c4ee9dc96bd69c3e4623832550b7a98fdfc6da7559c594d78d9716f39a0d3
 file = pkgs/fontkit-1.135.4.opk
 icon = icons/fontkit.bmp
-needs = kapi >= 97
+needs = kapi >= 98
 required = 1
 restart = 0
 replaces = ft
@@ -99,7 +99,7 @@ installed = 150515
 sha256 = 74f0f5c52a78f7f928f0abb0a0a41916f42957801b3996d3374bcd8ba6b45f66
 file = pkgs/printerkit-1.33.10.opk
 icon = icons/printerkit.bmp
-needs = kapi >= 97
+needs = kapi >= 98
 required = 1
 restart = 0
 replaces = print
@@ -116,7 +116,7 @@ installed = 829499
 sha256 = 18d10abb44c74d575177a041b4f29e972ae592c178246f7e6f798e9753cf08fd
 file = pkgs/audiokit-1.232.6.opk
 icon = icons/audiokit.bmp
-needs = kapi >= 97
+needs = kapi >= 98
 required = 1
 restart = 0
 content = 339c08a33368c1218088b67975c3906ea0f7181c52f3c2e5398579e2ec31bb0a
@@ -132,7 +132,7 @@ installed = 432341
 sha256 = 87dd13737a024069e86a1289682dfd6742f0c26ebfe0f6b8083b37587c11c9a1
 file = pkgs/filekit-1.99.0.opk
 icon = icons/filekit.bmp
-needs = kapi >= 97
+needs = kapi >= 98
 required = 1
 restart = 0
 content = 6ba7deabd260a6e4fb4267c5cd7cb8fb562a4af2c1773ec833f25c7ff412ee2b
@@ -148,7 +148,7 @@ installed = 168344
 sha256 = cba40a479cd1d3bfb62c93815e926f0417c45e1f2a65bc6bf136c1fcd3c55d98
 file = pkgs/systemkit-1.94.1.opk
 icon = icons/systemkit.bmp
-needs = kapi >= 97
+needs = kapi >= 98
 required = 1
 restart = 0
 content = b450520a968e2650e4af243048d1a4fabf060cb6690f0663e67d22369160bbe7
@@ -164,7 +164,7 @@ installed = 91825
 sha256 = 941fddd9e48b92de1ed4d3ca147b52cb865444eaeb38de4b430167bd2c88bd48
 file = pkgs/netkit-1.21.7.opk
 icon = icons/netkit.bmp
-needs = kapi >= 97
+needs = kapi >= 98
 required = 1
 restart = 0
 content = 9c875fde93902107ebe2220f391fb346da78e131ceba34ca3d55009e184fc4d2
@@ -180,7 +180,7 @@ installed = 90444
 sha256 = b266544819da573bfa877ea93d2ef6893e651c680879c7e11203cb4d51424773
 file = pkgs/gamekit-1.9.0.opk
 icon = icons/gamekit.bmp
-needs = kapi >= 97
+needs = kapi >= 98
 required = 1
 restart = 0
 content = 9419c34eeb5b64c825bdd39d7b431a96609396620d8502415df8108a4c250a16
@@ -196,7 +196,7 @@ installed = 709544
 sha256 = 0d05908dc93ce271f96a0c177361f5a6d3afd72730bd42e54762da83d17c0e1c
 file = pkgs/imagekit-1.46.4.opk
 icon = icons/imagekit.bmp
-needs = filekit >= 1.63, kapi >= 97
+needs = filekit >= 1.63, kapi >= 98
 required = 1
 restart = 0
 content = 1416c9dbd31b3ed5ab69858656d7cf1af2582a5da6eb0ef169a0931d39ba38c0
@@ -212,7 +212,7 @@ installed = 1177679
 sha256 = e6f1b97fbc3e0ffe86ccfbb540039415a61ccc02667d3057330eb93233dbb2b6
 file = pkgs/notes-1.0.10.opk
 icon = icons/notes.bmp
-needs = uikit >= 1.781, systemkit >= 1.76, fontkit, kapi >= 97
+needs = uikit >= 1.781, systemkit >= 1.76, fontkit, kapi >= 98
 required = 0
 restart = 0
 content = 66945fc81b8f4e7cbd380ae1db6a99c1e0afab5468619ff13a26dea81bfc9461
@@ -228,28 +228,28 @@ installed = 2107254
 sha256 = b0ec2447e862e274c9d432d2b97c8f93a96d4743bc6ef3ac8f6af5bbf9de089c
 file = pkgs/clock-1.0.8.opk
 icon = icons/clock.bmp
-needs = uikit >= 1.793, systemkit >= 1.78, filekit >= 1.99, audiokit >= 1.232, fontkit, kapi >= 97
+needs = uikit >= 1.793, systemkit >= 1.78, filekit >= 1.99, audiokit >= 1.232, fontkit, kapi >= 98
 required = 0
 restart = 0
 content = cffafd71293ab16f713c5846c7a46118ada7a27642dafdb86f63d4d9c06ce953
 
 [onyx]
 title = Onyx system
-version = 2026.10.162
+version = 2026.10.163
 category = System
 author = Onyx
 summary = The kernel, the commands of /bin, the desktop, the settings, the terminal, the File Viewer, Disks, the text editor, the fonts
-size = 45836652
+size = 45837282
 installed = 118578971
-sha256 = fa78aa384d2324e688a72a8f2079f9d4a7be9607971f52fb2f5b7031acc66565
-file = pkgs/onyx-2026.10.162.opk
+sha256 = 1412a73e18cb24ae31cc813b4aab74645d9643a36a3a9e1cb53dd02f6fcb4d30
+file = pkgs/onyx-2026.10.163.opk
 icon = icons/onyx.bmp
 needs = pkgman, uikit >= 1.850, fontkit, printerkit >= 1.33, audiokit >= 1.232, filekit >= 1.99, systemkit >= 1.94, netkit >= 1.21, imagekit >= 1.46, gamekit >= 1.9
 required = 1
 restart = 1
 assoc = txt=tinypad md=tinypad ini=tinypad cfg=tinypad conf=tinypad log=tinypad c=tinypad h=tinypad cpp=tinypad hpp=tinypad json=tinypad html=tinypad htm=tinypad css=tinypad kmap=tinypad sh=tinypad bmp=imageview gif=imageview png=imageview jpg=imageview jpeg=imageview jpe=imageview pcx=imageview webp=imageview
 runners = bax=SD:/bin/basic bas=SD:/bin/basic
-content = 082c49d8d57c98c542f596c38a3c0536d1bc994f33dadfd838e954d1d1944057
+content = 7d6dec73f3f3f0c7bba5916341beed10f9976a4084b9426a8cffd24a7e8fe902
 
 [pi-firmware]
 title = Raspberry Pi firmware
@@ -278,7 +278,7 @@ installed = 3456697
 sha256 = f59b74816ccc2eec6fb46cac5d8146db8b8e04571a787627f890c513057c34df
 file = pkgs/demos-1.0.35.opk
 icon = icons/demos.bmp
-needs = kapi >= 97
+needs = kapi >= 98
 required = 0
 restart = 0
 content = 648972bb8e22c0a4f6977608624bb1ae39edab451e25b98015857fe7b4f9b43d
@@ -294,7 +294,7 @@ installed = 50181
 sha256 = 59f6756e371125b570f6b9a996fed43d99b56151478faa494b33e326e4c32046
 file = pkgs/basic-samples-1.0.11.opk
 icon = icons/basic-samples.bmp
-needs = qbasic, kapi >= 97
+needs = qbasic, kapi >= 98
 required = 0
 restart = 0
 content = 8695ae081ce9db8510e4fe668312fba0f47618519497bae91e9ae069beef4c7f
@@ -310,7 +310,7 @@ installed = 30897
 sha256 = 14c10ef49beb9c7d74b374961ecf3a656fc3f924807cf30486f582c35527a4e9
 file = pkgs/letters-samples-1.0.2.opk
 icon = icons/letters-samples.bmp
-needs = letters, kapi >= 97
+needs = letters, kapi >= 98
 required = 0
 restart = 0
 replaces = writer-samples
@@ -327,7 +327,7 @@ installed = 20916
 sha256 = 6c40faa4a53665e7bb3c2f5a6a0b188a083ce4eb0d041e5d56800895633e913b
 file = pkgs/sheet-samples-1.0.0.opk
 icon = icons/sheet-samples.bmp
-needs = sheet, kapi >= 97
+needs = sheet, kapi >= 98
 required = 0
 restart = 0
 content = e00edaae21370f51610b370cc50dc4eafd4499e98923a709f9f1b89e6901e267
@@ -343,7 +343,7 @@ installed = 325052
 sha256 = 00b4e5ab288e1e5a0aa2daae033622922d4772829154449912a2821f86277292
 file = pkgs/slides-samples-1.0.2.opk
 icon = icons/slides-samples.bmp
-needs = slides, kapi >= 97
+needs = slides, kapi >= 98
 required = 0
 restart = 0
 content = 1f18bef660e31d39dfe204cf812b8d1d3165d3a2741d3b5456f0fd17ffb72a38
@@ -359,7 +359,7 @@ installed = 1481
 sha256 = b2398c2906e424013968da553b81b73dede2b7f695615b43a363f2eeeed2a982
 file = pkgs/3dforge-samples-1.0.0.opk
 icon = icons/3dforge-samples.bmp
-needs = 3dforge, kapi >= 97
+needs = 3dforge, kapi >= 98
 required = 0
 restart = 0
 content = 9cfaa7f94a883c68c77b61d0064382fdf41506e250a4fb6b358dfecd8eb4ee02
@@ -375,7 +375,7 @@ installed = 3874
 sha256 = cec7e5071d716d398a88b927096de6100b87f2d4218397a6d01d753b207e4e61
 file = pkgs/qbstudio-samples-1.0.2.opk
 icon = icons/qbstudio-samples.bmp
-needs = qbstudio, kapi >= 97
+needs = qbstudio, kapi >= 98
 required = 0
 restart = 0
 content = 200c7351f212a2544168208cd944cc93226d12908861162ed8ee221f64de0e58
@@ -391,7 +391,7 @@ installed = 3335
 sha256 = ba09b9e04b220a2f3fed2b5826b6f4e0968b87e822ec5c4bfa3a61598ffcb555
 file = pkgs/cardfile-samples-1.0.0.opk
 icon = icons/cardfile-samples.bmp
-needs = cardfile, kapi >= 97
+needs = cardfile, kapi >= 98
 required = 0
 restart = 0
 content = 555392c6d863cd43ee1cd9d8304061d4c29956aea93f2b8a024b31a9e2d80898
@@ -407,7 +407,7 @@ installed = 168591
 sha256 = ec39c8c98619a9c8e03913c95c2e54e623d6362db28b5c35def5f561df2eaa41
 file = pkgs/paint-samples-1.0.0.opk
 icon = icons/paint-samples.bmp
-needs = paint, kapi >= 97
+needs = paint, kapi >= 98
 required = 0
 restart = 0
 content = d85f3e08e247c2118d1ffbbe7ede8fdc7223294e5ae5e88adb2e716beda337c6
@@ -423,7 +423,7 @@ installed = 158313
 sha256 = f4895939b430bb836adeec9f862dfa76d733bbdfe6d2ea60f4c76eb29007f776
 file = pkgs/ledger-samples-1.0.0.opk
 icon = icons/ledger-samples.bmp
-needs = ledger, kapi >= 97
+needs = ledger, kapi >= 98
 required = 0
 restart = 0
 content = 5a8082cb9ce9ef3fc7f5f317976b98d0ad293c832b563c253cb7bcaaf2b52355
@@ -439,7 +439,7 @@ installed = 34331
 sha256 = b821a15963fddd5c536f494867b34a22a41c519083e5136d2f380d2994c96799
 file = pkgs/koton-samples-1.0.0.opk
 icon = icons/koton-samples.bmp
-needs = koton, kapi >= 97
+needs = koton, kapi >= 98
 required = 0
 restart = 0
 content = 71a1aa0bf0562075ed0e0d7c773946df8221420aeeb0942fcaadeb2b0266700f
@@ -455,7 +455,7 @@ installed = 162157
 sha256 = 6d439f9f23727085be3424fadaad870d8a6281446f9ec50f9a6406e88fbed546
 file = pkgs/fmtracker-samples-1.0.0.opk
 icon = icons/fmtracker-samples.bmp
-needs = fmtracker, kapi >= 97
+needs = fmtracker, kapi >= 98
 required = 0
 restart = 0
 content = 06ba9dd005365f1e8da2f8b6c71593b5ae8dc99dd03fa1b5f31d1c9b5de88c10
@@ -471,7 +471,7 @@ installed = 32321666
 sha256 = a9443680a11951a92a888382b420703a3dd140707d4d8c91b2dab1717ef3104a
 file = pkgs/generaluser-gs-1.0.0.opk
 icon = icons/generaluser-gs.bmp
-needs = kapi >= 97
+needs = kapi >= 98
 required = 0
 restart = 0
 content = 1f79607b681f25869cd0cd265b739ec0e18c7a90b77d4003362f7145ed172e2d
@@ -487,7 +487,7 @@ installed = 246549
 sha256 = 4e54e3886b494156b24f284280287d2218e5504ca9fd9a20ffd08c47112dcd0b
 file = pkgs/2048-1.0.33.opk
 icon = icons/2048.bmp
-needs = uikit >= 1.729, fontkit, kapi >= 97
+needs = uikit >= 1.729, fontkit, kapi >= 98
 required = 0
 restart = 0
 content = 0a655bdb26cfd547d67ece1ad106b617178062c4e08610faf09d84fa080f6232
@@ -503,7 +503,7 @@ installed = 1190686
 sha256 = 82143abca19c19bab99ed88f8658bdc7e106280bf9ce8bcec33ed52b886d9459
 file = pkgs/3dforge-1.0.16.opk
 icon = icons/3dforge.bmp
-needs = uikit >= 1.729, fontkit, uikit >= 1.726, imagekit >= 1.46, kapi >= 97
+needs = uikit >= 1.729, fontkit, uikit >= 1.726, imagekit >= 1.46, kapi >= 98
 required = 0
 restart = 0
 assoc = 3df=3dforge
@@ -520,7 +520,7 @@ installed = 403992
 sha256 = ded023d8d11f68ede8e873947e17b5a2ab87b12d9e48cf644539205b2f1cd809
 file = pkgs/archiver-1.0.28.opk
 icon = icons/archiver.bmp
-needs = uikit >= 1.729, fontkit, filekit >= 1.78, uikit >= 1.949, kapi >= 97
+needs = uikit >= 1.729, fontkit, filekit >= 1.78, uikit >= 1.949, kapi >= 98
 required = 0
 restart = 0
 assoc = zip=archiver jar=archiver tar=archiver tgz=archiver gz=archiver
@@ -537,7 +537,7 @@ installed = 49789
 sha256 = d05453bcbd8d4dd45d579dd6c66f9afdfb45c5b46073fb85610aa3131f133f47
 file = pkgs/arkanoid-1.0.7.opk
 icon = icons/arkanoid.bmp
-needs = uikit >= 1.729, fontkit, kapi >= 97
+needs = uikit >= 1.729, fontkit, kapi >= 98
 required = 0
 restart = 0
 content = 6647667c9ba9fa50007b44eeb23917801b0a2435c584fb6d1faed6aa3003aaf2
@@ -553,7 +553,7 @@ installed = 259608
 sha256 = 262e88b26306a0b92187123a2b41d3ece6b67ea056d0a1162531d5fd6178980c
 file = pkgs/calendar-1.0.29.opk
 icon = icons/calendar.bmp
-needs = uikit >= 1.729, fontkit, uikit >= 1.949, kapi >= 97
+needs = uikit >= 1.729, fontkit, uikit >= 1.949, kapi >= 98
 required = 0
 restart = 0
 content = a169a6a99bf31c5d9d8754cb0d4c261de6a32ef965d5b162a906f77c35dce9c7
@@ -569,7 +569,7 @@ installed = 407952
 sha256 = e7d7a5caf9aae272f8e66dd4ed075ede738d5c81d7f9c2dd932848925f199f2d
 file = pkgs/cardfile-1.0.37.opk
 icon = icons/cardfile.bmp
-needs = uikit >= 1.729, fontkit, kapi >= 97
+needs = uikit >= 1.729, fontkit, kapi >= 98
 required = 0
 restart = 0
 assoc = card=cardfile
@@ -586,7 +586,7 @@ installed = 701462
 sha256 = 1ffe4492bb1f3900067e3b5d18899deb00642569a1f1954ddf5a78faa9192f6d
 file = pkgs/circuits-1.0.9.opk
 icon = icons/circuits.bmp
-needs = uikit >= 1.729, fontkit, uikit >= 1.779, systemkit >= 1.74, filekit >= 1.96, kapi >= 97
+needs = uikit >= 1.729, fontkit, uikit >= 1.779, systemkit >= 1.74, filekit >= 1.96, kapi >= 98
 required = 0
 restart = 0
 assoc = circuits=circuits
@@ -603,7 +603,7 @@ installed = 1844791
 sha256 = 6fc00614868a24adf2a2b306a633262c5bac203e6c9f60f57ced8574d7a8d1ff
 file = pkgs/courier-1.0.26.opk
 icon = icons/courier.bmp
-needs = uikit >= 1.729, fontkit, uikit >= 1.722, kapi >= 97
+needs = uikit >= 1.729, fontkit, uikit >= 1.722, kapi >= 98
 required = 0
 restart = 0
 content = dda248b8f8e3b8901d5d57d4b950ec346e17e2754d07c03c03cc2b43b58dc18b
@@ -619,7 +619,7 @@ installed = 882401
 sha256 = 61a24ba83cd8e2e93e596398440af410d292f247d09ab93c16efb68dc417cb5c
 file = pkgs/critters-1.0.6.opk
 icon = icons/critters.bmp
-needs = uikit >= 1.729, fontkit, uikit >= 1.781, audiokit >= 1.232, filekit >= 1.96, fontkit >= 1.135, kapi >= 97
+needs = uikit >= 1.729, fontkit, uikit >= 1.781, audiokit >= 1.232, filekit >= 1.96, fontkit >= 1.135, kapi >= 98
 required = 0
 restart = 0
 assoc = level=critters
@@ -636,7 +636,7 @@ installed = 30298775
 sha256 = 3b23b2ab39f74db12ee38a36a43102dbdc4eb68356b763f2cef0a0040d89439d
 file = pkgs/doom-1.0.30.opk
 icon = icons/doom.bmp
-needs = uikit >= 1.729, fontkit, audiokit >= 1.232, kapi >= 97
+needs = uikit >= 1.729, fontkit, audiokit >= 1.232, kapi >= 98
 required = 0
 restart = 0
 content = 10b2cd6e6ef8254cabc17746f3f2bba0801f4fac2cd4ba5091ab68d4d55884c2
@@ -652,7 +652,7 @@ installed = 245312
 sha256 = 6501a0197e53eae83ae1f9328ae004e46c46d2ab58374c48688a5fae5d4383c2
 file = pkgs/eyes-1.0.33.opk
 icon = icons/eyes.bmp
-needs = uikit >= 1.729, fontkit, kapi >= 97
+needs = uikit >= 1.729, fontkit, kapi >= 98
 required = 0
 restart = 0
 content = 81361c3d6bbf82068ec5c09760e42ee178a8772de2a2e552ff10e84de6ef60ff
@@ -668,7 +668,7 @@ installed = 721346
 sha256 = ab86b8a4ebcb9a5fb613f8428d153bba1cbf541247c3117f88393554e90dc87c
 file = pkgs/fmtracker-1.0.30.opk
 icon = icons/fmtracker.bmp
-needs = uikit >= 1.729, fontkit, audiokit >= 1.232, uikit >= 1.949, kapi >= 97
+needs = uikit >= 1.729, fontkit, audiokit >= 1.232, uikit >= 1.949, kapi >= 98
 required = 0
 restart = 0
 assoc = fms=fmtracker
@@ -685,7 +685,7 @@ installed = 266245
 sha256 = a92db7f4b0953b380481a4189a5d86f540ed95ed16bed621f07784244d52577e
 file = pkgs/freecell-1.0.35.opk
 icon = icons/freecell.bmp
-needs = uikit >= 1.729, fontkit, audiokit >= 1.232, kapi >= 97
+needs = uikit >= 1.729, fontkit, audiokit >= 1.232, kapi >= 98
 required = 0
 restart = 0
 content = ac09b2937d3fff81655d1a36ad9ef22643dc1063b13d0236f64ee5d6b188a308
@@ -701,7 +701,7 @@ installed = 739250
 sha256 = 86949cf0a5a7cbc2b7952e6e6ef1b6d5d4cef024e2f5d37f077cc6bbc3c416b7
 file = pkgs/gamelib-1.0.28.opk
 icon = icons/gamelib.bmp
-needs = uikit >= 1.729, fontkit, uikit >= 1.949, gamekit >= 1.9, kapi >= 97
+needs = uikit >= 1.729, fontkit, uikit >= 1.949, gamekit >= 1.9, kapi >= 98
 required = 0
 restart = 0
 content = e1a2a938beb47d2c7641ddbe044eb3d84fb3906285ecccd336f2f6eff51a7772
@@ -717,7 +717,7 @@ installed = 336615
 sha256 = 7b7266b2bfcb524ae44dc43eeb7dae3d2cb67ab09e5d466d6be3dc9b706650a9
 file = pkgs/gbaemu-1.0.41.opk
 icon = icons/gbaemu.bmp
-needs = uikit >= 1.729, fontkit, gamelib, audiokit >= 1.232, kapi >= 97
+needs = uikit >= 1.729, fontkit, gamelib, audiokit >= 1.232, kapi >= 98
 required = 0
 restart = 0
 content = c11283ff1784bf2c610565f2e8b3b2795a5a1c1767575a2f307438a3a8a9842b
@@ -733,7 +733,7 @@ installed = 334411
 sha256 = fa772c8cce8bcce5459605221cf157198fe73d47f135d7cb5310c1334cee23df
 file = pkgs/gbemu-1.0.41.opk
 icon = icons/gbemu.bmp
-needs = uikit >= 1.729, fontkit, gamelib, audiokit >= 1.232, kapi >= 97
+needs = uikit >= 1.729, fontkit, gamelib, audiokit >= 1.232, kapi >= 98
 required = 0
 restart = 0
 content = 30971516c45c41d92dbbe3ad3a5d19e9f53dfef66786f2d77ce4fbe966d198a6
@@ -749,7 +749,7 @@ installed = 622751
 sha256 = 510c65a9753fbb6b540113d6b874e9c0fa7574c3103139ae22a5f0ef2c7f61b0
 file = pkgs/gcemu-1.0.42.opk
 icon = icons/gcemu.bmp
-needs = uikit >= 1.729, fontkit, gamelib, audiokit >= 1.232, kapi >= 97
+needs = uikit >= 1.729, fontkit, gamelib, audiokit >= 1.232, kapi >= 98
 required = 0
 restart = 0
 content = 3201c5b818651cb9c553ca10688187065f2afc1b28e015b5953ab68bc69467b1
@@ -765,7 +765,7 @@ installed = 1045332
 sha256 = 8139e59b9b682f38f9730c5b77299767b558390c42e88d0f5d41ad60a50a5267
 file = pkgs/gpiolab-1.0.13.opk
 icon = icons/gpiolab.bmp
-needs = uikit >= 1.729, fontkit, kapi >= 97
+needs = uikit >= 1.729, fontkit, kapi >= 98
 required = 0
 restart = 0
 content = 04f4e619fc2e7c580ce3ac816b3cc2baaab7f523c10292ea045d13132f33d5c9
@@ -781,7 +781,7 @@ installed = 250182
 sha256 = c11d3e5ac764a0bc8710228456d0ca0a23d7d67da6fbc331ac6289f0e2122676
 file = pkgs/graphcalc-1.0.33.opk
 icon = icons/graphcalc.bmp
-needs = uikit >= 1.729, fontkit, kapi >= 97
+needs = uikit >= 1.729, fontkit, kapi >= 98
 required = 0
 restart = 0
 content = a01ed5355440a5c7bbceec48ca50d93a9cda1d46278aab6a65c8c0931b8c8197
@@ -797,7 +797,7 @@ installed = 251684
 sha256 = 39da756e62ae924a8e159fca961eb3294b98409ff23ff2e07896e2d089ae4ed8
 file = pkgs/iconedit-1.0.34.opk
 icon = icons/iconedit.bmp
-needs = uikit >= 1.729, fontkit, uikit >= 1.949, kapi >= 97
+needs = uikit >= 1.729, fontkit, uikit >= 1.949, kapi >= 98
 required = 0
 restart = 0
 content = 3e0609fc54fab12e82f9a7c71a00e2ae4384416bfb73fa55f92c507b91ee6a0a
@@ -813,7 +813,7 @@ installed = 265653
 sha256 = f5ca1c1b35562fc6d915e23e44c6246b8a85aad92342cc197e6aa0a74a9aceb4
 file = pkgs/invaders-1.0.35.opk
 icon = icons/invaders.bmp
-needs = uikit >= 1.729, fontkit, audiokit >= 1.232, kapi >= 97
+needs = uikit >= 1.729, fontkit, audiokit >= 1.232, kapi >= 98
 required = 0
 restart = 0
 content = c8e8699bba319453f5329817f6d707f48053b4153c0b3612a6539d55a2724ebf
@@ -829,7 +829,7 @@ installed = 324714
 sha256 = 183d62b14e21351ceacd16be2d463aa7f538514511a3fdb74625db594b0be286
 file = pkgs/irc-1.0.34.opk
 icon = icons/irc.bmp
-needs = uikit >= 1.729, fontkit, uikit >= 1.949, kapi >= 97
+needs = uikit >= 1.729, fontkit, uikit >= 1.949, kapi >= 98
 required = 0
 restart = 0
 content = d886265d606907969f868ffd8e19582929d0056038e9e709157b6aef633d47b6
@@ -845,7 +845,7 @@ installed = 9283538
 sha256 = 4109d9f48e44bf53225cbc2805a89915e7c78e4376d04533493dea59e9822fb5
 file = pkgs/koton-1.0.34.opk
 icon = icons/koton.bmp
-needs = uikit >= 1.729, fontkit, generaluser-gs, audiokit >= 1.232, kapi >= 97
+needs = uikit >= 1.729, fontkit, generaluser-gs, audiokit >= 1.232, kapi >= 98
 required = 0
 restart = 0
 assoc = kson=koton sq=koton
@@ -862,7 +862,7 @@ installed = 21010451
 sha256 = 723cb497dc5c61efa1f78d5bc8e048d981c9acd4b70a94d8f7666ec0b2922f0d
 file = pkgs/ledger-1.0.34.opk
 icon = icons/ledger.bmp
-needs = uikit >= 1.729, fontkit, cardfile, uikit >= 1.950, kapi >= 97
+needs = uikit >= 1.729, fontkit, cardfile, uikit >= 1.950, kapi >= 98
 required = 0
 restart = 0
 assoc = ledger=ledger
@@ -879,7 +879,7 @@ installed = 1137559
 sha256 = 0f420c7f6c4d354b7c3bfe963525cc54b18a3ee2b105eec08eb2b8921ff48b8c
 file = pkgs/letters-1.0.33.opk
 icon = icons/letters.bmp
-needs = uikit >= 1.729, fontkit, cardfile, printerkit, imagekit >= 1.46, kapi >= 97
+needs = uikit >= 1.729, fontkit, cardfile, printerkit, imagekit >= 1.46, kapi >= 98
 required = 0
 restart = 0
 replaces = writer
@@ -897,7 +897,7 @@ installed = 246701
 sha256 = 97770be76b8b571ef0589327d3048fa7601edb173c86e8a48d0e6c833f02ac73
 file = pkgs/life-1.0.33.opk
 icon = icons/life.bmp
-needs = uikit >= 1.729, fontkit, kapi >= 97
+needs = uikit >= 1.729, fontkit, kapi >= 98
 required = 0
 restart = 0
 content = 8e0b89778d7f9c84556231cf4c3af0a9488c6ce567a341b51e857dd8370961a0
@@ -913,7 +913,7 @@ installed = 255917
 sha256 = b53c477d5b6376c2e12cc7a31229414144bbae597d339720fc05d6a98e20cacd
 file = pkgs/lisa-1.0.34.opk
 icon = icons/lisa.bmp
-needs = uikit >= 1.729, fontkit, kapi >= 97
+needs = uikit >= 1.729, fontkit, kapi >= 98
 required = 0
 restart = 0
 content = d49f5f671851e5e978c6f760088107c02ac4523e463d31f30583f3e26ad4d22f
@@ -929,7 +929,7 @@ installed = 1996355
 sha256 = 702e4c8701a2f4f834ca0ab4be639b6573151170ef70ee7b2acb5484d1d54a64
 file = pkgs/mail-1.0.31.opk
 icon = icons/mail.bmp
-needs = uikit >= 1.729, fontkit, uikit >= 1.949, kapi >= 97
+needs = uikit >= 1.729, fontkit, uikit >= 1.949, kapi >= 98
 required = 0
 restart = 0
 assoc = eml=mail
@@ -946,7 +946,7 @@ installed = 245750
 sha256 = 1509e5be917ebed074139c0dc612c5b12098202b6d79c5641ef0a5b99316f62e
 file = pkgs/mandelbrot-1.0.33.opk
 icon = icons/mandelbrot.bmp
-needs = uikit >= 1.729, fontkit, kapi >= 97
+needs = uikit >= 1.729, fontkit, kapi >= 98
 required = 0
 restart = 0
 content = dee5216d6d52a25d2f7d5f96e52e809af410a04f20aecd18bb454756661f93a4
@@ -962,7 +962,7 @@ installed = 15838778
 sha256 = ffacc96a6d53eedf410cec6559d7647e963e86c19d4cf905b3df1a921e59363e
 file = pkgs/media-1.0.40.opk
 icon = icons/media.bmp
-needs = uikit >= 1.729, fontkit, generaluser-gs, audiokit >= 1.232, imagekit >= 1.46, uikit >= 1.949, kapi >= 97
+needs = uikit >= 1.729, fontkit, generaluser-gs, audiokit >= 1.232, imagekit >= 1.46, uikit >= 1.949, kapi >= 98
 required = 0
 restart = 0
 assoc = mp3=media ogg=media oga=media flac=media wav=media mid=media midi=media kar=media rmi=media m3u=media m3u8=media webm=media mkv=media mp4=media m4v=media mov=media avi=media divx=media mpg=media mpeg=media vob=media ts=media m2ts=media mts=media flv=media wmv=media asf=media ogv=media 3gp=media
@@ -979,26 +979,26 @@ installed = 246788
 sha256 = d11651149f3b8f38d4e5c73b2048d744654c850c1abdb544fe2fe47c2163c4e9
 file = pkgs/minesweeper-1.0.33.opk
 icon = icons/minesweeper.bmp
-needs = uikit >= 1.729, fontkit, kapi >= 97
+needs = uikit >= 1.729, fontkit, kapi >= 98
 required = 0
 restart = 0
 content = ca4b4da55815742a5b14281eddd19651a22e4095b9b7e7adb458d9f36a4f88a5
 
 [n3dsemu]
 title = Nintendo 3DS
-version = 1.0.9
+version = 1.0.10
 category = Emulators
 author = Onyx
 summary = 
-size = 1098650
-installed = 3660974
-sha256 = b352e5bbe76244e08e35cb20384980383646287ef71e1029bfa2d1fd74149bdb
-file = pkgs/n3dsemu-1.0.9.opk
+size = 1145823
+installed = 3726510
+sha256 = d4e4bb91360e7e47aa69c6924fb225b3871cdfbfe5ee014e2977c13d20ae58d1
+file = pkgs/n3dsemu-1.0.10.opk
 icon = icons/n3dsemu.bmp
-needs = uikit >= 1.729, fontkit, gamelib, uikit >= 1.950, audiokit >= 1.232, fontkit >= 1.135, kapi >= 97
+needs = uikit >= 1.729, fontkit, gamelib, uikit >= 1.950, audiokit >= 1.232, fontkit >= 1.135, kapi >= 98
 required = 0
 restart = 0
-content = 3fde07aa78d9dfd8646bf9e954c7979aef3801ced353dfa52372b1ec20f94f7f
+content = e5059716d7b74374f98bb86f897e27cfc7e7acfa069ac1c52db1e50a470159b7
 
 [n64emu]
 title = Nintendo 64
@@ -1011,7 +1011,7 @@ installed = 337421
 sha256 = b64c7e0d03997121ac518f1647b81972c690932a6665c6420e97c1ab486c5748
 file = pkgs/n64emu-1.0.41.opk
 icon = icons/n64emu.bmp
-needs = uikit >= 1.729, fontkit, gamelib, audiokit >= 1.232, kapi >= 97
+needs = uikit >= 1.729, fontkit, gamelib, audiokit >= 1.232, kapi >= 98
 required = 0
 restart = 0
 content = 5dfed36d8fb56c23d8ce797f17b56b9afd6ac356a667571dd5d20e6af4dffa9b
@@ -1027,7 +1027,7 @@ installed = 389639
 sha256 = 328bdb8b71daa12f825249f045a0c482fb62e4d1532fde20a8886766aefbe90f
 file = pkgs/ndsemu-1.0.2.opk
 icon = icons/ndsemu.bmp
-needs = uikit >= 1.729, fontkit, gamelib, uikit >= 1.950, audiokit >= 1.232, fontkit >= 1.135, kapi >= 97
+needs = uikit >= 1.729, fontkit, gamelib, uikit >= 1.950, audiokit >= 1.232, fontkit >= 1.135, kapi >= 98
 required = 0
 restart = 0
 content = dd16cde5dfdf5be955371c68fc638ce40a15b7ae7ad650464281fa2ed932b001
@@ -1043,7 +1043,7 @@ installed = 334189
 sha256 = cf82c6f9c1c6f5761f9fed3393f488475262cda027565e43298f4d6beade4970
 file = pkgs/nesemu-1.0.41.opk
 icon = icons/nesemu.bmp
-needs = uikit >= 1.729, fontkit, gamelib, audiokit >= 1.232, kapi >= 97
+needs = uikit >= 1.729, fontkit, gamelib, audiokit >= 1.232, kapi >= 98
 required = 0
 restart = 0
 content = aef4ee97aca2993b4815a887064c0be33db2f56afbd1e382f9a034e2a58d7936
@@ -1059,7 +1059,7 @@ installed = 905393
 sha256 = 5bbeb2fbc1e23f4be40dfc736f2821f5897ab6f303fee2a56de8d84a643c8b35
 file = pkgs/paint-1.0.31.opk
 icon = icons/paint.bmp
-needs = uikit >= 1.729, fontkit, printerkit, imagekit >= 1.46, kapi >= 97
+needs = uikit >= 1.729, fontkit, printerkit, imagekit >= 1.46, kapi >= 98
 required = 0
 restart = 0
 assoc = ora=paint
@@ -1076,7 +1076,7 @@ installed = 5372525
 sha256 = 1c3582532d00b9d598764e29d3315ed9fe15f38f5fa2a0dc1bb98cc11cc0024e
 file = pkgs/pdf-1.0.31.opk
 icon = icons/pdf.bmp
-needs = uikit >= 1.729, fontkit, printerkit, uikit >= 1.949, kapi >= 97
+needs = uikit >= 1.729, fontkit, printerkit, uikit >= 1.949, kapi >= 98
 required = 0
 restart = 0
 assoc = pdf=pdf
@@ -1093,7 +1093,7 @@ installed = 1049412
 sha256 = d14cb9542b09d16e3d2a0f1879b902b13cb9807ea979e1fd1fad975136097bdf
 file = pkgs/photos-1.0.33.opk
 icon = icons/photos.bmp
-needs = uikit >= 1.729, fontkit, printerkit, imagekit >= 1.46, uikit >= 1.949, kapi >= 97
+needs = uikit >= 1.729, fontkit, printerkit, imagekit >= 1.46, uikit >= 1.949, kapi >= 98
 required = 0
 restart = 0
 content = 200219c61a95fd778b98dce8b0376024761452639b30c150c942cebeb223c112
@@ -1109,7 +1109,7 @@ installed = 847417
 sha256 = 52f6b8422cbe9c0c382c1e42f737005a0fc71c61fe5f03c4b29b1a7d3fa8cfac
 file = pkgs/pinball-1.0.7.opk
 icon = icons/pinball.bmp
-needs = uikit >= 1.729, fontkit, uikit >= 1.781, audiokit >= 1.232, filekit >= 1.96, fontkit >= 1.135, kapi >= 97
+needs = uikit >= 1.729, fontkit, uikit >= 1.781, audiokit >= 1.232, filekit >= 1.96, fontkit >= 1.135, kapi >= 98
 required = 0
 restart = 0
 assoc = table=pinball
@@ -1126,7 +1126,7 @@ installed = 265466
 sha256 = ff74e8ed7ce0dbfc3a33c42452f6080d1c86ab96c54aac20d5782c9d5735c494
 file = pkgs/pipes-1.0.35.opk
 icon = icons/pipes.bmp
-needs = uikit >= 1.729, fontkit, audiokit >= 1.232, kapi >= 97
+needs = uikit >= 1.729, fontkit, audiokit >= 1.232, kapi >= 98
 required = 0
 restart = 0
 content = ec3760257239e6f92cc7136dea3f9bc2bf6dfa2f19a56cdb997c6f50d48b12e4
@@ -1142,7 +1142,7 @@ installed = 246517
 sha256 = 9b42a9ebb123be0ca21d86a672328b3ad1e2b7a5a8c6b5e4626d2717e9ff7555
 file = pkgs/pong-1.0.33.opk
 icon = icons/pong.bmp
-needs = uikit >= 1.729, fontkit, kapi >= 97
+needs = uikit >= 1.729, fontkit, kapi >= 98
 required = 0
 restart = 0
 content = 56a963da41b0a5fb110ed228ba6e5cc5d7ff46dac74dfede07eabfb522cbdf6e
@@ -1158,7 +1158,7 @@ installed = 495070
 sha256 = d033c201f1e46f7dbbf60fcce6e00f3bb8aa16d29c1dd7c287f5fd311f4c098d
 file = pkgs/qbasic-1.0.53.opk
 icon = icons/qbasic.bmp
-needs = uikit >= 1.729, fontkit, uikit >= 1.722, kapi >= 97
+needs = uikit >= 1.729, fontkit, uikit >= 1.722, kapi >= 98
 required = 0
 restart = 0
 assoc = bas=qbasic
@@ -1175,7 +1175,7 @@ installed = 1030550
 sha256 = 8cdd98dc931661963f3310c230930f16e96849281abccb881fef217b5f740f5f
 file = pkgs/qbstudio-1.0.41.opk
 icon = icons/qbstudio.bmp
-needs = uikit >= 1.729, fontkit, uikit >= 1.779, kapi >= 97
+needs = uikit >= 1.729, fontkit, uikit >= 1.779, kapi >= 98
 required = 0
 restart = 0
 assoc = form=qbstudio
@@ -1192,7 +1192,7 @@ installed = 254214
 sha256 = 04c350b180f1ca178e733f7a4c9c3a58b23fe2c4e46fd53e3f0bd585fbe09f6f
 file = pkgs/rtfview-1.0.36.opk
 icon = icons/rtfview.bmp
-needs = uikit >= 1.729, fontkit, kapi >= 97
+needs = uikit >= 1.729, fontkit, kapi >= 98
 required = 0
 restart = 0
 content = e30ca6c536f237f9b0752771f1fc89829c561995d145f7db747b01480057519b
@@ -1208,7 +1208,7 @@ installed = 246793
 sha256 = 6fee5c1c07430846e4fcdda1d9b8e54fcb23046e0d5cb4635ccddf9bb3e1f89d
 file = pkgs/same-1.0.33.opk
 icon = icons/same.bmp
-needs = uikit >= 1.729, fontkit, kapi >= 97
+needs = uikit >= 1.729, fontkit, kapi >= 98
 required = 0
 restart = 0
 content = c0ec0f0888aa00dced1269c2fc81c2a8123e1e39ecba405b8663504c02e643fa
@@ -1224,7 +1224,7 @@ installed = 621418
 sha256 = 6792002ba6da85a2a3fbdef139c0530671994f0d46132ecf0c0d994745a1bea9
 file = pkgs/screenshot-1.0.27.opk
 icon = icons/screenshot.bmp
-needs = uikit >= 1.729, fontkit, imagekit >= 1.46, kapi >= 97
+needs = uikit >= 1.729, fontkit, imagekit >= 1.46, kapi >= 98
 required = 0
 restart = 0
 content = 7b2d301ce6356c06b72dc88c45454c288be5656d091a03a708010f8fbd495245
@@ -1240,7 +1240,7 @@ installed = 1630686
 sha256 = 2bb412b7d1d58658c2f819a3b17a1025afa543bf613bb10f5be45009e288cfda
 file = pkgs/sheet-1.0.29.opk
 icon = icons/sheet.bmp
-needs = uikit >= 1.729, fontkit, cardfile, printerkit, kapi >= 97
+needs = uikit >= 1.729, fontkit, cardfile, printerkit, kapi >= 98
 required = 0
 restart = 0
 assoc = xlsx=sheet ods=sheet csv=sheet tsv=sheet
@@ -1257,7 +1257,7 @@ installed = 1612465
 sha256 = 7807c82e51d0bb6991c1e950588d5f1d92f78cb2235f6ee1413535690a8a5d3e
 file = pkgs/slides-1.0.26.opk
 icon = icons/slides.bmp
-needs = uikit >= 1.729, fontkit, printerkit, imagekit >= 1.46, kapi >= 97
+needs = uikit >= 1.729, fontkit, printerkit, imagekit >= 1.46, kapi >= 98
 required = 0
 restart = 0
 assoc = odp=slides pptx=slides
@@ -1274,7 +1274,7 @@ installed = 246950
 sha256 = b99d6505ba7d56fd03fbfc49d4a4041ffd197675faf00909f0056c2f4bfd6396
 file = pkgs/snake-1.0.33.opk
 icon = icons/snake.bmp
-needs = uikit >= 1.729, fontkit, kapi >= 97
+needs = uikit >= 1.729, fontkit, kapi >= 98
 required = 0
 restart = 0
 content = dd832e9524df03c3893b1523401b429077c67de86845fd057143570e4316b30a
@@ -1290,7 +1290,7 @@ installed = 337255
 sha256 = 5607f064215c4cb86a86a0a0932a83e79b0066d5acd0f0980795c9e38847fbff
 file = pkgs/snesemu-1.0.41.opk
 icon = icons/snesemu.bmp
-needs = uikit >= 1.729, fontkit, gamelib, audiokit >= 1.232, kapi >= 97
+needs = uikit >= 1.729, fontkit, gamelib, audiokit >= 1.232, kapi >= 98
 required = 0
 restart = 0
 content = 9bb6b246bbdc6be40b02a61de38f4c6007a2a46ceb1bd076e8bd7771c2e47d3e
@@ -1306,7 +1306,7 @@ installed = 246932
 sha256 = bd60281d652e8e1ac54704a7fe58edba7ef353b5ef96423d106f372225bb48f0
 file = pkgs/sokoban-1.0.33.opk
 icon = icons/sokoban.bmp
-needs = uikit >= 1.729, fontkit, kapi >= 97
+needs = uikit >= 1.729, fontkit, kapi >= 98
 required = 0
 restart = 0
 content = d6a4e754c20da6bb2ea4b3647e4cf4294114617ad7838399d834393b0a92bccb
@@ -1322,7 +1322,7 @@ installed = 265750
 sha256 = 389752712e83d8bc50bebdc24a351d496f8e0f055e7a3304d5e3255c354aa411
 file = pkgs/solitaire-1.0.35.opk
 icon = icons/solitaire.bmp
-needs = uikit >= 1.729, fontkit, audiokit >= 1.232, kapi >= 97
+needs = uikit >= 1.729, fontkit, audiokit >= 1.232, kapi >= 98
 required = 0
 restart = 0
 content = 21006306762d6c0d2eb6beeb7348512f1b67773f3d8829d94fcc3bd8e195ba1a
@@ -1338,7 +1338,7 @@ installed = 1458290
 sha256 = 859935cb4e1fb1d9cb4fe33d133a2e3c465ccfdbcaa7c43b5bbbf26cc1fff8ff
 file = pkgs/telegram-1.0.15.opk
 icon = icons/telegram.bmp
-needs = uikit >= 1.729, fontkit, uikit >= 1.793, filekit >= 1.96, systemkit >= 1.76, fontkit >= 1.135, kapi >= 97
+needs = uikit >= 1.729, fontkit, uikit >= 1.793, filekit >= 1.96, systemkit >= 1.76, fontkit >= 1.135, kapi >= 98
 required = 0
 restart = 0
 content = 845537807711dcae2ee603a5b264af936648ad80287819f68a58b1f2ec8199e2
@@ -1354,7 +1354,7 @@ installed = 247047
 sha256 = 16b8872867d18906144c0d0e9b4e126f4276da66a98e4cfa9ace93abcbb91c03
 file = pkgs/tetris-1.0.33.opk
 icon = icons/tetris.bmp
-needs = uikit >= 1.729, fontkit, kapi >= 97
+needs = uikit >= 1.729, fontkit, kapi >= 98
 required = 0
 restart = 0
 content = 73cce9400a791263bbc8b71611e6e769f6e553af271d37df7e7da53e63045606
@@ -1370,7 +1370,7 @@ installed = 247450
 sha256 = 678d7dfeedb50e50f7b7b3085f7286b397b332497a6e62aeee12e300ca02da27
 file = pkgs/tinycalc-1.0.33.opk
 icon = icons/tinycalc.bmp
-needs = uikit >= 1.729, fontkit, kapi >= 97
+needs = uikit >= 1.729, fontkit, kapi >= 98
 required = 0
 restart = 0
 content = 99c9b66db7cab21ea9b014192bc61383d2aa18f614db47776a175442fc3608bb
@@ -1386,7 +1386,7 @@ installed = 1437318
 sha256 = 0d9da13e5c73aca7900c00a0d5e1a96c12d353883937ad44fc651e8925677d9e
 file = pkgs/turtle-1.0.15.opk
 icon = icons/turtle.bmp
-needs = uikit >= 1.729, fontkit, uikit >= 1.779, systemkit >= 1.74, kapi >= 97
+needs = uikit >= 1.729, fontkit, uikit >= 1.779, systemkit >= 1.74, kapi >= 98
 required = 0
 restart = 0
 assoc = turtle=turtle

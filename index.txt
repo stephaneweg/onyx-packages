@@ -1,7 +1,7 @@
 # Onyx package index -- tools/pkg/mkrepo.py (docs/pkg/README.md)
 [repo]
 name = onyx-packages
-date = 2026-10-15 12:31
+date = 2026-10-15 12:48
 kapi = 98
 packages = 86
 
@@ -284,19 +284,19 @@ content = 1b231021e5982e3a9173e56516760a3466a4bc0f28273b657102b49107aab2ff
 
 [basic-samples]
 title = BASIC samples
-version = 1.0.14
+version = 1.0.15
 category = BASIC
 author = Onyx
 summary = Sample BASIC programs for QBasic (games, graphics, a GUI, the GPIO header: an LED, a button, a servo, a BME280, an SSD1306)
-size = 43550
-installed = 113105
-sha256 = 7568af0cc83fab3a237b3a2b72430f1f9f50eb3ab8199a0a6e9b7f331f736795
-file = pkgs/basic-samples-1.0.14.opk
+size = 46598
+installed = 123429
+sha256 = 26e3b4ba85a282f8f9cb07e063354804c52c84858f4586362acafa50ed232cb0
+file = pkgs/basic-samples-1.0.15.opk
 icon = icons/basic-samples.bmp
 needs = qbasic, kapi >= 98
 required = 0
 restart = 0
-content = 590b966d7f4e567b0d655f665b8a1bb1cbc3a1f6d1d33a31240a718862913efd
+content = 9f7c67e1bb0e72388eee50ea457834e538b507c2fc35c0f250c8ade8f99d0a6d
 
 [letters-samples]
 title = Letters samples
@@ -510,20 +510,20 @@ content = 77e40519657a1371c0b0188ab102e841e835c3fc10fc8580b84cbb7c03ea10fb
 
 [antigrav]
 title = Antigrav
-version = 1.0.2
+version = 1.0.3
 category = Games
 author = Onyx
 summary = 
-size = 312722
-installed = 916720
-sha256 = c2594f09acb1586ff7e3950f3b98089f51d35f014ee223fc55fe8f1639a35b17
-file = pkgs/antigrav-1.0.2.opk
+size = 317073
+installed = 936759
+sha256 = c5c197378e5308d801c6cafe8b8e0d013d9b5b212a97c624ff8be450e0e2a922
+file = pkgs/antigrav-1.0.3.opk
 icon = icons/antigrav.bmp
 needs = uikit >= 1.729, fontkit, kapi >= 98
 required = 0
 restart = 0
 replaces = wipeout
-content = 04d2c99ff916d13f0608b97bab5b18b47b466728dc93e31a520ed7ad38b2e474
+content = 543d01d92a4ffedd0ad01628b582b064339f1e2c442a88f0370ea9f496cd2446
 
 [archiver]
 title = Archiver

@@ -1,7 +1,7 @@
 # Onyx package index -- tools/pkg/mkrepo.py (docs/pkg/README.md)
 [repo]
 name = onyx-packages
-date = 2026-10-15 22:47
+date = 2026-10-15 23:26
 kapi = 98
 packages = 87
 board = pi5
@@ -611,19 +611,19 @@ content = 1e84ed2dcb60e3a78ea00e81b4d1fe94e46bdb74b8b1079315e1221370a038af
 
 [cosmozoom]
 title = Cosmo Zoom!
-version = 1.0.7
+version = 1.0.8
 category = Games
 author = Onyx
 summary = 
-size = 991900
-installed = 3396630
-sha256 = 4e27f976d69cf6034cc983ade8817e511cb1f27eb4bea58d5ca080a7113135b4
-file = pkgs/cosmozoom-1.0.7.opk
+size = 1010452
+installed = 3400312
+sha256 = 8c74e4f0401556ee22d01954cfd3130265cd91ecba906194b6b7cdaacee79b95
+file = pkgs/cosmozoom-1.0.8.opk
 icon = icons/cosmozoom.bmp
 needs = uikit >= 1.729, fontkit, uikit >= 1.781, audiokit >= 1.232, filekit >= 1.96, fontkit >= 1.135, kapi >= 98
 required = 0
 restart = 0
-content = 6d6b9a59145ee2fa8d873495327aac4c87e231b26b3126ca9d500012c2af0951
+content = a5bfb98102d469e0bd9536ca85b555d75b8a6e76ae81df28a4edb61b517c0e09
 
 [courier]
 title = Courier

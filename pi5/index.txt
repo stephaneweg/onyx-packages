@@ -1,7 +1,7 @@
 # Onyx package index -- tools/pkg/mkrepo.py (docs/pkg/README.md)
 [repo]
 name = onyx-packages
-date = 2026-10-14 09:05
+date = 2026-10-15 12:33
 kapi = 98
 packages = 86
 board = pi5
@@ -235,21 +235,21 @@ content = 49e18ded6fc0e97241cbfdcfc1ecfabe58c10ef9ecc60f15252b29eed205b197
 
 [onyx]
 title = Onyx system
-version = 2026.10.168
+version = 2026.10.169
 category = System
 author = Onyx
 summary = The kernel, the commands of /bin, the desktop, the settings, the terminal, the File Viewer, Disks, the text editor, the fonts
 size = 45842508
 installed = 118582696
-sha256 = f5723535ef91a8aeb28f92d95b3a14fe2703d003642c4bfe63cc39d8165e0ad2
-file = pkgs/onyx-2026.10.168.opk
+sha256 = 1b87415ed9040d9b46c05a79c70a01e28aabfd7ee70e7487b9b3f3f253ccb47e
+file = pkgs/onyx-2026.10.169.opk
 icon = icons/onyx.bmp
 needs = pkgman, uikit >= 1.850, fontkit, printerkit >= 1.33, audiokit >= 1.232, filekit >= 1.99, systemkit >= 1.94, netkit >= 1.21, imagekit >= 1.46, gamekit >= 1.9
 required = 1
 restart = 1
 assoc = txt=tinypad md=tinypad ini=tinypad cfg=tinypad conf=tinypad log=tinypad c=tinypad h=tinypad cpp=tinypad hpp=tinypad json=tinypad html=tinypad htm=tinypad css=tinypad kmap=tinypad sh=tinypad bmp=imageview gif=imageview png=imageview jpg=imageview jpeg=imageview jpe=imageview pcx=imageview webp=imageview
 runners = bax=SD:/bin/basic bas=SD:/bin/basic
-content = 88f969e6956f1f5b34f81b91547be61090fc0057a147b5fe712707f1af3f7987
+content = aed0848699dd1dbc1f23a4e86d3c54d6f1d3ab72bcce2c43eb8bbd15d9854167
 
 [pi-firmware]
 title = Raspberry Pi firmware
@@ -285,19 +285,19 @@ content = 1b231021e5982e3a9173e56516760a3466a4bc0f28273b657102b49107aab2ff
 
 [basic-samples]
 title = BASIC samples
-version = 1.0.13
+version = 1.0.14
 category = BASIC
 author = Onyx
 summary = Sample BASIC programs for QBasic (games, graphics, a GUI, the GPIO header: an LED, a button, a servo, a BME280, an SSD1306)
-size = 43492
-installed = 112861
-sha256 = 37858c1f6827b22b0cc14ae132d269984ee5558b9b4db9743bcc20a1512168cd
-file = pkgs/basic-samples-1.0.13.opk
+size = 43550
+installed = 113105
+sha256 = 7568af0cc83fab3a237b3a2b72430f1f9f50eb3ab8199a0a6e9b7f331f736795
+file = pkgs/basic-samples-1.0.14.opk
 icon = icons/basic-samples.bmp
 needs = qbasic, kapi >= 98
 required = 0
 restart = 0
-content = 3d29db68cac0d844ab637a3d131306106666481860c2c6321a5639b77e6487b3
+content = 590b966d7f4e567b0d655f665b8a1bb1cbc3a1f6d1d33a31240a718862913efd
 
 [letters-samples]
 title = Letters samples
@@ -511,20 +511,20 @@ content = 77e40519657a1371c0b0188ab102e841e835c3fc10fc8580b84cbb7c03ea10fb
 
 [antigrav]
 title = Antigrav
-version = 1.0.1
+version = 1.0.2
 category = Games
 author = Onyx
 summary = 
-size = 312668
-installed = 916512
-sha256 = 8242ae9c3999d23ca9d17d3fe7f263dc31393837496681b6769b09d452bab6f7
-file = pkgs/antigrav-1.0.1.opk
+size = 312722
+installed = 916720
+sha256 = c2594f09acb1586ff7e3950f3b98089f51d35f014ee223fc55fe8f1639a35b17
+file = pkgs/antigrav-1.0.2.opk
 icon = icons/antigrav.bmp
 needs = uikit >= 1.729, fontkit, kapi >= 98
 required = 0
 restart = 0
 replaces = wipeout
-content = 28359e02b8a6ccb13c3b9526a489418af815fcafbddafdee2487cd642df2b9fb
+content = 04d2c99ff916d13f0608b97bab5b18b47b466728dc93e31a520ed7ad38b2e474
 
 [archiver]
 title = Archiver

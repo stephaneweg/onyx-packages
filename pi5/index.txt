@@ -1,26 +1,26 @@
 # Onyx package index -- tools/pkg/mkrepo.py (docs/pkg/README.md)
 [repo]
 name = onyx-packages
-date = 2026-10-15 21:15
+date = 2026-10-15 21:20
 kapi = 98
 packages = 87
 board = pi5
 
 [pkgman]
 title = Package Manager
-version = 1.0.36
+version = 1.0.37
 category = System
 author = Onyx
 summary = The packages: the pkg command, the Package Manager (the Control Panel's applet), the update daemon pkgd
-size = 2089054
-installed = 5342489
-sha256 = caf7858f308bee316903e0a97f30cf3c28703a9b048f13e44e9657d36d653085
-file = pkgs/pkgman-1.0.36.opk
+size = 2089426
+installed = 5342744
+sha256 = b67e12311196b3b4fa1253f41f5098c8857841d87ff23d39bdce693c81ee6a59
+file = pkgs/pkgman-1.0.37.opk
 icon = icons/pkgman.bmp
 needs = kapi >= 98
 required = 1
 restart = 0
-content = c733be0658b66784d81bb69825e92c612a0378f69bbc4575b9fa8200500a3943
+content = e01d07a148e717dd4042e256cc6238aad8b2a92bd9b153fa8633b7ec07042cb5
 
 [jsc]
 title = JavaScriptCore shell (jsc)
@@ -235,21 +235,21 @@ content = 49e18ded6fc0e97241cbfdcfc1ecfabe58c10ef9ecc60f15252b29eed205b197
 
 [onyx]
 title = Onyx system
-version = 2026.10.169
+version = 2026.10.170
 category = System
 author = Onyx
 summary = The kernel, the commands of /bin, the desktop, the settings, the terminal, the File Viewer, Disks, the text editor, the fonts
-size = 45842508
-installed = 118582696
-sha256 = 1b87415ed9040d9b46c05a79c70a01e28aabfd7ee70e7487b9b3f3f253ccb47e
-file = pkgs/onyx-2026.10.169.opk
+size = 45843297
+installed = 118582872
+sha256 = b2e4bbaa23c8b95e7600ec758968c59f7c03f4e9e455e7521302f336fe73e571
+file = pkgs/onyx-2026.10.170.opk
 icon = icons/onyx.bmp
 needs = pkgman, uikit >= 1.850, fontkit, printerkit >= 1.33, audiokit >= 1.232, filekit >= 1.99, systemkit >= 1.94, netkit >= 1.21, imagekit >= 1.46, gamekit >= 1.9
 required = 1
 restart = 1
 assoc = txt=tinypad md=tinypad ini=tinypad cfg=tinypad conf=tinypad log=tinypad c=tinypad h=tinypad cpp=tinypad hpp=tinypad json=tinypad html=tinypad htm=tinypad css=tinypad kmap=tinypad sh=tinypad bmp=imageview gif=imageview png=imageview jpg=imageview jpeg=imageview jpe=imageview pcx=imageview webp=imageview
 runners = bax=SD:/bin/basic bas=SD:/bin/basic
-content = aed0848699dd1dbc1f23a4e86d3c54d6f1d3ab72bcce2c43eb8bbd15d9854167
+content = a5d5ae5445ed0693654b30a2adc7e1f3ad08590dbd8e1f349ebbcddfc817f581
 
 [pi-firmware]
 title = Raspberry Pi firmware

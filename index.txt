@@ -1,9 +1,9 @@
 # Onyx package index -- tools/pkg/mkrepo.py (docs/pkg/README.md)
 [repo]
 name = onyx-packages
-date = 2026-10-26 18:51
+date = 2026-10-26 20:50
 kapi = 98
-packages = 88
+packages = 89
 
 [pkgman]
 title = Package Manager
@@ -576,19 +576,19 @@ content = 540bd1bf020978b632ef0545314b3f05a67360e2549deee0dad4a12bf5a2b23c
 
 [calendar]
 title = Calendar
-version = 1.0.34
+version = 1.0.35
 category = Productivity
 author = Onyx
 summary = 
-size = 76644
-installed = 259866
-sha256 = 5bec52a747a477a8fd7d43b11e2b7557a3b893e54ba60e9a9dc94490a0f1c005
-file = pkgs/calendar-1.0.34.opk
+size = 77233
+installed = 259986
+sha256 = 7eba3457080f7e6f2d89f634eff66ad79a84a1588a45710e84e3f343c0eb9a23
+file = pkgs/calendar-1.0.35.opk
 icon = icons/calendar.bmp
 needs = uikit >= 1.729, fontkit, uikit >= 1.949, kapi >= 98
 required = 0
 restart = 0
-content = 88e248905868ba37c17aa1fb7ec8289f63233f74a58ddd701d123d233a983e44
+content = f0e730e242b6129b15ae1960ff9b7679955e3ea18ab81a7947a134de8ee9f894
 
 [cardfile]
 title = Cardfile
@@ -968,20 +968,20 @@ content = 46729422888aa6f92550d82687f492ef45a84cc1d4bf89b189e7409e206f34a2
 
 [mail]
 title = Mail
-version = 1.0.36
+version = 1.0.37
 category = Internet
 author = Onyx
 summary = 
-size = 855389
-installed = 1999670
-sha256 = 19671fba0ac0af48e14761dfd7e31cd99d5569b604c5fefc68b277c665dc6ac6
-file = pkgs/mail-1.0.36.opk
+size = 856074
+installed = 1999814
+sha256 = 9f0888363b541f3ee57b6f20739b6202d67a0d405e34ad294596a97f52a305b8
+file = pkgs/mail-1.0.37.opk
 icon = icons/mail.bmp
 needs = uikit >= 1.729, fontkit, uikit >= 1.949, kapi >= 98
 required = 0
 restart = 0
 assoc = eml=mail
-content = bd4968e7719d50fd42f97ab9e23f8c850a41009e5438af5a086ddbdba2851e46
+content = 8550a9fb01d180420ad44533c2e9ede12ff1c9473270817c0c7d493ba22ff897
 
 [mandelbrot]
 title = Mandelbrot
@@ -1178,6 +1178,22 @@ needs = uikit >= 1.729, fontkit, audiokit >= 1.232, kapi >= 98
 required = 0
 restart = 0
 content = 7151409c86f12165c51cc9f908590f762efc8905465e047ef5a7408fdb5de64e
+
+[pocketqi]
+title = PocketQI
+version = 1.0.0
+category = Productivity
+author = Onyx
+summary = 
+size = 1462769
+installed = 3731813
+sha256 = fd0b31c4feecfba5548840aec2dbcd30abef8efe5bc4d0b5e8d1e2e502bb434b
+file = pkgs/pocketqi-1.0.0.opk
+icon = icons/pocketqi.bmp
+needs = uikit >= 1.729, fontkit, uikit >= 1.950, kapi >= 98
+required = 0
+restart = 0
+content = 11905342c7add7a923923146a9a1fc15cfab292b78afac6272475e1007e9b158
 
 [pong]
 title = Pong

@@ -1,7 +1,7 @@
 # Onyx package index -- tools/pkg/mkrepo.py (docs/pkg/README.md)
 [repo]
 name = onyx-packages
-date = 2026-10-26 17:27
+date = 2026-10-26 18:26
 kapi = 98
 packages = 88
 
@@ -250,21 +250,21 @@ content = 38fa64fb449d6ab427b7e91f861556bc354f24e95a97e40f2086ea54ac662d90
 
 [onyx]
 title = Onyx system
-version = 2026.10.172
+version = 2026.10.173
 category = System
 author = Onyx
 summary = The kernel, the commands of /bin, the desktop, the settings, the terminal, the File Viewer, Disks, the text editor, the fonts
-size = 45889288
-installed = 118657215
-sha256 = 8cd33aa3149b5c8dc305b5dc6758ec3af56f5141af906d422974814c9cba38da
-file = pkgs/onyx-2026.10.172.opk
+size = 45890784
+installed = 118659519
+sha256 = 1504fb21cc67d2e21fbd67800e42564fa6795beba364e0f31476b39a2b3309d0
+file = pkgs/onyx-2026.10.173.opk
 icon = icons/onyx.bmp
 needs = pkgman, uikit >= 1.850, fontkit, printerkit >= 1.33, audiokit >= 1.232, filekit >= 1.99, systemkit >= 1.94, netkit >= 1.21, imagekit >= 1.46, gamekit >= 1.9
 required = 1
 restart = 1
 assoc = txt=tinypad md=tinypad ini=tinypad cfg=tinypad conf=tinypad log=tinypad c=tinypad h=tinypad cpp=tinypad hpp=tinypad json=tinypad html=tinypad htm=tinypad css=tinypad kmap=tinypad sh=tinypad bmp=imageview gif=imageview png=imageview jpg=imageview jpeg=imageview jpe=imageview pcx=imageview webp=imageview
 runners = bax=SD:/bin/basic bas=SD:/bin/basic
-content = 5e50c18d7474fa6119e260361cef95d6683b3055e13860b12c97ae0acd57bf25
+content = 4b078cd6aa93e0e356b1971ac6aec6f56a545e1248d34d147cc600008124fa6d
 
 [pi-firmware]
 title = Raspberry Pi firmware
@@ -740,19 +740,19 @@ content = 125bef59c21d190e58db174484bf10bb684b089f6c975806e9f0f549e77825c6
 
 [gamelib]
 title = Game Library
-version = 1.0.30
+version = 1.0.31
 category = Games
 author = Onyx
 summary = 
-size = 284957
-installed = 739410
-sha256 = 96df496160c47067407f9f1da85e86b8bf7632b1f3757743d8543d7f612d6d77
-file = pkgs/gamelib-1.0.30.opk
+size = 285511
+installed = 739891
+sha256 = 44ac794d57c6b62f5c01835f6b3ffe4c7dbcae68b314fddc8a2ef048453f34c2
+file = pkgs/gamelib-1.0.31.opk
 icon = icons/gamelib.bmp
 needs = uikit >= 1.729, fontkit, uikit >= 1.949, gamekit >= 1.9, kapi >= 98
 required = 0
 restart = 0
-content = 806a0027af8f1b065283672ebf4c154dbe3355757d1f1ee76a61c5856c919137
+content = 515ae5f39a3d9e803ee63cfc8835b8d44a315ada286043a749d8122aa23a6efc
 
 [gbaemu]
 title = Game Boy Advance

@@ -1,7 +1,7 @@
 # Onyx package index -- tools/pkg/mkrepo.py (docs/pkg/README.md)
 [repo]
 name = onyx-packages
-date = 2026-10-26 18:31
+date = 2026-10-26 18:55
 kapi = 98
 packages = 88
 board = pi5
@@ -251,21 +251,21 @@ content = 38fa64fb449d6ab427b7e91f861556bc354f24e95a97e40f2086ea54ac662d90
 
 [onyx]
 title = Onyx system
-version = 2026.10.173
+version = 2026.10.174
 category = System
 author = Onyx
 summary = The kernel, the commands of /bin, the desktop, the settings, the terminal, the File Viewer, Disks, the text editor, the fonts
-size = 45882927
-installed = 118628091
-sha256 = a6f4a85e4f38c0beb7a3fdecd01a1cfc3d865d5a7eb8d716ab0eae52fb1f2b97
-file = pkgs/onyx-2026.10.173.opk
+size = 45883384
+installed = 118628171
+sha256 = 5df655856786117b4e776fd68ab68442cd5f5e1174c662ed416a890b5973bbed
+file = pkgs/onyx-2026.10.174.opk
 icon = icons/onyx.bmp
 needs = pkgman, uikit >= 1.850, fontkit, printerkit >= 1.33, audiokit >= 1.232, filekit >= 1.99, systemkit >= 1.94, netkit >= 1.21, imagekit >= 1.46, gamekit >= 1.9
 required = 1
 restart = 1
 assoc = txt=tinypad md=tinypad ini=tinypad cfg=tinypad conf=tinypad log=tinypad c=tinypad h=tinypad cpp=tinypad hpp=tinypad json=tinypad html=tinypad htm=tinypad css=tinypad kmap=tinypad sh=tinypad bmp=imageview gif=imageview png=imageview jpg=imageview jpeg=imageview jpe=imageview pcx=imageview webp=imageview
 runners = bax=SD:/bin/basic bas=SD:/bin/basic
-content = cdd10de0759a19033f9b7a394b8b7ba4745c43339f9eb38745b043ae7e1fb6f4
+content = 41b2f887ac52dcc8cdd2df6f8fa73467c9629c260a39ee0668f39f775e4e3173
 
 [pi-firmware]
 title = Raspberry Pi firmware

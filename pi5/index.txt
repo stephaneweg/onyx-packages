@@ -1,7 +1,7 @@
 # Onyx package index -- tools/pkg/mkrepo.py (docs/pkg/README.md)
 [repo]
 name = onyx-packages
-date = 2026-10-26 23:07
+date = 2026-10-27 00:35
 kapi = 99
 packages = 89
 board = pi5
@@ -1182,19 +1182,19 @@ content = bf05384c42ef1c9bbeec66977a9b828f286846394f5920b089a3ade91a6fd62a
 
 [pocketqi]
 title = PocketQI
-version = 1.0.1
+version = 1.0.2
 category = Productivity
 author = Onyx
 summary = 
-size = 1469513
-installed = 3734491
-sha256 = 85993b9470a3a9b984cb6143d36ed91a147c2d8393704f9c48648530f74e954a
-file = pkgs/pocketqi-1.0.1.opk
+size = 4705874
+installed = 9072918
+sha256 = 535a676a0599987d4dde4104a584dfe4f2fafc43cb1e0a29b0f8dfa453cfb43f
+file = pkgs/pocketqi-1.0.2.opk
 icon = icons/pocketqi.bmp
-needs = uikit >= 1.729, fontkit, uikit >= 1.950, kapi >= 99
+needs = uikit >= 1.729, fontkit, onyx >= 2026.10.176, uikit >= 1.950, audiokit >= 1.232.7, kapi >= 99
 required = 0
 restart = 0
-content = 14cfa6c9391b48d3a18a0926f49f58a0f7278d34fbb1a92f9fa16994afd65490
+content = 78885ce968fd8ef1f44c6dd0050f98de65ec922f7867fd623d6e072509050ca3
 
 [pong]
 title = Pong
